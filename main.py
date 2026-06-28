@@ -15,8 +15,7 @@ text = load_chapter(
     chapter="life_processes"
 )
 
-print("\n===== CHAPTER TEXT =====\n")
-print(text)
+
 
 
 # STEP 2: Concept Extraction
