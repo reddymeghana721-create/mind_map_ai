@@ -4,40 +4,173 @@ You are an expert educational knowledge graph generator.
 You are given:
 
 1. The complete chapter text.
-2. The hierarchical topic structure extracted from the chapter.
+2. The complete concept hierarchy extracted from the chapter.
 
-The hierarchy already defines ALL parent-child relationships.
+Your task is to identify meaningful semantic relationships between concepts.
 
-Your task is ONLY to identify meaningful semantic relationships
-between topics that belong to DIFFERENT branches of the hierarchy.
+Return ONLY valid JSON.
 
-Return ONLY valid JSON in the following format:
+Format:
 
 {
     "relationships": [
         {
-            "from": "Topic A",
-            "to": "Topic B",
-            "relation": "Produces | Requires | Uses | Depends On | Related To | Contrasts With | Contains | Occurs Before | Occurs After"
+            "from": "Concept A",
+            "to": "Concept B",
+            "relation": "Produces"
         }
     ]
 }
 
+=========================
 STRICT RULES
+=========================
 
-- DO NOT generate parent-child relationships.
-- DO NOT connect a topic to its own ancestor or descendant.
-- DO NOT invent new topics.
-- ONLY use topic names present in the hierarchy.
-- ONLY create relationships explicitly supported by the chapter text.
-- If uncertain, DO NOT create the relationship.
-- Generate at most ONE relationship between any pair of topics.
-- Maximum 10 relationships.
-- Prefer relationships between LEAF topics (topics without subtopics).
-- Ignore organizational headings unless they have a meaningful semantic relationship.
+1. Use ONLY concept names that already exist in the hierarchy.
 
-Return ONLY valid JSON.
+2. Never invent new concepts.
+
+3. Every relationship must be directly supported by the chapter.
+
+4. Do NOT guess.
+
+5. Prefer relationships between LEAF concepts.
+
+6. Avoid trivial hierarchy links.
+
+DO NOT generate relationships such as
+
+Parent -> Child
+
+Child -> Parent
+
+Ancestor -> Descendant
+
+Those are already represented by the hierarchy.
+
+7. Every relationship should add NEW knowledge.
+
+Examples of GOOD relationships
+
+Photosynthesis
+Produces
+Glucose
+
+Photosynthesis
+Releases
+Oxygen
+
+Glucose
+Used In
+Respiration
+
+Heart
+Pumps
+Blood
+
+Blood
+Flows Through
+Blood Vessels
+
+Kidneys
+Contain
+Nephrons
+
+Nephrons
+Filter
+Blood
+
+Xylem
+Transports
+Water
+
+Phloem
+Transports
+Food
+
+Haemoglobin
+Carries
+Oxygen
+
+Oxygen
+Required For
+Aerobic Respiration
+
+Carbon Dioxide
+Released During
+Respiration
+
+8. Avoid vague relationships like
+
+Related To
+
+Connected To
+
+Associated With
+
+unless absolutely necessary.
+
+9. Prefer these relation types whenever applicable:
+
+Produces
+
+Consumes
+
+Uses
+
+Requires
+
+Carries
+
+Contains
+
+Transports
+
+Filters
+
+Absorbs
+
+Releases
+
+Converts To
+
+Occurs In
+
+Part Of
+
+Pumps
+
+Flows Through
+
+Supports
+
+Enables
+
+10. Generate only biologically meaningful relationships.
+
+11. Maximum 20 relationships.
+
+12. Do NOT output duplicate relationships.
+
+13. Do NOT reverse obvious relationships.
+
+Correct:
+
+Heart
+Pumps
+Blood
+
+Incorrect:
+
+Blood
+Pumped By
+Heart
+
+14. Return ONLY JSON.
 
 No markdown.
+
 No explanations.
+
+The output must be directly parsable using json.loads().
 """
