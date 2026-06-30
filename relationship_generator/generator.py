@@ -9,15 +9,18 @@ class RelationshipGenerator:
     def __init__(self, llm):
         self.llm = llm
 
+    # ---------------------------------------------------
+    # MAIN
+    # ---------------------------------------------------
     def generate(self, hierarchy, chapter_text):
 
         topic_names = self._extract_topics(hierarchy["topics"])
 
         prompt = (
             RELATIONSHIP_PROMPT
-            + "\n\nCHAPTER TEXT\n\n"
+            + "\n\nCHAPTER TEXT:\n"
             + chapter_text
-            + "\n\nHIERARCHY\n\n"
+            + "\n\nHIERARCHY:\n"
             + json.dumps(hierarchy, indent=2)
         )
 
@@ -27,14 +30,17 @@ class RelationshipGenerator:
 
         return self._validate(data, topic_names)
 
-    # -----------------------------
-
+    # ---------------------------------------------------
+    # RECURSIVELY EXTRACT ALL TOPIC NAMES
+    # ---------------------------------------------------
     def _extract_topics(self, topics):
 
         names = []
 
         for topic in topics:
+
             names.append(topic["name"])
+
             names.extend(
                 self._extract_topics(
                     topic.get("subtopics", [])
@@ -43,72 +49,112 @@ class RelationshipGenerator:
 
         return names
 
-    # -----------------------------
-
+    # ---------------------------------------------------
+    # SAFE JSON PARSER
+    # ---------------------------------------------------
     def _safe_json(self, response):
+
+        if not response:
+            return {}
 
         try:
             return json.loads(response)
 
-        except:
+        except Exception:
 
             match = re.search(r"\{.*\}", response, re.DOTALL)
 
             if match:
-
                 try:
                     return json.loads(match.group())
-
-                except:
+                except Exception:
                     return {}
 
         return {}
 
-    # -----------------------------
+    # ---------------------------------------------------
+    # NORMALIZE
+    # ---------------------------------------------------
+    def _normalize(self, text):
+        return text.lower().strip()
 
+    # ---------------------------------------------------
+    # VALIDATE TOPIC
+    # ---------------------------------------------------
+    def _is_valid_topic(self, name, valid_topics):
+        return self._normalize(name) in valid_topics
+
+    # ---------------------------------------------------
+    # CLEAN OUTPUT
+    # ---------------------------------------------------
     def _validate(self, data, topic_names):
 
-        valid = set(name.lower() for name in topic_names)
+        valid_topics = {
+            self._normalize(name)
+            for name in topic_names
+        }
+
+        allowed_relations = {
+
+            "Produces",
+            "Consumes",
+            "Uses",
+            "Requires",
+            "Carries",
+            "Contains",
+            "Transports",
+            "Filters",
+            "Absorbs",
+            "Releases",
+            "Converts To",
+            "Occurs In",
+            "Part Of",
+            "Pumps",
+            "Flows Through",
+            "Supports",
+            "Enables"
+
+        }
 
         seen = set()
 
         cleaned = []
 
-        allowed = {
-            "Produces",
-            "Requires",
-            "Uses",
-            "Depends On",
-            "Related To",
-            "Contrasts With",
-            "Contains",
-            "Occurs Before",
-            "Occurs After"
-        }
-
         for rel in data.get("relationships", []):
 
             source = rel.get("from", "").strip()
-
             target = rel.get("to", "").strip()
-
             relation = rel.get("relation", "").strip()
 
-            if source.lower() not in valid:
+            if not source or not target:
                 continue
 
-            if target.lower() not in valid:
+            if source == target:
                 continue
 
-            if source.lower() == target.lower():
+            if not self._is_valid_topic(source, valid_topics):
                 continue
 
-            if relation not in allowed:
+            if not self._is_valid_topic(target, valid_topics):
                 continue
 
-            key = tuple(sorted([source.lower(), target.lower()])) + (relation,)
+            if relation not in allowed_relations:
+                continue
 
-            if key in seen:
+            # prevent duplicate direction
+            key = (
+                self._normalize(source),
+                self._normalize(target),
+                relation
+            )
+
+            reverse_key = (
+                self._normalize(target),
+                self._normalize(source),
+                relation
+            )
+
+            if key in seen or reverse_key in seen:
                 continue
 
             seen.add(key)
