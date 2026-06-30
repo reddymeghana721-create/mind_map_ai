@@ -1,13 +1,15 @@
 import { useState } from "react";
 import axios from "axios";
+import ReactFlow from "reactflow";
+import "reactflow/dist/style.css";
 
 function App() {
+  const [nodes, setNodes] = useState([]);
+  const [edges, setEdges] = useState([]);
   const [loading, setLoading] = useState(false);
-  const [result, setResult] = useState(null);
 
   const generateMindmap = async () => {
     setLoading(true);
-    setResult(null);
 
     try {
       const res = await axios.post("http://127.0.0.1:5000/generate", {
@@ -16,30 +18,46 @@ function App() {
         chapter: "life_processes",
       });
 
-      setResult(res.data);
+      const data = res.data;
+
+      // Convert backend format → ReactFlow format
+      const formattedNodes = data.nodes.map((n, i) => ({
+        id: n.id,
+        data: { label: n.id },
+        position: { x: i * 200, y: i * 100 },
+      }));
+
+      const formattedEdges = data.edges.map((e, i) => ({
+        id: `e${i}`,
+        source: e.from,
+        target: e.to,
+      }));
+
+      setNodes(formattedNodes);
+      setEdges(formattedEdges);
     } catch (err) {
-      console.log("Error:", err);
+      console.log(err);
     }
 
     setLoading(false);
   };
 
   return (
-    <div className="container">
-      <h1>🧠 Mind Map AI</h1>
+    <div style={{ height: "100vh", fontFamily: "Arial" }}>
+      <h2 style={{ padding: "10px" }}>🧠 Mind Map AI</h2>
 
-      <button onClick={generateMindmap} className="btn">
+      <button
+        onClick={generateMindmap}
+        style={{ marginLeft: "10px", padding: "8px 15px" }}
+      >
         Generate Mind Map
       </button>
 
-      {loading && <p className="loading">Generating mind map... ⏳</p>}
+      {loading && <p style={{ marginLeft: "10px" }}>Generating...</p>}
 
-      {result && (
-        <div className="output">
-          <h2>Output</h2>
-          <pre>{JSON.stringify(result, null, 2)}</pre>
-        </div>
-      )}
+      <div style={{ height: "90vh" }}>
+        <ReactFlow nodes={nodes} edges={edges} fitView />
+      </div>
     </div>
   );
 }
