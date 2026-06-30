@@ -2,18 +2,25 @@ class Summarizer:
 
     def summarize(self, concepts):
         """
-        Convert concepts into simple readable summaries
+        Generate simple summaries for every topic recursively.
         """
 
         summaries = []
 
-        for c in concepts["concepts"]:
-            name = c["name"]
-
-            # simple rule-based fallback (later replace with LLM)
-            summaries.append({
-                "concept": name,
-                "summary": f"{name} concept explained in simple terms"
-            })
+        self._traverse(concepts["topics"], summaries)
 
         return {"nodes": summaries}
+
+    def _traverse(self, topics, summaries):
+        """
+        Recursively traverse the topic hierarchy.
+        """
+
+        for topic in topics:
+
+            summaries.append({
+                "concept": topic["name"],
+                "summary": f"{topic['name']} explained in simple terms."
+            })
+
+            self._traverse(topic.get("subtopics", []), summaries)
