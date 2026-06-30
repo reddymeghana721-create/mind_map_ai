@@ -1,3 +1,5 @@
+from flask import json
+
 from chapter_loader.loader import load_chapter
 from concept_extractor.extractor import ConceptExtractor
 from relationship_generator.generator import RelationshipGenerator
@@ -15,8 +17,7 @@ text = load_chapter(
     chapter="life_processes"
 )
 
-print("\n===== CHAPTER TEXT =====\n")
-print(text)
+
 
 
 # STEP 2: Concept Extraction
@@ -24,33 +25,33 @@ concept_extractor = ConceptExtractor(llm)
 concepts = concept_extractor.extract(text)
 
 print("\n===== CONCEPTS =====\n")
-print(concepts)
+print(json.dumps(concepts, indent=4, ensure_ascii=False))
 
 
-# STEP 3: Relationship Generation
-relationship_generator = RelationshipGenerator(llm)
-relationships = relationship_generator.generate(concepts["concepts"])
+# # STEP 3: Relationship Generation
+# relationship_generator = RelationshipGenerator(llm)
+# relationships = relationship_generator.generate(
+#     hierarchy=concepts,
+#     chapter_text=text
+# )
 
-print("\n===== RELATIONSHIPS =====\n")
-print(relationships)
-
+# print("\n===== RELATIONSHIPS =====\n")
+# print(json.dumps(relationships, indent=4, ensure_ascii=False))
 
 # STEP 4: Summarization
 summarizer = Summarizer()
 summaries = summarizer.summarize(concepts)
 
 print("\n===== SUMMARIES =====\n")
-print(summaries)
+print(json.dumps(summaries, indent=4))
 
-
-# STEP 5: Tree Builder (Final Mind Map)
+# STEP 5: Tree Builder
 tree_builder = TreeBuilder()
 
 final_tree = tree_builder.build(
-    concepts=concepts["concepts"],
-    relationships=relationships,   # ✅ FIXED HERE
-    summaries=summaries["nodes"]
+    hierarchy=concepts,
+    summaries=summaries
 )
 
 print("\n===== FINAL MIND MAP =====\n")
-print(final_tree)
+print(json.dumps(final_tree, indent=4))

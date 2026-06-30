@@ -1,9 +1,12 @@
 from pathlib import Path
 
 
+BASE_DIR = Path(__file__).resolve().parent.parent
+
 def load_chapter(class_name, subject, chapter):
     file_path = (
-        Path("chapters")
+        BASE_DIR
+        / "chapters"
         / class_name
         / subject
         / f"{chapter}.txt"

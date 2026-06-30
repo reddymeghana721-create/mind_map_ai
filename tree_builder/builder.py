@@ -1,54 +1,134 @@
+import uuid
+
+
 class TreeBuilder:
 
-    def build(self, concepts, relationships, summaries):
+    def build(self, hierarchy, summaries=None):
 
-        # STEP 1: safety normalization
-        if isinstance(relationships, dict):
-            relationships = relationships.get("relationships", [])
+        summary_map = {}
 
-        if isinstance(relationships, str):
-            import json
-            try:
-                relationships = json.loads(relationships)
-            except:
-                relationships = []
+        if summaries:
+            summary_map = {
+                s["concept"]: s["summary"]
+                for s in summaries.get("nodes", [])
+            }
 
-        tree = {
-            "nodes": [],
-            "edges": []
+        self.visited = set()
+
+        root = {
+            "id": str(uuid.uuid4()),
+            "label": hierarchy["chapter"],
+            "summary": summary_map.get(hierarchy["chapter"], ""),
+            "children": []
         }
 
-        # STEP 2: build concept map (for summaries)
-        summary_map = {
-            s["concept"]: s["summary"]
-            for s in summaries
+        nodes = [
+            {
+                "id": root["id"],
+                "label": root["label"],
+                "summary": root["summary"]
+            }
+        ]
+
+        edges = []
+
+        for topic in hierarchy["topics"]:
+            child = self._build_recursive(
+                topic,
+                summary_map,
+                nodes,
+                edges,
+                root["id"]
+            )
+
+            if child:
+                root["children"].append(child)
+
+        self._validate(root)
+
+        return {
+            "chapter": hierarchy["chapter"],
+            "root": root,
+            "nodes": nodes,
+            "edges": edges
         }
 
-        # STEP 3: create nodes
-        for c in concepts:
-            tree["nodes"].append({
-                "id": c["name"],
-                "type": c.get("type", "unknown"),
-                "importance": c.get("importance", 1),
-                "summary": summary_map.get(c["name"], "")
-            })
+    # --------------------------------------------------
 
-        # STEP 4: create edges (FIX IS HERE)
-        for rel in relationships:
+    def _build_recursive(
+        self,
+        topic,
+        summary_map,
+        nodes,
+        edges,
+        parent_id
+    ):
 
-            # 🛑 safeguard AGAIN
-            if not isinstance(rel, dict):
-                continue
+        name = topic["name"].strip()
 
-            parent = rel.get("from")
-            child = rel.get("to")
-            rtype = rel.get("type", "unknown")
+        # duplicate node
+        if name in self.visited:
+            return None
 
-            if parent and child:
-                tree["edges"].append({
-                    "from": parent,
-                    "to": child,
-                    "type": rtype
-                })
+        self.visited.add(name)
 
-        return tree
+        node_id = str(uuid.uuid4())
+
+        node = {
+            "id": node_id,
+            "label": name,
+            "summary": summary_map.get(name, ""),
+            "children": []
+        }
+
+        nodes.append({
+            "id": node_id,
+            "label": name,
+            "summary": node["summary"]
+        })
+
+        edges.append({
+            "from": parent_id,
+            "to": node_id,
+            "type": "Parent-Child"
+        })
+
+        for child in topic.get("subtopics", []):
+
+            child_node = self._build_recursive(
+                child,
+                summary_map,
+                nodes,
+                edges,
+                node_id
+            )
+
+            if child_node:
+                node["children"].append(child_node)
+
+        return node
+
+    # --------------------------------------------------
+
+    def _validate(self, root):
+
+        ids = set()
+
+        def dfs(node):
+
+            if node["id"] in ids:
+                raise ValueError(
+                    f"Duplicate node id: {node['id']}"
+                )
+
+            ids.add(node["id"])
+
+            if "children" not in node:
+                raise ValueError(
+                    f"{node['label']} missing children field"
+                )
+
+            for child in node["children"]:
+                dfs(child)
+
+        dfs(root)
