@@ -3,132 +3,157 @@ import uuid
 
 class TreeBuilder:
 
-    def build(self, hierarchy, summaries=None):
+    def build(self, hierarchy, summaries, relationships=None):
+
+        summary_map = self._build_summary_map(summaries)
+
+        tree = {
+            "id": self._new_id(),
+            "type": "chapter",
+            "label": hierarchy.get("chapter", "Unknown Chapter"),
+            "summary": summary_map.get(hierarchy.get("chapter", ""), ""),
+            "ui": {
+                "expandable": True,
+                "visual_type": "root"
+            },
+            "children": self._build_nodes(
+                hierarchy.get("topics", []),
+                summary_map
+            ),
+            "relationships": (
+                relationships.get("relationships", [])
+                if relationships
+                else []
+            )
+        }
+
+        return tree
+
+    # --------------------------------------------------
+
+    def _build_nodes(self, nodes, summary_map):
+
+        result = []
+
+        for node in nodes:
+
+            label = node.get("name", "Unknown")
+
+            children = self._build_nodes(
+                node.get("subtopics", []),
+                summary_map
+            )
+
+            result.append({
+                "id": self._new_id(),
+                "type": self._infer_type(children),
+                "label": label,
+                "summary": summary_map.get(label, ""),
+                "ui": self._build_ui(label, children),
+                "children": children,
+                "metadata": {
+                    "depth": self._calculate_depth(children),
+                    "leaf": len(children) == 0
+                }
+            })
+
+        return result
+
+    # --------------------------------------------------
+
+    def _build_summary_map(self, summaries):
 
         summary_map = {}
 
-        if summaries:
-            summary_map = {
-                s["concept"]: s["summary"]
-                for s in summaries.get("nodes", [])
-            }
+        for item in summaries.get("nodes", []):
+            summary_map[item["concept"]] = item["summary"]
 
-        self.visited = set()
+        return summary_map
 
-        root = {
-            "id": str(uuid.uuid4()),
-            "label": hierarchy["chapter"],
-            "summary": summary_map.get(hierarchy["chapter"], ""),
-            "children": []
-        }
+    # --------------------------------------------------
 
-        nodes = [
-            {
-                "id": root["id"],
-                "label": root["label"],
-                "summary": root["summary"]
-            }
-        ]
-
-        edges = []
-
-        for topic in hierarchy["topics"]:
-            child = self._build_recursive(
-                topic,
-                summary_map,
-                nodes,
-                edges,
-                root["id"]
-            )
-
-            if child:
-                root["children"].append(child)
-
-        self._validate(root)
+    def _build_ui(self, label, children):
 
         return {
-            "chapter": hierarchy["chapter"],
-            "root": root,
-            "nodes": nodes,
-            "edges": edges
+            "expandable": len(children) > 0,
+            "visual_type": self._get_visual_type(label, children),
+            "node_style": "default",
+            "animation_hint": self._get_animation_hint(children),
+            "icon": self._get_icon(label)
         }
 
     # --------------------------------------------------
 
-    def _build_recursive(
-        self,
-        topic,
-        summary_map,
-        nodes,
-        edges,
-        parent_id
-    ):
-
-        name = topic["name"].strip()
-
-        # duplicate node
-        if name in self.visited:
-            return None
-
-        self.visited.add(name)
-
-        node_id = str(uuid.uuid4())
-
-        node = {
-            "id": node_id,
-            "label": name,
-            "summary": summary_map.get(name, ""),
-            "children": []
-        }
-
-        nodes.append({
-            "id": node_id,
-            "label": name,
-            "summary": node["summary"]
-        })
-
-        edges.append({
-            "from": parent_id,
-            "to": node_id,
-            "type": "Parent-Child"
-        })
-
-        for child in topic.get("subtopics", []):
-
-            child_node = self._build_recursive(
-                child,
-                summary_map,
-                nodes,
-                edges,
-                node_id
-            )
-
-            if child_node:
-                node["children"].append(child_node)
-
-        return node
+    def _infer_type(self, children):
+        # Keep node type consistent.
+        return "concept"
 
     # --------------------------------------------------
 
-    def _validate(self, root):
+    def _get_visual_type(self, label, children):
 
-        ids = set()
+        label_lower = label.lower()
 
-        def dfs(node):
+        if "photosynthesis" in label_lower:
+            return "process_flow"
 
-            if node["id"] in ids:
-                raise ValueError(
-                    f"Duplicate node id: {node['id']}"
-                )
+        if "respiration" in label_lower:
+            return "energy_cycle"
 
-            ids.add(node["id"])
+        if "transport" in label_lower:
+            return "system_flow"
 
-            if "children" not in node:
-                raise ValueError(
-                    f"{node['label']} missing children field"
-                )
+        if len(children) == 0:
+            return "text_node"
 
-            for child in node["children"]:
-                dfs(child)
+        return "tree_node"
 
-        dfs(root)
+    # --------------------------------------------------
+
+    def _get_animation_hint(self, children):
+
+        if len(children) == 0:
+            return "fade_in"
+
+        if len(children) > 3:
+            return "expand_cascade"
+
+        return "expand_simple"
+
+    # --------------------------------------------------
+
+    def _get_icon(self, label):
+
+        label_lower = label.lower()
+
+        if "photo" in label_lower:
+            return "sun"
+
+        if "respir" in label_lower:
+            return "bolt"
+
+        if "nutrition" in label_lower:
+            return "apple"
+
+        if "excretion" in label_lower:
+            return "filter"
+
+        return "circle"
+
+    # --------------------------------------------------
+
+    def _calculate_depth(self, children):
+
+        if not children:
+            return 0
+
+        return 1 + max(
+            [child["metadata"]["depth"] for child in children],
+            default=0
+        )
+
+    # --------------------------------------------------
+
+    def _new_id(self):
+
+        return str(uuid.uuid4())
