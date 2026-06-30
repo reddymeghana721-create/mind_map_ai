@@ -1,9 +1,9 @@
 CONCEPT_PROMPT = """
-You are an expert educational curriculum analyzer and textbook structure extractor.
+You are an expert NCERT textbook analyzer and educational curriculum designer.
 
-Your task is to analyze the given chapter and extract its complete hierarchical topic structure.
+Your task is to extract the COMPLETE concept hierarchy from the given chapter.
 
-Return ONLY valid JSON in the following format:
+Return ONLY valid JSON in the format:
 
 {
     "chapter": "Chapter Name",
@@ -13,42 +13,149 @@ Return ONLY valid JSON in the following format:
             "subtopics": [
                 {
                     "name": "Subtopic",
-                    "subtopics": [
-                        {
-                            "name": "Sub-Subtopic",
-                            "subtopics": []
-                        }
-                    ]
+                    "subtopics": []
                 }
             ]
         }
     ]
 }
 
-STRICT RULES:
+=========================
+STRICT RULES
+=========================
 
-- The "chapter" field must contain the chapter title.
-- "topics" should contain only the highest-level topics in the chapter.
-- Every topic must contain:
-    - "name"
-    - "subtopics"
-- Extract the hierarchy recursively.
-- Continue extracting subtopics until no further meaningful subdivision is possible.
-- A subtopic may itself contain subtopics, which may contain their own subtopics, and so on.
-- If a topic has no further subdivisions, return:
-  "subtopics": []
-- Preserve the logical organization of the textbook.
-- Do NOT flatten the hierarchy.
-- Do NOT skip intermediate levels.
-- Do NOT merge unrelated topics.
-- Do NOT invent topics that are not present in the chapter.
-- Use concise textbook-style topic names.
-- Avoid duplicate topics anywhere in the hierarchy.
-- The hierarchy should represent the chapter outline, not a concept map.
+1. Extract ONLY concepts that actually appear in the chapter.
 
-Return ONLY valid JSON.
-Do NOT include explanations.
-Do NOT include markdown.
-Do NOT include comments.
-The output must be directly parseable using Python's json.loads().
+2. Preserve the textbook hierarchy.
+
+3. Do NOT invent concepts.
+
+4. Do NOT skip important concepts.
+
+5. Continue recursively until the smallest meaningful concept.
+
+6. Every node MUST contain:
+   - name
+   - subtopics
+
+7. Leaf concepts must have:
+   "subtopics": []
+
+8. Do NOT generate duplicate concepts anywhere.
+
+9. Every concept name must be unique.
+
+10. Keep concept names short (1-4 words whenever possible).
+
+11. Convert question headings into concept names.
+
+Examples
+
+"What are Life Processes?"
+→ "Life Processes"
+
+"How do Plants Obtain Nutrition?"
+→ "Plant Nutrition"
+
+"Transportation in Human Beings"
+→ "Human Transportation"
+
+"Transportation in Plants"
+→ "Plant Transportation"
+
+"Excretion in Human Beings"
+→ "Human Excretion"
+
+12. Do NOT use textbook sentences as concept names.
+
+13. Do NOT create artificial grouping nodes such as
+
+"Types of Respiration"
+
+unless the textbook explicitly uses that heading.
+
+Correct:
+
+Respiration
+ ├── Aerobic Respiration
+ └── Anaerobic Respiration
+
+14. Prefer actual biological concepts over body systems.
+
+Correct:
+
+Human Transportation
+ ├── Blood
+ ├── Plasma
+ ├── RBC
+ ├── WBC
+ ├── Platelets
+ ├── Heart
+ ├── Blood Vessels
+ └── Lymph
+
+NOT
+
+Human Transportation
+ └── Respiratory System
+
+15. For plant transportation, extract concepts like
+
+Plant Transportation
+ ├── Xylem
+ ├── Phloem
+ ├── Transpiration
+ └── Translocation
+
+instead of generic names like
+"Water Transport"
+or
+"Food Transport"
+
+unless those are the actual textbook headings.
+
+16. Prefer scientific concepts over descriptive headings.
+
+17. Do NOT create vague concepts such as
+
+Energy Requirements
+
+Maintenance Functions
+
+Sources
+
+Introduction
+
+Overview
+
+Background
+
+unless they are actual section headings.
+
+18. Keep siblings at the same level of abstraction.
+
+Bad:
+
+Nutrition
+ ├── Photosynthesis
+ ├── Plant
+ └── Digestion
+
+Good:
+
+Nutrition
+ ├── Autotrophic Nutrition
+ └── Heterotrophic Nutrition
+
+19. The output should represent the chapter outline, NOT a concept map.
+
+20. Return ONLY JSON.
+
+No markdown.
+
+No explanation.
+
+No comments.
+
+The output must be directly parsable by Python json.loads().
 """
