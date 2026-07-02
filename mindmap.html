@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mind Map</title>
+    <script src="https://unpkg.com/cytoscape/dist/cytoscape.min.js"></script>
+
+    <style>
+        body { margin: 0; }
+        #cy { width: 100vw; height: 100vh; }
+    </style>
+</head>
+
+<body>
+<div id="cy"></div>
+
+<script>
+
+async function loadGraph() {
+
+    const res = await fetch("graph.json");
+    const data = await res.json();
+
+    console.log("DATA:", data);
+
+    // IMPORTANT FIX: convert edges safely
+    const edgesFixed = (data.edges || []).map(e => {
+
+        const d = e.data;
+
+        return {
+            data: {
+                source: findNodeId(data.nodes, d.source),
+                target: findNodeId(data.nodes, d.target),
+                label: d.label || "rel"
+            }
+        };
+    }).filter(e => e.data.source && e.data.target);
+
+    function findNodeId(nodes, label) {
+        const node = nodes.find(n => n.data.label === label);
+        return node ? node.data.id : null;
+    }
+
+    const cy = cytoscape({
+        container: document.getElementById('cy'),
+
+        elements: [
+            ...data.nodes,
+            ...edgesFixed
+        ],
+
+        style: [
+            {
+                selector: 'node',
+                style: {
+                    label: 'data(label)',
+                    'background-color': '#4CAF50',
+                    'color': '#fff',
+                    'text-valign': 'center',
+                    'text-halign': 'center',
+                    'font-size': 10
+                }
+            },
+            {
+                selector: 'edge',
+                style: {
+                    width: 2,
+                    'line-color': '#888',
+                    'target-arrow-shape': 'triangle',
+                    'target-arrow-color': '#888',
+                    'curve-style': 'bezier'
+                }
+            }
+        ],
+
+        layout: {
+            name: 'cose'
+        }
+    });
+}
+
+loadGraph();
+
+</script>
+
+</body>
+</html>

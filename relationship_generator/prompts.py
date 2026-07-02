@@ -1,176 +1,34 @@
 RELATIONSHIP_PROMPT = """
-You are an expert educational knowledge graph generator.
+You are an expert knowledge graph generator.
 
-You are given:
+You MUST generate relationships between topics in a school textbook chapter.
 
-1. The complete chapter text.
-2. The complete concept hierarchy extracted from the chapter.
+INPUT:
+- Chapter text
+- Hierarchical topic structure
 
-Your task is to identify meaningful semantic relationships between concepts.
+TASK:
+Generate meaningful relationships between DIFFERENT topics.
 
-Return ONLY valid JSON.
+IMPORTANT RULES:
+- Use ONLY topic names from the hierarchy
+- DO NOT return empty relationships
+- ALWAYS try to generate at least 8–15 relationships if possible
+- Prefer connecting leaf nodes
+- Avoid duplicates
+- Focus on biological/causal relationships
 
-Format:
+Allowed relations:
+Produces, Requires, Uses, Depends On, Leads To, Enables, Causes, Transports, Occurs In, Part Of, Supports, Contains
 
+OUTPUT FORMAT:
 {
-    "relationships": [
-        {
-            "from": "Concept A",
-            "to": "Concept B",
-            "relation": "Produces"
-        }
-    ]
+  "relationships": [
+    {
+      "from": "Topic A",
+      "to": "Topic B",
+      "relation": "Uses"
+    }
+  ]
 }
-
-=========================
-STRICT RULES
-=========================
-
-1. Use ONLY concept names that already exist in the hierarchy.
-
-2. Never invent new concepts.
-
-3. Every relationship must be directly supported by the chapter.
-
-4. Do NOT guess.
-
-5. Prefer relationships between LEAF concepts.
-
-6. Avoid trivial hierarchy links.
-
-DO NOT generate relationships such as
-
-Parent -> Child
-
-Child -> Parent
-
-Ancestor -> Descendant
-
-Those are already represented by the hierarchy.
-
-7. Every relationship should add NEW knowledge.
-
-Examples of GOOD relationships
-
-Photosynthesis
-Produces
-Glucose
-
-Photosynthesis
-Releases
-Oxygen
-
-Glucose
-Used In
-Respiration
-
-Heart
-Pumps
-Blood
-
-Blood
-Flows Through
-Blood Vessels
-
-Kidneys
-Contain
-Nephrons
-
-Nephrons
-Filter
-Blood
-
-Xylem
-Transports
-Water
-
-Phloem
-Transports
-Food
-
-Haemoglobin
-Carries
-Oxygen
-
-Oxygen
-Required For
-Aerobic Respiration
-
-Carbon Dioxide
-Released During
-Respiration
-
-8. Avoid vague relationships like
-
-Related To
-
-Connected To
-
-Associated With
-
-unless absolutely necessary.
-
-9. Prefer these relation types whenever applicable:
-
-Produces
-
-Consumes
-
-Uses
-
-Requires
-
-Carries
-
-Contains
-
-Transports
-
-Filters
-
-Absorbs
-
-Releases
-
-Converts To
-
-Occurs In
-
-Part Of
-
-Pumps
-
-Flows Through
-
-Supports
-
-Enables
-
-10. Generate only biologically meaningful relationships.
-
-11. Maximum 20 relationships.
-
-12. Do NOT output duplicate relationships.
-
-13. Do NOT reverse obvious relationships.
-
-Correct:
-
-Heart
-Pumps
-Blood
-
-Incorrect:
-
-Blood
-Pumped By
-Heart
-
-14. Return ONLY JSON.
-
-No markdown.
-
-No explanations.
-
-The output must be directly parsable using json.loads().
 """

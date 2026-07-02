@@ -28,23 +28,26 @@ class RelationshipGenerator:
 
         data = self._safe_json(response)
 
-        return self._validate(data, topic_names)
+        result = self._validate(data, topic_names)
+
+        # 🔥 FALLBACK (ensures graph is never empty)
+        if not result["relationships"]:
+            result["relationships"] = self._fallback(topic_names)
+
+        return result
 
     # ---------------------------------------------------
-    # RECURSIVELY EXTRACT ALL TOPIC NAMES
+    # EXTRACT TOPICS
     # ---------------------------------------------------
     def _extract_topics(self, topics):
 
         names = []
 
         for topic in topics:
-
             names.append(topic["name"])
 
             names.extend(
-                self._extract_topics(
-                    topic.get("subtopics", [])
-                )
+                self._extract_topics(topic.get("subtopics", []))
             )
 
         return names
@@ -61,7 +64,6 @@ class RelationshipGenerator:
             return json.loads(response)
 
         except Exception:
-
             match = re.search(r"\{.*\}", response, re.DOTALL)
 
             if match:
@@ -79,82 +81,33 @@ class RelationshipGenerator:
         return text.lower().strip()
 
     # ---------------------------------------------------
-    # VALIDATE TOPIC
-    # ---------------------------------------------------
-    def _is_valid_topic(self, name, valid_topics):
-        return self._normalize(name) in valid_topics
-
-    # ---------------------------------------------------
-    # CLEAN OUTPUT
+    # VALIDATE OUTPUT
     # ---------------------------------------------------
     def _validate(self, data, topic_names):
 
-        valid_topics = {
-            self._normalize(name)
-            for name in topic_names
-        }
-
-        allowed_relations = {
-
-            "Produces",
-            "Consumes",
-            "Uses",
-            "Requires",
-            "Carries",
-            "Contains",
-            "Transports",
-            "Filters",
-            "Absorbs",
-            "Releases",
-            "Converts To",
-            "Occurs In",
-            "Part Of",
-            "Pumps",
-            "Flows Through",
-            "Supports",
-            "Enables"
-
-        }
-
-        seen = set()
+        valid = {self._normalize(n) for n in topic_names}
 
         cleaned = []
+        seen = set()
 
         for rel in data.get("relationships", []):
 
             source = rel.get("from", "").strip()
             target = rel.get("to", "").strip()
-            relation = rel.get("relation", "").strip()
+            relation = rel.get("relation", "Related To").strip()
 
             if not source or not target:
                 continue
 
-            if source == target:
+            if self._normalize(source) not in valid:
                 continue
 
-            if not self._is_valid_topic(source, valid_topics):
+            if self._normalize(target) not in valid:
                 continue
 
-            if not self._is_valid_topic(target, valid_topics):
-                continue
+            key = (source, target)
 
-            if relation not in allowed_relations:
-                continue
-
-            # prevent duplicate direction
-            key = (
-                self._normalize(source),
-                self._normalize(target),
-                relation
-            )
-
-            reverse_key = (
-                self._normalize(target),
-                self._normalize(source),
-                relation
-            )
-
-            if key in seen or reverse_key in seen:
+            if key in seen:
                 continue
 
             seen.add(key)
@@ -165,6 +118,26 @@ class RelationshipGenerator:
                 "relation": relation
             })
 
-        return {
-            "relationships": cleaned
-        }
+        return {"relationships": cleaned}
+
+    # ---------------------------------------------------
+    # FALLBACK (IMPORTANT)
+    # ---------------------------------------------------
+    def _fallback(self, topic_names):
+        """
+        Creates basic linear relationships so graph is never empty.
+        """
+
+        if len(topic_names) < 2:
+            return []
+
+        relationships = []
+
+        for i in range(len(topic_names) - 1):
+            relationships.append({
+                "from": topic_names[i],
+                "to": topic_names[i + 1],
+                "relation": "Related To"
+            })
+
+        return relationships
