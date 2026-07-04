@@ -1,4 +1,4 @@
-from pdf_converter import PDFToTextConverter
+from mind_map_ai.backend.pdf_converter import PDFToTextConverter
 
 converter = PDFToTextConverter(chapters_root="chapters")
 
