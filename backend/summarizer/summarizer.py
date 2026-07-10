@@ -3,10 +3,10 @@ class Summarizer:
     def __init__(self, llm):
         self.llm = llm
 
+    # ==========================================
+    # MAIN
+    # ==========================================
     def summarize(self, concepts):
-        """
-        Generate AI summaries for every topic recursively.
-        """
 
         summaries = []
 
@@ -19,8 +19,9 @@ class Summarizer:
 
         return {"nodes": summaries}
 
-    # --------------------------------------------------
-
+    # ==========================================
+    # RECURSIVELY TRAVERSE TOPICS
+    # ==========================================
     def _traverse(self, topics, summaries, chapter, parent):
 
         for topic in topics:
@@ -43,12 +44,13 @@ class Summarizer:
                 topic["name"]
             )
 
-    # --------------------------------------------------
-
+    # ==========================================
+    # GENERATE AI SUMMARY
+    # ==========================================
     def _generate_summary(self, chapter, concept, parent):
 
         prompt = f"""
-You are an expert school textbook teacher.
+You are an expert Biology teacher creating educational content for a mind map.
 
 Chapter:
 {chapter}
@@ -59,28 +61,62 @@ Parent Topic:
 Concept:
 {concept}
 
-Write a SHORT educational summary.
+Generate information ONLY about this concept.
+
+Return the information EXACTLY in this format:
+
+Definition:
+<one short sentence>
+
+Key Points:
+- Point 1
+- Point 2
+- Point 3
+
+Importance:
+<one short sentence>
 
 Rules:
-- The summary MUST be based ONLY on the given chapter.
-- Never use meanings from other fields or everyday life.
-- Explain what the concept means in this chapter.
-- Mention why it is important.
-- Use simple language suitable for Class 10 students.
-- Keep it between 20 and 35 words.
-- Do NOT start with the concept name.
-- Do NOT write phrases like "This concept...", "The concept...", or "explained in simple terms."
-- Return ONLY the summary.
+
+- Use ONLY information from the given chapter.
+- Keep language suitable for Class 10 students.
+- Keep the definition to one sentence.
+- Provide exactly 3 key points.
+- Each key point should be short.
+- Keep importance to one sentence.
+- Do NOT add any extra headings.
+- Do NOT include markdown.
+- Return plain text only.
 
 Example:
-Concept: Photosynthesis
-Output:
-The process by which green plants prepare food using sunlight, carbon dioxide, and water. It provides energy for plant growth and releases oxygen essential for life.
+
+Definition:
+Process by which green plants prepare food.
+
+Key Points:
+- Uses sunlight
+- Uses chlorophyll
+- Produces glucose
+
+Importance:
+Provides food and releases oxygen.
 """
 
         try:
+
             response = self.llm.generate(prompt)
+
             return response.strip()
 
         except Exception:
-            return f"An important concept in {chapter}."
+
+            return f"""Definition:
+Information unavailable.
+
+Key Points:
+- {concept}
+- Related to {parent}
+- Part of {chapter}
+
+Importance:
+An important concept in this chapter."""
