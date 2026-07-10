@@ -53,16 +53,17 @@ function layoutTree(root, expanded) {
 
     node._y = y;
     positioned.push({
-      id: node.id,
-      label: node.label,
-      summary: node.summary,
-      x: depth * COLUMN_WIDTH,
-      y,
-      hasChildren,
-      isExpanded,
-      depth,
-      color: isRoot ? ROOT_COLOR : colorFor(currentBranchIcon),
-    });
+  id: node.id,
+  label: node.label,
+  summary: node.summary,
+  children: node.children,
+  x: depth * COLUMN_WIDTH,
+  y,
+  hasChildren,
+  isExpanded,
+  depth,
+  color: isRoot ? ROOT_COLOR : colorFor(currentBranchIcon),
+});
     return y;
   }
 
@@ -77,6 +78,8 @@ function bezierPath(from, to) {
 
 export default function MindMap({ data }) {
   const [expanded, setExpanded] = useState(() => new Set([data.id]));
+  const [selectedNode, setSelectedNode] = useState(data);
+  
 
   const toggle = useCallback((id) => {
     setExpanded((prev) => {
@@ -126,9 +129,20 @@ export default function MindMap({ data }) {
               borderColor: n.color.border,
             }}
             title={n.summary || n.label}
-            onClick={() => n.hasChildren && toggle(n.id)}
+            onClick={() => {
+  setSelectedNode(n);
+
+  if (n.hasChildren) {
+    toggle(n.id);
+  }
+}}
           >
-            <span className="mindmap-node-label">{n.label}</span>
+            <div className="mindmap-node-content">
+  <div className="mindmap-node-label">
+    {n.label}
+  </div>
+</div>
+
             {n.hasChildren && (
               <button
                 className="mindmap-toggle"
@@ -145,6 +159,17 @@ export default function MindMap({ data }) {
           </div>
         ))}
       </div>
+
+      <div className="mindmap-details">
+
+  <h2>{selectedNode.label}</h2>
+
+  <p style={{whiteSpace:"pre-line"}}>
+    {selectedNode.summary}
+  </p>
+
+</div>
+
     </div>
   );
 }
