@@ -1,6 +1,6 @@
 import json
 import re
-from .prompts import CONCEPT_PROMPT
+from .prompts import CONCEPT_EXTRACTION_PROMPT
 
 
 class ConceptExtractor:
@@ -44,7 +44,7 @@ class ConceptExtractor:
         return node
 
     def extract(self, text):
-        prompt = CONCEPT_PROMPT + "\n\nChapter Text:\n" + text
+        prompt = CONCEPT_EXTRACTION_PROMPT + "\n\nChapter Text:\n" + text
 
         response = self.llm.generate(prompt)
 
