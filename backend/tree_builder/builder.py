@@ -12,6 +12,9 @@ class TreeBuilder:
             "type": "chapter",
             "label": hierarchy.get("chapter", "Unknown Chapter"),
             "summary": summary_map.get(hierarchy.get("chapter", ""), ""),
+            "preview": self._get_preview(
+                summary_map.get(hierarchy.get("chapter", ""), "")
+            ),
             "ui": {
                 "expandable": True,
                 "visual_type": "root"
@@ -44,11 +47,18 @@ class TreeBuilder:
                 summary_map
             )
 
+            summary = summary_map.get(
+                label,
+                "No summary available."
+            )
+
             result.append({
                 "id": self._new_id(),
                 "type": self._infer_type(children),
                 "label": label,
-                "summary": summary_map.get(label, ""),
+                "summary": summary,
+                "preview": self._get_preview(summary),
+                "keywords": self._extract_keywords(summary),
                 "ui": self._build_ui(label, children),
                 "children": children,
                 "metadata": {
@@ -85,7 +95,6 @@ class TreeBuilder:
     # --------------------------------------------------
 
     def _infer_type(self, children):
-        # Keep node type consistent.
         return "concept"
 
     # --------------------------------------------------
@@ -151,6 +160,38 @@ class TreeBuilder:
             [child["metadata"]["depth"] for child in children],
             default=0
         )
+
+    # --------------------------------------------------
+    # NEW HELPERS
+    # --------------------------------------------------
+
+    def _get_preview(self, summary):
+
+        if not summary:
+            return ""
+
+        if len(summary) <= 60:
+            return summary
+
+        return summary[:60] + "..."
+
+    def _extract_keywords(self, summary):
+
+        if not summary:
+            return []
+
+        words = summary.split()
+
+        keywords = []
+
+        for word in words:
+
+            word = word.strip(".,()")
+
+            if len(word) > 6:
+                keywords.append(word)
+
+        return keywords[:5]
 
     # --------------------------------------------------
 
