@@ -1,11 +1,11 @@
-import React, { useState, useMemo, useCallback } from "react";
+import React, { useState, useMemo, useCallback, useRef, useEffect } from "react";
 import "./MindMap.css";
 
 // ---- Layout constants ----
 const COLUMN_WIDTH = 260;
-const ROW_HEIGHT = 64;
+const ROW_HEIGHT = 84;      // increased spacing so wrapped labels never overlap the next node
 const NODE_WIDTH = 200;
-const NODE_HEIGHT = 40;
+const NODE_HEIGHT = 64;     // fixed height that fits 2 wrapped lines of label text
 const PADDING = 40;
 
 // ---- Branch color palette, keyed by icon of the depth-1 ancestor ----
@@ -53,17 +53,17 @@ function layoutTree(root, expanded) {
 
     node._y = y;
     positioned.push({
-  id: node.id,
-  label: node.label,
-  summary: node.summary,
-  children: node.children,
-  x: depth * COLUMN_WIDTH,
-  y,
-  hasChildren,
-  isExpanded,
-  depth,
-  color: isRoot ? ROOT_COLOR : colorFor(currentBranchIcon),
-});
+      id: node.id,
+      label: node.label,
+      summary: node.summary,
+      children: node.children,
+      x: depth * COLUMN_WIDTH,
+      y,
+      hasChildren,
+      isExpanded,
+      depth,
+      color: isRoot ? ROOT_COLOR : colorFor(currentBranchIcon),
+    });
     return y;
   }
 
@@ -79,7 +79,50 @@ function bezierPath(from, to) {
 export default function MindMap({ data }) {
   const [expanded, setExpanded] = useState(() => new Set([data.id]));
   const [selectedNode, setSelectedNode] = useState(data);
-  
+
+  const scrollRef = useRef(null);
+  // plain ref (not state) so dragging never triggers re-renders — keeps panning smooth
+  const drag = useRef({ active: false, startX: 0, startY: 0, scrollLeft: 0, scrollTop: 0, moved: false });
+
+  const handleMouseDown = useCallback((e) => {
+    if (e.button !== 0) return; // left click only
+    const el = scrollRef.current;
+    drag.current = {
+      active: true,
+      startX: e.pageX,
+      startY: e.pageY,
+      scrollLeft: el.scrollLeft,
+      scrollTop: el.scrollTop,
+      moved: false,
+    };
+    el.classList.add("dragging");
+  }, []);
+
+  const handleMouseMove = useCallback((e) => {
+    if (!drag.current.active) return;
+    const el = scrollRef.current;
+    const dx = e.pageX - drag.current.startX;
+    const dy = e.pageY - drag.current.startY;
+    if (Math.abs(dx) > 3 || Math.abs(dy) > 3) {
+      drag.current.moved = true; // past this threshold, treat as a pan, not a click
+    }
+    el.scrollLeft = drag.current.scrollLeft - dx;
+    el.scrollTop = drag.current.scrollTop - dy;
+  }, []);
+
+  const handleMouseUp = useCallback(() => {
+    drag.current.active = false;
+    scrollRef.current?.classList.remove("dragging");
+  }, []);
+
+  useEffect(() => {
+    window.addEventListener("mousemove", handleMouseMove);
+    window.addEventListener("mouseup", handleMouseUp);
+    return () => {
+      window.removeEventListener("mousemove", handleMouseMove);
+      window.removeEventListener("mouseup", handleMouseUp);
+    };
+  }, [handleMouseMove, handleMouseUp]);
 
   const toggle = useCallback((id) => {
     setExpanded((prev) => {
@@ -100,6 +143,11 @@ export default function MindMap({ data }) {
 
   return (
     <div className="mindmap-viewport">
+      <div
+        className="mindmap-canvas-scroll"
+        ref={scrollRef}
+        onMouseDown={handleMouseDown}
+      >
       <div className="mindmap-canvas" style={{ width: maxX, height: maxY }}>
         <svg className="mindmap-edges" width={maxX} height={maxY}>
           {edges.map((e, i) => (
@@ -124,24 +172,24 @@ export default function MindMap({ data }) {
               left: n.x,
               top: n.y,
               width: NODE_WIDTH,
-              minHeight: NODE_HEIGHT,
+              height: NODE_HEIGHT,
               background: n.color.bg,
               borderColor: n.color.border,
             }}
             title={n.summary || n.label}
             onClick={() => {
-  setSelectedNode(n);
-
-  if (n.hasChildren) {
-    toggle(n.id);
-  }
-}}
+              if (drag.current.moved) return; // ignore click that was actually a pan drag
+              setSelectedNode(n);
+              if (n.hasChildren) {
+                toggle(n.id);
+              }
+            }}
           >
             <div className="mindmap-node-content">
-  <div className="mindmap-node-label">
-    {n.label}
-  </div>
-</div>
+              <div className="mindmap-node-label">
+                {n.label}
+              </div>
+            </div>
 
             {n.hasChildren && (
               <button
@@ -159,17 +207,14 @@ export default function MindMap({ data }) {
           </div>
         ))}
       </div>
+      </div>
 
       <div className="mindmap-details">
-
-  <h2>{selectedNode.label}</h2>
-
-  <p style={{whiteSpace:"pre-line"}}>
-    {selectedNode.summary}
-  </p>
-
-</div>
-
+        <h2>{selectedNode.label}</h2>
+        <p style={{ whiteSpace: "pre-line" }}>
+          {selectedNode.summary}
+        </p>
+      </div>
     </div>
   );
 }
