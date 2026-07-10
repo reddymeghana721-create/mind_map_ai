@@ -8,6 +8,7 @@
 .mindmap-canvas {
   position: relative;
   padding: 40px;
+  padding-right: 420px;
 }
 
 .mindmap-edges {
@@ -20,49 +21,124 @@
 .mindmap-node {
   position: absolute;
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  gap: 8px;
-  padding: 10px 14px;
-  border-radius: 10px;
+  align-items: flex-start;
+
+  gap: 10px;
+
+  padding: 12px;
+
+  border-radius: 12px;
+
   border: 1px solid transparent;
+
   color: #eef0f5;
-  font-size: 14px;
-  font-weight: 600;
+
   cursor: pointer;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.35);
-  transition: transform 0.12s ease, box-shadow 0.12s ease;
+
   user-select: none;
+
+  box-shadow: 0 3px 8px rgba(0,0,0,.35);
+
+  transition: .2s;
+
+  overflow: hidden;
 }
 
 .mindmap-node:hover {
-  transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.45);
+
+  transform: translateY(-2px);
+
+  box-shadow: 0 8px 18px rgba(0,0,0,.45);
+
 }
 
-.mindmap-node-label {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+.mindmap-node-content{
+
+  flex:1;
+
 }
 
-.mindmap-toggle {
-  flex-shrink: 0;
-  width: 22px;
-  height: 22px;
-  border-radius: 999px;
-  border: none;
-  color: #141419;
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
+.mindmap-node-label{
+
+  font-size:15px;
+
+  font-weight:700;
+
+  margin-bottom:6px;
+
 }
 
-.depth-0 {
-  font-size: 15px;
-  font-weight: 700;
+.mindmap-node-summary{
+
+  font-size:12px;
+
+  color:#c7cad3;
+
+  line-height:1.45;
+
+  font-weight:400;
+
+}
+
+.mindmap-toggle{
+
+  width:24px;
+
+  height:24px;
+
+  border-radius:50%;
+
+  border:none;
+
+  font-weight:bold;
+
+  cursor:pointer;
+
+  color:#111;
+
+  flex-shrink:0;
+
+}
+
+.depth-0{
+
+  font-size:17px;
+
+  font-weight:700;
+
+}
+
+.mindmap-details {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 340px;
+    max-height: 90vh;
+    overflow-y: auto;
+
+    background: #20232b;
+    border: 1px solid #3b3f4d;
+    border-radius: 12px;
+
+    padding: 18px;
+
+    color: white;
+
+    box-shadow: 0 0 20px rgba(0,0,0,0.35);
+}
+
+.mindmap-details h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+
+    color: #61dafb;
+    font-size: 22px;
+}
+
+.mindmap-details p {
+    line-height: 1.6;
+    white-space: pre-line;
+    color: #ddd;
+    font-size: 14px;
 }
