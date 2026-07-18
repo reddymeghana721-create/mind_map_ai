@@ -1,0 +1,1147 @@
+{
+  "id": "4e97de85-9a90-4e7a-bb36-32760be19efa",
+  "type": "chapter",
+  "label": "Life Processes",
+  "summary": "Definition:\nLife processes are the functions that occur in living organisms to maintain life.\n\nKey Points:\n- Growth and development of organisms\n- Maintenance of body functions\n- Reproduction of organisms\n\nImportance:\nThese processes are essential fo...",
+  "preview": "Definition:\nLife processes are the functions that occur in l...",
+  "ui": {
+    "expandable": true,
+    "visual_type": "root"
+  },
+  "children": [
+    {
+      "id": "4bc8ce9c-96e4-4821-a2f2-dae4c5b29834",
+      "type": "concept",
+      "label": "Life Processes",
+      "summary": "Definition:\nLife processes are the functions that occur in living organisms to maintain life.\n\nKey Points:\n- Growth and development of organisms\n- Maintenance of body functions\n- Reproduction of organisms\n\nImportance:\nThese processes are essential fo...",
+      "preview": "Definition:\nLife processes are the functions that occur in l...",
+      "keywords": [
+        "Definition:",
+        "processes",
+        "functions",
+        "organisms",
+        "maintain"
+      ],
+      "ui": {
+        "expandable": true,
+        "visual_type": "tree_node",
+        "node_style": "default",
+        "animation_hint": "expand_cascade",
+        "icon": "circle"
+      },
+      "children": [
+        {
+          "id": "4d68e4f4-b758-42af-9e6c-aadddd01421b",
+          "type": "concept",
+          "label": "What is a Life Process?",
+          "summary": "Definition:\nA life process is a series of events that occur in living organisms to maintain life.\n\nKey Points:\n- Occurs in living organisms\n- Maintains life and growth\n- Includes processes like respiration, photosynthesis, and reproduction\n\nImportanc...",
+          "preview": "Definition:\nA life process is a series of events that occur ...",
+          "keywords": [
+            "Definition:",
+            "process",
+            "organisms",
+            "maintain",
+            "Points:"
+          ],
+          "ui": {
+            "expandable": true,
+            "visual_type": "tree_node",
+            "node_style": "default",
+            "animation_hint": "expand_simple",
+            "icon": "circle"
+          },
+          "children": [
+            {
+              "id": "1399007d-5ed1-42fe-9089-a8bf6773214c",
+              "type": "concept",
+              "label": "Definition of Life Process",
+              "summary": "Definition:\nA life process is a vital activity that occurs in living organisms to maintain life and growth.\n\nKey Points:\n- Involves vital activities like breathing, eating, and reproduction\n- Happens in all living organisms like plants and animals\n- ...",
+              "preview": "Definition:\nA life process is a vital activity that occurs i...",
+              "keywords": [
+                "Definition:",
+                "process",
+                "activity",
+                "organisms",
+                "maintain"
+              ],
+              "ui": {
+                "expandable": false,
+                "visual_type": "text_node",
+                "node_style": "default",
+                "animation_hint": "fade_in",
+                "icon": "circle"
+              },
+              "children": [],
+              "metadata": {
+                "depth": 0,
+                "leaf": true
+              }
+            },
+            {
+              "id": "25db2f65-786e-47bf-b7f0-b465ec4d5bfd",
+              "type": "concept",
+              "label": "Importance of Life Processes",
+              "summary": "Definition:\nLife processes are the functions that occur within living organisms to sustain life and maintain homeostasis.\n\nKey Points:\n- Maintain homeostasis\n- Regulate chemical reactions\n- Convert energy from one form to another\n\nImportance:\nThey ar...",
+              "preview": "Definition:\nLife processes are the functions that occur with...",
+              "keywords": [
+                "Definition:",
+                "processes",
+                "functions",
+                "organisms",
+                "sustain"
+              ],
+              "ui": {
+                "expandable": true,
+                "visual_type": "tree_node",
+                "node_style": "default",
+                "animation_hint": "expand_simple",
+                "icon": "circle"
+              },
+              "children": [
+                {
+                  "id": "de7cb4ec-3f45-43e6-a22e-2ac5a71407a4",
+                  "type": "concept",
+                  "label": "Energy Requirements",
+                  "summary": "Definition:\nThe energy requirement of an organism refers to the necessary energy it needs to sustain its survival.\n\nKey Points:\n- Energy requirement varies among organisms, with animals requiring more energy than plants\n- Energy requirement is usuall...",
+                  "preview": "Definition:\nThe energy requirement of an organism refers to ...",
+                  "keywords": [
+                    "Definition:",
+                    "requirement",
+                    "organism",
+                    "necessary",
+                    "sustain"
+                  ],
+                  "ui": {
+                    "expandable": false,
+                    "visual_type": "text_node",
+                    "node_style": "default",
+                    "animation_hint": "fade_in",
+                    "icon": "circle"
+                  },
+                  "children": [],
+                  "metadata": {
+                    "depth": 0,
+                    "leaf": true
+                  }
+                },
+                {
+                  "id": "dd579cd9-bce8-4448-998c-22cc1207ebcd",
+                  "type": "concept",
+                  "label": "Nutritional Requirements",
+                  "summary": "Definition:\nThe nutritional requirements refer to the essential nutrients required by living organisms to sustain life.\n\nKey Points:\n- Carbohydrates, proteins, and fats provide energy\n- Vitamins and minerals help in biological processes\n- Adequate wa...",
+                  "preview": "Definition:\nThe nutritional requirements refer to the essent...",
+                  "keywords": [
+                    "Definition:",
+                    "nutritional",
+                    "requirements",
+                    "essential",
+                    "nutrients"
+                  ],
+                  "ui": {
+                    "expandable": false,
+                    "visual_type": "text_node",
+                    "node_style": "default",
+                    "animation_hint": "fade_in",
+                    "icon": "apple"
+                  },
+                  "children": [],
+                  "metadata": {
+                    "depth": 0,
+                    "leaf": true
+                  }
+                }
+              ],
+              "metadata": {
+                "depth": 1,
+                "leaf": false
+              }
+            }
+          ],
+          "metadata": {
+            "depth": 2,
+            "leaf": false
+          }
+        },
+        {
+          "id": "5c00f34e-ce22-443a-b428-fcd24f13d850",
+          "type": "concept",
+          "label": "Nutrition",
+          "summary": "Definition:\nThe process by which organisms acquire energy and nutrients from their environment.\n\nKey Points:\n- Essential for growth and development\n- Occurs in all living organisms\n- Involves the breakdown or synthesis of molecules\n\nImportance:\nNutri...",
+          "preview": "Definition:\nThe process by which organisms acquire energy an...",
+          "keywords": [
+            "Definition:",
+            "process",
+            "organisms",
+            "acquire",
+            "nutrients"
+          ],
+          "ui": {
+            "expandable": true,
+            "visual_type": "tree_node",
+            "node_style": "default",
+            "animation_hint": "expand_simple",
+            "icon": "apple"
+          },
+          "children": [
+            {
+              "id": "ee43f658-dd3a-4ef7-bf7e-a197fece4491",
+              "type": "concept",
+              "label": "Autotrophic Nutrition",
+              "summary": "Definition:\nAutotrophic nutrition is the process by which certain organisms produce their own food.\n\nKey Points:\n- Uses sunlight, water, and carbon dioxide to synthesize food\n- Does not require external food source\n- Examples include green plants and...",
+              "preview": "Definition:\nAutotrophic nutrition is the process by which ce...",
+              "keywords": [
+                "Definition:",
+                "Autotrophic",
+                "nutrition",
+                "process",
+                "certain"
+              ],
+              "ui": {
+                "expandable": true,
+                "visual_type": "tree_node",
+                "node_style": "default",
+                "animation_hint": "expand_simple",
+                "icon": "apple"
+              },
+              "children": [
+                {
+                  "id": "6366c132-b517-400a-b18a-8976f6dc9775",
+                  "type": "concept",
+                  "label": "Photosynthesis",
+                  "summary": "Definition:\nThe process by which green plants synthesize food from sunlight, air, and water.\n\nKey Points:\n- It requires sunlight to occur.\n- Chlorophyll, a green pigment in plants, plays a vital role in this process.\n- It yields glucose and oxygen as...",
+                  "preview": "Definition:\nThe process by which green plants synthesize foo...",
+                  "keywords": [
+                    "Definition:",
+                    "process",
+                    "synthesize",
+                    "sunlight",
+                    "Points:"
+                  ],
+                  "ui": {
+                    "expandable": true,
+                    "visual_type": "process_flow",
+                    "node_style": "default",
+                    "animation_hint": "expand_simple",
+                    "icon": "sun"
+                  },
+                  "children": [
+                    {
+                      "id": "533c6615-cd29-4c47-b3d6-f044a8bb0f97",
+                      "type": "concept",
+                      "label": "Light Energy Absorption",
+                      "summary": "Definition:\nThe process of converting light energy into chemical energy in plants, algae, and some bacteria.\n\nKey Points:\n- The chlorophyll pigment in specialized structures called chloroplasts absorbs light energy.\n- This light energy is used to con...",
+                      "preview": "Definition:\nThe process of converting light energy into chem...",
+                      "keywords": [
+                        "Definition:",
+                        "process",
+                        "converting",
+                        "chemical",
+                        "bacteria"
+                      ],
+                      "ui": {
+                        "expandable": false,
+                        "visual_type": "text_node",
+                        "node_style": "default",
+                        "animation_hint": "fade_in",
+                        "icon": "circle"
+                      },
+                      "children": [],
+                      "metadata": {
+                        "depth": 0,
+                        "leaf": true
+                      }
+                    },
+                    {
+                      "id": "2411af82-2570-4a06-a08e-edc5d8e700ad",
+                      "type": "concept",
+                      "label": "Conversion of Light Energy to Chemical Energy",
+                      "summary": "Definition:\nThe process by which light energy is converted into chemical energy stored in organic molecules.\n\nKey Points:\n- It occurs in plants and some bacteria\n- Uses sunlight as the energy source\n- Produces glucose and oxygen as by-products\n\nImpor...",
+                      "preview": "Definition:\nThe process by which light energy is converted i...",
+                      "keywords": [
+                        "Definition:",
+                        "process",
+                        "converted",
+                        "chemical",
+                        "organic"
+                      ],
+                      "ui": {
+                        "expandable": false,
+                        "visual_type": "text_node",
+                        "node_style": "default",
+                        "animation_hint": "fade_in",
+                        "icon": "circle"
+                      },
+                      "children": [],
+                      "metadata": {
+                        "depth": 0,
+                        "leaf": true
+                      }
+                    },
+                    {
+                      "id": "aab983c8-03e8-4677-a498-e99e9dbedf04",
+                      "type": "concept",
+                      "label": "Reduction of Carbon Dioxide to Carbohydrates",
+                      "summary": "Definition:\nThe process of converting carbon dioxide into carbohydrates by plants.\n\nKey Points:\n- Uses the energy from sunlight to drive the reaction\n- Requires chlorophyll to absorb light energy\n- Results in the production of glucose and oxygen\n\nImp...",
+                      "preview": "Definition:\nThe process of converting carbon dioxide into ca...",
+                      "keywords": [
+                        "Definition:",
+                        "process",
+                        "converting",
+                        "dioxide",
+                        "carbohydrates"
+                      ],
+                      "ui": {
+                        "expandable": false,
+                        "visual_type": "text_node",
+                        "node_style": "default",
+                        "animation_hint": "fade_in",
+                        "icon": "circle"
+                      },
+                      "children": [],
+                      "metadata": {
+                        "depth": 0,
+                        "leaf": true
+                      }
+                    }
+                  ],
+                  "metadata": {
+                    "depth": 1,
+                    "leaf": false
+                  }
+                },
+                {
+                  "id": "6bf1b7ec-e3e6-4136-9be6-4a2eaa49948a",
+                  "type": "concept",
+                  "label": "Importance of Chlorophyll",
+                  "summary": "Definition:\nChlorophyll is a green pigment that helps plants absorb sunlight.\n\nKey Points:\n- Absorbs sunlight in the visible light spectrum\n- Allows photosynthesis to occur\n- Necessary for plant growth and development\n\nImportance:\n plays a vital role...",
+                  "preview": "Definition:\nChlorophyll is a green pigment that helps plants...",
+                  "keywords": [
+                    "Definition:",
+                    "Chlorophyll",
+                    "pigment",
+                    "sunlight",
+                    "Points:"
+                  ],
+                  "ui": {
+                    "expandable": false,
+                    "visual_type": "text_node",
+                    "node_style": "default",
+                    "animation_hint": "fade_in",
+                    "icon": "circle"
+                  },
+                  "children": [],
+                  "metadata": {
+                    "depth": 0,
+                    "leaf": true
+                  }
+                }
+              ],
+              "metadata": {
+                "depth": 2,
+                "leaf": false
+              }
+            },
+            {
+              "id": "dc0f1e66-b7f0-42b5-9d8f-6a38367b4a52",
+              "type": "concept",
+              "label": "Heterotrophic Nutrition",
+              "summary": "Definition:\nHeterotrophic nutrition is the process of obtaining nutrition from consuming pre-formed organic matter.\n\nKey Points:\n- Requires consumption of dead or alive organisms\n- Obtained from plants or animals\n- Uses digestive enzymes\n\nImportance:...",
+              "preview": "Definition:\nHeterotrophic nutrition is the process of obtain...",
+              "keywords": [
+                "Definition:",
+                "Heterotrophic",
+                "nutrition",
+                "process",
+                "obtaining"
+              ],
+              "ui": {
+                "expandable": true,
+                "visual_type": "tree_node",
+                "node_style": "default",
+                "animation_hint": "expand_simple",
+                "icon": "apple"
+              },
+              "children": [
+                {
+                  "id": "74bd7c4c-6938-4ed4-9e12-d04047b007ce",
+                  "type": "concept",
+                  "label": "Importance of Enzymes",
+                  "summary": "Definition: Enzymes are biological catalysts that speed up chemical reactions in living organisms.\n\nKey Points:\n- Speed up metabolic reactions\n- Work as biological catalysts\n- Convert substrates into products\n\nImportance: Enzymes are necessary for va...",
+                  "preview": "Definition: Enzymes are biological catalysts that speed up c...",
+                  "keywords": [
+                    "Definition:",
+                    "Enzymes",
+                    "biological",
+                    "catalysts",
+                    "chemical"
+                  ],
+                  "ui": {
+                    "expandable": false,
+                    "visual_type": "text_node",
+                    "node_style": "default",
+                    "animation_hint": "fade_in",
+                    "icon": "circle"
+                  },
+                  "children": [],
+                  "metadata": {
+                    "depth": 0,
+                    "leaf": true
+                  }
+                },
+                {
+                  "id": "874b7830-d915-489c-adc5-50d3bbaacb5e",
+                  "type": "concept",
+                  "label": "Types of Heterotrophic Nutrition",
+                  "summary": "Definition:\nNutrition in which organisms use pre-formed food sources for energy and development.\n\nKey Points:\n- Obsolete organisms depend on autotrophs for food.\n- Non-green plants obtain energy by consuming autotrophs.\n- Fungi and bacteria are major...",
+                  "preview": "Definition:\nNutrition in which organisms use pre-formed food...",
+                  "keywords": [
+                    "Definition:",
+                    "Nutrition",
+                    "organisms",
+                    "pre-formed",
+                    "sources"
+                  ],
+                  "ui": {
+                    "expandable": false,
+                    "visual_type": "text_node",
+                    "node_style": "default",
+                    "animation_hint": "fade_in",
+                    "icon": "apple"
+                  },
+                  "children": [],
+                  "metadata": {
+                    "depth": 0,
+                    "leaf": true
+                  }
+                }
+              ],
+              "metadata": {
+                "depth": 1,
+                "leaf": false
+              }
+            }
+          ],
+          "metadata": {
+            "depth": 3,
+            "leaf": false
+          }
+        },
+        {
+          "id": "b5db4c95-7b4a-4dad-8fcd-cf9acb331650",
+          "type": "concept",
+          "label": "Respiration",
+          "summary": "Definition:\nProcess by which cells break down glucose to produce energy.\n\nKey Points:\n- Occurs in the mitochondria of cells\n- Involves the breakdown of glucose to produce ATP\n- Releases carbon dioxide and water as by-products\n\nImportance:\nEssential f...",
+          "preview": "Definition:\nProcess by which cells break down glucose to pro...",
+          "keywords": [
+            "Definition:",
+            "Process",
+            "glucose",
+            "produce",
+            "Points:"
+          ],
+          "ui": {
+            "expandable": true,
+            "visual_type": "energy_cycle",
+            "node_style": "default",
+            "animation_hint": "expand_simple",
+            "icon": "bolt"
+          },
+          "children": [
+            {
+              "id": "69843840-ca61-4d17-9a0c-2b3b63545ec7",
+              "type": "concept",
+              "label": "Types of Respiration",
+              "summary": "Definition:\nRespiration is the process by which living organisms break down nutrients to produce energy.\n\nKey Points:\n- In humans and animals, it involves the breakdown of glucose to produce ATP.\n- In plants, it involves the breakdown of glucose prod...",
+              "preview": "Definition:\nRespiration is the process by which living organ...",
+              "keywords": [
+                "Definition:",
+                "Respiration",
+                "process",
+                "organisms",
+                "nutrients"
+              ],
+              "ui": {
+                "expandable": true,
+                "visual_type": "energy_cycle",
+                "node_style": "default",
+                "animation_hint": "expand_simple",
+                "icon": "bolt"
+              },
+              "children": [
+                {
+                  "id": "c93006e7-6466-4e8e-8745-f1353d1b0748",
+                  "type": "concept",
+                  "label": "Aerobic Respiration",
+                  "summary": "Definition:\nProcess by which cells produce energy in the presence of oxygen.\n\nKey Points:\n- Occurs in the mitochondria of cells\n- Involves the breakdown of glucose to produce ATP\n- Requires oxygen to take place\n\nImportance:\nEssential for the growth a...",
+                  "preview": "Definition:\nProcess by which cells produce energy in the pre...",
+                  "keywords": [
+                    "Definition:",
+                    "Process",
+                    "produce",
+                    "presence",
+                    "Points:"
+                  ],
+                  "ui": {
+                    "expandable": true,
+                    "visual_type": "energy_cycle",
+                    "node_style": "default",
+                    "animation_hint": "expand_simple",
+                    "icon": "bolt"
+                  },
+                  "children": [
+                    {
+                      "id": "35003582-5ac3-44f6-befd-c3f6afd5c8a6",
+                      "type": "concept",
+                      "label": "Importance of Oxygen",
+                      "summary": "Definition:\nOxygen plays a crucial role in aerobic respiration as it is necessary for the production of energy in cells.\n\nKey Points:\n- Acts as the final electron acceptor in the electron transport chain\n- Essential for the formation of ATP during th...",
+                      "preview": "Definition:\nOxygen plays a crucial role in aerobic respirati...",
+                      "keywords": [
+                        "Definition:",
+                        "crucial",
+                        "aerobic",
+                        "respiration",
+                        "necessary"
+                      ],
+                      "ui": {
+                        "expandable": false,
+                        "visual_type": "text_node",
+                        "node_style": "default",
+                        "animation_hint": "fade_in",
+                        "icon": "circle"
+                      },
+                      "children": [],
+                      "metadata": {
+                        "depth": 0,
+                        "leaf": true
+                      }
+                    },
+                    {
+                      "id": "0ff09c7e-1007-4746-a97a-5831065e6bcb",
+                      "type": "concept",
+                      "label": "Role of Mitochondria",
+                      "summary": "Definition:\nMitochondria are the sites of aerobic respiration, where cells generate energy from the breakdown of glucose in the presence of oxygen.\n\nKey Points:\n- Converts glucose to energy rich molecule ATP\n- Takes place in inner mitochondrial membr...",
+                      "preview": "Definition:\nMitochondria are the sites of aerobic respiratio...",
+                      "keywords": [
+                        "Definition:",
+                        "Mitochondria",
+                        "aerobic",
+                        "respiration",
+                        "generate"
+                      ],
+                      "ui": {
+                        "expandable": false,
+                        "visual_type": "text_node",
+                        "node_style": "default",
+                        "animation_hint": "fade_in",
+                        "icon": "circle"
+                      },
+                      "children": [],
+                      "metadata": {
+                        "depth": 0,
+                        "leaf": true
+                      }
+                    }
+                  ],
+                  "metadata": {
+                    "depth": 1,
+                    "leaf": false
+                  }
+                },
+                {
+                  "id": "afdd4525-9b87-4490-9f4c-ce2067cbc225",
+                  "type": "concept",
+                  "label": "Anaerobic Respiration",
+                  "summary": "Definition:\nAnaerobic respiration is a type of respiration that occurs in the absence of oxygen.\n\nKey Points:\n- Takes place in muscles and some bacteria\n- Involves glycolysis and fermentation\n- Produces little or no ATP\n\nImportance:\nHelps to provide ...",
+                  "preview": "Definition:\nAnaerobic respiration is a type of respiration t...",
+                  "keywords": [
+                    "Definition:",
+                    "Anaerobic",
+                    "respiration",
+                    "respiration",
+                    "absence"
+                  ],
+                  "ui": {
+                    "expandable": true,
+                    "visual_type": "energy_cycle",
+                    "node_style": "default",
+                    "animation_hint": "expand_simple",
+                    "icon": "bolt"
+                  },
+                  "children": [
+                    {
+                      "id": "cad85306-314a-4986-8616-87fd62f5889f",
+                      "type": "concept",
+                      "label": "Importance of Anaerobic Conditions",
+                      "summary": "Definition:\nAnaerobic conditions are necessary for certain types of respiration to occur.\n\nKey Points:\n- Anaerobic conditions prevent the formation of toxic oxygen byproducts.\n- Anaerobic respiration is essential for muscles to produce energy quickly...",
+                      "preview": "Definition:\nAnaerobic conditions are necessary for certain t...",
+                      "keywords": [
+                        "Definition:",
+                        "Anaerobic",
+                        "conditions",
+                        "necessary",
+                        "certain"
+                      ],
+                      "ui": {
+                        "expandable": false,
+                        "visual_type": "text_node",
+                        "node_style": "default",
+                        "animation_hint": "fade_in",
+                        "icon": "circle"
+                      },
+                      "children": [],
+                      "metadata": {
+                        "depth": 0,
+                        "leaf": true
+                      }
+                    },
+                    {
+                      "id": "3988739e-0fe9-49ab-9c91-aab3bac1c818",
+                      "type": "concept",
+                      "label": "Role of Pyruvate",
+                      "summary": "Definition:\nPyruvate is a key intermediate molecule in anaerobic respiration.\n\nKey Points:\n- Produced from glycolysis\n- Converted to lactic acid or ethanol in the absence of oxygen\n- Essential for energy production in anaerobic conditions\n\nImportance...",
+                      "preview": "Definition:\nPyruvate is a key intermediate molecule in anaer...",
+                      "keywords": [
+                        "Definition:",
+                        "Pyruvate",
+                        "intermediate",
+                        "molecule",
+                        "anaerobic"
+                      ],
+                      "ui": {
+                        "expandable": false,
+                        "visual_type": "text_node",
+                        "node_style": "default",
+                        "animation_hint": "fade_in",
+                        "icon": "circle"
+                      },
+                      "children": [],
+                      "metadata": {
+                        "depth": 0,
+                        "leaf": true
+                      }
+                    }
+                  ],
+                  "metadata": {
+                    "depth": 1,
+                    "leaf": false
+                  }
+                }
+              ],
+              "metadata": {
+                "depth": 2,
+                "leaf": false
+              }
+            },
+            {
+              "id": "f1dd1d61-ee8b-4ad6-a285-20d3c226c6f0",
+              "type": "concept",
+              "label": "Transport of Oxygen and Carbon Dioxide",
+              "summary": "Definition:\nThe transport of oxygen and carbon dioxide occurs through the exchange of gases between the body and the environment.\n\nKey Points:\n- Takes place in the alveoli of the lungs\n- Oxygen is transported to cells through the bloodstream\n- Carbon...",
+              "preview": "Definition:\nThe transport of oxygen and carbon dioxide occur...",
+              "keywords": [
+                "Definition:",
+                "transport",
+                "dioxide",
+                "through",
+                "exchange"
+              ],
+              "ui": {
+                "expandable": true,
+                "visual_type": "system_flow",
+                "node_style": "default",
+                "animation_hint": "expand_simple",
+                "icon": "circle"
+              },
+              "children": [
+                {
+                  "id": "fb54d711-884b-4063-a529-57e1ac662fa3",
+                  "type": "concept",
+                  "label": "Importance of Haemoglobin",
+                  "summary": "Definition:\nHaemoglobin is a protein in red blood cells that carries oxygen from the lungs to the body's tissues.\n\nKey Points:\n- Carries oxygen from lungs to body tissues\n- Releases carbon dioxide from body tissues to lungs\n- Has a high affinity for ...",
+                  "preview": "Definition:\nHaemoglobin is a protein in red blood cells that...",
+                  "keywords": [
+                    "Definition:",
+                    "Haemoglobin",
+                    "protein",
+                    "carries",
+                    "tissues"
+                  ],
+                  "ui": {
+                    "expandable": false,
+                    "visual_type": "text_node",
+                    "node_style": "default",
+                    "animation_hint": "fade_in",
+                    "icon": "circle"
+                  },
+                  "children": [],
+                  "metadata": {
+                    "depth": 0,
+                    "leaf": true
+                  }
+                },
+                {
+                  "id": "5ce8dd93-58b0-459d-a31e-a6f299fd0a19",
+                  "type": "concept",
+                  "label": "Types of Respiratory Organs",
+                  "summary": "Definition:\nThe respiratory organs are responsible for exchanging oxygen and carbon dioxide in the body.\n\nKey Points:\n- Trachea carries air to lungs\n- Lungs exchange oxygen and carbon dioxide\n- Alveoli increase surface area for gas exchange\n\nImportan...",
+                  "preview": "Definition:\nThe respiratory organs are responsible for excha...",
+                  "keywords": [
+                    "Definition:",
+                    "respiratory",
+                    "responsible",
+                    "exchanging",
+                    "dioxide"
+                  ],
+                  "ui": {
+                    "expandable": false,
+                    "visual_type": "text_node",
+                    "node_style": "default",
+                    "animation_hint": "fade_in",
+                    "icon": "bolt"
+                  },
+                  "children": [],
+                  "metadata": {
+                    "depth": 0,
+                    "leaf": true
+                  }
+                }
+              ],
+              "metadata": {
+                "depth": 1,
+                "leaf": false
+              }
+            }
+          ],
+          "metadata": {
+            "depth": 3,
+            "leaf": false
+          }
+        },
+        {
+          "id": "8fc3013f-7bec-4f9b-902f-6924d181ee76",
+          "type": "concept",
+          "label": "Transportation",
+          "summary": "Definition:\nProcess by which organisms transport water and nutrients across cell membranes.\n\nKey Points:\n- Uses carrier proteins and channels\n- Involves active and passive transport\n- Helps maintain proper balance of cells and organisms\n\nImportance:\n...",
+          "preview": "Definition:\nProcess by which organisms transport water and n...",
+          "keywords": [
+            "Definition:",
+            "Process",
+            "organisms",
+            "transport",
+            "nutrients"
+          ],
+          "ui": {
+            "expandable": true,
+            "visual_type": "system_flow",
+            "node_style": "default",
+            "animation_hint": "expand_simple",
+            "icon": "circle"
+          },
+          "children": [
+            {
+              "id": "b9217586-5c5d-4a40-8886-cac180a6f1b8",
+              "type": "concept",
+              "label": "Transportation in Human Beings",
+              "summary": "Definition:\nThe process by which human beings transport substances and nutrients throughout the body.\n\nKey Points:\n- Involves the circulatory system\n- Is essential for maintaining cellular functions\n- Takes place through blood vessels and blood\n\nImpo...",
+              "preview": "Definition:\nThe process by which human beings transport subs...",
+              "keywords": [
+                "Definition:",
+                "process",
+                "transport",
+                "substances",
+                "nutrients"
+              ],
+              "ui": {
+                "expandable": true,
+                "visual_type": "system_flow",
+                "node_style": "default",
+                "animation_hint": "expand_simple",
+                "icon": "circle"
+              },
+              "children": [
+                {
+                  "id": "a8560c12-6cd7-480f-b59e-f87f37c2a1f7",
+                  "type": "concept",
+                  "label": "Structure of the Heart",
+                  "summary": "Definition:\nThe structure of the heart refers to the individual components and their arrangement that enable the heart to function properly.\n\nKey Points:\n- The heart is a muscular organ that pumps blood throughout the body\n- It consists of four chamb...",
+                  "preview": "Definition:\nThe structure of the heart refers to the individ...",
+                  "keywords": [
+                    "Definition:",
+                    "structure",
+                    "individual",
+                    "components",
+                    "arrangement"
+                  ],
+                  "ui": {
+                    "expandable": false,
+                    "visual_type": "text_node",
+                    "node_style": "default",
+                    "animation_hint": "fade_in",
+                    "icon": "circle"
+                  },
+                  "children": [],
+                  "metadata": {
+                    "depth": 0,
+                    "leaf": true
+                  }
+                }
+              ],
+              "metadata": {
+                "depth": 1,
+                "leaf": false
+              }
+            },
+            {
+              "id": "2131fba7-341c-4aff-904b-7904a8a93e63",
+              "type": "concept",
+              "label": "Transportation in Plants",
+              "summary": "Transportation in Plants is the process by which substances are moved throughout a plant from one part to another.\n\nKey Points:\n- Transpiration: movement of water vapor from the plant surface to the atmosphere\n- Tropism: movement of plant parts in re...",
+              "preview": "Transportation in Plants is the process by which substances ...",
+              "keywords": [
+                "Transportation",
+                "process",
+                "substances",
+                "throughout",
+                "another"
+              ],
+              "ui": {
+                "expandable": true,
+                "visual_type": "system_flow",
+                "node_style": "default",
+                "animation_hint": "expand_simple",
+                "icon": "circle"
+              },
+              "children": [
+                {
+                  "id": "a060eeaf-c812-43a6-b9d4-e799227470e0",
+                  "type": "concept",
+                  "label": "Importance of Xylem and Phloem",
+                  "summary": "Definition:\nTransportation in plants is the movement of water and nutrients through the plant body.\n\nKey Points:\n- Xylem is a complex vascular tissue that helps in the upward transportation of water and minerals.\n- Phloem is a vascular tissue that is...",
+                  "preview": "Definition:\nTransportation in plants is the movement of wate...",
+                  "keywords": [
+                    "Definition:",
+                    "Transportation",
+                    "movement",
+                    "nutrients",
+                    "through"
+                  ],
+                  "ui": {
+                    "expandable": false,
+                    "visual_type": "text_node",
+                    "node_style": "default",
+                    "animation_hint": "fade_in",
+                    "icon": "circle"
+                  },
+                  "children": [],
+                  "metadata": {
+                    "depth": 0,
+                    "leaf": true
+                  }
+                },
+                {
+                  "id": "a05712a4-55b1-4297-9738-f2106af42480",
+                  "type": "concept",
+                  "label": "Transport of Water and Minerals",
+                  "summary": "Definition:\nThe transport of water and minerals is a process that ensures the survival of plants.\n\nKey Points:\n- Water and minerals are absorbed through the roots.\n- They are then transported to various parts of the plant through xylem and phloem.\n- ...",
+                  "preview": "Definition:\nThe transport of water and minerals is a process...",
+                  "keywords": [
+                    "Definition:",
+                    "transport",
+                    "minerals",
+                    "process",
+                    "ensures"
+                  ],
+                  "ui": {
+                    "expandable": false,
+                    "visual_type": "system_flow",
+                    "node_style": "default",
+                    "animation_hint": "fade_in",
+                    "icon": "circle"
+                  },
+                  "children": [],
+                  "metadata": {
+                    "depth": 0,
+                    "leaf": true
+                  }
+                }
+              ],
+              "metadata": {
+                "depth": 1,
+                "leaf": false
+              }
+            }
+          ],
+          "metadata": {
+            "depth": 2,
+            "leaf": false
+          }
+        },
+        {
+          "id": "d78f069f-b886-4f9b-96cb-b2e911ada570",
+          "type": "concept",
+          "label": "Excretion",
+          "summary": "Definition:\nThe process by which an organism removes or eliminates waste products from its body.\n\nKey Points:\n- Occurs through the skin and lungs\n- Involves excretory organs such as the kidneys and liver\n- Plays a crucial role in maintaining a health...",
+          "preview": "Definition:\nThe process by which an organism removes or elim...",
+          "keywords": [
+            "Definition:",
+            "process",
+            "organism",
+            "removes",
+            "eliminates"
+          ],
+          "ui": {
+            "expandable": true,
+            "visual_type": "tree_node",
+            "node_style": "default",
+            "animation_hint": "expand_simple",
+            "icon": "filter"
+          },
+          "children": [
+            {
+              "id": "844a26db-8b27-4eb8-9404-aa849b50ac3b",
+              "type": "concept",
+              "label": "Importance of Excretion",
+              "summary": "Definition:\nThe process of removing waste products from the body to maintain health.\n\nKey Points:\n- Helps maintain homeostasis by regulating the balance of fluids\n- Prevents the buildup of toxic substances\n- Maintains healthy skin tone and appearance...",
+              "preview": "Definition:\nThe process of removing waste products from the ...",
+              "keywords": [
+                "Definition:",
+                "process",
+                "removing",
+                "products",
+                "maintain"
+              ],
+              "ui": {
+                "expandable": false,
+                "visual_type": "text_node",
+                "node_style": "default",
+                "animation_hint": "fade_in",
+                "icon": "filter"
+              },
+              "children": [],
+              "metadata": {
+                "depth": 0,
+                "leaf": true
+              }
+            },
+            {
+              "id": "67b5ae72-2ece-4425-80b3-70ba14806b06",
+              "type": "concept",
+              "label": "Types of Excretory Systems",
+              "summary": "Types of Excretory Systems\n\nDefinition:\nA system by which organisms remove waste products from the body.\n\nKey Points:\n- Urinogenital system in humans\n- Earthworm's body with pharyngeal and branched network\n- Plants with simple diffusion in leaf cells...",
+              "preview": "Types of Excretory Systems\n\nDefinition:\nA system by which or...",
+              "keywords": [
+                "Excretory",
+                "Systems",
+                "Definition:",
+                "organisms",
+                "products"
+              ],
+              "ui": {
+                "expandable": false,
+                "visual_type": "text_node",
+                "node_style": "default",
+                "animation_hint": "fade_in",
+                "icon": "circle"
+              },
+              "children": [],
+              "metadata": {
+                "depth": 0,
+                "leaf": true
+              }
+            }
+          ],
+          "metadata": {
+            "depth": 1,
+            "leaf": false
+          }
+        }
+      ],
+      "metadata": {
+        "depth": 4,
+        "leaf": false
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "Life Processes",
+      "to": "What is a Life Process?",
+      "relation": "Related To"
+    },
+    {
+      "from": "What is a Life Process?",
+      "to": "Definition of Life Process",
+      "relation": "Related To"
+    },
+    {
+      "from": "Definition of Life Process",
+      "to": "Importance of Life Processes",
+      "relation": "Related To"
+    },
+    {
+      "from": "Importance of Life Processes",
+      "to": "Energy Requirements",
+      "relation": "Related To"
+    },
+    {
+      "from": "Energy Requirements",
+      "to": "Nutritional Requirements",
+      "relation": "Related To"
+    },
+    {
+      "from": "Nutritional Requirements",
+      "to": "Nutrition",
+      "relation": "Related To"
+    },
+    {
+      "from": "Nutrition",
+      "to": "Autotrophic Nutrition",
+      "relation": "Related To"
+    },
+    {
+      "from": "Autotrophic Nutrition",
+      "to": "Photosynthesis",
+      "relation": "Related To"
+    },
+    {
+      "from": "Photosynthesis",
+      "to": "Light Energy Absorption",
+      "relation": "Related To"
+    },
+    {
+      "from": "Light Energy Absorption",
+      "to": "Conversion of Light Energy to Chemical Energy",
+      "relation": "Related To"
+    },
+    {
+      "from": "Conversion of Light Energy to Chemical Energy",
+      "to": "Reduction of Carbon Dioxide to Carbohydrates",
+      "relation": "Related To"
+    },
+    {
+      "from": "Reduction of Carbon Dioxide to Carbohydrates",
+      "to": "Importance of Chlorophyll",
+      "relation": "Related To"
+    },
+    {
+      "from": "Importance of Chlorophyll",
+      "to": "Heterotrophic Nutrition",
+      "relation": "Related To"
+    },
+    {
+      "from": "Heterotrophic Nutrition",
+      "to": "Importance of Enzymes",
+      "relation": "Related To"
+    },
+    {
+      "from": "Importance of Enzymes",
+      "to": "Types of Heterotrophic Nutrition",
+      "relation": "Related To"
+    },
+    {
+      "from": "Types of Heterotrophic Nutrition",
+      "to": "Respiration",
+      "relation": "Related To"
+    },
+    {
+      "from": "Respiration",
+      "to": "Types of Respiration",
+      "relation": "Related To"
+    },
+    {
+      "from": "Types of Respiration",
+      "to": "Aerobic Respiration",
+      "relation": "Related To"
+    },
+    {
+      "from": "Aerobic Respiration",
+      "to": "Importance of Oxygen",
+      "relation": "Related To"
+    },
+    {
+      "from": "Importance of Oxygen",
+      "to": "Role of Mitochondria",
+      "relation": "Related To"
+    },
+    {
+      "from": "Role of Mitochondria",
+      "to": "Anaerobic Respiration",
+      "relation": "Related To"
+    },
+    {
+      "from": "Anaerobic Respiration",
+      "to": "Importance of Anaerobic Conditions",
+      "relation": "Related To"
+    },
+    {
+      "from": "Importance of Anaerobic Conditions",
+      "to": "Role of Pyruvate",
+      "relation": "Related To"
+    },
+    {
+      "from": "Role of Pyruvate",
+      "to": "Transport of Oxygen and Carbon Dioxide",
+      "relation": "Related To"
+    },
+    {
+      "from": "Transport of Oxygen and Carbon Dioxide",
+      "to": "Importance of Haemoglobin",
+      "relation": "Related To"
+    },
+    {
+      "from": "Importance of Haemoglobin",
+      "to": "Types of Respiratory Organs",
+      "relation": "Related To"
+    },
+    {
+      "from": "Types of Respiratory Organs",
+      "to": "Transportation",
+      "relation": "Related To"
+    },
+    {
+      "from": "Transportation",
+      "to": "Transportation in Human Beings",
+      "relation": "Related To"
+    },
+    {
+      "from": "Transportation in Human Beings",
+      "to": "Importance of Haemoglobin",
+      "relation": "Related To"
+    },
+    {
+      "from": "Importance of Haemoglobin",
+      "to": "Structure of the Heart",
+      "relation": "Related To"
+    },
+    {
+      "from": "Structure of the Heart",
+      "to": "Transportation in Plants",
+      "relation": "Related To"
+    },
+    {
+      "from": "Transportation in Plants",
+      "to": "Importance of Xylem and Phloem",
+      "relation": "Related To"
+    },
+    {
+      "from": "Importance of Xylem and Phloem",
+      "to": "Transport of Water and Minerals",
+      "relation": "Related To"
+    },
+    {
+      "from": "Transport of Water and Minerals",
+      "to": "Excretion",
+      "relation": "Related To"
+    },
+    {
+      "from": "Excretion",
+      "to": "Importance of Excretion",
+      "relation": "Related To"
+    },
+    {
+      "from": "Importance of Excretion",
+      "to": "Types of Excretory Systems",
+      "relation": "Related To"
+    }
+  ]
+}

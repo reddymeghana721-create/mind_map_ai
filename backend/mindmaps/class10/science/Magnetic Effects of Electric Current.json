@@ -1,0 +1,919 @@
+{
+  "id": "4ebbcd3e-9f2e-4d03-b120-6ecad2b9b59f",
+  "type": "chapter",
+  "label": "Magnetic Effects of Electric Current",
+  "summary": "",
+  "preview": "",
+  "ui": {
+    "expandable": true,
+    "visual_type": "root"
+  },
+  "children": [
+    {
+      "id": "56b1c631-ee2e-4fa9-a55d-35b112fac9fd",
+      "type": "concept",
+      "label": "Magnetic Effect",
+      "summary": "Definition:\nMagnetic effect is the phenomenon by which an electric current exerts a magnetic force on a stationary wire.\n\nKey Points:\n- Electric current flowing through a conductor produces a magnetic field around it.\n- The direction of the magnetic ...",
+      "preview": "Definition:\nMagnetic effect is the phenomenon by which an el...",
+      "keywords": [
+        "Definition:",
+        "Magnetic",
+        "phenomenon",
+        "electric",
+        "current"
+      ],
+      "ui": {
+        "expandable": true,
+        "visual_type": "tree_node",
+        "node_style": "default",
+        "animation_hint": "expand_cascade",
+        "icon": "circle"
+      },
+      "children": [
+        {
+          "id": "5c27deb1-dd1a-4062-91e8-5265cec17b54",
+          "type": "concept",
+          "label": "Connection Between Electricity and Magnetism",
+          "summary": "Definition:\nThe magnetic effect of electricity is the production of magnetism due to the movement of electric current.\n\nKey Points:\n- Electromagnets are produced when electric current flows through a wire\n- Electric current produces a magnetic field ...",
+          "preview": "Definition:\nThe magnetic effect of electricity is the produc...",
+          "keywords": [
+            "Definition:",
+            "magnetic",
+            "electricity",
+            "production",
+            "magnetism"
+          ],
+          "ui": {
+            "expandable": true,
+            "visual_type": "tree_node",
+            "node_style": "default",
+            "animation_hint": "expand_simple",
+            "icon": "circle"
+          },
+          "children": [
+            {
+              "id": "10117b2a-e7b7-493c-a87f-50ca83973de4",
+              "type": "concept",
+              "label": "Relationship",
+              "summary": "Definition:\nThe flow of electric current through a conductor produces a magnetic effect.\n\nKey Points:\n- When an electric current flows through a conductor, it generates a magnetic field.\n- The direction of the magnetic field depends on the direction ...",
+              "preview": "Definition:\nThe flow of electric current through a conductor...",
+              "keywords": [
+                "Definition:",
+                "electric",
+                "current",
+                "through",
+                "conductor"
+              ],
+              "ui": {
+                "expandable": false,
+                "visual_type": "text_node",
+                "node_style": "default",
+                "animation_hint": "fade_in",
+                "icon": "circle"
+              },
+              "children": [],
+              "metadata": {
+                "depth": 0,
+                "leaf": true
+              }
+            },
+            {
+              "id": "427b6b76-75b4-4f3e-9589-fdae9aefed31",
+              "type": "concept",
+              "label": "Hans Christian Oersted",
+              "summary": "Definition:\nHans Christian Oersted discovered a relation between electric current and magnetism.\n\nKey Points:\n- Made the first experimental discovery of electromagnetism\n- Powered his experiment with a defied current\n- Demonstrated a magnetic needle ...",
+              "preview": "Definition:\nHans Christian Oersted discovered a relation bet...",
+              "keywords": [
+                "Definition:",
+                "Christian",
+                "Oersted",
+                "discovered",
+                "relation"
+              ],
+              "ui": {
+                "expandable": true,
+                "visual_type": "tree_node",
+                "node_style": "default",
+                "animation_hint": "expand_simple",
+                "icon": "circle"
+              },
+              "children": [
+                {
+                  "id": "8bc1b16f-d052-40f4-bb01-abfca9999d1e",
+                  "type": "concept",
+                  "label": "Discovery",
+                  "summary": "Definition:\nThe discovery of the magnetic effects of electric current was made by Hans Christian Oersted in 1820.\n\nKey Points:\n- Oersted noticed that a compass needle was deflected when brought near a wire carrying electric current.\n- The direction o...",
+                  "preview": "Definition:\nThe discovery of the magnetic effects of electri...",
+                  "keywords": [
+                    "Definition:",
+                    "discovery",
+                    "magnetic",
+                    "effects",
+                    "electric"
+                  ],
+                  "ui": {
+                    "expandable": false,
+                    "visual_type": "text_node",
+                    "node_style": "default",
+                    "animation_hint": "fade_in",
+                    "icon": "circle"
+                  },
+                  "children": [],
+                  "metadata": {
+                    "depth": 0,
+                    "leaf": true
+                  }
+                },
+                {
+                  "id": "7b154006-6aed-43df-993e-98a7b8d7b35c",
+                  "type": "concept",
+                  "label": "Contribution to Electromagnetism",
+                  "summary": "Hans Christian Oersted's contribution to Electromagnetism is the discovery of the magnetic effects of electric current.\n\nKey Points:\n- A coiled wire carrying electric current deflects a compass needle\n- The direction of deflection depends on the dire...",
+                  "preview": "Hans Christian Oersted's contribution to Electromagnetism is...",
+                  "keywords": [
+                    "Christian",
+                    "Oersted's",
+                    "contribution",
+                    "Electromagnetism",
+                    "discovery"
+                  ],
+                  "ui": {
+                    "expandable": false,
+                    "visual_type": "text_node",
+                    "node_style": "default",
+                    "animation_hint": "fade_in",
+                    "icon": "circle"
+                  },
+                  "children": [],
+                  "metadata": {
+                    "depth": 0,
+                    "leaf": true
+                  }
+                }
+              ],
+              "metadata": {
+                "depth": 1,
+                "leaf": false
+              }
+            }
+          ],
+          "metadata": {
+            "depth": 2,
+            "leaf": false
+          }
+        },
+        {
+          "id": "01252d04-1dd1-4810-b4d8-14ffd2a2e0f3",
+          "type": "concept",
+          "label": "Magnetic Field",
+          "summary": "Definition:\nMagnetic field is the region around a magnet where magnetic forces can be detected.\n\nKey Points:\n- A magnetic field is created by the movement of electric charges.\n- Magnetic fields exhibit properties like lines of force and north and sou...",
+          "preview": "Definition:\nMagnetic field is the region around a magnet whe...",
+          "keywords": [
+            "Definition:",
+            "Magnetic",
+            "magnetic",
+            "detected",
+            "Points:"
+          ],
+          "ui": {
+            "expandable": true,
+            "visual_type": "tree_node",
+            "node_style": "default",
+            "animation_hint": "expand_simple",
+            "icon": "circle"
+          },
+          "children": [
+            {
+              "id": "6363e4ba-b1a6-4778-9b4f-e3a4734ecd6f",
+              "type": "concept",
+              "label": "Definition",
+              "summary": "Definition:\nA magnetic field is a region around a magnet or a current-carrying wire where magnetic forces can be detected.\n\nKey Points:\n- It is created by the alignment of magnetic domains or by an electric current.\n- It can be visualized using iron ...",
+              "preview": "Definition:\nA magnetic field is a region around a magnet or ...",
+              "keywords": [
+                "Definition:",
+                "magnetic",
+                "current-carrying",
+                "magnetic",
+                "detected"
+              ],
+              "ui": {
+                "expandable": false,
+                "visual_type": "text_node",
+                "node_style": "default",
+                "animation_hint": "fade_in",
+                "icon": "circle"
+              },
+              "children": [],
+              "metadata": {
+                "depth": 0,
+                "leaf": true
+              }
+            },
+            {
+              "id": "54d2130a-cbab-4690-971c-1ed5ca8e8963",
+              "type": "concept",
+              "label": "Direction",
+              "summary": "Definition:\nThe direction of the magnetic field around a current-carrying wire is determined by the direction of the electric current flowing through it.\n\nKey Points:\n- The direction of the magnetic field is from north to south\n- The magnetic field l...",
+              "preview": "Definition:\nThe direction of the magnetic field around a cur...",
+              "keywords": [
+                "Definition:",
+                "direction",
+                "magnetic",
+                "current-carrying",
+                "determined"
+              ],
+              "ui": {
+                "expandable": true,
+                "visual_type": "tree_node",
+                "node_style": "default",
+                "animation_hint": "expand_simple",
+                "icon": "circle"
+              },
+              "children": [
+                {
+                  "id": "ed4a2e8e-fb8a-428f-962d-fe4f76889b2f",
+                  "type": "concept",
+                  "label": "Conventions",
+                  "summary": "Definition:\nConventions relate to the rules and standards governing the representation of electric current and its effects, especially when it comes to magnetic fields.\n\nKey Points:\n- Right-hand rule for determining direction\n- Fleming's left-hand ru...",
+                  "preview": "Definition:\nConventions relate to the rules and standards go...",
+                  "keywords": [
+                    "Definition:",
+                    "Conventions",
+                    "standards",
+                    "governing",
+                    "representation"
+                  ],
+                  "ui": {
+                    "expandable": false,
+                    "visual_type": "text_node",
+                    "node_style": "default",
+                    "animation_hint": "fade_in",
+                    "icon": "circle"
+                  },
+                  "children": [],
+                  "metadata": {
+                    "depth": 0,
+                    "leaf": true
+                  }
+                }
+              ],
+              "metadata": {
+                "depth": 1,
+                "leaf": false
+              }
+            },
+            {
+              "id": "25d3e101-1706-433d-92fb-9546ca39cbc4",
+              "type": "concept",
+              "label": "Magnitude",
+              "summary": "Definition:\nThe magnitude of a magnetic field is the measure of the strength or intensity of the magnetic field.\n\nKey Points:\n- It depends on the amount of electric current and the length of the wire.\n- The direction of the current also affects the m...",
+              "preview": "Definition:\nThe magnitude of a magnetic field is the measure...",
+              "keywords": [
+                "Definition:",
+                "magnitude",
+                "magnetic",
+                "measure",
+                "strength"
+              ],
+              "ui": {
+                "expandable": true,
+                "visual_type": "tree_node",
+                "node_style": "default",
+                "animation_hint": "expand_simple",
+                "icon": "circle"
+              },
+              "children": [
+                {
+                  "id": "d39ecec4-bbe3-42e4-bf6a-d5fc1fb9ddae",
+                  "type": "concept",
+                  "label": "Field Lines",
+                  "summary": "Definition:\nField lines are used to visualize and represent the magnetic effects of an electric current.\n\nKey Points:\n- Are drawn from the north pole to the south pole of a magnet\n- Are directed towards the magnetic poles where the current is flowing...",
+                  "preview": "Definition:\nField lines are used to visualize and represent ...",
+                  "keywords": [
+                    "Definition:",
+                    "visualize",
+                    "represent",
+                    "magnetic",
+                    "effects"
+                  ],
+                  "ui": {
+                    "expandable": false,
+                    "visual_type": "text_node",
+                    "node_style": "default",
+                    "animation_hint": "fade_in",
+                    "icon": "circle"
+                  },
+                  "children": [],
+                  "metadata": {
+                    "depth": 0,
+                    "leaf": true
+                  }
+                }
+              ],
+              "metadata": {
+                "depth": 1,
+                "leaf": false
+              }
+            }
+          ],
+          "metadata": {
+            "depth": 2,
+            "leaf": false
+          }
+        },
+        {
+          "id": "1354b0dc-4a7c-4767-bb72-d57faf842be7",
+          "type": "concept",
+          "label": "Magnetic Field with Current-Carrying Conductor",
+          "summary": "Definition:\nA magnetic field is produced around a current-carrying conductor.\n\nKey Points:\n- The magnitude of the magnetic field depends on the current flowing through the conductor, the length of the conductor, and the number of turns of the conduct...",
+          "preview": "Definition:\nA magnetic field is produced around a current-ca...",
+          "keywords": [
+            "Definition:",
+            "magnetic",
+            "produced",
+            "current-carrying",
+            "conductor"
+          ],
+          "ui": {
+            "expandable": true,
+            "visual_type": "tree_node",
+            "node_style": "default",
+            "animation_hint": "expand_simple",
+            "icon": "circle"
+          },
+          "children": [
+            {
+              "id": "955ecdfb-0c09-4f02-b228-b9a78c815d06",
+              "type": "concept",
+              "label": "Magnetic Field around a Straight Conductor",
+              "summary": "Definition:\nA magnetic field is produced around a straight conductor when electric current flows through it.\n\nKey Points:\n- Magnetic field is stronger near the ends of the conductor.\n- Magnetic field increases with an increase in current flowing thro...",
+              "preview": "Definition:\nA magnetic field is produced around a straight c...",
+              "keywords": [
+                "Definition:",
+                "magnetic",
+                "produced",
+                "straight",
+                "conductor"
+              ],
+              "ui": {
+                "expandable": true,
+                "visual_type": "tree_node",
+                "node_style": "default",
+                "animation_hint": "expand_simple",
+                "icon": "circle"
+              },
+              "children": [
+                {
+                  "id": "ae674732-f3d7-48b8-8ee2-c5cca007762f",
+                  "type": "concept",
+                  "label": "Properties",
+                  "summary": "Definition: Properties refer to the characteristics exhibited by a magnetic field generated around a straight conductor when an electric current flows through it.\n\nKey Points:\n- Properties depend on the strength and direction of the electric current....",
+                  "preview": "Definition: Properties refer to the characteristics exhibite...",
+                  "keywords": [
+                    "Definition:",
+                    "Properties",
+                    "characteristics",
+                    "exhibited",
+                    "magnetic"
+                  ],
+                  "ui": {
+                    "expandable": false,
+                    "visual_type": "text_node",
+                    "node_style": "default",
+                    "animation_hint": "fade_in",
+                    "icon": "circle"
+                  },
+                  "children": [],
+                  "metadata": {
+                    "depth": 0,
+                    "leaf": true
+                  }
+                }
+              ],
+              "metadata": {
+                "depth": 1,
+                "leaf": false
+              }
+            },
+            {
+              "id": "cb8eda48-a748-4888-95b6-91547b8648e6",
+              "type": "concept",
+              "label": "Magnetic Field around a Circular Loop",
+              "summary": "Definition:\nA circular loop carrying an electric current produces a magnetic field around itself.\n\nKey Points:\n- The magnetic field is maximum at the center of the loop and decreases as we move away from it.\n- The direction of the magnetic field can ...",
+              "preview": "Definition:\nA circular loop carrying an electric current pro...",
+              "keywords": [
+                "Definition:",
+                "circular",
+                "carrying",
+                "electric",
+                "current"
+              ],
+              "ui": {
+                "expandable": true,
+                "visual_type": "tree_node",
+                "node_style": "default",
+                "animation_hint": "expand_simple",
+                "icon": "circle"
+              },
+              "children": [
+                {
+                  "id": "0abb5d97-548a-46c2-a167-387b4a6f2c7a",
+                  "type": "concept",
+                  "label": "Are Length and Distance",
+                  "summary": "Definition:\nThe magnetic field around a circular loop of wire depends on the length and distance of the loop.\n\nKey Points:\n- Length increases magnetic field strength\n- Increasing distance reduces magnetic field strength\n- Magnetic field has direction...",
+                  "preview": "Definition:\nThe magnetic field around a circular loop of wir...",
+                  "keywords": [
+                    "Definition:",
+                    "magnetic",
+                    "circular",
+                    "depends",
+                    "distance"
+                  ],
+                  "ui": {
+                    "expandable": false,
+                    "visual_type": "text_node",
+                    "node_style": "default",
+                    "animation_hint": "fade_in",
+                    "icon": "circle"
+                  },
+                  "children": [],
+                  "metadata": {
+                    "depth": 0,
+                    "leaf": true
+                  }
+                }
+              ],
+              "metadata": {
+                "depth": 1,
+                "leaf": false
+              }
+            }
+          ],
+          "metadata": {
+            "depth": 2,
+            "leaf": false
+          }
+        },
+        {
+          "id": "9d10b0bb-c798-4e51-b3fc-7cff251c779a",
+          "type": "concept",
+          "label": "Force on a Current-Carrying Conductor in a Magnetic Field",
+          "summary": "Definition:\nThe force exerted on a current-carrying conductor placed in a magnetic field is called the magnetic effect of electric current.\n\nKey Points:\n- The direction of the force is determined by the right-hand rule.\n- The magnitude of the force d...",
+          "preview": "Definition:\nThe force exerted on a current-carrying conducto...",
+          "keywords": [
+            "Definition:",
+            "exerted",
+            "current-carrying",
+            "conductor",
+            "magnetic"
+          ],
+          "ui": {
+            "expandable": true,
+            "visual_type": "tree_node",
+            "node_style": "default",
+            "animation_hint": "expand_simple",
+            "icon": "circle"
+          },
+          "children": [
+            {
+              "id": "5357f2b5-6176-4cb0-bcba-e5d6e2b646cf",
+              "type": "concept",
+              "label": "Force Direction",
+              "summary": "Definition:\nThe force acting on a current-carrying conductor in a magnetic field is influenced by the direction of the force relative to the direction of the conductor's length.\n\nKey Points:\n- Direction of force is perpendicular to the length of the ...",
+              "preview": "Definition:\nThe force acting on a current-carrying conductor...",
+              "keywords": [
+                "Definition:",
+                "current-carrying",
+                "conductor",
+                "magnetic",
+                "influenced"
+              ],
+              "ui": {
+                "expandable": true,
+                "visual_type": "tree_node",
+                "node_style": "default",
+                "animation_hint": "expand_simple",
+                "icon": "circle"
+              },
+              "children": [
+                {
+                  "id": "0b06d281-7abe-4c55-aa67-adbaeffc41e9",
+                  "type": "concept",
+                  "label": "Fleming's Left-Hand Rule",
+                  "summary": "Definition:\nFleming's Left-Hand Rule is a method to determine the direction of magnetic field produced by a current-carrying wire.\n\nKey Points:\n- The rule states that if the first finger points in the direction of the current flow and the second fing...",
+                  "preview": "Definition:\nFleming's Left-Hand Rule is a method to determin...",
+                  "keywords": [
+                    "Definition:",
+                    "Fleming's",
+                    "Left-Hand",
+                    "determine",
+                    "direction"
+                  ],
+                  "ui": {
+                    "expandable": false,
+                    "visual_type": "text_node",
+                    "node_style": "default",
+                    "animation_hint": "fade_in",
+                    "icon": "circle"
+                  },
+                  "children": [],
+                  "metadata": {
+                    "depth": 0,
+                    "leaf": true
+                  }
+                }
+              ],
+              "metadata": {
+                "depth": 1,
+                "leaf": false
+              }
+            },
+            {
+              "id": "8410b0f3-bcf9-4e9a-91ca-d7c0c20203e9",
+              "type": "concept",
+              "label": "Force Magnitude",
+              "summary": "Definition:\nThe magnitude of the force exerted on a current-carrying conductor in a magnetic field depends on the strength of the magnetic field, the magnitude of the current, and the angle between the conductor and the magnetic field.\n\nKey Points:\n-...",
+              "preview": "Definition:\nThe magnitude of the force exerted on a current-...",
+              "keywords": [
+                "Definition:",
+                "magnitude",
+                "exerted",
+                "current-carrying",
+                "conductor"
+              ],
+              "ui": {
+                "expandable": false,
+                "visual_type": "text_node",
+                "node_style": "default",
+                "animation_hint": "fade_in",
+                "icon": "circle"
+              },
+              "children": [],
+              "metadata": {
+                "depth": 0,
+                "leaf": true
+              }
+            }
+          ],
+          "metadata": {
+            "depth": 2,
+            "leaf": false
+          }
+        },
+        {
+          "id": "4252030d-1daf-4533-b838-0c1905249ae3",
+          "type": "concept",
+          "label": "Applications",
+          "summary": "Magnetic effects of electric current involves the interaction between an electric current and a magnetic field, resulting in various observable effects.\n\nKey Points:\n- Electromagnetic induction occurs when a conductor moves through a magnetic field\n-...",
+          "preview": "Magnetic effects of electric current involves the interactio...",
+          "keywords": [
+            "Magnetic",
+            "effects",
+            "electric",
+            "current",
+            "involves"
+          ],
+          "ui": {
+            "expandable": true,
+            "visual_type": "tree_node",
+            "node_style": "default",
+            "animation_hint": "expand_simple",
+            "icon": "circle"
+          },
+          "children": [
+            {
+              "id": "2a82a1cf-240e-4551-8b4e-5f05f9754f7c",
+              "type": "concept",
+              "label": "Magnetic Resonance Imaging (MRI)",
+              "summary": "Definition:\nMagnetic Resonance Imaging (MRI) is a medical imaging technique that uses magnetic fields and radio waves to produce detailed images of the body's internal structures.\n\nKey Points:\n- Uses strong magnetic fields to align hydrogen atoms in ...",
+              "preview": "Definition:\nMagnetic Resonance Imaging (MRI) is a medical im...",
+              "keywords": [
+                "Definition:",
+                "Magnetic",
+                "Resonance",
+                "Imaging",
+                "medical"
+              ],
+              "ui": {
+                "expandable": false,
+                "visual_type": "text_node",
+                "node_style": "default",
+                "animation_hint": "fade_in",
+                "icon": "circle"
+              },
+              "children": [],
+              "metadata": {
+                "depth": 0,
+                "leaf": true
+              }
+            },
+            {
+              "id": "fa4133ac-2c82-49f0-a3c2-dff438eb164d",
+              "type": "concept",
+              "label": "Domestic Electric Circuits",
+              "summary": "Definition:\nDomestic electric circuits are the electrical systems used in homes for lighting, heating, and powering electrical devices.\n\nKey Points:\n- Comprise wires, switches, and electric appliances in a network\n- Allow the flow of electric current...",
+              "preview": "Definition:\nDomestic electric circuits are the electrical sy...",
+              "keywords": [
+                "Definition:",
+                "Domestic",
+                "electric",
+                "circuits",
+                "electrical"
+              ],
+              "ui": {
+                "expandable": true,
+                "visual_type": "tree_node",
+                "node_style": "default",
+                "animation_hint": "expand_simple",
+                "icon": "circle"
+              },
+              "children": [
+                {
+                  "id": "4a68e806-ccda-4f7e-8290-5cea3b293880",
+                  "type": "concept",
+                  "label": "Safety Measures",
+                  "summary": "Definition:\nSafety measures are essential to prevent accidents while working with electric current.\n\nKey Points:\n- Wear protective gloves and shoes to avoid electrical shock\n- Keep your body away from exposed wires and circuits\n- Never touch electric...",
+                  "preview": "Definition:\nSafety measures are essential to prevent acciden...",
+                  "keywords": [
+                    "Definition:",
+                    "measures",
+                    "essential",
+                    "prevent",
+                    "accidents"
+                  ],
+                  "ui": {
+                    "expandable": true,
+                    "visual_type": "tree_node",
+                    "node_style": "default",
+                    "animation_hint": "expand_simple",
+                    "icon": "circle"
+                  },
+                  "children": [
+                    {
+                      "id": "908589e8-140e-4e60-96e0-5d2289f5794c",
+                      "type": "concept",
+                      "label": "Earth Wire",
+                      "summary": "Magnetic Effects of Electric Current\nEarth Wire\nDefinition:\nAn earth wire is a safety device connected to the metal body of an electrical appliance to prevent electric shock.\n\nKey Points:\n- Prevents electric shock in case of a short circuit\n- Carries...",
+                      "preview": "Magnetic Effects of Electric Current\nEarth Wire\nDefinition:\n...",
+                      "keywords": [
+                        "Magnetic",
+                        "Effects",
+                        "Electric",
+                        "Current",
+                        "Definition:"
+                      ],
+                      "ui": {
+                        "expandable": false,
+                        "visual_type": "text_node",
+                        "node_style": "default",
+                        "animation_hint": "fade_in",
+                        "icon": "circle"
+                      },
+                      "children": [],
+                      "metadata": {
+                        "depth": 0,
+                        "leaf": true
+                      }
+                    },
+                    {
+                      "id": "850de85e-5d1d-4e6e-9789-c599bd8777d0",
+                      "type": "concept",
+                      "label": "Electric Fuse",
+                      "summary": "Definition:\nAn electric fuse is a safety device that allows a circuit to break when it overheats, preventing damage or fire.\n\nKey Points:\n- Automatically disconnects the circuit in case of overload\n- Melts when excessive current flows\n- Protects appl...",
+                      "preview": "Definition:\nAn electric fuse is a safety device that allows ...",
+                      "keywords": [
+                        "Definition:",
+                        "electric",
+                        "circuit",
+                        "overheats",
+                        "preventing"
+                      ],
+                      "ui": {
+                        "expandable": false,
+                        "visual_type": "text_node",
+                        "node_style": "default",
+                        "animation_hint": "fade_in",
+                        "icon": "circle"
+                      },
+                      "children": [],
+                      "metadata": {
+                        "depth": 0,
+                        "leaf": true
+                      }
+                    }
+                  ],
+                  "metadata": {
+                    "depth": 1,
+                    "leaf": false
+                  }
+                },
+                {
+                  "id": "6c91bc09-efcc-45ca-8471-e2e3d43fdebf",
+                  "type": "concept",
+                  "label": "Circuit Principles",
+                  "summary": "Definition:\nThe magnetic effects of an electric current are the phenomenon where an electric current generates a magnetic field.\n\nKey Points:\n- Magnetic field direction is determined by right-hand rule\n- Presence of magnetic field repels or attracts ...",
+                  "preview": "Definition:\nThe magnetic effects of an electric current are ...",
+                  "keywords": [
+                    "Definition:",
+                    "magnetic",
+                    "effects",
+                    "electric",
+                    "current"
+                  ],
+                  "ui": {
+                    "expandable": true,
+                    "visual_type": "tree_node",
+                    "node_style": "default",
+                    "animation_hint": "expand_simple",
+                    "icon": "circle"
+                  },
+                  "children": [
+                    {
+                      "id": "a94e9115-7754-4209-90a0-7398626d27dd",
+                      "type": "concept",
+                      "label": "Live and Neutral Wires",
+                      "summary": "Definition:\nThe live wire carries the electric current across the circuit.\n\nKey Points:\n- The live wire is the wire that gives an electric shock.\n- The live wire is usually colored red or blue.\n- It is also known as the \"hot\" wire.\n\nImportance:\nUnder...",
+                      "preview": "Definition:\nThe live wire carries the electric current acros...",
+                      "keywords": [
+                        "Definition:",
+                        "carries",
+                        "electric",
+                        "current",
+                        "circuit"
+                      ],
+                      "ui": {
+                        "expandable": false,
+                        "visual_type": "text_node",
+                        "node_style": "default",
+                        "animation_hint": "fade_in",
+                        "icon": "circle"
+                      },
+                      "children": [],
+                      "metadata": {
+                        "depth": 0,
+                        "leaf": true
+                      }
+                    },
+                    {
+                      "id": "22b77d0f-e42f-4d5c-ab99-e76c261eb645",
+                      "type": "concept",
+                      "label": "Appliances and Switches",
+                      "summary": "Definition:\nMagnetic effects occur when an electric current flows through a conductor, producing a magnetic field.\n\nKey Points:\n- Appliance magnets are used in switches to detect current flow\n- Appliance efficiency is affected by the magnetic effects...",
+                      "preview": "Definition:\nMagnetic effects occur when an electric current ...",
+                      "keywords": [
+                        "Definition:",
+                        "Magnetic",
+                        "effects",
+                        "electric",
+                        "current"
+                      ],
+                      "ui": {
+                        "expandable": false,
+                        "visual_type": "text_node",
+                        "node_style": "default",
+                        "animation_hint": "fade_in",
+                        "icon": "circle"
+                      },
+                      "children": [],
+                      "metadata": {
+                        "depth": 0,
+                        "leaf": true
+                      }
+                    }
+                  ],
+                  "metadata": {
+                    "depth": 1,
+                    "leaf": false
+                  }
+                }
+              ],
+              "metadata": {
+                "depth": 2,
+                "leaf": false
+              }
+            }
+          ],
+          "metadata": {
+            "depth": 3,
+            "leaf": false
+          }
+        }
+      ],
+      "metadata": {
+        "depth": 4,
+        "leaf": false
+      }
+    },
+    {
+      "id": "4ad750d2-a91d-4b3d-99e4-4f9f917737c1",
+      "type": "concept",
+      "label": "Applications of Electromagnetism",
+      "summary": "Definition:\nElectromagnetism is the phenomenon by which electric current generates magnetic effects.\n\nKey Points:\n- The magnetic field is strong near the current-carrying wire.\n- The magnetic field depends on the magnitude of the electric current.\n- ...",
+      "preview": "Definition:\nElectromagnetism is the phenomenon by which elec...",
+      "keywords": [
+        "Definition:",
+        "Electromagnetism",
+        "phenomenon",
+        "electric",
+        "current"
+      ],
+      "ui": {
+        "expandable": true,
+        "visual_type": "tree_node",
+        "node_style": "default",
+        "animation_hint": "expand_simple",
+        "icon": "circle"
+      },
+      "children": [
+        {
+          "id": "b762ae4d-1ea9-41f5-afc8-9277544962eb",
+          "type": "concept",
+          "label": "Mechanical and Electrical Equipment",
+          "summary": "Definition:\nThe flow of electric current through a conductor produces a magnetic effect.\n\nKey Points:\n- It produces a circular magnetic field around the conductor.\n- The direction of the magnetic field depends on the direction of the current.\n- The s...",
+          "preview": "Definition:\nThe flow of electric current through a conductor...",
+          "keywords": [
+            "Definition:",
+            "electric",
+            "current",
+            "through",
+            "conductor"
+          ],
+          "ui": {
+            "expandable": false,
+            "visual_type": "text_node",
+            "node_style": "default",
+            "animation_hint": "fade_in",
+            "icon": "circle"
+          },
+          "children": [],
+          "metadata": {
+            "depth": 0,
+            "leaf": true
+          }
+        },
+        {
+          "id": "5dc6af9f-2193-4721-8544-0f2a39b850ea",
+          "type": "concept",
+          "label": "Applications in Medicine",
+          "summary": "Definition:\nMagnetic effects of electric current are utilized in certain medical applications.\n\nKey Points:\n- Magnetic Resonance Imaging (MRI) machines use electric current to create detailed images of internal organs.\n- Electromagnetic therapy invol...",
+          "preview": "Definition:\nMagnetic effects of electric current are utilize...",
+          "keywords": [
+            "Definition:",
+            "Magnetic",
+            "effects",
+            "electric",
+            "current"
+          ],
+          "ui": {
+            "expandable": false,
+            "visual_type": "text_node",
+            "node_style": "default",
+            "animation_hint": "fade_in",
+            "icon": "circle"
+          },
+          "children": [],
+          "metadata": {
+            "depth": 0,
+            "leaf": true
+          }
+        }
+      ],
+      "metadata": {
+        "depth": 1,
+        "leaf": false
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "Magnetic Effect",
+      "to": "Hans Christian Oersted",
+      "relation": "Produces"
+    },
+    {
+      "from": "Magnetic Field",
+      "to": "Field Lines",
+      "relation": "Represents"
+    },
+    {
+      "from": "Fleming's Left-Hand Rule",
+      "to": "Force Direction",
+      "relation": "Determines"
+    },
+    {
+      "from": "Domestic Electric Circuits",
+      "to": "Safety Measures",
+      "relation": "Requires"
+    },
+    {
+      "from": "Earth Wire",
+      "to": "Electric Fuse",
+      "relation": "Works In"
+    },
+    {
+      "from": "Applications of Electromagnetism",
+      "to": "Mechanical and Electrical Equipment",
+      "relation": "Includes"
+    }
+  ]
+}

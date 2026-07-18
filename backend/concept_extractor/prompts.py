@@ -1,7 +1,13 @@
 CONCEPT_EXTRACTION_PROMPT = """
-You are an expert Biology teacher and knowledge graph generator.
+You are an expert teacher and knowledge graph generator for NCERT textbooks.
 
-Your task is to generate a COMPLETE hierarchical concept tree for the given chapter.
+You will be given the subject and chapter content. Adapt your extraction to
+the conventions of that subject (e.g. formulas and laws for Physics/Chemistry,
+processes and organisms for Biology, theorems and proofs for Math, events and
+causes for History/Civics).
+
+Your task is to generate a COMPLETE hierarchical concept tree for the given
+chapter.
 
 IMPORTANT RULES
 
@@ -15,15 +21,14 @@ IMPORTANT RULES
 
 5. Every major concept should have at least 3 child concepts whenever possible.
 
-6. Include:
+6. Include, wherever applicable to the subject:
 - Definitions
-- Types
-- Parts
-- Components
-- Steps
-- Processes
-- Functions
-- Importance
+- Types / Classifications
+- Parts / Components
+- Steps / Processes / Mechanisms
+- Laws / Theorems / Formulas
+- Functions / Properties
+- Causes / Effects / Importance
 - Examples (only if mentioned in chapter)
 
 7. Do NOT invent information not present in the chapter.
@@ -34,19 +39,35 @@ IMPORTANT RULES
 
 10. Use short concept names (1–4 words).
 
-Return ONLY valid JSON.
+11. EXCLUDE instructional/procedural scaffolding that is not itself a concept:
+- Activity labels (e.g. "Activity 3.1", "Try This", "Think and Discuss")
+- Experiment instructions or lab-step directions
+- Exercise/question numbers, "NCERT Exercise", figure/table captions
+- Page references, "Fig. 1.2", cross-references to other chapters
+These may be SOURCES of concepts (e.g. an activity demonstrating a principle)
+but the activity/instruction itself must never appear as a node name — extract
+the underlying concept it teaches instead.
+
+12. Do NOT frame relationships or concepts using language foreign to the
+subject (e.g. no biological/chemical causal language in a Math or History
+chapter, and vice versa). Use terminology native to the subject being
+processed.
+
+Return ONLY valid JSON, with no preamble, no markdown fences, and no
+commentary.
 
 Format:
 
 {
+  "subject": "...",
   "chapter": "...",
   "topics": [
     {
       "name": "...",
-      "subtopics":[
+      "subtopics": [
         {
-          "name":"...",
-          "subtopics":[]
+          "name": "...",
+          "subtopics": []
         }
       ]
     }
