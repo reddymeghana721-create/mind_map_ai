@@ -1,5 +1,7 @@
 import os
 import json
+from database.mindmap_repository import MindMapRepository
+import traceback
 
 from flask import Flask, jsonify
 from flask_cors import CORS
@@ -22,6 +24,8 @@ relationship_generator = RelationshipGenerator(llm)
 summarizer = Summarizer(llm)
 tree_builder = TreeBuilder()
 validator = Validator()   # NEW
+
+mindmap_repo = MindMapRepository()
 
 # In-memory cache
 _mindmap_cache = {}
@@ -98,11 +102,18 @@ def generate_mindmap(class_name: str, subject: str, chapter: str) -> dict:
     if cache_key in _mindmap_cache:
         return _mindmap_cache[cache_key]
 
-    # 2. Disk cache
-    disk_tree = _load_from_disk(class_name, subject, chapter)
-    if disk_tree is not None:
-        _mindmap_cache[cache_key] = disk_tree
-        return disk_tree
+    # 2. MongoDB cache
+    existing = mindmap_repo.get_mindmap(
+    class_name,
+    subject,
+    chapter
+)
+
+    print("Existing mindmap:", existing)
+
+    if existing is not None and "tree" in existing:
+     _mindmap_cache[cache_key] = existing["tree"]
+     return existing["tree"]
 
     # ------------------------------------
     # Load Chapter
@@ -149,12 +160,22 @@ def generate_mindmap(class_name: str, subject: str, chapter: str) -> dict:
         relationships=relationships
     )
 
-    # Save to memory + disk
+    # Save to memory
     _mindmap_cache[cache_key] = final_tree
+
+    # Save to MongoDB
+    mindmap_repo.save_mindmap({
+    "class_name": class_name,
+    "subject": subject,
+    "chapter": chapter,
+    "tree": final_tree
+    })
+
+    # Save JSON (optional backup)
     _save_to_disk(class_name, subject, chapter, final_tree)
 
     return final_tree
-
+ 
 
 @app.route("/api/mindmaps", methods=["GET"])
 def list_mindmaps():
@@ -187,6 +208,7 @@ def get_mindmap(class_name, subject, chapter):
         return jsonify(tree)
 
     except Exception as e:
+        traceback.print_exc()
 
         return jsonify({
             "error": str(e)
