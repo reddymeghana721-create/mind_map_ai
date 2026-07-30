@@ -31,7 +31,7 @@ export default function App() {
     setTreeLoading(true);
 
     fetch(
-      `${API_BASE}/api/mindmap/${item.class_name}/${item.subject}/${item.chapter}`
+      `${API_BASE}/api/mindmap/${encodeURIComponent(item.class_name)}/${encodeURIComponent(item.subject)}/${encodeURIComponent(item.chapter)}`
     )
       .then((res) => {
         if (!res.ok) throw new Error(`Server responded ${res.status}`);

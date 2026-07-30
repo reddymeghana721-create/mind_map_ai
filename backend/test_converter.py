@@ -1,12 +1,12 @@
-from pdf_converter import PDFToTextConverter
+from services.pdf_converter import PDFToTextConverter
 
-converter = PDFToTextConverter(chapters_root="chapters")
+converter = PDFToTextConverter(chapters_root="data/chapters")
 
 output_path = converter.convert(
-    pdf_path="uploads/jemh104.pdf",
+    pdf_path="data/uploads/jesc112.pdf",
     class_name="class10",
-    subject="maths",
-    chapter_name="QUADRATIC EQUATIONS"
+    subject="science",
+    chapter_name="MagneticEffectsofElectricCurrent"
 )
 
 print("Saved to:", output_path)

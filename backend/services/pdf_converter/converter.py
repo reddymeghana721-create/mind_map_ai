@@ -15,7 +15,7 @@ class PDFToTextConverter:
     no text layer, this will raise a clear error instead of failing silently.
     """
 
-    def __init__(self, chapters_root="chapters", repeated_headers=None):
+    def __init__(self, chapters_root=os.path.join("data", "chapters"), repeated_headers=None):
         self.chapters_root = chapters_root
         self.cleaner = TextCleaner(repeated_headers=repeated_headers)
 

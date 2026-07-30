@@ -1,4 +1,7 @@
 from database.connection import db
 
-print("Database Name:", db.name)
-print("✅ MongoDB Connected Successfully!")
+if db is not None:
+    print("Database Name:", db.name)
+    print("MongoDB Connected Successfully!")
+else:
+    print("MongoDB not connected. Please set MONGODB_URI in backend/.env")

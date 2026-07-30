@@ -6,13 +6,13 @@ import traceback
 from flask import Flask, jsonify
 from flask_cors import CORS
 
-from chapter_loader.loader import load_chapter
-from concept_extractor.extractor import ConceptExtractor
-from relationship_generator.generator import RelationshipGenerator
-from summarizer.summarizer import Summarizer
-from tree_builder.builder import TreeBuilder
-from llm.client import OpenRouterLLM
-from validator.validator import Validator   # NEW
+from services.chapter_loader.loader import load_chapter
+from services.concept_extractor.extractor import ConceptExtractor
+from services.relationship_generator.generator import RelationshipGenerator
+from services.summarizer.summarizer import Summarizer
+from services.tree_builder.builder import TreeBuilder
+from services.llm.client import OpenRouterLLM
+from services.validator.validator import Validator   # NEW
 
 app = Flask(__name__)
 CORS(app)
@@ -31,7 +31,7 @@ mindmap_repo = MindMapRepository()
 _mindmap_cache = {}
 
 # Base folder where generated mindmaps are persisted as JSON
-OUTPUT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "mindmaps")
+OUTPUT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "mindmaps")
 
 
 def _get_output_path(class_name: str, subject: str, chapter: str) -> str:
@@ -104,16 +104,23 @@ def generate_mindmap(class_name: str, subject: str, chapter: str) -> dict:
 
     # 2. MongoDB cache
     existing = mindmap_repo.get_mindmap(
-    class_name,
-    subject,
-    chapter
-)
+        class_name,
+        subject,
+        chapter
+    )
 
-    print("Existing mindmap:", existing)
+    print("Existing mindmap in DB:", existing)
 
     if existing is not None and "tree" in existing:
-     _mindmap_cache[cache_key] = existing["tree"]
-     return existing["tree"]
+        _mindmap_cache[cache_key] = existing["tree"]
+        return existing["tree"]
+
+    # 3. Disk cache
+    from_disk = _load_from_disk(class_name, subject, chapter)
+    if from_disk is not None:
+        print("Loaded mindmap from disk:", class_name, subject, chapter)
+        _mindmap_cache[cache_key] = from_disk
+        return from_disk
 
     # ------------------------------------
     # Load Chapter

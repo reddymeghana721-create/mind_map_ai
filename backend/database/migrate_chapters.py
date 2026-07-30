@@ -5,7 +5,7 @@ from database.chapter_repository import ChapterRepository
 repo = ChapterRepository()
 
 BASE_DIR = Path(__file__).resolve().parent.parent
-CHAPTERS_DIR = BASE_DIR / "chapters"
+CHAPTERS_DIR = BASE_DIR / "data" / "chapters"
 
 def migrate():
     print("BASE_DIR:", BASE_DIR)

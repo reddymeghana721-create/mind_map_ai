@@ -1,13 +1,15 @@
 from database.connection import db
 
 # Collection
-chapters = db["chapters"]
+chapters = db["chapters"] if db is not None else None
 
 
 class ChapterRepository:
 
     def save_chapter(self, chapter_data):
         """Insert chapter only if it doesn't already exist"""
+        if chapters is None:
+            return None
 
         existing = chapters.find_one({
             "class_name": chapter_data["class_name"],
@@ -23,6 +25,8 @@ class ChapterRepository:
 
     def get_chapter(self, class_name, subject, chapter):
         """Fetch chapter by class, subject and chapter name"""
+        if chapters is None:
+            return None
 
         return chapters.find_one({
             "class_name": class_name,
@@ -32,5 +36,7 @@ class ChapterRepository:
 
     def get_all_chapters(self):
         """Fetch all chapters"""
+        if chapters is None:
+            return []
 
         return list(chapters.find({}, {"content": 0}))
