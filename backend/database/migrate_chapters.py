@@ -19,7 +19,7 @@ def migrate():
 
         class_name = relative_path.parts[0]
         subject = relative_path.parts[1]
-        chapter = file.stem
+        chapter = file.stem.replace("_", " ").replace("-", " ").title()
         content = file.read_text(encoding="utf-8")
 
         chapter_data = {
