@@ -1,0 +1,1811 @@
+{
+  "id": "6a987d79-340a-4846-b1cc-ebfaa5624aeb",
+  "type": "chapter",
+  "label": "MagneticEffectsofElectricCurrent",
+  "summary": "",
+  "preview": "",
+  "ui": {
+    "expandable": true,
+    "visual_type": "root"
+  },
+  "children": [
+    {
+      "id": "3d4b09ea-1d44-4a46-8401-634e48ba35e0",
+      "type": "theme",
+      "label": "Magnetic Fields and Field Lines",
+      "summary": "Textbook Excerpt:\nMagnetic Effects of\nElectric Current\nCHAPTER\nIn the previous Chapter on ‘Electricity’ we learnt about the heating\neffects of electric current.\n\nKey Points:\n- What could be the other effects of electric\ncurrent?\n- We know that an electric current-carrying wire behaves like a\nmagnet.",
+      "preview": "Textbook Excerpt:\nMagnetic Effects of\nElectric Current\nCHAPT...",
+      "keywords": [
+        "Textbook",
+        "Excerpt:",
+        "Magnetic",
+        "Effects",
+        "Electric"
+      ],
+      "ui": {
+        "expandable": true,
+        "visual_type": "tree_node",
+        "node_style": "default",
+        "animation_hint": "expand_simple",
+        "icon": "circle"
+      },
+      "children": [
+        {
+          "id": "4375c743-e3dd-48cf-9f8d-646ddff7869e",
+          "type": "section",
+          "label": "Introduction",
+          "summary": "Textbook Excerpt:\nLet us perform the following Activity to reinforce it.\n\nKey Points:\n- perpendicular to the plane of paper.",
+          "preview": "Textbook Excerpt:\nLet us perform the following Activity to r...",
+          "keywords": [
+            "Textbook",
+            "Excerpt:",
+            "perform",
+            "following",
+            "Activity"
+          ],
+          "ui": {
+            "expandable": true,
+            "visual_type": "tree_node",
+            "node_style": "default",
+            "animation_hint": "expand_simple",
+            "icon": "circle"
+          },
+          "children": [
+            {
+              "id": "54d73e6c-b93b-4a7b-8ef6-54a556439430",
+              "type": "concept",
+              "label": "Magnetic Effects of Electric Current",
+              "summary": "Textbook Excerpt:\nn\nHorizontally place a small compass near to this\ncopper wire.\n\nKey Points:\n- See the position of its needle.\n- n\nPass the current through the circuit by\ninserting the key into the plug.",
+              "preview": "Textbook Excerpt:\nn\nHorizontally place a small compass near ...",
+              "keywords": [
+                "Textbook",
+                "Excerpt:",
+                "Horizontally",
+                "compass",
+                "Points:"
+              ],
+              "ui": {
+                "expandable": true,
+                "visual_type": "tree_node",
+                "node_style": "default",
+                "animation_hint": "expand_simple",
+                "icon": "bolt"
+              },
+              "children": [
+                {
+                  "id": "6e41a93c-3aa3-474c-9210-75d007eca808",
+                  "type": "concept",
+                  "label": "Previous Chapter on Electricity",
+                  "summary": "Textbook Excerpt:\nn\nObserve the change in the position of the\ncompass needle.\n\nKey Points:\n- involve the magnetic effect of electric current.\n- Hans Christian Oersted (1777–1851)\nHans Christian Oersted, one of the leading scientists of the 19th\ncentury, played a crucial role in understanding electromagnetism.",
+                  "preview": "Textbook Excerpt:\nn\nObserve the change in the position of th...",
+                  "keywords": [
+                    "Textbook",
+                    "Excerpt:",
+                    "Observe",
+                    "position",
+                    "compass"
+                  ],
+                  "ui": {
+                    "expandable": false,
+                    "visual_type": "text_node",
+                    "node_style": "default",
+                    "animation_hint": "fade_in",
+                    "icon": "bolt"
+                  },
+                  "children": [],
+                  "metadata": {
+                    "depth": 4,
+                    "leaf": true
+                  }
+                },
+                {
+                  "id": "1d80d7a2-e491-47da-ab9d-c9473cb0edd5",
+                  "type": "concept",
+                  "label": "Heating Effects of Electric Current",
+                  "summary": "Textbook Excerpt:\nIn\n1820 he accidentally discovered that a compass needle got deflected\nwhen an electric current passed through a metallic wire placed nearby.\n\nKey Points:\n- Through this observation Oersted showed that electricity and\nmagnetism were related phenomena.\n- His research later created\ntechnologies such as the radio, television and fiber optics.",
+                  "preview": "Textbook Excerpt:\nIn\n1820 he accidentally discovered that a ...",
+                  "keywords": [
+                    "Textbook",
+                    "Excerpt:",
+                    "accidentally",
+                    "discovered",
+                    "compass"
+                  ],
+                  "ui": {
+                    "expandable": false,
+                    "visual_type": "text_node",
+                    "node_style": "default",
+                    "animation_hint": "fade_in",
+                    "icon": "bolt"
+                  },
+                  "children": [],
+                  "metadata": {
+                    "depth": 4,
+                    "leaf": true
+                  }
+                },
+                {
+                  "id": "1d92fa4a-23c4-46c9-96ae-503fd445117a",
+                  "type": "concept",
+                  "label": "Other Effects of Electric Current",
+                  "summary": "Textbook Excerpt:\nThe unit of\nmagnetic field strength is named the oersted in his honor.\n\nKey Points:\n- Resistor\nLong straight\nconductor",
+                  "preview": "Textbook Excerpt:\nThe unit of\nmagnetic field strength is nam...",
+                  "keywords": [
+                    "Textbook",
+                    "Excerpt:",
+                    "magnetic",
+                    "strength",
+                    "oersted"
+                  ],
+                  "ui": {
+                    "expandable": true,
+                    "visual_type": "tree_node",
+                    "node_style": "default",
+                    "animation_hint": "expand_simple",
+                    "icon": "bolt"
+                  },
+                  "children": [
+                    {
+                      "id": "db250bdb-10ef-4b2a-8fe2-178f30a53a3c",
+                      "type": "concept",
+                      "label": "Hans Christian Oersted's Discovery",
+                      "summary": "Textbook Excerpt:\nHans Christian Oersted's Discovery defines the principle of Other Effects of Electric Current as detailed in this NCERT section.",
+                      "preview": "Textbook Excerpt:\nHans Christian Oersted's Discovery defines...",
+                      "keywords": [
+                        "Textbook",
+                        "Excerpt:",
+                        "Christian",
+                        "Oersted's",
+                        "Discovery"
+                      ],
+                      "ui": {
+                        "expandable": false,
+                        "visual_type": "text_node",
+                        "node_style": "default",
+                        "animation_hint": "fade_in",
+                        "icon": "circle"
+                      },
+                      "children": [],
+                      "metadata": {
+                        "depth": 5,
+                        "leaf": true
+                      }
+                    },
+                    {
+                      "id": "6d9dc2db-244f-4e7f-9f14-dc42f7a846c6",
+                      "type": "concept",
+                      "label": "Relationship between Electricity and Magnetism",
+                      "summary": "Textbook Excerpt:\nRelationship between Electricity and Magnetism defines the principle of Other Effects of Electric Current as detailed in this NCERT section.",
+                      "preview": "Textbook Excerpt:\nRelationship between Electricity and Magne...",
+                      "keywords": [
+                        "Textbook",
+                        "Excerpt:",
+                        "Relationship",
+                        "between",
+                        "Electricity"
+                      ],
+                      "ui": {
+                        "expandable": false,
+                        "visual_type": "text_node",
+                        "node_style": "default",
+                        "animation_hint": "fade_in",
+                        "icon": "bolt"
+                      },
+                      "children": [],
+                      "metadata": {
+                        "depth": 5,
+                        "leaf": true
+                      }
+                    }
+                  ],
+                  "metadata": {
+                    "depth": 4,
+                    "leaf": false
+                  }
+                }
+              ],
+              "metadata": {
+                "depth": 3,
+                "leaf": false
+              }
+            },
+            {
+              "id": "52b0f6a1-96c8-4b13-aed1-7e12d71c3474",
+              "type": "concept",
+              "label": "Understanding Electromagnetism",
+              "summary": "Textbook Excerpt:\nUnderstanding Electromagnetism defines the principle of Introduction as detailed in this NCERT section.",
+              "preview": "Textbook Excerpt:\nUnderstanding Electromagnetism defines the...",
+              "keywords": [
+                "Textbook",
+                "Excerpt:",
+                "Understanding",
+                "Electromagnetism",
+                "defines"
+              ],
+              "ui": {
+                "expandable": true,
+                "visual_type": "tree_node",
+                "node_style": "default",
+                "animation_hint": "expand_simple",
+                "icon": "circle"
+              },
+              "children": [
+                {
+                  "id": "ef40ba91-fb21-453d-ba3a-dc3f36aa24b4",
+                  "type": "concept",
+                  "label": "Oersted's Experiment",
+                  "summary": "Textbook Excerpt:\nOersted's Experiment defines the principle of Understanding Electromagnetism as detailed in this NCERT section.",
+                  "preview": "Textbook Excerpt:\nOersted's Experiment defines the principle...",
+                  "keywords": [
+                    "Textbook",
+                    "Excerpt:",
+                    "Oersted's",
+                    "Experiment",
+                    "defines"
+                  ],
+                  "ui": {
+                    "expandable": false,
+                    "visual_type": "text_node",
+                    "node_style": "default",
+                    "animation_hint": "fade_in",
+                    "icon": "circle"
+                  },
+                  "children": [],
+                  "metadata": {
+                    "depth": 4,
+                    "leaf": true
+                  }
+                },
+                {
+                  "id": "59be6901-7e93-4241-a5d7-c349e1aa753b",
+                  "type": "concept",
+                  "label": "Unit of Magnetic Field Strength",
+                  "summary": "Textbook Excerpt:\nUnit of Magnetic Field Strength defines the principle of Understanding Electromagnetism as detailed in this NCERT section.",
+                  "preview": "Textbook Excerpt:\nUnit of Magnetic Field Strength defines th...",
+                  "keywords": [
+                    "Textbook",
+                    "Excerpt:",
+                    "Magnetic",
+                    "Strength",
+                    "defines"
+                  ],
+                  "ui": {
+                    "expandable": false,
+                    "visual_type": "text_node",
+                    "node_style": "default",
+                    "animation_hint": "fade_in",
+                    "icon": "circle"
+                  },
+                  "children": [],
+                  "metadata": {
+                    "depth": 4,
+                    "leaf": true
+                  }
+                }
+              ],
+              "metadata": {
+                "depth": 3,
+                "leaf": false
+              }
+            }
+          ],
+          "metadata": {
+            "depth": 2,
+            "leaf": false
+          }
+        },
+        {
+          "id": "cf609c26-2de5-4de1-8fbe-f9cab1d4af97",
+          "type": "section",
+          "label": "12.1 Magnetic Field And Field Lines",
+          "summary": "Textbook Excerpt:\nWe are familiar with the fact that a compass needle gets deflected when\nbrought near a bar magnet.\n\nKey Points:\n- A compass needle is, in fact, a small bar\nmagnet.\n- The ends of the compass needle point approximately towards\nnorth and south directions.",
+          "preview": "Textbook Excerpt:\nWe are familiar with the fact that a compa...",
+          "keywords": [
+            "Textbook",
+            "Excerpt:",
+            "familiar",
+            "compass",
+            "deflected"
+          ],
+          "ui": {
+            "expandable": true,
+            "visual_type": "tree_node",
+            "node_style": "default",
+            "animation_hint": "expand_simple",
+            "icon": "circle"
+          },
+          "children": [
+            {
+              "id": "9ecedab5-1ca2-4b00-995e-d5a5dde25187",
+              "type": "concept",
+              "label": "Compass Needle Deflection",
+              "summary": "Textbook Excerpt:\nThe end pointing towards north is called north\nseeking or north pole.\n\nKey Points:\n- The other end that points towards south is called\nsouth seeking or south pole.\n- Through various activities we have observed\nthat like poles repel, while unlike poles of magnets attract each other.",
+              "preview": "Textbook Excerpt:\nThe end pointing towards north is called n...",
+              "keywords": [
+                "Textbook",
+                "Excerpt:",
+                "pointing",
+                "towards",
+                "seeking"
+              ],
+              "ui": {
+                "expandable": false,
+                "visual_type": "text_node",
+                "node_style": "default",
+                "animation_hint": "fade_in",
+                "icon": "circle"
+              },
+              "children": [],
+              "metadata": {
+                "depth": 3,
+                "leaf": true
+              }
+            },
+            {
+              "id": "4c3a92cf-0476-4a9f-89a9-aec84568126e",
+              "type": "concept",
+              "label": "Magnetic Field Lines",
+              "summary": "Textbook Excerpt:\nWhy does a compass needle get deflected when brought near\na bar magnet?\n\nKey Points:\n- board using some adhesive material.\n- n\nPlace a bar magnet in the centre of it.",
+              "preview": "Textbook Excerpt:\nWhy does a compass needle get deflected wh...",
+              "keywords": [
+                "Textbook",
+                "Excerpt:",
+                "compass",
+                "deflected",
+                "brought"
+              ],
+              "ui": {
+                "expandable": true,
+                "visual_type": "tree_node",
+                "node_style": "default",
+                "animation_hint": "expand_simple",
+                "icon": "circle"
+              },
+              "children": [
+                {
+                  "id": "d41f5dc4-8e2b-40bb-ae6c-1ec7be304c75",
+                  "type": "concept",
+                  "label": "Field Line Direction",
+                  "summary": "Textbook Excerpt:\nn\nSprinkle some iron filings uniformly\naround the bar magnet (Fig.\n\nKey Points:\n- A\nsalt-sprinkler may be used for this\npurpose.\n- n\nNow tap the board gently.",
+                  "preview": "Textbook Excerpt:\nn\nSprinkle some iron filings uniformly\naro...",
+                  "keywords": [
+                    "Textbook",
+                    "Excerpt:",
+                    "Sprinkle",
+                    "filings",
+                    "uniformly"
+                  ],
+                  "ui": {
+                    "expandable": true,
+                    "visual_type": "tree_node",
+                    "node_style": "default",
+                    "animation_hint": "expand_simple",
+                    "icon": "circle"
+                  },
+                  "children": [
+                    {
+                      "id": "d7b0264a-f18f-45a1-ad53-5f3dae48cfc2",
+                      "type": "concept",
+                      "label": "North Pole",
+                      "summary": "Textbook Excerpt:\nthemselves along the field lines.\n\nKey Points:\n- The iron filings arrange themselves in a pattern as shown\nalign themselves represent magnetic field lines.\n- Are there other ways of obtaining magnetic field lines around a bar\nmagnet?",
+                      "preview": "Textbook Excerpt:\nthemselves along the field lines.\n\nKey Poi...",
+                      "keywords": [
+                        "Textbook",
+                        "Excerpt:",
+                        "themselves",
+                        "Points:",
+                        "filings"
+                      ],
+                      "ui": {
+                        "expandable": false,
+                        "visual_type": "text_node",
+                        "node_style": "default",
+                        "animation_hint": "fade_in",
+                        "icon": "circle"
+                      },
+                      "children": [],
+                      "metadata": {
+                        "depth": 5,
+                        "leaf": true
+                      }
+                    },
+                    {
+                      "id": "d56ea7eb-dbc0-43ed-9b85-7c2efdb2a7e1",
+                      "type": "concept",
+                      "label": "South Pole",
+                      "summary": "Textbook Excerpt:\nYes, you can yourself draw the field lines of a bar magnet.\n\nKey Points:\n- Take a small compass and a bar magnet.\n- n\nPlace the magnet on a sheet of white paper fixed on a drawing\nboard, using some adhesive material.",
+                      "preview": "Textbook Excerpt:\nYes, you can yourself draw the field lines...",
+                      "keywords": [
+                        "Textbook",
+                        "Excerpt:",
+                        "yourself",
+                        "Points:",
+                        "compass"
+                      ],
+                      "ui": {
+                        "expandable": false,
+                        "visual_type": "text_node",
+                        "node_style": "default",
+                        "animation_hint": "fade_in",
+                        "icon": "circle"
+                      },
+                      "children": [],
+                      "metadata": {
+                        "depth": 5,
+                        "leaf": true
+                      }
+                    }
+                  ],
+                  "metadata": {
+                    "depth": 4,
+                    "leaf": false
+                  }
+                },
+                {
+                  "id": "df60d72b-34ed-4486-a61e-21a5d5050566",
+                  "type": "concept",
+                  "label": "Field Line Strength",
+                  "summary": "Textbook Excerpt:\nn\nMark the boundary of the magnet.\n\nKey Points:\n- n\nPlace the compass near the north pole of the magnet.\n- The south pole of the needle points towards the north\npole of the magnet.",
+                  "preview": "Textbook Excerpt:\nn\nMark the boundary of the magnet.\n\nKey Po...",
+                  "keywords": [
+                    "Textbook",
+                    "Excerpt:",
+                    "boundary",
+                    "Points:",
+                    "compass"
+                  ],
+                  "ui": {
+                    "expandable": false,
+                    "visual_type": "text_node",
+                    "node_style": "default",
+                    "animation_hint": "fade_in",
+                    "icon": "circle"
+                  },
+                  "children": [],
+                  "metadata": {
+                    "depth": 4,
+                    "leaf": true
+                  }
+                },
+                {
+                  "id": "f6904c97-6c09-45a6-b2d2-55b200ce9a12",
+                  "type": "concept",
+                  "label": "Non-Crossing Property",
+                  "summary": "Textbook Excerpt:\nThe north pole of the compass is directed\naway from the north pole of the magnet.\n\nKey Points:\n- Explains Non-Crossing Property within the context of Magnetic Field Lines.",
+                  "preview": "Textbook Excerpt:\nThe north pole of the compass is directed\n...",
+                  "keywords": [
+                    "Textbook",
+                    "Excerpt:",
+                    "compass",
+                    "directed",
+                    "Points:"
+                  ],
+                  "ui": {
+                    "expandable": false,
+                    "visual_type": "text_node",
+                    "node_style": "default",
+                    "animation_hint": "fade_in",
+                    "icon": "circle"
+                  },
+                  "children": [],
+                  "metadata": {
+                    "depth": 4,
+                    "leaf": true
+                  }
+                }
+              ],
+              "metadata": {
+                "depth": 3,
+                "leaf": false
+              }
+            },
+            {
+              "id": "1c7fa979-a8ad-4adc-8c1e-98515baf5c92",
+              "type": "concept",
+              "label": "Magnetic Field Properties",
+              "summary": "Textbook Excerpt:\nMagnetic Effects of Electric Current\nMagnetic field is a quantity that has both direction and magnitude.\n\nKey Points:\n- The direction of the magnetic field is taken to be the direction in which a\nnorth pole of the compass needle moves inside it.\n- Therefore it is taken\nby convention that the field lines emerge from north pole and merge at\nthe south pole (note the arrows marked on the field lines in Fig.",
+              "preview": "Textbook Excerpt:\nMagnetic Effects of Electric Current\nMagne...",
+              "keywords": [
+                "Textbook",
+                "Excerpt:",
+                "Magnetic",
+                "Effects",
+                "Electric"
+              ],
+              "ui": {
+                "expandable": true,
+                "visual_type": "tree_node",
+                "node_style": "default",
+                "animation_hint": "expand_simple",
+                "icon": "circle"
+              },
+              "children": [
+                {
+                  "id": "a954bf20-b828-479b-8768-955193bc8ccb",
+                  "type": "concept",
+                  "label": "Closed Curves",
+                  "summary": "Textbook Excerpt:\nInside the magnet, the direction of field lines is from its south pole to its\nnorth pole.\n\nKey Points:\n- Thus the magnetic field lines are closed curves.\n- The relative strength of the magnetic field is shown by the degree of\ncloseness of the field lines.",
+                  "preview": "Textbook Excerpt:\nInside the magnet, the direction of field ...",
+                  "keywords": [
+                    "Textbook",
+                    "Excerpt:",
+                    "direction",
+                    "Points:",
+                    "magnetic"
+                  ],
+                  "ui": {
+                    "expandable": false,
+                    "visual_type": "text_node",
+                    "node_style": "default",
+                    "animation_hint": "fade_in",
+                    "icon": "circle"
+                  },
+                  "children": [],
+                  "metadata": {
+                    "depth": 4,
+                    "leaf": true
+                  }
+                },
+                {
+                  "id": "cff2339f-d4aa-498c-bc6b-4157d2e51d5e",
+                  "type": "concept",
+                  "label": "No Two Field-Lines Cross Each Other",
+                  "summary": "Textbook Excerpt:\nThe field is stronger, that is, the force acting\non the pole of another magnet placed is greater where the field lines are\ncrowded (see Fig.\n\nKey Points:\n- No two field-lines are found to cross each other.\n- If they did, it would\nmean that at the point of intersection, the compass needle would point\ntowards two directions, which is not possible.",
+                  "preview": "Textbook Excerpt:\nThe field is stronger, that is, the force ...",
+                  "keywords": [
+                    "Textbook",
+                    "Excerpt:",
+                    "stronger",
+                    "another",
+                    "greater"
+                  ],
+                  "ui": {
+                    "expandable": false,
+                    "visual_type": "text_node",
+                    "node_style": "default",
+                    "animation_hint": "fade_in",
+                    "icon": "circle"
+                  },
+                  "children": [],
+                  "metadata": {
+                    "depth": 4,
+                    "leaf": true
+                  }
+                }
+              ],
+              "metadata": {
+                "depth": 3,
+                "leaf": false
+              }
+            }
+          ],
+          "metadata": {
+            "depth": 2,
+            "leaf": false
+          }
+        }
+      ],
+      "metadata": {
+        "depth": 1,
+        "leaf": false
+      }
+    },
+    {
+      "id": "f7d28a25-77b1-4771-b924-7c1f3237ba06",
+      "type": "theme",
+      "label": "Magnetic Fields from Current",
+      "summary": "Textbook Excerpt:\nThe wire XY is kept\nperpendicular to the plane of paper.\n\nKey Points:\n- It means that\nthe electric current through the copper wire has produced a magnetic\neffect.\n- Thus we can say that electricity and magnetism are linked to each\nother.",
+      "preview": "Textbook Excerpt:\nThe wire XY is kept\nperpendicular to the p...",
+      "keywords": [
+        "Textbook",
+        "Excerpt:",
+        "perpendicular",
+        "Points:",
+        "electric"
+      ],
+      "ui": {
+        "expandable": true,
+        "visual_type": "tree_node",
+        "node_style": "default",
+        "animation_hint": "expand_cascade",
+        "icon": "circle"
+      },
+      "children": [
+        {
+          "id": "8513bf85-07cd-4d89-88a3-0ea254e7d73f",
+          "type": "section",
+          "label": "Magnetic Field Around A Conductor",
+          "summary": "Textbook Excerpt:\nn\nIn this way, proceed step by step till you\nreach the south pole of the magnet as\nshown in Fig.\n\nKey Points:\n- n\nJoin the points marked on the paper by a\nsmooth curve.\n- This curve represents\na field line.",
+          "preview": "Textbook Excerpt:\nn\nIn this way, proceed step by step till y...",
+          "keywords": [
+            "Textbook",
+            "Excerpt:",
+            "proceed",
+            "Points:",
+            "represents"
+          ],
+          "ui": {
+            "expandable": true,
+            "visual_type": "tree_node",
+            "node_style": "default",
+            "animation_hint": "expand_simple",
+            "icon": "circle"
+          },
+          "children": [
+            {
+              "id": "a9c07c34-49f3-48c8-bd49-70b24ad5f5b0",
+              "type": "concept",
+              "label": "Direction of Magnetic Field",
+              "summary": "Textbook Excerpt:\nn\nRepeat the above procedure and draw as\nmany lines as you can.\n\nKey Points:\n- You will get a\npattern shown in Fig.\n- These lines\nrepresent the magnetic field around the\nmagnet.",
+              "preview": "Textbook Excerpt:\nn\nRepeat the above procedure and draw as\nm...",
+              "keywords": [
+                "Textbook",
+                "Excerpt:",
+                "procedure",
+                "Points:",
+                "pattern"
+              ],
+              "ui": {
+                "expandable": false,
+                "visual_type": "text_node",
+                "node_style": "default",
+                "animation_hint": "fade_in",
+                "icon": "circle"
+              },
+              "children": [],
+              "metadata": {
+                "depth": 3,
+                "leaf": true
+              }
+            }
+          ],
+          "metadata": {
+            "depth": 2,
+            "leaf": false
+          }
+        },
+        {
+          "id": "9f57d818-f2d3-46f4-9a9b-1ef531ec17ae",
+          "type": "section",
+          "label": "Properties of Magnetic Field Lines",
+          "summary": "Textbook Excerpt:\nThese are known as magnetic\nfield lines.\n\nKey Points:\n- n\nObserve the deflection in the compass\nneedle as you move it along a field line.\n- The deflection increases as the needle is\nmoved towards the poles.",
+          "preview": "Textbook Excerpt:\nThese are known as magnetic\nfield lines.\n\n...",
+          "keywords": [
+            "Textbook",
+            "Excerpt:",
+            "magnetic",
+            "Points:",
+            "Observe"
+          ],
+          "ui": {
+            "expandable": false,
+            "visual_type": "text_node",
+            "node_style": "default",
+            "animation_hint": "fade_in",
+            "icon": "circle"
+          },
+          "children": [],
+          "metadata": {
+            "depth": 2,
+            "leaf": true
+          }
+        },
+        {
+          "id": "1d552a5e-dc73-4381-a31f-bfa9f5aaad97",
+          "type": "section",
+          "label": "12.2.1 Magnetic Field Due To A Current Through A Straight Conductor",
+          "summary": "Textbook Excerpt:\nConductor\nWhat determines the pattern of the magnetic field generated by a current\nthrough a conductor?\n\nKey Points:\n- Does the pattern depend on the shape of the\nconductor?\n- We shall investigate this with an activity.",
+          "preview": "Textbook Excerpt:\nConductor\nWhat determines the pattern of t...",
+          "keywords": [
+            "Textbook",
+            "Excerpt:",
+            "Conductor",
+            "determines",
+            "pattern"
+          ],
+          "ui": {
+            "expandable": true,
+            "visual_type": "tree_node",
+            "node_style": "default",
+            "animation_hint": "expand_simple",
+            "icon": "circle"
+          },
+          "children": [
+            {
+              "id": "5eae87e2-b149-4053-b6a6-1583999af4be",
+              "type": "concept",
+              "label": "Conductor Shape and Magnetic Field",
+              "summary": "Textbook Excerpt:\nn\nPlace the straight wire parallel to and over a compass needle.\n\nKey Points:\n- n\nPlug the key in the circuit.\n- n\nObserve the direction of deflection of the north pole of the needle.",
+              "preview": "Textbook Excerpt:\nn\nPlace the straight wire parallel to and ...",
+              "keywords": [
+                "Textbook",
+                "Excerpt:",
+                "straight",
+                "parallel",
+                "compass"
+              ],
+              "ui": {
+                "expandable": false,
+                "visual_type": "text_node",
+                "node_style": "default",
+                "animation_hint": "fade_in",
+                "icon": "circle"
+              },
+              "children": [],
+              "metadata": {
+                "depth": 3,
+                "leaf": true
+              }
+            },
+            {
+              "id": "39dc6b21-5a46-4824-96df-4d91d54c0feb",
+              "type": "concept",
+              "label": "Current and Magnetic Field Relationship",
+              "summary": "Textbook Excerpt:\nIf the current flows from\nnorth to south, as shown in Fig.\n\nKey Points:\n- 12.5 (a), the north pole of the compass needle would move\ntowards the east.\n- n\nReplace the cell connections in the circuit as shown in Fig.",
+              "preview": "Textbook Excerpt:\nIf the current flows from\nnorth to south, ...",
+              "keywords": [
+                "Textbook",
+                "Excerpt:",
+                "current",
+                "Points:",
+                "compass"
+              ],
+              "ui": {
+                "expandable": false,
+                "visual_type": "text_node",
+                "node_style": "default",
+                "animation_hint": "fade_in",
+                "icon": "circle"
+              },
+              "children": [],
+              "metadata": {
+                "depth": 3,
+                "leaf": true
+              }
+            }
+          ],
+          "metadata": {
+            "depth": 2,
+            "leaf": false
+          }
+        },
+        {
+          "id": "6501b6d4-f90f-415d-b8b8-d68e438f0873",
+          "type": "section",
+          "label": "12.2.2 Right-Hand Thumb Rule",
+          "summary": "Textbook Excerpt:\nImagine that you are holding a current-carrying straight\nconductor in your right hand such that the thumb points towards\nthe direction of current.\n\nKey Points:\n- Then your fingers will wrap around the\nconductor in the direction of the field lines of the magnetic field, as\nshown in Fig.\n- This is known as the right-hand thumb rule*.",
+          "preview": "Textbook Excerpt:\nImagine that you are holding a current-car...",
+          "keywords": [
+            "Textbook",
+            "Excerpt:",
+            "Imagine",
+            "holding",
+            "current-carrying"
+          ],
+          "ui": {
+            "expandable": true,
+            "visual_type": "tree_node",
+            "node_style": "default",
+            "animation_hint": "expand_simple",
+            "icon": "circle"
+          },
+          "children": [
+            {
+              "id": "9ea1c5a2-6b2f-487d-a78b-49bcd49bf832",
+              "type": "concept",
+              "label": "Right-Hand Thumb Rule",
+              "summary": "Textbook Excerpt:\n* This rule is also called Maxwell’s corkscrew rule.\n\nKey Points:\n- If we consider ourselves driving a\ncorkscrew in the direction of the current, then the direction of the rotation of\ncorkscrew is the direction of the magnetic field.",
+              "preview": "Textbook Excerpt:\n* This rule is also called Maxwell’s corks...",
+              "keywords": [
+                "Textbook",
+                "Excerpt:",
+                "Maxwell’s",
+                "corkscrew",
+                "Points:"
+              ],
+              "ui": {
+                "expandable": true,
+                "visual_type": "tree_node",
+                "node_style": "default",
+                "animation_hint": "expand_simple",
+                "icon": "circle"
+              },
+              "children": [
+                {
+                  "id": "d076bf18-16e0-463a-bcdc-94e6c798b88f",
+                  "type": "concept",
+                  "label": "Conducting Current",
+                  "summary": "Textbook Excerpt:\nA convenient way of finding the direction of magnetic field associated\nwith a current-carrying conductor is given in Fig.\n\nKey Points:\n- n\nConnect the copper wire vertically between the\npoints X and Y, as shown in Fig.",
+                  "preview": "Textbook Excerpt:\nA convenient way of finding the direction ...",
+                  "keywords": [
+                    "Textbook",
+                    "Excerpt:",
+                    "convenient",
+                    "finding",
+                    "direction"
+                  ],
+                  "ui": {
+                    "expandable": false,
+                    "visual_type": "text_node",
+                    "node_style": "default",
+                    "animation_hint": "fade_in",
+                    "icon": "circle"
+                  },
+                  "children": [],
+                  "metadata": {
+                    "depth": 4,
+                    "leaf": true
+                  }
+                },
+                {
+                  "id": "ce992eff-d6a1-4ed7-82b6-4c993fc4c98b",
+                  "type": "concept",
+                  "label": "Magnetic Field Direction",
+                  "summary": "Textbook Excerpt:\n12.6 (a), in\nseries with the battery, a plug and key.\n\nKey Points:\n- n\nSprinkle some iron filings uniformly on the\ncardboard.\n- (You may use a salt sprinkler for this\npurpose.)\nn\nKeep the variable of the rheostat at a fixed\nposition and note the current through the\nammeter.",
+                  "preview": "Textbook Excerpt:\n12.6 (a), in\nseries with the battery, a pl...",
+                  "keywords": [
+                    "Textbook",
+                    "Excerpt:",
+                    "battery",
+                    "Points:",
+                    "Sprinkle"
+                  ],
+                  "ui": {
+                    "expandable": false,
+                    "visual_type": "text_node",
+                    "node_style": "default",
+                    "animation_hint": "fade_in",
+                    "icon": "circle"
+                  },
+                  "children": [],
+                  "metadata": {
+                    "depth": 4,
+                    "leaf": true
+                  }
+                }
+              ],
+              "metadata": {
+                "depth": 3,
+                "leaf": false
+              }
+            },
+            {
+              "id": "e74b8ffa-d972-49d1-899c-a608c5c224d0",
+              "type": "concept",
+              "label": "Maxwell's Corkscrew Rule",
+              "summary": "Textbook Excerpt:\nn\nClose the key so that a current flows through\nthe wire.\n\nKey Points:\n- Ensure that the copper wire placed\nbetween the points X and Y remains vertically\nstraight.",
+              "preview": "Textbook Excerpt:\nn\nClose the key so that a current flows th...",
+              "keywords": [
+                "Textbook",
+                "Excerpt:",
+                "current",
+                "through",
+                "Points:"
+              ],
+              "ui": {
+                "expandable": false,
+                "visual_type": "text_node",
+                "node_style": "default",
+                "animation_hint": "fade_in",
+                "icon": "circle"
+              },
+              "children": [],
+              "metadata": {
+                "depth": 3,
+                "leaf": true
+              }
+            }
+          ],
+          "metadata": {
+            "depth": 2,
+            "leaf": false
+          }
+        },
+        {
+          "id": "eb131df0-365a-4a28-a1d0-d2310683156e",
+          "type": "section",
+          "label": "12.2.3 Magnetic Field Due To A Current Through A Circular Loop",
+          "summary": "Textbook Excerpt:\nCircular Loop\nWe have so far observed the pattern of the magnetic field lines\nproduced around a current-carrying straight wire.\n\nKey Points:\n- Suppose\nthis straight wire is bent in the form of a circular loop and a\ncurrent is passed through it.\n- How would the magnetic field\nlines look like?",
+          "preview": "Textbook Excerpt:\nCircular Loop\nWe have so far observed the ...",
+          "keywords": [
+            "Textbook",
+            "Excerpt:",
+            "Circular",
+            "observed",
+            "pattern"
+          ],
+          "ui": {
+            "expandable": true,
+            "visual_type": "tree_node",
+            "node_style": "default",
+            "animation_hint": "expand_simple",
+            "icon": "circle"
+          },
+          "children": [
+            {
+              "id": "3c9b20e9-1468-4aaf-af11-3171c3d63187",
+              "type": "concept",
+              "label": "Field Produced By Multiple Turns",
+              "summary": "Textbook Excerpt:\nEvery point on the wire carrying\ncurrent would give rise to the magnetic field appearing as\nstraight lines at the center of the loop.\n\nKey Points:\n- By applying the right\nhand rule, it is easy to check that every section of the wire\ncontributes to the magnetic field lines in the same direction\nwithin the loop.\n- Draw magnetic field lines around a bar magnet.",
+              "preview": "Textbook Excerpt:\nEvery point on the wire carrying\ncurrent w...",
+              "keywords": [
+                "Textbook",
+                "Excerpt:",
+                "carrying",
+                "current",
+                "magnetic"
+              ],
+              "ui": {
+                "expandable": false,
+                "visual_type": "text_node",
+                "node_style": "default",
+                "animation_hint": "fade_in",
+                "icon": "circle"
+              },
+              "children": [],
+              "metadata": {
+                "depth": 3,
+                "leaf": true
+              }
+            },
+            {
+              "id": "f6ad6577-0deb-4d31-b4f3-b5ded6ae33a7",
+              "type": "concept",
+              "label": "Magnetic Field And Iron Filings Pattern",
+              "summary": "Textbook Excerpt:\nList the properties of magnetic field lines.\n\nKey Points:\n- Why don’t two magnetic field lines intersect each other?\n- Magnetic Effects of Electric Current\nWe know that the magnetic field produced by a current-carrying\nwire at a given point depends directly on the current passing through it.",
+              "preview": "Textbook Excerpt:\nList the properties of magnetic field line...",
+              "keywords": [
+                "Textbook",
+                "Excerpt:",
+                "properties",
+                "magnetic",
+                "Points:"
+              ],
+              "ui": {
+                "expandable": false,
+                "visual_type": "text_node",
+                "node_style": "default",
+                "animation_hint": "fade_in",
+                "icon": "circle"
+              },
+              "children": [],
+              "metadata": {
+                "depth": 3,
+                "leaf": true
+              }
+            }
+          ],
+          "metadata": {
+            "depth": 2,
+            "leaf": false
+          }
+        },
+        {
+          "id": "99bb2249-c7f1-4edc-9459-34a946fc6b58",
+          "type": "section",
+          "label": "12.2.4 Magnetic Field Due To A Current In A Solenoid",
+          "summary": "Textbook Excerpt:\nA coil of many circular turns of insulated copper wire wrapped\nclosely in the shape of a cylinder is called a solenoid.\n\nKey Points:\n- The pattern\nof the magnetic field lines around a current-carrying solenoid is\nshown in Fig.\n- Compare the pattern of the field with the\nmagnetic field around a bar magnet (Fig.",
+          "preview": "Textbook Excerpt:\nA coil of many circular turns of insulated...",
+          "keywords": [
+            "Textbook",
+            "Excerpt:",
+            "circular",
+            "insulated",
+            "wrapped"
+          ],
+          "ui": {
+            "expandable": true,
+            "visual_type": "tree_node",
+            "node_style": "default",
+            "animation_hint": "expand_simple",
+            "icon": "circle"
+          },
+          "children": [
+            {
+              "id": "443be855-129e-41d1-a882-4cbc45ecc618",
+              "type": "concept",
+              "label": "Magnetic Field Pattern",
+              "summary": "Textbook Excerpt:\nIn fact, one end of the solenoid\nbehaves as a magnetic north pole, while the other behaves as the\nsouth pole.\n\nKey Points:\n- The field lines inside the solenoid are in the form of\nparallel straight lines.\n- This indicates that the magnetic field is\nthe same at all points inside the solenoid.",
+              "preview": "Textbook Excerpt:\nIn fact, one end of the solenoid\nbehaves a...",
+              "keywords": [
+                "Textbook",
+                "Excerpt:",
+                "solenoid",
+                "behaves",
+                "magnetic"
+              ],
+              "ui": {
+                "expandable": true,
+                "visual_type": "tree_node",
+                "node_style": "default",
+                "animation_hint": "expand_simple",
+                "icon": "circle"
+              },
+              "children": [
+                {
+                  "id": "2660654c-6c1a-4900-90b8-1ddddd8e1c94",
+                  "type": "concept",
+                  "label": "Magnetic Poles",
+                  "summary": "Textbook Excerpt:\nThat is, the field is\nuniform inside the solenoid.\n\nKey Points:\n- A strong magnetic field produced inside a solenoid can be\nused to magnetise a piece of magnetic material, like soft iron,\nwhen placed inside the coil (Fig.\n- The magnet so formed is\ncalled an electromagnet.",
+                  "preview": "Textbook Excerpt:\nThat is, the field is\nuniform inside the s...",
+                  "keywords": [
+                    "Textbook",
+                    "Excerpt:",
+                    "uniform",
+                    "solenoid",
+                    "Points:"
+                  ],
+                  "ui": {
+                    "expandable": false,
+                    "visual_type": "text_node",
+                    "node_style": "default",
+                    "animation_hint": "fade_in",
+                    "icon": "circle"
+                  },
+                  "children": [],
+                  "metadata": {
+                    "depth": 4,
+                    "leaf": true
+                  }
+                }
+              ],
+              "metadata": {
+                "depth": 3,
+                "leaf": false
+              }
+            },
+            {
+              "id": "bebb07a6-cdfd-4bef-aab9-92fff7dd2c6e",
+              "type": "concept",
+              "label": "Electromagnet",
+              "summary": "Textbook Excerpt:\ninside it – an electromagnet.\n\nKey Points:\n- Consider a circular loop of wire lying in\nthe plane of the table.\n- Let the current\npass through the loop clockwise.",
+              "preview": "Textbook Excerpt:\ninside it – an electromagnet.\n\nKey Points:...",
+              "keywords": [
+                "Textbook",
+                "Excerpt:",
+                "electromagnet",
+                "Points:",
+                "Consider"
+              ],
+              "ui": {
+                "expandable": false,
+                "visual_type": "text_node",
+                "node_style": "default",
+                "animation_hint": "fade_in",
+                "icon": "circle"
+              },
+              "children": [],
+              "metadata": {
+                "depth": 3,
+                "leaf": true
+              }
+            }
+          ],
+          "metadata": {
+            "depth": 2,
+            "leaf": false
+          }
+        }
+      ],
+      "metadata": {
+        "depth": 1,
+        "leaf": false
+      }
+    },
+    {
+      "id": "0317ab2d-e12d-4684-a7d3-e95b7990e3b4",
+      "type": "theme",
+      "label": "Electromagnetic Forces and Electrical Safety",
+      "summary": "Textbook Excerpt:\nThen, what about the reverse possibility of an electric effect of\nmoving magnets?\n\nKey Points:\n- In this Chapter we will study magnetic fields and such\nelectromagnetic effects.\n- We shall also study about electromagnets which\ninvolve the magnetic effect of electric current.",
+      "preview": "Textbook Excerpt:\nThen, what about the reverse possibility o...",
+      "keywords": [
+        "Textbook",
+        "Excerpt:",
+        "reverse",
+        "possibility",
+        "electric"
+      ],
+      "ui": {
+        "expandable": true,
+        "visual_type": "tree_node",
+        "node_style": "default",
+        "animation_hint": "expand_simple",
+        "icon": "bolt"
+      },
+      "children": [
+        {
+          "id": "00245b58-d5f7-46b6-ab76-ea58fb1c6ba3",
+          "type": "section",
+          "label": "12.3 Force On A Current-Carrying Conductor In A Magnetic Field",
+          "summary": "Textbook Excerpt:\nWe have learnt that an electric current flowing through a conductor\nproduces a magnetic field.\n\nKey Points:\n- The field so produced exerts a force on a\nmagnet placed in the vicinity of the conductor.\n- French scientist Andre\nMarie Ampere (1775–1836) suggested that the magnet must also exert\nan equal and opposite force on the current-carrying conductor.",
+          "preview": "Textbook Excerpt:\nWe have learnt that an electric current fl...",
+          "keywords": [
+            "Textbook",
+            "Excerpt:",
+            "electric",
+            "current",
+            "flowing"
+          ],
+          "ui": {
+            "expandable": true,
+            "visual_type": "tree_node",
+            "node_style": "default",
+            "animation_hint": "expand_simple",
+            "icon": "circle"
+          },
+          "children": [
+            {
+              "id": "fc24389b-0482-4f70-8e19-d3ceb798a3aa",
+              "type": "concept",
+              "label": "Current-Carrying Conductor In Magnetic Field",
+              "summary": "Textbook Excerpt:\nThe force\ndue to a magnetic field acting on a current-carrying conductor can be\ndemonstrated through the following activity.\n\nKey Points:\n- Choose the correct option.\n- The magnetic field inside a long straight solenoid-carrying current\n(a)\nis zero.",
+              "preview": "Textbook Excerpt:\nThe force\ndue to a magnetic field acting o...",
+              "keywords": [
+                "Textbook",
+                "Excerpt:",
+                "magnetic",
+                "current-carrying",
+                "conductor"
+              ],
+              "ui": {
+                "expandable": true,
+                "visual_type": "tree_node",
+                "node_style": "default",
+                "animation_hint": "expand_simple",
+                "icon": "circle"
+              },
+              "children": [
+                {
+                  "id": "4b56211f-0e5c-44eb-af35-c3a01144b21f",
+                  "type": "concept",
+                  "label": "Magnetic Field Exerting Force",
+                  "summary": "Textbook Excerpt:\n(b)\ndecreases as we move towards its end.\n\nKey Points:\n- (c)\nincreases as we move towards its end.\n- (d)\nis the same at all points.",
+                  "preview": "Textbook Excerpt:\n(b)\ndecreases as we move towards its end.\n...",
+                  "keywords": [
+                    "Textbook",
+                    "Excerpt:",
+                    "decreases",
+                    "towards",
+                    "Points:"
+                  ],
+                  "ui": {
+                    "expandable": false,
+                    "visual_type": "text_node",
+                    "node_style": "default",
+                    "animation_hint": "fade_in",
+                    "icon": "circle"
+                  },
+                  "children": [],
+                  "metadata": {
+                    "depth": 4,
+                    "leaf": true
+                  }
+                },
+                {
+                  "id": "da4c1d18-9e46-4cce-9ce0-320597e0653a",
+                  "type": "concept",
+                  "label": "Force Due To Magnetic Field",
+                  "summary": "Textbook Excerpt:\nn\nPlace a strong horse-shoe magnet in such a way that\nthe rod lies between the two poles with the magnetic\nfield directed upwards.\n\nKey Points:\n- For this put the north pole of\nthe magnet vertically below and south pole vertically\nabove the aluminium rod (Fig.\n- n\nConnect the aluminium rod in series with a battery,\na key and a rheostat.",
+                  "preview": "Textbook Excerpt:\nn\nPlace a strong horse-shoe magnet in such...",
+                  "keywords": [
+                    "Textbook",
+                    "Excerpt:",
+                    "horse-shoe",
+                    "between",
+                    "magnetic"
+                  ],
+                  "ui": {
+                    "expandable": false,
+                    "visual_type": "text_node",
+                    "node_style": "default",
+                    "animation_hint": "fade_in",
+                    "icon": "circle"
+                  },
+                  "children": [],
+                  "metadata": {
+                    "depth": 4,
+                    "leaf": true
+                  }
+                }
+              ],
+              "metadata": {
+                "depth": 3,
+                "leaf": false
+              }
+            },
+            {
+              "id": "24be274f-e312-4fed-adc1-41f2ddf4226b",
+              "type": "concept",
+              "label": "Direction Of Force On Conductor",
+              "summary": "Textbook Excerpt:\nn\nNow pass a current through the aluminium rod from\nend B to end A.\n\nKey Points:\n- It is observed that the rod is\ndisplaced towards the left.\n- You will notice that the rod\ngets displaced.",
+              "preview": "Textbook Excerpt:\nn\nNow pass a current through the aluminium...",
+              "keywords": [
+                "Textbook",
+                "Excerpt:",
+                "current",
+                "through",
+                "aluminium"
+              ],
+              "ui": {
+                "expandable": true,
+                "visual_type": "tree_node",
+                "node_style": "default",
+                "animation_hint": "expand_simple",
+                "icon": "circle"
+              },
+              "children": [
+                {
+                  "id": "9e7465b2-d160-404d-af46-4376421f8b81",
+                  "type": "concept",
+                  "label": "Fleming's Left-Hand Rule",
+                  "summary": "Textbook Excerpt:\nn\nReverse the direction of current flowing through the\nrod and observe the direction of its displacement.\n\nKey Points:\n- It is\nnow towards the right.\n- Why does the rod get displaced?",
+                  "preview": "Textbook Excerpt:\nn\nReverse the direction of current flowing...",
+                  "keywords": [
+                    "Textbook",
+                    "Excerpt:",
+                    "Reverse",
+                    "direction",
+                    "current"
+                  ],
+                  "ui": {
+                    "expandable": false,
+                    "visual_type": "text_node",
+                    "node_style": "default",
+                    "animation_hint": "fade_in",
+                    "icon": "circle"
+                  },
+                  "children": [],
+                  "metadata": {
+                    "depth": 4,
+                    "leaf": true
+                  }
+                },
+                {
+                  "id": "834f2fb4-2abc-4847-8be8-b7828e874420",
+                  "type": "concept",
+                  "label": "Force Perpendicular To Magnetic Field & Current",
+                  "summary": "Textbook Excerpt:\nmagnet is not shown here, for simplicity.\n\nKey Points:\n- The displacement of the rod in the above activity suggests that a\nforce is exerted on the current-carrying aluminium rod when it is placed\nin a magnetic field.\n- It also suggests that the direction of force is also\nreversed when the direction of current through the conductor is reversed.",
+                  "preview": "Textbook Excerpt:\nmagnet is not shown here, for simplicity.\n...",
+                  "keywords": [
+                    "Textbook",
+                    "Excerpt:",
+                    "simplicity",
+                    "Points:",
+                    "displacement"
+                  ],
+                  "ui": {
+                    "expandable": false,
+                    "visual_type": "text_node",
+                    "node_style": "default",
+                    "animation_hint": "fade_in",
+                    "icon": "circle"
+                  },
+                  "children": [],
+                  "metadata": {
+                    "depth": 4,
+                    "leaf": true
+                  }
+                }
+              ],
+              "metadata": {
+                "depth": 3,
+                "leaf": false
+              }
+            },
+            {
+              "id": "4c1c9c2c-992a-4a17-a44d-7bfe96f217f1",
+              "type": "concept",
+              "label": "Devices Using Current-Carrying Conductor & Magnetic Field",
+              "summary": "Textbook Excerpt:\nNow change the direction of field to vertically downwards by\ninterchanging the two poles of the magnet.\n\nKey Points:\n- It is once again observed that\n- Magnetic Effects of Electric Current\nthe direction of force acting on the current-carrying rod gets reversed.",
+              "preview": "Textbook Excerpt:\nNow change the direction of field to verti...",
+              "keywords": [
+                "Textbook",
+                "Excerpt:",
+                "direction",
+                "vertically",
+                "downwards"
+              ],
+              "ui": {
+                "expandable": true,
+                "visual_type": "tree_node",
+                "node_style": "default",
+                "animation_hint": "expand_simple",
+                "icon": "circle"
+              },
+              "children": [
+                {
+                  "id": "7938b50f-db8d-4e28-9b74-77507b72ff7c",
+                  "type": "concept",
+                  "label": "Applications Of Electromagnetism",
+                  "summary": "Textbook Excerpt:\nIt\nshows that the direction of the force on the conductor depends upon the\ndirection of current and the direction of the magnetic field.\n\nKey Points:\n- Experiments\nhave shown that the displacement of the rod is largest (or the magnitude\nof the force is the highest) when the direction of current is at right angles\nto the direction of the magnetic field.",
+                  "preview": "Textbook Excerpt:\nIt\nshows that the direction of the force o...",
+                  "keywords": [
+                    "Textbook",
+                    "Excerpt:",
+                    "direction",
+                    "conductor",
+                    "depends"
+                  ],
+                  "ui": {
+                    "expandable": false,
+                    "visual_type": "text_node",
+                    "node_style": "default",
+                    "animation_hint": "fade_in",
+                    "icon": "circle"
+                  },
+                  "children": [],
+                  "metadata": {
+                    "depth": 4,
+                    "leaf": true
+                  }
+                },
+                {
+                  "id": "99ec5474-2c80-43c2-b7c7-7125e7bca7e2",
+                  "type": "concept",
+                  "label": "Electromagnetic Devices",
+                  "summary": "Textbook Excerpt:\nIn such a condition we can use a\nsimple rule to find the direction of the force on the conductor.\n\nKey Points:\n- In Activity 12.7, we considered the\ndirection of the current and that of the magnetic\nfield perpendicular to each other and found\nthat the force is perpendicular to both of them.\n- The three directions can be illustrated through\na simple rule, called Fleming’s left-hand rule.",
+                  "preview": "Textbook Excerpt:\nIn such a condition we can use a\nsimple ru...",
+                  "keywords": [
+                    "Textbook",
+                    "Excerpt:",
+                    "condition",
+                    "direction",
+                    "conductor"
+                  ],
+                  "ui": {
+                    "expandable": false,
+                    "visual_type": "text_node",
+                    "node_style": "default",
+                    "animation_hint": "fade_in",
+                    "icon": "circle"
+                  },
+                  "children": [],
+                  "metadata": {
+                    "depth": 4,
+                    "leaf": true
+                  }
+                }
+              ],
+              "metadata": {
+                "depth": 3,
+                "leaf": false
+              }
+            }
+          ],
+          "metadata": {
+            "depth": 2,
+            "leaf": false
+          }
+        },
+        {
+          "id": "55fc98da-2b29-45ca-af7b-f11477643dd1",
+          "type": "section",
+          "label": "12.4 Domestic Electric Circuits",
+          "summary": "Textbook Excerpt:\nIn our homes, we receive supply of electric power through a main supply\n(also called mains), either supported through overhead electric poles or\nby underground cables.\n\nKey Points:\n- One of the wires in this supply, usually with\nred insulation cover, is called live wire (or positive).\n- Another wire, with\nblack insulation, is called neutral wire (or negative).",
+          "preview": "Textbook Excerpt:\nIn our homes, we receive supply of electri...",
+          "keywords": [
+            "Textbook",
+            "Excerpt:",
+            "receive",
+            "electric",
+            "through"
+          ],
+          "ui": {
+            "expandable": true,
+            "visual_type": "tree_node",
+            "node_style": "default",
+            "animation_hint": "expand_simple",
+            "icon": "bolt"
+          },
+          "children": [
+            {
+              "id": "3affb88f-391f-4594-8b63-a39c9870a5dd",
+              "type": "concept",
+              "label": "Electric Supply in Homes",
+              "summary": "Textbook Excerpt:\nIn our country, the\npotential difference between the two is 220 V.\n\nKey Points:\n- At the meter-board in the house, these wires pass into an electricity\nmeter through a main fuse.\n- Through the main switch they are connected\nto the line wires in the house.",
+              "preview": "Textbook Excerpt:\nIn our country, the\npotential difference b...",
+              "keywords": [
+                "Textbook",
+                "Excerpt:",
+                "country",
+                "potential",
+                "difference"
+              ],
+              "ui": {
+                "expandable": true,
+                "visual_type": "tree_node",
+                "node_style": "default",
+                "animation_hint": "expand_simple",
+                "icon": "bolt"
+              },
+              "children": [
+                {
+                  "id": "67f238ad-0f1e-4f69-9c9c-957466f87d40",
+                  "type": "concept",
+                  "label": "Main Supply and Wires",
+                  "summary": "Textbook Excerpt:\nThese wires supply electricity to separate\ncircuits within the house.\n\nKey Points:\n- Often, two separate circuits are used, one of\n15 A current rating for appliances with higher power ratings such as\ngeysers, air coolers, etc.\n- The other circuit is of 5 A current rating for\nbulbs, fans, etc.",
+                  "preview": "Textbook Excerpt:\nThese wires supply electricity to separate...",
+                  "keywords": [
+                    "Textbook",
+                    "Excerpt:",
+                    "electricity",
+                    "separate",
+                    "circuits"
+                  ],
+                  "ui": {
+                    "expandable": true,
+                    "visual_type": "tree_node",
+                    "node_style": "default",
+                    "animation_hint": "expand_simple",
+                    "icon": "circle"
+                  },
+                  "children": [
+                    {
+                      "id": "d7aba294-90a0-422b-a502-7ca45d05dee2",
+                      "type": "concept",
+                      "label": "Live Wire (Red Insulation)",
+                      "summary": "Textbook Excerpt:\nThe earth wire, which has insulation of green colour, is\nusually connected to a metal plate deep in the earth near the house.\n\nKey Points:\n- This is used as a safety measure, especially for those appliances that\nhave a metallic body, for example, electric press, toaster, table fan,\nrefrigerator, etc.\n- The metallic body is connected to the earth wire, which\nprovides a low-resistance conducting path for the current.",
+                      "preview": "Textbook Excerpt:\nThe earth wire, which has insulation of gr...",
+                      "keywords": [
+                        "Textbook",
+                        "Excerpt:",
+                        "insulation",
+                        "usually",
+                        "connected"
+                      ],
+                      "ui": {
+                        "expandable": false,
+                        "visual_type": "text_node",
+                        "node_style": "default",
+                        "animation_hint": "fade_in",
+                        "icon": "circle"
+                      },
+                      "children": [],
+                      "metadata": {
+                        "depth": 5,
+                        "leaf": true
+                      }
+                    },
+                    {
+                      "id": "ce6eaa95-d836-465e-99b5-3d12e9117775",
+                      "type": "concept",
+                      "label": "Neutral Wire (Black Insulation)",
+                      "summary": "Textbook Excerpt:\nThus, it\nensures that any leakage of current to the metallic body of the appliance\nkeeps its potential to that of the earth, and the user may not get a severe\nelectric shock.\n\nKey Points:\n- In Activity 12.7, how do we think the displacement of rod AB will be\naffected if (i) current in rod AB is increased; (ii) a stronger horse-shoe\nmagnet is used; and (iii) length of the rod AB is increased?\n- A positively-charged particle (alpha-particle) projected towards west is\ndeflected towards north by a magnetic field.",
+                      "preview": "Textbook Excerpt:\nThus, it\nensures that any leakage of curre...",
+                      "keywords": [
+                        "Textbook",
+                        "Excerpt:",
+                        "ensures",
+                        "leakage",
+                        "current"
+                      ],
+                      "ui": {
+                        "expandable": false,
+                        "visual_type": "text_node",
+                        "node_style": "default",
+                        "animation_hint": "fade_in",
+                        "icon": "circle"
+                      },
+                      "children": [],
+                      "metadata": {
+                        "depth": 5,
+                        "leaf": true
+                      }
+                    },
+                    {
+                      "id": "140adbc5-7f44-4d15-8e8a-09b40d7c6cfb",
+                      "type": "concept",
+                      "label": "Earth Wire (Green Insulation)",
+                      "summary": "Textbook Excerpt:\nThe direction of magnetic\nfield is\n(a)\ntowards south\n(b)\ntowards east\n(c)\ndownward\n(d)\nupward\nMagnetism in medicine\nAn electric current always produces a magnetic field.\n\nKey Points:\n- Even weak ion currents that\ntravel along the nerve cells in our body produce magnetic fields.\n- When we touch\nsomething, our nerves carry an electric impulse to the muscles we need to use.",
+                      "preview": "Textbook Excerpt:\nThe direction of magnetic\nfield is\n(a)\ntow...",
+                      "keywords": [
+                        "Textbook",
+                        "Excerpt:",
+                        "direction",
+                        "magnetic",
+                        "towards"
+                      ],
+                      "ui": {
+                        "expandable": false,
+                        "visual_type": "text_node",
+                        "node_style": "default",
+                        "animation_hint": "fade_in",
+                        "icon": "circle"
+                      },
+                      "children": [],
+                      "metadata": {
+                        "depth": 5,
+                        "leaf": true
+                      }
+                    }
+                  ],
+                  "metadata": {
+                    "depth": 4,
+                    "leaf": false
+                  }
+                },
+                {
+                  "id": "cb8e5457-54b0-43fa-ae6e-df76d0ef3e5b",
+                  "type": "concept",
+                  "label": "Circuit Connections and Safety Measures",
+                  "summary": "Textbook Excerpt:\nThis\nimpulse produces a temporary magnetic field.\n\nKey Points:\n- These fields are very weak and are\nabout one-billionth of the earth’s magnetic field.\n- Two main organs in the human\nbody where the magnetic field produced is significant, are the heart and the brain.",
+                  "preview": "Textbook Excerpt:\nThis\nimpulse produces a temporary magnetic...",
+                  "keywords": [
+                    "Textbook",
+                    "Excerpt:",
+                    "impulse",
+                    "produces",
+                    "temporary"
+                  ],
+                  "ui": {
+                    "expandable": true,
+                    "visual_type": "tree_node",
+                    "node_style": "default",
+                    "animation_hint": "expand_simple",
+                    "icon": "circle"
+                  },
+                  "children": [
+                    {
+                      "id": "23394d70-01fe-4489-bf8b-d6e68504faab",
+                      "type": "concept",
+                      "label": "Two Separate Circuits",
+                      "summary": "Textbook Excerpt:\nThe\nmagnetic field inside the body forms the basis of obtaining the images of different body\nparts.\n\nKey Points:\n- This is done using a technique called Magnetic Resonance Imaging (MRI).\n- Analysis\nof these images helps in medical diagnosis.",
+                      "preview": "Textbook Excerpt:\nThe\nmagnetic field inside the body forms t...",
+                      "keywords": [
+                        "Textbook",
+                        "Excerpt:",
+                        "magnetic",
+                        "obtaining",
+                        "different"
+                      ],
+                      "ui": {
+                        "expandable": false,
+                        "visual_type": "text_node",
+                        "node_style": "default",
+                        "animation_hint": "fade_in",
+                        "icon": "circle"
+                      },
+                      "children": [],
+                      "metadata": {
+                        "depth": 5,
+                        "leaf": true
+                      }
+                    },
+                    {
+                      "id": "34d92bc1-438c-4a19-bb0a-867144a2a95f",
+                      "type": "concept",
+                      "label": "Earth Wire as Safety Measure",
+                      "summary": "Textbook Excerpt:\nMagnetism has, thus, got important uses\nin medicine.\n\nKey Points:\n- Magnetic Effects of Electric Current\nparallel to each other.\n- Electric fuse is an important component of all domestic circuits.",
+                      "preview": "Textbook Excerpt:\nMagnetism has, thus, got important uses\nin...",
+                      "keywords": [
+                        "Textbook",
+                        "Excerpt:",
+                        "Magnetism",
+                        "important",
+                        "medicine"
+                      ],
+                      "ui": {
+                        "expandable": false,
+                        "visual_type": "text_node",
+                        "node_style": "default",
+                        "animation_hint": "fade_in",
+                        "icon": "circle"
+                      },
+                      "children": [],
+                      "metadata": {
+                        "depth": 5,
+                        "leaf": true
+                      }
+                    }
+                  ],
+                  "metadata": {
+                    "depth": 4,
+                    "leaf": false
+                  }
+                }
+              ],
+              "metadata": {
+                "depth": 3,
+                "leaf": false
+              }
+            },
+            {
+              "id": "1403005c-6a7d-432d-93a1-731e29aa333f",
+              "type": "concept",
+              "label": "Electric Fuse and Overloading",
+              "summary": "Textbook Excerpt:\nWe\nhave already studied the principle and working of a fuse in the previous\nchapter (see Section 11.7).\n\nKey Points:\n- A fuse in a circuit prevents damage to the\nappliances and the circuit due to overloading.\n- Overloading can occur\nwhen the live wire and the neutral wire come into direct contact.",
+              "preview": "Textbook Excerpt:\nWe\nhave already studied the principle and ...",
+              "keywords": [
+                "Textbook",
+                "Excerpt:",
+                "already",
+                "studied",
+                "principle"
+              ],
+              "ui": {
+                "expandable": true,
+                "visual_type": "tree_node",
+                "node_style": "default",
+                "animation_hint": "expand_simple",
+                "icon": "bolt"
+              },
+              "children": [
+                {
+                  "id": "5ada6854-77c1-42d0-98d0-267626c8fd0a",
+                  "type": "concept",
+                  "label": "Function of an Electric Fuse",
+                  "summary": "Textbook Excerpt:\n(This\noccurs when the insulation of wires is damaged or there is a fault in the\nappliance.) In such a situation, the current in the circuit abruptly\nincreases.\n\nKey Points:\n- This is called short-circuiting.\n- The use of an electric fuse\nprevents the electric circuit and the appliance from a possible damage\nby stopping the flow of unduly high electric current.",
+                  "preview": "Textbook Excerpt:\n(This\noccurs when the insulation of wires ...",
+                  "keywords": [
+                    "Textbook",
+                    "Excerpt:",
+                    "insulation",
+                    "damaged",
+                    "appliance"
+                  ],
+                  "ui": {
+                    "expandable": false,
+                    "visual_type": "text_node",
+                    "node_style": "default",
+                    "animation_hint": "fade_in",
+                    "icon": "bolt"
+                  },
+                  "children": [],
+                  "metadata": {
+                    "depth": 4,
+                    "leaf": true
+                  }
+                },
+                {
+                  "id": "e41d5d6e-9a31-48ae-9c52-609fd485c7c1",
+                  "type": "concept",
+                  "label": "Preventing Overloading",
+                  "summary": "Textbook Excerpt:\nThe Joule heating\nthat takes place in the fuse melts it to break the electric circuit.\n\nKey Points:\n- Overloading can also occur due to an accidental hike in the supply\nvoltage.\n- Sometimes overloading is caused by connecting too many\nappliances to a single socket.",
+                  "preview": "Textbook Excerpt:\nThe Joule heating\nthat takes place in the ...",
+                  "keywords": [
+                    "Textbook",
+                    "Excerpt:",
+                    "heating",
+                    "electric",
+                    "circuit"
+                  ],
+                  "ui": {
+                    "expandable": false,
+                    "visual_type": "text_node",
+                    "node_style": "default",
+                    "animation_hint": "fade_in",
+                    "icon": "circle"
+                  },
+                  "children": [],
+                  "metadata": {
+                    "depth": 4,
+                    "leaf": true
+                  }
+                }
+              ],
+              "metadata": {
+                "depth": 3,
+                "leaf": false
+              }
+            }
+          ],
+          "metadata": {
+            "depth": 2,
+            "leaf": false
+          }
+        }
+      ],
+      "metadata": {
+        "depth": 1,
+        "leaf": false
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "Magnetic Fields and Field Lines",
+      "to": "Magnetic Effects of Electric Current",
+      "relation": "Uses"
+    },
+    {
+      "from": "Magnetic Field Lines",
+      "to": "Magnetic Fields and Field Lines",
+      "relation": "Produces"
+    },
+    {
+      "from": "Properties of Magnetic Field Lines",
+      "to": "Magnetic Field Lines",
+      "relation": "Requires"
+    },
+    {
+      "from": "Magnetic Field Properties",
+      "to": "Magnetic Fields and Field Lines",
+      "relation": "Part Of"
+    },
+    {
+      "from": "Magnetic Fields from Current",
+      "to": "Magnetic Fields and Field Lines",
+      "relation": "Depends On"
+    },
+    {
+      "from": "12.1 Magnetic Field And Field Lines",
+      "to": "Magnetic Fields from Current",
+      "relation": "Uses"
+    },
+    {
+      "from": "Compass Needle Deflection",
+      "to": "12.1 Magnetic Field And Field Lines",
+      "relation": "Leads To"
+    },
+    {
+      "from": "Field Line Strength",
+      "to": "Magnetic Field Lines",
+      "relation": "Contains"
+    },
+    {
+      "from": "Closed Curves",
+      "to": "Properties of Magnetic Field Lines",
+      "relation": "Supports"
+    },
+    {
+      "from": "Direction of Magnetic Field",
+      "to": "Magnetic Fields from Current",
+      "relation": "Requires"
+    },
+    {
+      "from": "Conducting Current",
+      "to": "Magnetic Fields from Current",
+      "relation": "Uses"
+    },
+    {
+      "from": "Right-Hand Thumb Rule",
+      "to": "Magnetic Fields from Current",
+      "relation": "Part Of"
+    },
+    {
+      "from": "Maxwell's Corkscrew Rule",
+      "to": "Magnetic Fields from Current",
+      "relation": "Supports"
+    },
+    {
+      "from": "Conductor Shape and Magnetic Field",
+      "to": "Magnetic Fields from Current",
+      "relation": "Produces"
+    },
+    {
+      "from": "12.2.2 Right-Hand Thumb Rule",
+      "to": "Magnetic Fields from Current",
+      "relation": "Depends On"
+    },
+    {
+      "from": "Conducting Current",
+      "to": "12.2.2 Right-Hand Thumb Rule",
+      "relation": "Uses"
+    },
+    {
+      "from": "Magnetic Field Direction",
+      "to": "12.2.2 Right-Hand Thumb Rule",
+      "relation": "Leads To"
+    },
+    {
+      "from": "Right-Hand Thumb Rule",
+      "to": "12.2.2 Right-Hand Thumb Rule",
+      "relation": "Part Of"
+    },
+    {
+      "from": "Fleming's Left-Hand Rule",
+      "to": "12.2.2 Right-Hand Thumb Rule",
+      "relation": "Supports"
+    },
+    {
+      "from": "Force Due To Magnetic Field",
+      "to": "Current-Carrying Conductor In Magnetic Field",
+      "relation": "Produces"
+    },
+    {
+      "from": "Current-Carrying Conductor In Magnetic Field",
+      "to": "Magnetic Field Exerting Force",
+      "relation": "Uses"
+    }
+  ]
+}

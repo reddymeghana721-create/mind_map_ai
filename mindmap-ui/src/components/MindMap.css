@@ -139,7 +139,55 @@
     margin-bottom: 15px;
 
     color: #61dafb;
-    font-size: 22px;
+    font-size: 20px;
+    line-height: 1.3;
+}
+
+.mindmap-video-badge {
+    display: inline-block;
+    margin-top: 4px;
+    font-size: 11px;
+    font-weight: 600;
+    color: #f0b34c;
+    background: rgba(240, 179, 76, 0.15);
+    border: 1px solid rgba(240, 179, 76, 0.3);
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+.video-player-container {
+    margin-bottom: 18px;
+    background: #181a20;
+    border: 1px solid #333745;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+}
+
+.video-player-header {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 8px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #f0b34c;
+}
+
+.video-element {
+    width: 100%;
+    border-radius: 6px;
+    background: #000;
+    outline: none;
+}
+
+.summary-section h3 {
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #9fa3b0;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
 }
 
 .mindmap-details p {

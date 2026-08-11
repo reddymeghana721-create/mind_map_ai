@@ -2,7 +2,7 @@ import os
 import json
 import traceback
 
-from flask import Flask, jsonify
+from flask import Flask, jsonify, send_from_directory
 from flask_cors import CORS
 
 from database.mindmap_repository import MindMapRepository
@@ -18,6 +18,13 @@ from services import (
 
 app = Flask(__name__)
 CORS(app)
+
+UPLOAD_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "uploads")
+
+
+@app.route("/uploads/<path:filename>", methods=["GET"])
+def serve_upload(filename):
+    return send_from_directory(UPLOAD_DIR, filename)
 
 llm = OpenRouterLLM()
 
@@ -43,6 +50,35 @@ def _get_output_path(class_name: str, subject: str, chapter: str) -> str:
     os.makedirs(folder, exist_ok=True)
     filename = f"{chapter}.json"
     return os.path.join(folder, filename)
+
+
+def _attach_media_videos(node):
+    if not isinstance(node, dict):
+        return
+    node_id = str(node.get("id", ""))
+    lbl = node.get("label", "")
+    sum_txt = node.get("summary", "")
+
+    # 1. Node 46bc1784 (2.3 How Strong Are Acid Or Base Solutions?) -> LM_v2.mp4
+    if "46bc1784" in node_id or "2.3 How Strong" in lbl:
+        node["video"] = "/uploads/LM_v2.mp4"
+        if "ui" in node:
+            node["ui"]["has_video"] = True
+
+    # 2. Node 7e292cd2 (Identifying Acids And Bases) -> Lm_v1.mp4
+    elif "7e292cd2" in node_id or "Identifying Acids And Bases" in lbl:
+        node["video"] = "/uploads/Lm_v1.mp4"
+        if "ui" in node:
+            node["ui"]["has_video"] = True
+
+    # 3. Node 2.2.1 (What Happens To An Acid Or A Base In A Water Solution?) -> gen1_notebooklm.mp4
+    elif "2.2.1" in lbl or "Ions In Aqueous" in lbl or "produce ions" in sum_txt.lower():
+        node["video"] = "/uploads/gen1_notebooklm.mp4"
+        if "ui" in node:
+            node["ui"]["has_video"] = True
+
+    for c in node.get("children", []):
+        _attach_media_videos(c)
 
 
 def _save_to_disk(class_name: str, subject: str, chapter: str, tree: dict) -> None:
@@ -164,7 +200,7 @@ def generate_mindmap(class_name: str, subject: str, chapter: str) -> dict:
     # ------------------------------------
     # Summaries
     # ------------------------------------
-    summaries = summarizer.summarize(concepts)
+    summaries = summarizer.summarize(concepts, chapter_text=text)
 
     # ------------------------------------
     # VALIDATION
@@ -183,6 +219,8 @@ def generate_mindmap(class_name: str, subject: str, chapter: str) -> dict:
         summaries=summaries,
         relationships=relationships
     )
+
+    _attach_media_videos(final_tree)
 
     # Save to memory
     _mindmap_cache[cache_key] = final_tree

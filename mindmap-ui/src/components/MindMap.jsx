@@ -56,6 +56,7 @@ function layoutTree(root, expanded) {
       id: node.id,
       label: node.label,
       summary: node.summary,
+      video: node.video || node.video_url || (node.ui && node.ui.video),
       children: node.children,
       x: depth * COLUMN_WIDTH,
       y,
@@ -189,6 +190,11 @@ export default function MindMap({ data }) {
               <div className="mindmap-node-label">
                 {n.label}
               </div>
+              {n.video && (
+                <div className="mindmap-video-badge">
+                  🎬 Video
+                </div>
+              )}
             </div>
 
             {n.hasChildren && (
@@ -211,9 +217,30 @@ export default function MindMap({ data }) {
 
       <div className="mindmap-details">
         <h2>{selectedNode.label}</h2>
-        <p style={{ whiteSpace: "pre-line" }}>
-          {selectedNode.summary}
-        </p>
+
+        {selectedNode.video && (
+          <div className="video-player-container">
+            <div className="video-player-header">
+              <span>🎬 Video Explanation</span>
+            </div>
+            <video
+              key={selectedNode.video}
+              controls
+              autoPlay={false}
+              className="video-element"
+              src={selectedNode.video.startsWith("http") ? selectedNode.video : `http://localhost:5000${selectedNode.video}`}
+            >
+              Your browser does not support HTML5 video playback.
+            </video>
+          </div>
+        )}
+
+        <div className="summary-section">
+          <h3>Summary & Key Concepts</h3>
+          <p style={{ whiteSpace: "pre-line" }}>
+            {selectedNode.summary}
+          </p>
+        </div>
       </div>
     </div>
   );

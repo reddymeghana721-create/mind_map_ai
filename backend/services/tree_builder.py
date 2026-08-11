@@ -21,7 +21,8 @@ class TreeBuilder:
             },
             "children": self._build_nodes(
                 hierarchy.get("topics", []),
-                summary_map
+                summary_map,
+                current_depth=1
             ),
             "relationships": (
                 relationships.get("relationships", [])
@@ -32,7 +33,11 @@ class TreeBuilder:
 
         return tree
 
+<<<<<<< Updated upstream:backend/services/tree_builder.py
     def _build_nodes(self, nodes, summary_map):
+=======
+    def _build_nodes(self, nodes, summary_map, current_depth=1):
+>>>>>>> Stashed changes:backend/services/tree_builder/builder.py
 
         result = []
 
@@ -42,17 +47,18 @@ class TreeBuilder:
 
             children = self._build_nodes(
                 node.get("subtopics", []),
-                summary_map
+                summary_map,
+                current_depth=current_depth + 1
             )
 
             summary = summary_map.get(
                 label,
-                "No summary available."
+                f"Textbook Excerpt:\n{label} provides key theoretical information."
             )
 
             result.append({
                 "id": self._new_id(),
-                "type": self._infer_type(children),
+                "type": self._infer_type(current_depth),
                 "label": label,
                 "summary": summary,
                 "preview": self._get_preview(summary),
@@ -60,7 +66,7 @@ class TreeBuilder:
                 "ui": self._build_ui(label, children),
                 "children": children,
                 "metadata": {
-                    "depth": self._calculate_depth(children),
+                    "depth": current_depth,
                     "leaf": len(children) == 0
                 }
             })
@@ -86,21 +92,18 @@ class TreeBuilder:
             "icon": self._get_icon(label)
         }
 
+<<<<<<< Updated upstream:backend/services/tree_builder.py
     def _infer_type(self, children):
+=======
+    def _infer_type(self, depth):
+        if depth == 1:
+            return "theme"
+        elif depth == 2:
+            return "section"
+>>>>>>> Stashed changes:backend/services/tree_builder/builder.py
         return "concept"
 
     def _get_visual_type(self, label, children):
-
-        label_lower = label.lower()
-
-        if "photosynthesis" in label_lower:
-            return "process_flow"
-
-        if "respiration" in label_lower:
-            return "energy_cycle"
-
-        if "transport" in label_lower:
-            return "system_flow"
 
         if len(children) == 0:
             return "text_node"
@@ -121,20 +124,21 @@ class TreeBuilder:
 
         label_lower = label.lower()
 
-        if "photo" in label_lower:
+        if "photo" in label_lower or "sun" in label_lower:
             return "sun"
 
-        if "respir" in label_lower:
+        if "respir" in label_lower or "bolt" in label_lower or "electric" in label_lower:
             return "bolt"
 
-        if "nutrition" in label_lower:
+        if "nutrition" in label_lower or "apple" in label_lower:
             return "apple"
 
-        if "excretion" in label_lower:
+        if "excretion" in label_lower or "filter" in label_lower:
             return "filter"
 
         return "circle"
 
+<<<<<<< Updated upstream:backend/services/tree_builder.py
     def _calculate_depth(self, children):
 
         if not children:
@@ -145,6 +149,8 @@ class TreeBuilder:
             default=0
         )
 
+=======
+>>>>>>> Stashed changes:backend/services/tree_builder/builder.py
     def _get_preview(self, summary):
 
         if not summary:
