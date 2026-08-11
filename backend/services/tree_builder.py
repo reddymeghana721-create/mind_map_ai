@@ -4,7 +4,6 @@ import uuid
 class TreeBuilder:
 
     def build(self, hierarchy, summaries, relationships=None):
-
         summary_map = self._build_summary_map(summaries)
 
         tree = {
@@ -33,16 +32,10 @@ class TreeBuilder:
 
         return tree
 
-<<<<<<< Updated upstream:backend/services/tree_builder.py
-    def _build_nodes(self, nodes, summary_map):
-=======
     def _build_nodes(self, nodes, summary_map, current_depth=1):
->>>>>>> Stashed changes:backend/services/tree_builder/builder.py
-
         result = []
 
         for node in nodes:
-
             label = node.get("name", "Unknown")
 
             children = self._build_nodes(
@@ -74,16 +67,12 @@ class TreeBuilder:
         return result
 
     def _build_summary_map(self, summaries):
-
         summary_map = {}
-
         for item in summaries.get("nodes", []):
             summary_map[item["concept"]] = item["summary"]
-
         return summary_map
 
     def _build_ui(self, label, children):
-
         return {
             "expandable": len(children) > 0,
             "visual_type": self._get_visual_type(label, children),
@@ -92,93 +81,54 @@ class TreeBuilder:
             "icon": self._get_icon(label)
         }
 
-<<<<<<< Updated upstream:backend/services/tree_builder.py
-    def _infer_type(self, children):
-=======
     def _infer_type(self, depth):
         if depth == 1:
             return "theme"
         elif depth == 2:
             return "section"
->>>>>>> Stashed changes:backend/services/tree_builder/builder.py
         return "concept"
 
     def _get_visual_type(self, label, children):
-
         if len(children) == 0:
             return "text_node"
-
         return "tree_node"
 
     def _get_animation_hint(self, children):
-
         if len(children) == 0:
             return "fade_in"
-
         if len(children) > 3:
             return "expand_cascade"
-
         return "expand_simple"
 
     def _get_icon(self, label):
-
         label_lower = label.lower()
-
         if "photo" in label_lower or "sun" in label_lower:
             return "sun"
-
         if "respir" in label_lower or "bolt" in label_lower or "electric" in label_lower:
             return "bolt"
-
         if "nutrition" in label_lower or "apple" in label_lower:
             return "apple"
-
         if "excretion" in label_lower or "filter" in label_lower:
             return "filter"
-
         return "circle"
 
-<<<<<<< Updated upstream:backend/services/tree_builder.py
-    def _calculate_depth(self, children):
-
-        if not children:
-            return 0
-
-        return 1 + max(
-            [child["metadata"]["depth"] for child in children],
-            default=0
-        )
-
-=======
->>>>>>> Stashed changes:backend/services/tree_builder/builder.py
     def _get_preview(self, summary):
-
         if not summary:
             return ""
-
         if len(summary) <= 60:
             return summary
-
         return summary[:60] + "..."
 
     def _extract_keywords(self, summary):
-
         if not summary:
             return []
-
         words = summary.split()
-
         keywords = []
-
         for word in words:
-
             word = word.strip(".,()")
-
             if len(word) > 6:
                 keywords.append(word)
-
         return keywords[:5]
 
     def _new_id(self):
-
         return str(uuid.uuid4())

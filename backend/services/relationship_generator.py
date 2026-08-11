@@ -10,25 +10,12 @@ class RelationshipGenerator:
         self.llm = llm
 
     def generate(self, hierarchy, chapter_text):
-<<<<<<< Updated upstream:backend/services/relationship_generator.py
-
-        topic_names = self._extract_topics(hierarchy.get("topics", []))
-
-        # Truncate chapter text to 2500 chars to stay well within LLM prompt token limits
-        trimmed_text = chapter_text[:2500] if len(chapter_text) > 2500 else chapter_text
-
-        prompt = (
-            RELATIONSHIP_PROMPT
-            + "\n\nCHAPTER TEXT SUMMARY:\n"
-            + trimmed_text
-=======
         topic_names = self._extract_topics(hierarchy.get("topics", []))
 
         prompt = (
             RELATIONSHIP_PROMPT
             + "\n\nCHAPTER TEXT:\n"
             + chapter_text[:4000]
->>>>>>> Stashed changes:backend/services/relationship_generator/generator.py
             + "\n\nHIERARCHY:\n"
             + json.dumps(hierarchy, indent=2)
         )
@@ -43,31 +30,14 @@ class RelationshipGenerator:
         except Exception as e:
             print(f"[RelationshipGenerator] LLM failed: {e}")
 
-        # Structured, domain-accurate branch relationships (never generic "Related To" across branches!)
+        # Structured, domain-accurate branch relationships
         return {"relationships": self._generate_structured_relationships(hierarchy.get("topics", []))}
 
-<<<<<<< Updated upstream:backend/services/relationship_generator.py
-        if not result["relationships"]:
-            result["relationships"] = self._fallback(topic_names)
-
-        return result
-
-=======
->>>>>>> Stashed changes:backend/services/relationship_generator/generator.py
     def _extract_topics(self, topics):
         names = []
         for topic in topics:
-<<<<<<< Updated upstream:backend/services/relationship_generator.py
             names.append(topic.get("name", ""))
-
-            names.extend(
-                self._extract_topics(topic.get("subtopics", []))
-            )
-
-=======
-            names.append(topic["name"])
             names.extend(self._extract_topics(topic.get("subtopics", [])))
->>>>>>> Stashed changes:backend/services/relationship_generator/generator.py
         return names
 
     def _safe_json(self, response):
@@ -88,13 +58,7 @@ class RelationshipGenerator:
         return text.lower().strip()
 
     def _validate(self, data, topic_names):
-<<<<<<< Updated upstream:backend/services/relationship_generator.py
-
         valid = {self._normalize(n) for n in topic_names if n}
-
-=======
-        valid = {self._normalize(n) for n in topic_names}
->>>>>>> Stashed changes:backend/services/relationship_generator/generator.py
         cleaned = []
         seen = set()
 
@@ -129,13 +93,6 @@ class RelationshipGenerator:
 
         return {"relationships": cleaned}
 
-<<<<<<< Updated upstream:backend/services/relationship_generator.py
-    def _fallback(self, topic_names):
-
-        valid_topics = [t for t in topic_names if t]
-        if len(valid_topics) < 2:
-            return []
-=======
     def _infer_relation(self, source, target):
         s_low = source.lower()
         t_low = target.lower()
@@ -152,32 +109,19 @@ class RelationshipGenerator:
             return "Enables"
         if "distance" in t_low or "proportional" in t_low:
             return "Proportional To"
->>>>>>> Stashed changes:backend/services/relationship_generator/generator.py
 
         return "Enables"
 
     def _generate_structured_relationships(self, topics):
-        """
-        Generates domain-accurate semantic relationships within section branches.
-        NEVER connects across unrelated section boundaries or uses generic "Related To".
-        """
         relationships = []
         seen = set()
 
-<<<<<<< Updated upstream:backend/services/relationship_generator.py
-        for i in range(len(valid_topics) - 1):
-            relationships.append({
-                "from": valid_topics[i],
-                "to": valid_topics[i + 1],
-                "relation": "Related To"
-            })
-=======
         for topic in topics:
-            parent_name = topic["name"]
+            parent_name = topic.get("name", "")
             subtopics = topic.get("subtopics", [])
 
             for sub in subtopics:
-                sub_name = sub["name"]
+                sub_name = sub.get("name", "")
                 rel_type = self._infer_relation(parent_name, sub_name)
 
                 key = (self._normalize(parent_name), self._normalize(sub_name))
@@ -189,10 +133,9 @@ class RelationshipGenerator:
                         "relation": rel_type
                     })
 
-                # Connect child nodes under same parent
                 children = sub.get("subtopics", [])
                 for child in children:
-                    child_name = child["name"]
+                    child_name = child.get("name", "")
                     child_rel = self._infer_relation(sub_name, child_name)
                     c_key = (self._normalize(sub_name), self._normalize(child_name))
                     if c_key not in seen:
@@ -202,6 +145,5 @@ class RelationshipGenerator:
                             "to": child_name,
                             "relation": child_rel
                         })
->>>>>>> Stashed changes:backend/services/relationship_generator/generator.py
 
         return relationships

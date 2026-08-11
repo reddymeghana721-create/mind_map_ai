@@ -134,10 +134,7 @@ class Validator:
                 "summary": summary
             })
 
-<<<<<<< Updated upstream:backend/services/validator.py
-=======
         # Add missing summaries with unique text
->>>>>>> Stashed changes:backend/services/validator/validator.py
         for topic in valid_topics:
             if topic not in covered:
                 clean_name = re.sub(r'^\d+(\.\d+)*\s*', '', topic).strip()
@@ -151,10 +148,4 @@ class Validator:
                     "summary": summary_text
                 })
 
-<<<<<<< Updated upstream:backend/services/validator.py
-        return {
-            "nodes": cleaned
-        }
-=======
         return {"nodes": cleaned}
->>>>>>> Stashed changes:backend/services/validator/validator.py
