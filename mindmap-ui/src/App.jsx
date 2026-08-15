@@ -17,6 +17,13 @@ export default function App() {
   const [treeError, setTreeError] = useState(null);
   const [treeLoading, setTreeLoading] = useState(false);
 
+  const [uploadFile, setUploadFile] = useState(null);
+  const [uploadClass, setUploadClass] = useState("");
+  const [uploadSubject, setUploadSubject] = useState("");
+  const [uploadChapter, setUploadChapter] = useState("");
+  const [uploadLoading, setUploadLoading] = useState(false);
+  const [uploadMessage, setUploadMessage] = useState("");
+
   const [expandedNodeIds, setExpandedNodeIds] = useState(() => new Set());
   const [selectedNodeId, setSelectedNodeId] = useState(null);
 
@@ -76,6 +83,60 @@ export default function App() {
         setTreeLoading(false);
       });
   }, []);
+
+  const handleUpload = async () => {
+  if (!uploadFile || !uploadClass || !uploadSubject || !uploadChapter) {
+    setUploadMessage("Please fill all the fields.");
+    return;
+  }
+
+  setUploadLoading(true);
+  setUploadMessage("");
+
+  const formData = new FormData();
+  formData.append("file", uploadFile);
+  formData.append("class_name", uploadClass);
+  formData.append("subject", uploadSubject);
+  formData.append("chapter_name", uploadChapter);
+
+  try {
+    const uploadResponse = await fetch(`${API_BASE}/api/upload`, {
+      method: "POST",
+      body: formData,
+    });
+
+    const uploadData = await uploadResponse.json();
+
+    if (!uploadResponse.ok) {
+      throw new Error(uploadData.error || "Upload failed");
+    }
+
+    setUploadMessage("PDF uploaded successfully. Generating mind map...");
+
+    const mapResponse = await fetch(
+      `${API_BASE}/api/mindmap/${uploadClass}/${uploadSubject}/${uploadChapter}`
+    );
+
+    const mapData = await mapResponse.json();
+
+    if (!mapResponse.ok) {
+      throw new Error(mapData.error || "Mind map generation failed");
+    }
+
+    setTreeData(mapData);
+    setSelected({
+      class_name: uploadClass,
+      subject: uploadSubject,
+      chapter: uploadChapter,
+    });
+
+    setUploadMessage("");
+  } catch (error) {
+    setUploadMessage(error.message);
+  } finally {
+    setUploadLoading(false);
+  }
+};
 
   // Handle node expand/collapse toggle
   const handleToggleExpand = useCallback((nodeId) => {
@@ -200,17 +261,148 @@ export default function App() {
             />
           )}
         </div>
-      </main>
+      </div>
+    );
+  }
 
-      {/* 3. RIGHT PANEL: AI LEARNING PANEL */}
-      <AnimatePresence>
-        {isLearningPanelOpen && activeNodeObject && (
-          <LearningPanel
-            selectedNode={activeNodeObject}
-            onClose={() => setIsLearningPanelOpen(false)}
-          />
-        )}
-      </AnimatePresence>
+  // ---------- LIST VIEW ----------
+  if (listError) {
+    return (
+      <div style={{ color: "#f0b34c", padding: 24, fontFamily: "sans-serif" }}>
+        Couldn't load mindmap list: {listError}
+        <br />
+        Make sure the Flask backend is running on {API_BASE}.
+      </div>
+    );
+  }
+
+  if (mindmaps === null) {
+    return (
+      <div style={{ color: "#9fa3b0", padding: 24, fontFamily: "sans-serif" }}>
+        Loading available mind maps...
+      </div>
+    );
+  }
+
+  if (mindmaps.length === 0) {
+    return (
+      <div style={{ color: "#9fa3b0", padding: 24, fontFamily: "sans-serif" }}>
+        No mind maps generated yet. Hit the backend's
+        <code style={{ margin: "0 6px" }}>
+          /api/mindmap/&lt;class_name&gt;/&lt;subject&gt;/&lt;chapter&gt;
+        </code>
+        endpoint once to generate one.
+      </div>
+    );
+  }
+
+  return (
+  <div style={{ padding: 24, fontFamily: "sans-serif" }}>
+
+    <div
+      style={{
+        background: "#20202a",
+        border: "1px solid #33333f",
+        borderRadius: 10,
+        padding: 20,
+        marginBottom: 28,
+      }}
+    >
+      <h2 style={{ color: "#e2e2ea", marginTop: 0 }}>
+        Upload New Chapter
+      </h2>
+
+      <input
+        type="file"
+        accept=".pdf"
+        onChange={(e) => setUploadFile(e.target.files[0])}
+        style={{ marginBottom: 12, color: "#e2e2ea" }}
+      />
+
+      <div style={{ display: "flex", gap: 10, flexWrap: "wrap" }}>
+        <input
+          type="text"
+          placeholder="Class (e.g. class10)"
+          value={uploadClass}
+          onChange={(e) => setUploadClass(e.target.value)}
+        />
+
+        <input
+          type="text"
+          placeholder="Subject (e.g. maths)"
+          value={uploadSubject}
+          onChange={(e) => setUploadSubject(e.target.value)}
+        />
+
+        <input
+          type="text"
+          placeholder="Chapter name"
+          value={uploadChapter}
+          onChange={(e) => setUploadChapter(e.target.value)}
+        />
+
+        <button
+          onClick={handleUpload}
+          disabled={uploadLoading}
+          style={{
+            background: "#6fa8ff",
+            color: "#111",
+            border: "none",
+            borderRadius: 6,
+            padding: "8px 16px",
+            cursor: uploadLoading ? "not-allowed" : "pointer",
+            fontWeight: 600,
+          }}
+        >
+          {uploadLoading ? "Generating..." : "Upload & Generate"}
+        </button>
+      </div>
+
+      {uploadMessage && (
+        <div
+          style={{
+            marginTop: 12,
+            color: "#f0b34c",
+          }}
+        >
+          {uploadMessage}
+        </div>
+      )}
+    </div>
+
+    <h1 style={{ color: "#e2e2ea", marginBottom: 20 }}>Mind Maps</h1>
+    
+      <div
+        style={{
+          display: "grid",
+          gridTemplateColumns: "repeat(auto-fill, minmax(220px, 1fr))",
+          gap: 16,
+        }}
+      >
+        {mindmaps.map((item, i) => (
+          <div
+            key={i}
+            onClick={() => openMindmap(item)}
+            style={{
+              background: "#20202a",
+              border: "1px solid #33333f",
+              borderRadius: 10,
+              padding: "16px 18px",
+              cursor: "pointer",
+              transition: "border-color 0.15s ease",
+            }}
+            onMouseEnter={(e) => (e.currentTarget.style.borderColor = "#6fa8ff")}
+            onMouseLeave={(e) => (e.currentTarget.style.borderColor = "#33333f")}
+          >
+            <div style={{ color: "#a8a4f0", fontSize: 12, marginBottom: 6 }}>
+              {item.class_name} · {item.subject}
+            </div>
+            <div style={{ color: "#e2e2ea", fontSize: 16, fontWeight: 600 }}>
+              {item.chapter.replace(/_/g, " ")}
+            </div>
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
