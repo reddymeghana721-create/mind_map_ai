@@ -1,0 +1,2032 @@
+{
+  "id": "69e22d76-169f-4f8c-8b6c-cb261d01736a",
+  "type": "chapter",
+  "label": "Life Processes",
+  "summary": "",
+  "preview": "",
+  "ui": {
+    "expandable": true,
+    "visual_type": "root"
+  },
+  "children": [
+    {
+      "id": "0d2c2a4f-a1a4-4791-a10a-00e20004fe2c",
+      "type": "concept",
+      "label": "What is Life?",
+      "summary": "Definition:\nLife is the characteristic that distinguishes living organisms from non-living things.\n\nKey Points:\n- It involves growth, reproduction, and response to stimuli\n- It requires energy in the form of food\n- It is characterized by the presence...",
+      "preview": "Definition:\nLife is the characteristic that distinguishes li...",
+      "keywords": [
+        "Definition:",
+        "characteristic",
+        "distinguishes",
+        "organisms",
+        "non-living"
+      ],
+      "ui": {
+        "expandable": true,
+        "visual_type": "tree_node",
+        "node_style": "default",
+        "animation_hint": "expand_simple",
+        "icon": "circle"
+      },
+      "children": [
+        {
+          "id": "44889fbf-2e51-4710-a2a6-e2c254a76c14",
+          "type": "concept",
+          "label": "Criteria for Life",
+          "summary": "Definition:\nThe criteria for life are the essential characteristics that distinguish living organisms from non-living matter.\n\nKey Points:\n- Possesses a cell structure\n- Responds to stimuli\n- Grows and reproduces\n\nImportance:\nThese criteria are essen...",
+          "preview": "Definition:\nThe criteria for life are the essential characte...",
+          "keywords": [
+            "Definition:",
+            "criteria",
+            "essential",
+            "characteristics",
+            "distinguish"
+          ],
+          "ui": {
+            "expandable": true,
+            "visual_type": "tree_node",
+            "node_style": "default",
+            "animation_hint": "expand_cascade",
+            "icon": "circle"
+          },
+          "children": [
+            {
+              "id": "9df554ce-068b-4438-8af7-28bf115ab505",
+              "type": "concept",
+              "label": "Movement",
+              "summary": "Definition:\nMovement is the process by which living organisms change their position or location.\n\nKey Points:\n- Movement helps in searching for food and escaping from predators.\n- Movement is essential for reproduction and dispersal of offspring.\n- M...",
+              "preview": "Definition:\nMovement is the process by which living organism...",
+              "keywords": [
+                "Definition:",
+                "Movement",
+                "process",
+                "organisms",
+                "position"
+              ],
+              "ui": {
+                "expandable": false,
+                "visual_type": "text_node",
+                "node_style": "default",
+                "animation_hint": "fade_in",
+                "icon": "circle"
+              },
+              "children": [],
+              "metadata": {
+                "depth": 0,
+                "leaf": true
+              }
+            },
+            {
+              "id": "caf0d4a1-4bf8-43f0-9859-968715c4339d",
+              "type": "concept",
+              "label": "Growth",
+              "summary": "Definition:\nGrowth is an increase in size, mass, or complexity of an organism.\n\nKey Points:\n- Requires energy from food and water\n- Involves cell division and cell enlargement\n- Can be influenced by genetics and environment\n\nImportance:\nIs essential ...",
+              "preview": "Definition:\nGrowth is an increase in size, mass, or complexi...",
+              "keywords": [
+                "Definition:",
+                "increase",
+                "complexity",
+                "organism",
+                "Points:"
+              ],
+              "ui": {
+                "expandable": false,
+                "visual_type": "text_node",
+                "node_style": "default",
+                "animation_hint": "fade_in",
+                "icon": "circle"
+              },
+              "children": [],
+              "metadata": {
+                "depth": 0,
+                "leaf": true
+              }
+            },
+            {
+              "id": "99ac7b64-486b-4be5-a3a3-d6532f90950c",
+              "type": "concept",
+              "label": "Reproduction",
+              "summary": "Definition:\nReproduction is the process by which living organisms produce new individuals.\n\nKey Points:\n- It is a vital function for the survival of a species.\n- Reproduction involves the production of offspring through various methods like sexual or...",
+              "preview": "Definition:\nReproduction is the process by which living orga...",
+              "keywords": [
+                "Definition:",
+                "Reproduction",
+                "process",
+                "organisms",
+                "produce"
+              ],
+              "ui": {
+                "expandable": false,
+                "visual_type": "text_node",
+                "node_style": "default",
+                "animation_hint": "fade_in",
+                "icon": "circle"
+              },
+              "children": [],
+              "metadata": {
+                "depth": 0,
+                "leaf": true
+              }
+            },
+            {
+              "id": "b1bae13e-5532-4234-9a55-d0e16e2a113b",
+              "type": "concept",
+              "label": "Response to Stimuli",
+              "summary": "Definition:\nResponse to stimuli is the ability of living organisms to react to changes in their internal or external environment.\n\nKey Points:\n- Helps in survival and adaptation\n- Can be voluntary or involuntary\n- Varies among different living organi...",
+              "preview": "Definition:\nResponse to stimuli is the ability of living org...",
+              "keywords": [
+                "Definition:",
+                "Response",
+                "stimuli",
+                "ability",
+                "organisms"
+              ],
+              "ui": {
+                "expandable": false,
+                "visual_type": "text_node",
+                "node_style": "default",
+                "animation_hint": "fade_in",
+                "icon": "circle"
+              },
+              "children": [],
+              "metadata": {
+                "depth": 0,
+                "leaf": true
+              }
+            }
+          ],
+          "metadata": {
+            "depth": 1,
+            "leaf": false
+          }
+        },
+        {
+          "id": "f08da80f-f39a-4b37-b3f8-2c1ccee01d21",
+          "type": "concept",
+          "label": "Molecular Movement",
+          "summary": "Definition:\nThe movement of molecules is the result of their thermal energy.\n\nKey Points:\n- Molecules are in constant motion due to thermal energy.\n- The speed of molecules depends on their temperature.\n- Molecules move randomly in all directions.\n\nI...",
+          "preview": "Definition:\nThe movement of molecules is the result of their...",
+          "keywords": [
+            "Definition:",
+            "movement",
+            "molecules",
+            "thermal",
+            "Points:"
+          ],
+          "ui": {
+            "expandable": true,
+            "visual_type": "tree_node",
+            "node_style": "default",
+            "animation_hint": "expand_simple",
+            "icon": "circle"
+          },
+          "children": [
+            {
+              "id": "4d9a7913-aaaa-40d1-96bd-0e4ed2252756",
+              "type": "concept",
+              "label": "Importance of Molecular Movement",
+              "summary": "Definition:\nMolecular movement is the movement of particles in a cell that is essential for various cellular functions.\n\nKey Points:\n- Helps in the transportation of nutrients and water\n- Facilitates the breakdown of glucose during cellular respirati...",
+              "preview": "Definition:\nMolecular movement is the movement of particles ...",
+              "keywords": [
+                "Definition:",
+                "Molecular",
+                "movement",
+                "movement",
+                "particles"
+              ],
+              "ui": {
+                "expandable": false,
+                "visual_type": "text_node",
+                "node_style": "default",
+                "animation_hint": "fade_in",
+                "icon": "circle"
+              },
+              "children": [],
+              "metadata": {
+                "depth": 0,
+                "leaf": true
+              }
+            },
+            {
+              "id": "aea97261-d464-4159-b49e-c58830cd8215",
+              "type": "concept",
+              "label": "Examples of Molecular Movement",
+              "summary": "Definition:\nThe movement of molecules from one place to another is known as molecular movement.\n\nKey Points:\n- Diffusion is a type of molecular movement where molecules spread out from a region of high concentration to a region of low concentration.\n...",
+              "preview": "Definition:\nThe movement of molecules from one place to anot...",
+              "keywords": [
+                "Definition:",
+                "movement",
+                "molecules",
+                "another",
+                "molecular"
+              ],
+              "ui": {
+                "expandable": false,
+                "visual_type": "text_node",
+                "node_style": "default",
+                "animation_hint": "fade_in",
+                "icon": "circle"
+              },
+              "children": [],
+              "metadata": {
+                "depth": 0,
+                "leaf": true
+              }
+            }
+          ],
+          "metadata": {
+            "depth": 1,
+            "leaf": false
+          }
+        }
+      ],
+      "metadata": {
+        "depth": 2,
+        "leaf": false
+      }
+    },
+    {
+      "id": "8f167abf-190a-421b-be77-c85e677be846",
+      "type": "concept",
+      "label": "Maintenance of Life",
+      "summary": "Definition:\nMaintenance of life refers to the essential functions that keep living organisms alive.\n\nKey Points:\n- Regulates body temperature\n- Maintains fluid balance\n- Removes waste products\n\nImportance:\nMaintenance of life is crucial for the survi...",
+      "preview": "Definition:\nMaintenance of life refers to the essential func...",
+      "keywords": [
+        "Definition:",
+        "Maintenance",
+        "essential",
+        "functions",
+        "organisms"
+      ],
+      "ui": {
+        "expandable": true,
+        "visual_type": "tree_node",
+        "node_style": "default",
+        "animation_hint": "expand_simple",
+        "icon": "circle"
+      },
+      "children": [
+        {
+          "id": "22b8108f-a4ad-4f54-b611-d0c92f8a1389",
+          "type": "concept",
+          "label": "Nutrition",
+          "summary": "Definition:\nProcess by which organisms obtain energy and nutrients.\n\nKey Points:\n- Occurs in all living organisms\n- Involves the intake of food and its breakdown\n- Provides energy for growth and development\n\nImportance:\nEssential for the survival and...",
+          "preview": "Definition:\nProcess by which organisms obtain energy and nut...",
+          "keywords": [
+            "Definition:",
+            "Process",
+            "organisms",
+            "nutrients",
+            "Points:"
+          ],
+          "ui": {
+            "expandable": true,
+            "visual_type": "tree_node",
+            "node_style": "default",
+            "animation_hint": "expand_simple",
+            "icon": "apple"
+          },
+          "children": [
+            {
+              "id": "7d992d5e-e5e9-40c7-b07d-6d2c9fc0067c",
+              "type": "concept",
+              "label": "Autotrophic Nutrition",
+              "summary": "Definition:\nAutotrophic nutrition is the process by which organisms produce their own food.\n\nKey Points:\n- Uses sunlight for energy\n- Uses chlorophyll as the green pigment for photosynthesis\n- Produces glucose and oxygen as byproducts\n\nImportance:\nAu...",
+              "preview": "Definition:\nAutotrophic nutrition is the process by which or...",
+              "keywords": [
+                "Definition:",
+                "Autotrophic",
+                "nutrition",
+                "process",
+                "organisms"
+              ],
+              "ui": {
+                "expandable": true,
+                "visual_type": "tree_node",
+                "node_style": "default",
+                "animation_hint": "expand_simple",
+                "icon": "apple"
+              },
+              "children": [
+                {
+                  "id": "43041d87-a7bd-4589-86a0-a061f9b4c8c5",
+                  "type": "concept",
+                  "label": "Photosynthesis",
+                  "summary": "Definition:\nProcess by which green plants prepare food.\n\nKey Points:\n- Uses sunlight, water, and carbon dioxide\n- Uses chlorophyll to absorb sunlight\n- Produces glucose and oxygen\n\nImportance:\nProvides food for the plant and releases oxygen into the ...",
+                  "preview": "Definition:\nProcess by which green plants prepare food.\n\nKey...",
+                  "keywords": [
+                    "Definition:",
+                    "Process",
+                    "prepare",
+                    "Points:",
+                    "sunlight"
+                  ],
+                  "ui": {
+                    "expandable": true,
+                    "visual_type": "process_flow",
+                    "node_style": "default",
+                    "animation_hint": "expand_simple",
+                    "icon": "sun"
+                  },
+                  "children": [
+                    {
+                      "id": "99313b89-cc17-45da-a9c4-438ad3771c51",
+                      "type": "concept",
+                      "label": "Stages of Photosynthesis",
+                      "summary": "Definition:\nPhotosynthesis is the process by which plants convert sunlight into glucose.\n\nKey Points:\n- Takes place in chloroplasts\n- Requires water and carbon dioxide\n- Produces oxygen as a byproduct\n\nImportance:\nIt is essential for the survival of ...",
+                      "preview": "Definition:\nPhotosynthesis is the process by which plants co...",
+                      "keywords": [
+                        "Definition:",
+                        "Photosynthesis",
+                        "process",
+                        "convert",
+                        "sunlight"
+                      ],
+                      "ui": {
+                        "expandable": true,
+                        "visual_type": "process_flow",
+                        "node_style": "default",
+                        "animation_hint": "expand_simple",
+                        "icon": "sun"
+                      },
+                      "children": [
+                        {
+                          "id": "504d664c-ec40-481e-896e-836c8da63f20",
+                          "type": "concept",
+                          "label": "Absorption of Light Energy",
+                          "summary": "Definition:\nThe absorption of light energy is the first step in the process of photosynthesis.\n\nKey Points:\n- It occurs in the chloroplasts of plant cells.\n- Light energy is absorbed by pigments such as chlorophyll.\n- This energy is used to convert c...",
+                          "preview": "Definition:\nThe absorption of light energy is the first step...",
+                          "keywords": [
+                            "Definition:",
+                            "absorption",
+                            "process",
+                            "photosynthesis",
+                            "Points:"
+                          ],
+                          "ui": {
+                            "expandable": false,
+                            "visual_type": "text_node",
+                            "node_style": "default",
+                            "animation_hint": "fade_in",
+                            "icon": "circle"
+                          },
+                          "children": [],
+                          "metadata": {
+                            "depth": 0,
+                            "leaf": true
+                          }
+                        },
+                        {
+                          "id": "d7437990-a103-472d-8a00-dba9c6c47ed0",
+                          "type": "concept",
+                          "label": "Conversion of Light Energy",
+                          "summary": "Definition:\nThe conversion of light energy into chemical energy during photosynthesis.\n\nKey Points:\n- Chlorophyll absorbs light energy from the sun.\n- Light energy excites electrons in the pigments of chlorophyll.\n- Energy from light is trapped and u...",
+                          "preview": "Definition:\nThe conversion of light energy into chemical ene...",
+                          "keywords": [
+                            "Definition:",
+                            "conversion",
+                            "chemical",
+                            "photosynthesis",
+                            "Points:"
+                          ],
+                          "ui": {
+                            "expandable": false,
+                            "visual_type": "text_node",
+                            "node_style": "default",
+                            "animation_hint": "fade_in",
+                            "icon": "circle"
+                          },
+                          "children": [],
+                          "metadata": {
+                            "depth": 0,
+                            "leaf": true
+                          }
+                        },
+                        {
+                          "id": "0bade0c7-8331-4cb2-ae1f-15923ebba857",
+                          "type": "concept",
+                          "label": "Reduction of Carbon Dioxide",
+                          "summary": "Definition:\nA stage in photosynthesis where carbon dioxide is converted into glucose.\n\nKey Points:\n- Carbon dioxide is converted into glucose using energy from sunlight.\n- Water is reduced to glucose through hydrogen atoms.\n- Electrons from water are...",
+                          "preview": "Definition:\nA stage in photosynthesis where carbon dioxide i...",
+                          "keywords": [
+                            "Definition:",
+                            "photosynthesis",
+                            "dioxide",
+                            "converted",
+                            "glucose"
+                          ],
+                          "ui": {
+                            "expandable": false,
+                            "visual_type": "text_node",
+                            "node_style": "default",
+                            "animation_hint": "fade_in",
+                            "icon": "circle"
+                          },
+                          "children": [],
+                          "metadata": {
+                            "depth": 0,
+                            "leaf": true
+                          }
+                        }
+                      ],
+                      "metadata": {
+                        "depth": 1,
+                        "leaf": false
+                      }
+                    },
+                    {
+                      "id": "ffa0c673-0bc9-4ac8-969c-c64ff6d4f0c7",
+                      "type": "concept",
+                      "label": "Importance of Chlorophyll",
+                      "summary": "Definition:\nChlorophyll is the green pigment that plays a crucial role in photosynthesis.\n\nKey Points:\n- Absorbs light energy from the sun\n- Transfers energy to other molecules\n- Essential for photosynthesis to occur\n\nImportance:\nChlorophyll is neces...",
+                      "preview": "Definition:\nChlorophyll is the green pigment that plays a cr...",
+                      "keywords": [
+                        "Definition:",
+                        "Chlorophyll",
+                        "pigment",
+                        "crucial",
+                        "photosynthesis"
+                      ],
+                      "ui": {
+                        "expandable": false,
+                        "visual_type": "text_node",
+                        "node_style": "default",
+                        "animation_hint": "fade_in",
+                        "icon": "circle"
+                      },
+                      "children": [],
+                      "metadata": {
+                        "depth": 0,
+                        "leaf": true
+                      }
+                    }
+                  ],
+                  "metadata": {
+                    "depth": 2,
+                    "leaf": false
+                  }
+                },
+                {
+                  "id": "d98cdcf7-a04e-4b9c-89b0-b9f20d2c9aa2",
+                  "type": "concept",
+                  "label": "Heterotrophic Nutrition",
+                  "summary": "Definition:\nNutrition in which organisms obtain energy by consuming other organisms or organic matter.\n\nKey Points:\n- Organisms that cannot produce their own food are heterotrophic.\n- Heterotrophs need to consume food regularly to survive.\n- Examples...",
+                  "preview": "Definition:\nNutrition in which organisms obtain energy by co...",
+                  "keywords": [
+                    "Definition:",
+                    "Nutrition",
+                    "organisms",
+                    "consuming",
+                    "organisms"
+                  ],
+                  "ui": {
+                    "expandable": true,
+                    "visual_type": "tree_node",
+                    "node_style": "default",
+                    "animation_hint": "expand_simple",
+                    "icon": "apple"
+                  },
+                  "children": [
+                    {
+                      "id": "fd998cad-52ec-48e9-aea9-cf3c834e8fd5",
+                      "type": "concept",
+                      "label": "Digestion of Food",
+                      "summary": "Definition:\nThe process by which the body breaks down food into smaller molecules that can be used for energy.\n\nKey Points:\n- Takes place in the digestive system\n- Involves enzymes that break down food into nutrients\n- Requires water and acid to func...",
+                      "preview": "Definition:\nThe process by which the body breaks down food i...",
+                      "keywords": [
+                        "Definition:",
+                        "process",
+                        "smaller",
+                        "molecules",
+                        "Points:"
+                      ],
+                      "ui": {
+                        "expandable": true,
+                        "visual_type": "tree_node",
+                        "node_style": "default",
+                        "animation_hint": "expand_simple",
+                        "icon": "circle"
+                      },
+                      "children": [
+                        {
+                          "id": "f8f484bd-7fa8-458f-81e7-25d1973c3bd8",
+                          "type": "concept",
+                          "label": "Role of Saliva",
+                          "summary": "Definition:\nSaliva plays a crucial role in the digestion of food by breaking down carbohydrates.\n\nKey Points:\n- Contains enzymes like amylase that break down starch into sugars.\n- Helps in the initial breakdown of proteins and fats.\n- Makes food easy...",
+                          "preview": "Definition:\nSaliva plays a crucial role in the digestion of ...",
+                          "keywords": [
+                            "Definition:",
+                            "crucial",
+                            "digestion",
+                            "breaking",
+                            "carbohydrates"
+                          ],
+                          "ui": {
+                            "expandable": false,
+                            "visual_type": "text_node",
+                            "node_style": "default",
+                            "animation_hint": "fade_in",
+                            "icon": "circle"
+                          },
+                          "children": [],
+                          "metadata": {
+                            "depth": 0,
+                            "leaf": true
+                          }
+                        },
+                        {
+                          "id": "b80336ff-4483-4372-a525-47b71ac61b43",
+                          "type": "concept",
+                          "label": "Role of Gastric Juices",
+                          "summary": "Definition:\nGastric juices play a crucial role in breaking down food in the stomach.\n\nKey Points:\n- Breaks down proteins into smaller peptides\n- Helps in emulsifying fats\n- Activates digestive enzymes\n\nImportance:\nThe gastric juices help in the effic...",
+                          "preview": "Definition:\nGastric juices play a crucial role in breaking d...",
+                          "keywords": [
+                            "Definition:",
+                            "Gastric",
+                            "crucial",
+                            "breaking",
+                            "stomach"
+                          ],
+                          "ui": {
+                            "expandable": false,
+                            "visual_type": "text_node",
+                            "node_style": "default",
+                            "animation_hint": "fade_in",
+                            "icon": "circle"
+                          },
+                          "children": [],
+                          "metadata": {
+                            "depth": 0,
+                            "leaf": true
+                          }
+                        }
+                      ],
+                      "metadata": {
+                        "depth": 1,
+                        "leaf": false
+                      }
+                    },
+                    {
+                      "id": "c9a03204-cbc0-4872-a4e9-0246c36dd138",
+                      "type": "concept",
+                      "label": "Absorption of Nutrients",
+                      "summary": "Definition:\nProcess by which heterotrophic organisms take in and utilize nutrients from their environment.\n\nKey Points:\n- Occurs through the cell membrane\n- Requires specific transport mechanisms\n- Involves the breakdown of nutrients into usable form...",
+                      "preview": "Definition:\nProcess by which heterotrophic organisms take in...",
+                      "keywords": [
+                        "Definition:",
+                        "Process",
+                        "heterotrophic",
+                        "organisms",
+                        "utilize"
+                      ],
+                      "ui": {
+                        "expandable": false,
+                        "visual_type": "text_node",
+                        "node_style": "default",
+                        "animation_hint": "fade_in",
+                        "icon": "circle"
+                      },
+                      "children": [],
+                      "metadata": {
+                        "depth": 0,
+                        "leaf": true
+                      }
+                    }
+                  ],
+                  "metadata": {
+                    "depth": 2,
+                    "leaf": false
+                  }
+                }
+              ],
+              "metadata": {
+                "depth": 3,
+                "leaf": false
+              }
+            },
+            {
+              "id": "c19e3aa7-1089-42fd-b373-363b06a79d23",
+              "type": "concept",
+              "label": "Heterotrophic Nutrition in Human Beings",
+              "summary": "Definition:\nIn heterotrophic nutrition, organisms cannot make their own food and need to consume it from other sources.\n\nKey Points:\n- Organisms consume carbon-based food\n- Nutrition is obtained from external sources like food\n- Lack of chlorophyll i...",
+              "preview": "Definition:\nIn heterotrophic nutrition, organisms cannot mak...",
+              "keywords": [
+                "Definition:",
+                "heterotrophic",
+                "nutrition",
+                "organisms",
+                "consume"
+              ],
+              "ui": {
+                "expandable": true,
+                "visual_type": "tree_node",
+                "node_style": "default",
+                "animation_hint": "expand_simple",
+                "icon": "apple"
+              },
+              "children": [
+                {
+                  "id": "99ff653c-7fd3-44b5-88f3-17432350b3cb",
+                  "type": "concept",
+                  "label": "Digestive System",
+                  "summary": "Definition:\nThe digestive system is a group of organs in the human body that work together to break down and digest food into smaller molecules that can provide nutrients to the body.\n\nKey Points:\n- Breaks down food into nutrients through mechanical ...",
+                  "preview": "Definition:\nThe digestive system is a group of organs in the...",
+                  "keywords": [
+                    "Definition:",
+                    "digestive",
+                    "together",
+                    "smaller",
+                    "molecules"
+                  ],
+                  "ui": {
+                    "expandable": true,
+                    "visual_type": "tree_node",
+                    "node_style": "default",
+                    "animation_hint": "expand_cascade",
+                    "icon": "circle"
+                  },
+                  "children": [
+                    {
+                      "id": "5dce9d8a-b74a-402f-884e-e414b85abd0a",
+                      "type": "concept",
+                      "label": "Mouth",
+                      "summary": "Definition:\nThe mouth is the beginning of the digestive system where food is broken down into smaller pieces.\n\nKey Points:\n- Food is chewed and mixed with saliva\n- Food is broken down by enzymes in saliva\n- Food is prepared for digestion\n\nImportance:...",
+                      "preview": "Definition:\nThe mouth is the beginning of the digestive syst...",
+                      "keywords": [
+                        "Definition:",
+                        "beginning",
+                        "digestive",
+                        "smaller",
+                        "Points:"
+                      ],
+                      "ui": {
+                        "expandable": false,
+                        "visual_type": "text_node",
+                        "node_style": "default",
+                        "animation_hint": "fade_in",
+                        "icon": "circle"
+                      },
+                      "children": [],
+                      "metadata": {
+                        "depth": 0,
+                        "leaf": true
+                      }
+                    },
+                    {
+                      "id": "2c07255c-7ca1-4c39-a47e-805b59fb206b",
+                      "type": "concept",
+                      "label": "Esophagus",
+                      "summary": "Definition:\nThe esophagus is a muscular tube that connects the mouth to the stomach.\n\nKey Points:\n- Carries food from the mouth to the stomach through peristalsis\n- Has a thick muscular wall that helps push food down\n- Is about 25 centimeters long in...",
+                      "preview": "Definition:\nThe esophagus is a muscular tube that connects t...",
+                      "keywords": [
+                        "Definition:",
+                        "esophagus",
+                        "muscular",
+                        "connects",
+                        "stomach"
+                      ],
+                      "ui": {
+                        "expandable": false,
+                        "visual_type": "text_node",
+                        "node_style": "default",
+                        "animation_hint": "fade_in",
+                        "icon": "circle"
+                      },
+                      "children": [],
+                      "metadata": {
+                        "depth": 0,
+                        "leaf": true
+                      }
+                    },
+                    {
+                      "id": "22da701d-907f-4de7-b0d1-ed4816376de5",
+                      "type": "concept",
+                      "label": "Stomach",
+                      "summary": "Definition:\nThe stomach is a part of the digestive system where food is broken down into smaller pieces through mechanical and chemical digestion.\n\nKey Points:\n- It secretes digestive juices that break down proteins and fats.\n- The stomach lining pro...",
+                      "preview": "Definition:\nThe stomach is a part of the digestive system wh...",
+                      "keywords": [
+                        "Definition:",
+                        "stomach",
+                        "digestive",
+                        "smaller",
+                        "through"
+                      ],
+                      "ui": {
+                        "expandable": false,
+                        "visual_type": "text_node",
+                        "node_style": "default",
+                        "animation_hint": "fade_in",
+                        "icon": "circle"
+                      },
+                      "children": [],
+                      "metadata": {
+                        "depth": 0,
+                        "leaf": true
+                      }
+                    },
+                    {
+                      "id": "c741c867-7f82-4775-8554-ae70b7309ab7",
+                      "type": "concept",
+                      "label": "Small Intestine",
+                      "summary": "Definition:\nPart of the small intestine where most of the nutrient absorption takes place.\n\nKey Points:\n- Long and narrow with many tiny finger-like projections called villi\n- Filtered material from the stomach and parts of the pancreas reach here\n- ...",
+                      "preview": "Definition:\nPart of the small intestine where most of the nu...",
+                      "keywords": [
+                        "Definition:",
+                        "intestine",
+                        "nutrient",
+                        "absorption",
+                        "Points:"
+                      ],
+                      "ui": {
+                        "expandable": true,
+                        "visual_type": "tree_node",
+                        "node_style": "default",
+                        "animation_hint": "expand_simple",
+                        "icon": "circle"
+                      },
+                      "children": [
+                        {
+                          "id": "a194fa49-acab-49ad-a093-d1a247aed212",
+                          "type": "concept",
+                          "label": "Role of Pancreatic Juices",
+                          "summary": "Definition:\nPancreatic juices play a crucial role in the digestion of food in the small intestine by breaking down carbohydrates, proteins, and fats into simpler substances that can be easily absorbed.\n\nKey Points:\n- Break down carbohydrates into sim...",
+                          "preview": "Definition:\nPancreatic juices play a crucial role in the dig...",
+                          "keywords": [
+                            "Definition:",
+                            "Pancreatic",
+                            "crucial",
+                            "digestion",
+                            "intestine"
+                          ],
+                          "ui": {
+                            "expandable": false,
+                            "visual_type": "text_node",
+                            "node_style": "default",
+                            "animation_hint": "fade_in",
+                            "icon": "circle"
+                          },
+                          "children": [],
+                          "metadata": {
+                            "depth": 0,
+                            "leaf": true
+                          }
+                        }
+                      ],
+                      "metadata": {
+                        "depth": 1,
+                        "leaf": false
+                      }
+                    },
+                    {
+                      "id": "4b669a78-c8a6-4acd-ba6c-bb570f296bd5",
+                      "type": "concept",
+                      "label": "Large Intestine",
+                      "summary": "Definition:\nThe large intestine is the final section of the digestive system where water, salts, and some nutrients are absorbed.\n\nKey Points:\n- It is a long, thin, and muscular tube that stores and absorbs water and salts.\n- The walls of the large i...",
+                      "preview": "Definition:\nThe large intestine is the final section of the ...",
+                      "keywords": [
+                        "Definition:",
+                        "intestine",
+                        "section",
+                        "digestive",
+                        "nutrients"
+                      ],
+                      "ui": {
+                        "expandable": false,
+                        "visual_type": "text_node",
+                        "node_style": "default",
+                        "animation_hint": "fade_in",
+                        "icon": "circle"
+                      },
+                      "children": [],
+                      "metadata": {
+                        "depth": 0,
+                        "leaf": true
+                      }
+                    }
+                  ],
+                  "metadata": {
+                    "depth": 2,
+                    "leaf": false
+                  }
+                }
+              ],
+              "metadata": {
+                "depth": 3,
+                "leaf": false
+              }
+            }
+          ],
+          "metadata": {
+            "depth": 4,
+            "leaf": false
+          }
+        },
+        {
+          "id": "d1ba870c-1d51-450b-9a29-dbc0ac3d01ba",
+          "type": "concept",
+          "label": "Respiration",
+          "summary": "Definition:\nThe process by which organisms release energy from the food they consume.\n\nKey Points:\n- Occurs in the presence of oxygen\n- Involves the breakdown of glucose to release energy\n- Takes place in the mitochondria of cells\n\nImportance:\nIs ess...",
+          "preview": "Definition:\nThe process by which organisms release energy fr...",
+          "keywords": [
+            "Definition:",
+            "process",
+            "organisms",
+            "release",
+            "consume"
+          ],
+          "ui": {
+            "expandable": true,
+            "visual_type": "energy_cycle",
+            "node_style": "default",
+            "animation_hint": "expand_simple",
+            "icon": "bolt"
+          },
+          "children": [
+            {
+              "id": "41f29831-5dd4-45a8-bf35-ea1e25bf34fe",
+              "type": "concept",
+              "label": "Aerobic Respiration",
+              "summary": "Definition:\nAerobic respiration is the process of generating energy in the cells of organisms by using oxygen.\n\nKey Points:\n- Takes place in the mitochondria\n- Breaks down glucose releasing energy\n- Releases carbon dioxide and water\n\nImportance:\nAero...",
+              "preview": "Definition:\nAerobic respiration is the process of generating...",
+              "keywords": [
+                "Definition:",
+                "Aerobic",
+                "respiration",
+                "process",
+                "generating"
+              ],
+              "ui": {
+                "expandable": true,
+                "visual_type": "energy_cycle",
+                "node_style": "default",
+                "animation_hint": "expand_simple",
+                "icon": "bolt"
+              },
+              "children": [
+                {
+                  "id": "427deb34-33a9-496d-b29f-ace0cd394419",
+                  "type": "concept",
+                  "label": "Role of Oxygen",
+                  "summary": "Definition:\nOxygen plays a crucial role in aerobic respiration, a process that requires oxygen to release energy from food.\n\nKey Points:\n- It is necessary for the breakdown of glucose to release energy\n- It is consumed by the cells to produce ATP\n- I...",
+                  "preview": "Definition:\nOxygen plays a crucial role in aerobic respirati...",
+                  "keywords": [
+                    "Definition:",
+                    "crucial",
+                    "aerobic",
+                    "respiration",
+                    "process"
+                  ],
+                  "ui": {
+                    "expandable": false,
+                    "visual_type": "text_node",
+                    "node_style": "default",
+                    "animation_hint": "fade_in",
+                    "icon": "circle"
+                  },
+                  "children": [],
+                  "metadata": {
+                    "depth": 0,
+                    "leaf": true
+                  }
+                },
+                {
+                  "id": "520ad0de-5610-400c-829b-6634d16b37a1",
+                  "type": "concept",
+                  "label": "Role of Carbon Dioxide",
+                  "summary": "Definition:\nCarbon dioxide is a crucial reactant in aerobic respiration that combines with glucose to produce energy in the form of ATP and releases water and carbon dioxide as by-products.\n\nKey Points:\n- It is produced in the mitochondria\n- It accep...",
+                  "preview": "Definition:\nCarbon dioxide is a crucial reactant in aerobic ...",
+                  "keywords": [
+                    "Definition:",
+                    "dioxide",
+                    "crucial",
+                    "reactant",
+                    "aerobic"
+                  ],
+                  "ui": {
+                    "expandable": false,
+                    "visual_type": "text_node",
+                    "node_style": "default",
+                    "animation_hint": "fade_in",
+                    "icon": "circle"
+                  },
+                  "children": [],
+                  "metadata": {
+                    "depth": 0,
+                    "leaf": true
+                  }
+                }
+              ],
+              "metadata": {
+                "depth": 1,
+                "leaf": false
+              }
+            },
+            {
+              "id": "25062ad3-5777-46f0-b28a-222e6f42c75e",
+              "type": "concept",
+              "label": "Anaerobic Respiration",
+              "summary": "Definition:\nAnaerobic respiration is a type of respiration that occurs in the absence of oxygen.\n\nKey Points:\n- It occurs in the muscles and other cells.\n- It produces a smaller amount of ATP.\n- It does not require oxygen.\n\nImportance:\nAnaerobic resp...",
+              "preview": "Definition:\nAnaerobic respiration is a type of respiration t...",
+              "keywords": [
+                "Definition:",
+                "Anaerobic",
+                "respiration",
+                "respiration",
+                "absence"
+              ],
+              "ui": {
+                "expandable": true,
+                "visual_type": "energy_cycle",
+                "node_style": "default",
+                "animation_hint": "expand_simple",
+                "icon": "bolt"
+              },
+              "children": [
+                {
+                  "id": "63b28cb1-d294-4d48-abb4-0c24c0f853b3",
+                  "type": "concept",
+                  "label": "Role of Pyruvate",
+                  "summary": "Definition:\nPyruvate is a crucial intermediate molecule in anaerobic respiration.\n\nKey Points:\n- It is formed from the breakdown of glucose through glycolysis.\n- It is converted into lactic acid or ethanol in the absence of oxygen.\n- It plays a key r...",
+                  "preview": "Definition:\nPyruvate is a crucial intermediate molecule in a...",
+                  "keywords": [
+                    "Definition:",
+                    "Pyruvate",
+                    "crucial",
+                    "intermediate",
+                    "molecule"
+                  ],
+                  "ui": {
+                    "expandable": false,
+                    "visual_type": "text_node",
+                    "node_style": "default",
+                    "animation_hint": "fade_in",
+                    "icon": "circle"
+                  },
+                  "children": [],
+                  "metadata": {
+                    "depth": 0,
+                    "leaf": true
+                  }
+                },
+                {
+                  "id": "82fb6152-6372-42de-bb25-2798bd8b0077",
+                  "type": "concept",
+                  "label": "Role of Lactic Acid",
+                  "summary": "Definition:\nLactic acid plays a role in anaerobic respiration by being produced as a by-product in muscle cells.\n\nKey Points:\n- Helps in maintaining pH levels\n- Is a result of incomplete breakdown of glucose\n- Can be converted to useful energy forms\n...",
+                  "preview": "Definition:\nLactic acid plays a role in anaerobic respiratio...",
+                  "keywords": [
+                    "Definition:",
+                    "anaerobic",
+                    "respiration",
+                    "produced",
+                    "by-product"
+                  ],
+                  "ui": {
+                    "expandable": false,
+                    "visual_type": "text_node",
+                    "node_style": "default",
+                    "animation_hint": "fade_in",
+                    "icon": "circle"
+                  },
+                  "children": [],
+                  "metadata": {
+                    "depth": 0,
+                    "leaf": true
+                  }
+                }
+              ],
+              "metadata": {
+                "depth": 1,
+                "leaf": false
+              }
+            }
+          ],
+          "metadata": {
+            "depth": 2,
+            "leaf": false
+          }
+        }
+      ],
+      "metadata": {
+        "depth": 5,
+        "leaf": false
+      }
+    },
+    {
+      "id": "df6a62f4-54fd-462f-8b05-b78abc276b58",
+      "type": "concept",
+      "label": "Transportation",
+      "summary": "Definition: The movement of substances from one place to another within an organism.\n\nKey Points:\n- Carried by transport tissues and vessels\n- Requires energy from ATP\n- Helps maintain homeostasis\n\nImportance: Helps maintain the proper functioning of...",
+      "preview": "Definition: The movement of substances from one place to ano...",
+      "keywords": [
+        "Definition:",
+        "movement",
+        "substances",
+        "another",
+        "organism"
+      ],
+      "ui": {
+        "expandable": true,
+        "visual_type": "system_flow",
+        "node_style": "default",
+        "animation_hint": "expand_simple",
+        "icon": "circle"
+      },
+      "children": [
+        {
+          "id": "06d7de37-0c61-483e-ab84-a63ee884f381",
+          "type": "concept",
+          "label": "Transportation in Human Beings",
+          "summary": "Definition:\nRefers to the movement of substances such as nutrients, oxygen, and waste products within the human body.\n\nKey Points:\n- Involves the use of blood as the primary medium for transport.\n- Includes the transport of oxygen from the lungs to c...",
+          "preview": "Definition:\nRefers to the movement of substances such as nut...",
+          "keywords": [
+            "Definition:",
+            "movement",
+            "substances",
+            "nutrients",
+            "products"
+          ],
+          "ui": {
+            "expandable": true,
+            "visual_type": "system_flow",
+            "node_style": "default",
+            "animation_hint": "expand_simple",
+            "icon": "circle"
+          },
+          "children": [
+            {
+              "id": "1d9daf3b-262a-4cf1-8981-bc3c7c2c955c",
+              "type": "concept",
+              "label": "Heart",
+              "summary": "Definition:\nThe heart is a muscular organ that pumps blood throughout the human body.\n\nKey Points:\n- Beats around 70-80 times per minute\n- Pumps blood through the circulatory system\n- Consists of four chambers: left and right atria and ventricles\n\nIm...",
+              "preview": "Definition:\nThe heart is a muscular organ that pumps blood t...",
+              "keywords": [
+                "Definition:",
+                "muscular",
+                "throughout",
+                "Points:",
+                "through"
+              ],
+              "ui": {
+                "expandable": true,
+                "visual_type": "tree_node",
+                "node_style": "default",
+                "animation_hint": "expand_simple",
+                "icon": "circle"
+              },
+              "children": [
+                {
+                  "id": "ae0722e8-8f58-4f53-a2fe-065e5c045c92",
+                  "type": "concept",
+                  "label": "Structure of the Heart",
+                  "summary": "Definition:\nThe heart is a muscular organ that pumps blood throughout the body.\n\nKey Points:\n- It has four chambers: left and right atria and ventricles.\n- The heart is surrounded by a double membrane called the pericardium.\n- It pumps blood through ...",
+                  "preview": "Definition:\nThe heart is a muscular organ that pumps blood t...",
+                  "keywords": [
+                    "Definition:",
+                    "muscular",
+                    "throughout",
+                    "Points:",
+                    "chambers:"
+                  ],
+                  "ui": {
+                    "expandable": false,
+                    "visual_type": "text_node",
+                    "node_style": "default",
+                    "animation_hint": "fade_in",
+                    "icon": "circle"
+                  },
+                  "children": [],
+                  "metadata": {
+                    "depth": 0,
+                    "leaf": true
+                  }
+                },
+                {
+                  "id": "474b757b-e11a-4ecc-97ea-617ab3fbc4d0",
+                  "type": "concept",
+                  "label": "Function of the Heart",
+                  "summary": "Definition:\nThe function of the heart is to pump blood throughout the body.\n\nKey Points:\n- It receives deoxygenated blood from the body\n- It pumps oxygenated blood to the body\n- It helps to maintain blood pressure\n\nImportance:\nThe heart's function is...",
+                  "preview": "Definition:\nThe function of the heart is to pump blood throu...",
+                  "keywords": [
+                    "Definition:",
+                    "function",
+                    "throughout",
+                    "Points:",
+                    "receives"
+                  ],
+                  "ui": {
+                    "expandable": false,
+                    "visual_type": "text_node",
+                    "node_style": "default",
+                    "animation_hint": "fade_in",
+                    "icon": "circle"
+                  },
+                  "children": [],
+                  "metadata": {
+                    "depth": 0,
+                    "leaf": true
+                  }
+                }
+              ],
+              "metadata": {
+                "depth": 1,
+                "leaf": false
+              }
+            },
+            {
+              "id": "b240cd77-1121-46b1-9821-40bb497d95a5",
+              "type": "concept",
+              "label": "Blood Vessels",
+              "summary": "Definition:\nThe blood vessels are the tubes that carry blood throughout the human body.\n\nKey Points:\n- Arteries carry blood away from the heart to the rest of the body\n- Veins carry blood back to the heart from the rest of the body\n- Capillaries allo...",
+              "preview": "Definition:\nThe blood vessels are the tubes that carry blood...",
+              "keywords": [
+                "Definition:",
+                "vessels",
+                "throughout",
+                "Points:",
+                "Arteries"
+              ],
+              "ui": {
+                "expandable": true,
+                "visual_type": "tree_node",
+                "node_style": "default",
+                "animation_hint": "expand_simple",
+                "icon": "circle"
+              },
+              "children": [
+                {
+                  "id": "b0923c6e-de72-462d-8925-976f762c6c18",
+                  "type": "concept",
+                  "label": "Arteries",
+                  "summary": "Definition:\nArteries are blood vessels that carry oxygenated blood away from the heart to the rest of the body.\n\nKey Points:\n- They branch into smaller arterioles to supply blood to capillaries\n- Have thick walls to withstand high blood pressure\n- Ca...",
+                  "preview": "Definition:\nArteries are blood vessels that carry oxygenated...",
+                  "keywords": [
+                    "Definition:",
+                    "Arteries",
+                    "vessels",
+                    "oxygenated",
+                    "Points:"
+                  ],
+                  "ui": {
+                    "expandable": false,
+                    "visual_type": "text_node",
+                    "node_style": "default",
+                    "animation_hint": "fade_in",
+                    "icon": "circle"
+                  },
+                  "children": [],
+                  "metadata": {
+                    "depth": 0,
+                    "leaf": true
+                  }
+                },
+                {
+                  "id": "1d8ac31d-1059-4563-89b3-015d3c3ddcab",
+                  "type": "concept",
+                  "label": "Veins",
+                  "summary": "Definition:\nVeins are blood vessels that carry deoxygenated blood back to the heart.\n\nKey Points:\n- Carry deoxygenated blood\n- Have one-way valves to prevent backflow\n- Return blood to the heart\n\nImportance:\nVeins play a crucial role in maintaining t...",
+                  "preview": "Definition:\nVeins are blood vessels that carry deoxygenated ...",
+                  "keywords": [
+                    "Definition:",
+                    "vessels",
+                    "deoxygenated",
+                    "Points:",
+                    "deoxygenated"
+                  ],
+                  "ui": {
+                    "expandable": false,
+                    "visual_type": "text_node",
+                    "node_style": "default",
+                    "animation_hint": "fade_in",
+                    "icon": "circle"
+                  },
+                  "children": [],
+                  "metadata": {
+                    "depth": 0,
+                    "leaf": true
+                  }
+                }
+              ],
+              "metadata": {
+                "depth": 1,
+                "leaf": false
+              }
+            }
+          ],
+          "metadata": {
+            "depth": 2,
+            "leaf": false
+          }
+        },
+        {
+          "id": "adcd8215-0fc4-4e9f-a2fa-173c9c4a67ad",
+          "type": "concept",
+          "label": "Transportation in Plants",
+          "summary": "Definition:\nThe process by which plants transport nutrients and water throughout their body.\n\nKey Points:\n- Takes place in xylem and phloem\n- Helps in the growth of plants\n- Essential for plant survival\n\nImportance:\nIt is necessary for the overall gr...",
+          "preview": "Definition:\nThe process by which plants transport nutrients ...",
+          "keywords": [
+            "Definition:",
+            "process",
+            "transport",
+            "nutrients",
+            "throughout"
+          ],
+          "ui": {
+            "expandable": true,
+            "visual_type": "system_flow",
+            "node_style": "default",
+            "animation_hint": "expand_simple",
+            "icon": "circle"
+          },
+          "children": [
+            {
+              "id": "550fea01-5fac-4824-b1e5-a7da633254bd",
+              "type": "concept",
+              "label": "Xylem",
+              "summary": "Definition:\nThe xylem is a type of vascular tissue in plants responsible for transporting water and minerals from the roots to the leaves.\n\nKey Points:\n- Transports water and minerals upwards in plants.\n- Composed of dead cells called tracheids and v...",
+              "preview": "Definition:\nThe xylem is a type of vascular tissue in plants...",
+              "keywords": [
+                "Definition:",
+                "vascular",
+                "responsible",
+                "transporting",
+                "minerals"
+              ],
+              "ui": {
+                "expandable": true,
+                "visual_type": "tree_node",
+                "node_style": "default",
+                "animation_hint": "expand_simple",
+                "icon": "circle"
+              },
+              "children": [
+                {
+                  "id": "8d8003fa-c6f9-46b5-8bf1-817ccab4a5ec",
+                  "type": "concept",
+                  "label": "Role of Water",
+                  "summary": "Definition:\nWater plays a vital role in the life processes of plants, including the transportation of nutrients and sugars.\n\nKey Points:\n- It helps in the transportation of nutrients and sugars from roots to leaves.\n- It maintains the turgor pressure...",
+                  "preview": "Definition:\nWater plays a vital role in the life processes o...",
+                  "keywords": [
+                    "Definition:",
+                    "processes",
+                    "including",
+                    "transportation",
+                    "nutrients"
+                  ],
+                  "ui": {
+                    "expandable": false,
+                    "visual_type": "text_node",
+                    "node_style": "default",
+                    "animation_hint": "fade_in",
+                    "icon": "circle"
+                  },
+                  "children": [],
+                  "metadata": {
+                    "depth": 0,
+                    "leaf": true
+                  }
+                },
+                {
+                  "id": "e335d43c-8d1d-49a0-aeaa-9ea0f61c2420",
+                  "type": "concept",
+                  "label": "Role of Minerals",
+                  "summary": "Definition:\nMinerals play a crucial role in the growth and development of plants.\n\nKey Points:\n- Helps in the formation of plant cell walls\n- Essential for the production of hormones and enzymes\n- Involved in the process of photosynthesis\n\nImportance...",
+                  "preview": "Definition:\nMinerals play a crucial role in the growth and d...",
+                  "keywords": [
+                    "Definition:",
+                    "Minerals",
+                    "crucial",
+                    "development",
+                    "Points:"
+                  ],
+                  "ui": {
+                    "expandable": false,
+                    "visual_type": "text_node",
+                    "node_style": "default",
+                    "animation_hint": "fade_in",
+                    "icon": "circle"
+                  },
+                  "children": [],
+                  "metadata": {
+                    "depth": 0,
+                    "leaf": true
+                  }
+                }
+              ],
+              "metadata": {
+                "depth": 1,
+                "leaf": false
+              }
+            },
+            {
+              "id": "1fe0d484-c62c-4822-892e-dffc8c1dcfa5",
+              "type": "concept",
+              "label": "Phloem",
+              "summary": "Definition:\nThe part of a plant that transports food from the leaves to the rest of the plant.\n\nKey Points:\n- Carries sugars and amino acids\n- Functions in conjunction with xylem\n- Helps in storage and distribution of food\n\nImportance:\nEssential for ...",
+              "preview": "Definition:\nThe part of a plant that transports food from th...",
+              "keywords": [
+                "Definition:",
+                "transports",
+                "Points:",
+                "Carries",
+                "Functions"
+              ],
+              "ui": {
+                "expandable": true,
+                "visual_type": "tree_node",
+                "node_style": "default",
+                "animation_hint": "expand_simple",
+                "icon": "circle"
+              },
+              "children": [
+                {
+                  "id": "6e81da79-39f9-45d6-aa04-1948d6b59198",
+                  "type": "concept",
+                  "label": "Role of Sucrose",
+                  "summary": "Definition:\nSucrose is a type of sugar dissolved in water and transported through the phloem.\n\nKey Points:\n- Produced in source leaves during photosynthesis\n- Transported from source to sink leaves, roots, and other parts of the plant\n- Provides ener...",
+                  "preview": "Definition:\nSucrose is a type of sugar dissolved in water an...",
+                  "keywords": [
+                    "Definition:",
+                    "Sucrose",
+                    "dissolved",
+                    "transported",
+                    "through"
+                  ],
+                  "ui": {
+                    "expandable": false,
+                    "visual_type": "text_node",
+                    "node_style": "default",
+                    "animation_hint": "fade_in",
+                    "icon": "circle"
+                  },
+                  "children": [],
+                  "metadata": {
+                    "depth": 0,
+                    "leaf": true
+                  }
+                },
+                {
+                  "id": "05438d02-eae9-47ce-8d1b-c4602f64020f",
+                  "type": "concept",
+                  "label": "Role of Amino Acids",
+                  "summary": "Definition:\nAmino acids are the building blocks of proteins and play a crucial role in various life processes.\n\nKey Points:\n- Amino acids are synthesized in the cells of the plant\n- Amino acids help in the formation of proteins\n- Amino acids are invo...",
+                  "preview": "Definition:\nAmino acids are the building blocks of proteins ...",
+                  "keywords": [
+                    "Definition:",
+                    "building",
+                    "proteins",
+                    "crucial",
+                    "various"
+                  ],
+                  "ui": {
+                    "expandable": false,
+                    "visual_type": "text_node",
+                    "node_style": "default",
+                    "animation_hint": "fade_in",
+                    "icon": "circle"
+                  },
+                  "children": [],
+                  "metadata": {
+                    "depth": 0,
+                    "leaf": true
+                  }
+                }
+              ],
+              "metadata": {
+                "depth": 1,
+                "leaf": false
+              }
+            }
+          ],
+          "metadata": {
+            "depth": 2,
+            "leaf": false
+          }
+        }
+      ],
+      "metadata": {
+        "depth": 3,
+        "leaf": false
+      }
+    },
+    {
+      "id": "8d7e1c96-ed88-47ec-95c2-b76750d52ebb",
+      "type": "concept",
+      "label": "Excretion",
+      "summary": "Definition:\nThe process by which the body removes waste products.\n\nKey Points:\n- Occurs in organs like kidneys and liver\n- Removes waste products from the blood\n- Helps maintain homeostasis\n\nImportance:\nMaintains the body's internal balance and preve...",
+      "preview": "Definition:\nThe process by which the body removes waste prod...",
+      "keywords": [
+        "Definition:",
+        "process",
+        "removes",
+        "products",
+        "Points:"
+      ],
+      "ui": {
+        "expandable": true,
+        "visual_type": "tree_node",
+        "node_style": "default",
+        "animation_hint": "expand_simple",
+        "icon": "filter"
+      },
+      "children": [
+        {
+          "id": "2a7e5e7c-a44b-4097-b68d-1470ff1a97af",
+          "type": "concept",
+          "label": "Excretion in Human Beings",
+          "summary": "Definition:\nThe process of excretion is the removal of waste products from the body.\n\nKey Points:\n- The excretory system of the human body includes the skin, lungs, kidneys, and liver.\n- The kidneys filter waste products from the blood and the liver ...",
+          "preview": "Definition:\nThe process of excretion is the removal of waste...",
+          "keywords": [
+            "Definition:",
+            "process",
+            "excretion",
+            "removal",
+            "products"
+          ],
+          "ui": {
+            "expandable": true,
+            "visual_type": "tree_node",
+            "node_style": "default",
+            "animation_hint": "expand_simple",
+            "icon": "filter"
+          },
+          "children": [
+            {
+              "id": "716f4ca3-6d07-43b9-aba4-3154d23f7d6b",
+              "type": "concept",
+              "label": "Kidneys",
+              "summary": "Definition:\nThe kidneys are a pair of vital organs in the human body responsible for filtering waste products and excess substances from the blood.\n\nKey Points:\n- Filters blood to produce urine.\n- Regulates electrolyte balance in the body.\n- Controls...",
+              "preview": "Definition:\nThe kidneys are a pair of vital organs in the hu...",
+              "keywords": [
+                "Definition:",
+                "kidneys",
+                "responsible",
+                "filtering",
+                "products"
+              ],
+              "ui": {
+                "expandable": true,
+                "visual_type": "tree_node",
+                "node_style": "default",
+                "animation_hint": "expand_simple",
+                "icon": "circle"
+              },
+              "children": [
+                {
+                  "id": "6f7c3583-3dd7-4265-9548-4607d47dea14",
+                  "type": "concept",
+                  "label": "Structure of the Kidneys",
+                  "summary": "Definition:\nThe kidneys are a pair of bean-shaped organs located in the back of the abdominal cavity, which play a vital role in the excretory system of the body.\n\nKey Points:\n- They are situated on either side of the spine, with the right kidney sli...",
+                  "preview": "Definition:\nThe kidneys are a pair of bean-shaped organs loc...",
+                  "keywords": [
+                    "Definition:",
+                    "kidneys",
+                    "bean-shaped",
+                    "located",
+                    "abdominal"
+                  ],
+                  "ui": {
+                    "expandable": false,
+                    "visual_type": "text_node",
+                    "node_style": "default",
+                    "animation_hint": "fade_in",
+                    "icon": "circle"
+                  },
+                  "children": [],
+                  "metadata": {
+                    "depth": 0,
+                    "leaf": true
+                  }
+                },
+                {
+                  "id": "cd8a11f5-b063-401c-9447-75674a7c8bbb",
+                  "type": "concept",
+                  "label": "Function of the Kidneys",
+                  "summary": "Definition: The kidneys filter waste and excess fluids from the blood.\n\nKey Points:\n- Removes excess water and salts from the blood\n- Regulates the body's pH balance\n- Produces hormones that help control blood pressure\n\nImportance: Maintains the body...",
+                  "preview": "Definition: The kidneys filter waste and excess fluids from ...",
+                  "keywords": [
+                    "Definition:",
+                    "kidneys",
+                    "Points:",
+                    "Removes",
+                    "Regulates"
+                  ],
+                  "ui": {
+                    "expandable": false,
+                    "visual_type": "text_node",
+                    "node_style": "default",
+                    "animation_hint": "fade_in",
+                    "icon": "circle"
+                  },
+                  "children": [],
+                  "metadata": {
+                    "depth": 0,
+                    "leaf": true
+                  }
+                }
+              ],
+              "metadata": {
+                "depth": 1,
+                "leaf": false
+              }
+            },
+            {
+              "id": "549c9e92-24ac-4b40-8401-56aea2971d57",
+              "type": "concept",
+              "label": "Urine Formation",
+              "summary": "Definition:\nThe process by which the body removes waste products and excess substances through the formation of urine.\n\nKey Points:\n- The kidneys filter the blood to remove waste products and excess substances.\n- The filtered waste products and exces...",
+              "preview": "Definition:\nThe process by which the body removes waste prod...",
+              "keywords": [
+                "Definition:",
+                "process",
+                "removes",
+                "products",
+                "substances"
+              ],
+              "ui": {
+                "expandable": true,
+                "visual_type": "tree_node",
+                "node_style": "default",
+                "animation_hint": "expand_simple",
+                "icon": "circle"
+              },
+              "children": [
+                {
+                  "id": "72ba0ffd-17b3-49f5-9661-3f34bf9c2ea6",
+                  "type": "concept",
+                  "label": "Role of Filtration",
+                  "summary": "Definition:\nFiltration is the process by which the kidneys remove waste and excess substances from the blood to form urine.\n\nKey Points:\n- Filtration occurs in the nephrons of the kidneys.\n- The blood is filtered through a thin membrane called the gl...",
+                  "preview": "Definition:\nFiltration is the process by which the kidneys r...",
+                  "keywords": [
+                    "Definition:",
+                    "Filtration",
+                    "process",
+                    "kidneys",
+                    "substances"
+                  ],
+                  "ui": {
+                    "expandable": false,
+                    "visual_type": "text_node",
+                    "node_style": "default",
+                    "animation_hint": "fade_in",
+                    "icon": "circle"
+                  },
+                  "children": [],
+                  "metadata": {
+                    "depth": 0,
+                    "leaf": true
+                  }
+                },
+                {
+                  "id": "b1f1301c-d602-40d4-a35b-58fed14335f4",
+                  "type": "concept",
+                  "label": "Role of Reabsorption",
+                  "summary": "Definition:\nThe process of reabsorption is the process by which the kidneys take back or reabsorb water and essential substances from the filtrate back into the bloodstream.\n\nKey Points:\n- Helps maintain water balance in the body.\n- Reabsorbs nutrien...",
+                  "preview": "Definition:\nThe process of reabsorption is the process by wh...",
+                  "keywords": [
+                    "Definition:",
+                    "process",
+                    "reabsorption",
+                    "process",
+                    "kidneys"
+                  ],
+                  "ui": {
+                    "expandable": false,
+                    "visual_type": "text_node",
+                    "node_style": "default",
+                    "animation_hint": "fade_in",
+                    "icon": "circle"
+                  },
+                  "children": [],
+                  "metadata": {
+                    "depth": 0,
+                    "leaf": true
+                  }
+                }
+              ],
+              "metadata": {
+                "depth": 1,
+                "leaf": false
+              }
+            }
+          ],
+          "metadata": {
+            "depth": 2,
+            "leaf": false
+          }
+        },
+        {
+          "id": "85ddd59e-719d-4086-97d8-788b8066b05d",
+          "type": "concept",
+          "label": "Excretion in Plants",
+          "summary": "Definition:\nThe process by which plants remove and expel waste products.\n\nKey Points:\n- Plants use stomata to release waste gases.\n- Excess ions and solutes are removed from the cell through root cells.\n- Plants also use transpiration to expel excess...",
+          "preview": "Definition:\nThe process by which plants remove and expel was...",
+          "keywords": [
+            "Definition:",
+            "process",
+            "products",
+            "Points:",
+            "stomata"
+          ],
+          "ui": {
+            "expandable": true,
+            "visual_type": "tree_node",
+            "node_style": "default",
+            "animation_hint": "expand_simple",
+            "icon": "filter"
+          },
+          "children": [
+            {
+              "id": "6b53e058-fb65-4914-a3e6-c5680644831f",
+              "type": "concept",
+              "label": "Role of Transpiration",
+              "summary": "Definition:\nTranspiration is the process by which plants release water vapour into the air.\n\nKey Points:\n- Helps in cooling the plant body\n- Removes excess water from the plant\n- Contributes to the formation of clouds\n\nImportance:\nHelps in the water ...",
+              "preview": "Definition:\nTranspiration is the process by which plants rel...",
+              "keywords": [
+                "Definition:",
+                "Transpiration",
+                "process",
+                "release",
+                "Points:"
+              ],
+              "ui": {
+                "expandable": false,
+                "visual_type": "text_node",
+                "node_style": "default",
+                "animation_hint": "fade_in",
+                "icon": "circle"
+              },
+              "children": [],
+              "metadata": {
+                "depth": 0,
+                "leaf": true
+              }
+            },
+            {
+              "id": "95aab939-0673-4386-bffd-0bdc8ea61b71",
+              "type": "concept",
+              "label": "Role of Cell Vacuoles",
+              "summary": "Definition:\nCell vacuoles play a crucial role in the excretion process in plants.\n\nKey Points:\n- Helps in the removal of waste products\n- Stores and transports nutrients and minerals\n- Maintains the plant's turgor pressure\n\nImportance:\nIt is essentia...",
+              "preview": "Definition:\nCell vacuoles play a crucial role in the excreti...",
+              "keywords": [
+                "Definition:",
+                "vacuoles",
+                "crucial",
+                "excretion",
+                "process"
+              ],
+              "ui": {
+                "expandable": false,
+                "visual_type": "text_node",
+                "node_style": "default",
+                "animation_hint": "fade_in",
+                "icon": "circle"
+              },
+              "children": [],
+              "metadata": {
+                "depth": 0,
+                "leaf": true
+              }
+            }
+          ],
+          "metadata": {
+            "depth": 1,
+            "leaf": false
+          }
+        }
+      ],
+      "metadata": {
+        "depth": 3,
+        "leaf": false
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "What is Life?",
+      "to": "Criteria for Life",
+      "relation": "Related To"
+    },
+    {
+      "from": "Criteria for Life",
+      "to": "Movement",
+      "relation": "Related To"
+    },
+    {
+      "from": "Movement",
+      "to": "Growth",
+      "relation": "Related To"
+    },
+    {
+      "from": "Growth",
+      "to": "Reproduction",
+      "relation": "Related To"
+    },
+    {
+      "from": "Reproduction",
+      "to": "Response to Stimuli",
+      "relation": "Related To"
+    },
+    {
+      "from": "Response to Stimuli",
+      "to": "Molecular Movement",
+      "relation": "Related To"
+    },
+    {
+      "from": "Molecular Movement",
+      "to": "Importance of Molecular Movement",
+      "relation": "Related To"
+    },
+    {
+      "from": "Importance of Molecular Movement",
+      "to": "Examples of Molecular Movement",
+      "relation": "Related To"
+    },
+    {
+      "from": "Examples of Molecular Movement",
+      "to": "Maintenance of Life",
+      "relation": "Related To"
+    },
+    {
+      "from": "Maintenance of Life",
+      "to": "Nutrition",
+      "relation": "Related To"
+    },
+    {
+      "from": "Nutrition",
+      "to": "Autotrophic Nutrition",
+      "relation": "Related To"
+    },
+    {
+      "from": "Autotrophic Nutrition",
+      "to": "Photosynthesis",
+      "relation": "Related To"
+    },
+    {
+      "from": "Photosynthesis",
+      "to": "Stages of Photosynthesis",
+      "relation": "Related To"
+    },
+    {
+      "from": "Stages of Photosynthesis",
+      "to": "Absorption of Light Energy",
+      "relation": "Related To"
+    },
+    {
+      "from": "Absorption of Light Energy",
+      "to": "Conversion of Light Energy",
+      "relation": "Related To"
+    },
+    {
+      "from": "Conversion of Light Energy",
+      "to": "Reduction of Carbon Dioxide",
+      "relation": "Related To"
+    },
+    {
+      "from": "Reduction of Carbon Dioxide",
+      "to": "Importance of Chlorophyll",
+      "relation": "Related To"
+    },
+    {
+      "from": "Importance of Chlorophyll",
+      "to": "Heterotrophic Nutrition",
+      "relation": "Related To"
+    },
+    {
+      "from": "Heterotrophic Nutrition",
+      "to": "Digestion of Food",
+      "relation": "Related To"
+    },
+    {
+      "from": "Digestion of Food",
+      "to": "Role of Saliva",
+      "relation": "Related To"
+    },
+    {
+      "from": "Role of Saliva",
+      "to": "Role of Gastric Juices",
+      "relation": "Related To"
+    },
+    {
+      "from": "Role of Gastric Juices",
+      "to": "Absorption of Nutrients",
+      "relation": "Related To"
+    },
+    {
+      "from": "Absorption of Nutrients",
+      "to": "Heterotrophic Nutrition in Human Beings",
+      "relation": "Related To"
+    },
+    {
+      "from": "Heterotrophic Nutrition in Human Beings",
+      "to": "Digestive System",
+      "relation": "Related To"
+    },
+    {
+      "from": "Digestive System",
+      "to": "Mouth",
+      "relation": "Related To"
+    },
+    {
+      "from": "Mouth",
+      "to": "Role of Saliva",
+      "relation": "Related To"
+    },
+    {
+      "from": "Role of Saliva",
+      "to": "Esophagus",
+      "relation": "Related To"
+    },
+    {
+      "from": "Esophagus",
+      "to": "Stomach",
+      "relation": "Related To"
+    },
+    {
+      "from": "Stomach",
+      "to": "Role of Gastric Juices",
+      "relation": "Related To"
+    },
+    {
+      "from": "Role of Gastric Juices",
+      "to": "Small Intestine",
+      "relation": "Related To"
+    },
+    {
+      "from": "Small Intestine",
+      "to": "Role of Pancreatic Juices",
+      "relation": "Related To"
+    },
+    {
+      "from": "Role of Pancreatic Juices",
+      "to": "Large Intestine",
+      "relation": "Related To"
+    },
+    {
+      "from": "Large Intestine",
+      "to": "Respiration",
+      "relation": "Related To"
+    },
+    {
+      "from": "Respiration",
+      "to": "Aerobic Respiration",
+      "relation": "Related To"
+    },
+    {
+      "from": "Aerobic Respiration",
+      "to": "Role of Oxygen",
+      "relation": "Related To"
+    },
+    {
+      "from": "Role of Oxygen",
+      "to": "Role of Carbon Dioxide",
+      "relation": "Related To"
+    },
+    {
+      "from": "Role of Carbon Dioxide",
+      "to": "Anaerobic Respiration",
+      "relation": "Related To"
+    },
+    {
+      "from": "Anaerobic Respiration",
+      "to": "Role of Pyruvate",
+      "relation": "Related To"
+    },
+    {
+      "from": "Role of Pyruvate",
+      "to": "Role of Lactic Acid",
+      "relation": "Related To"
+    },
+    {
+      "from": "Role of Lactic Acid",
+      "to": "Transportation",
+      "relation": "Related To"
+    },
+    {
+      "from": "Transportation",
+      "to": "Transportation in Human Beings",
+      "relation": "Related To"
+    },
+    {
+      "from": "Transportation in Human Beings",
+      "to": "Heart",
+      "relation": "Related To"
+    },
+    {
+      "from": "Heart",
+      "to": "Structure of the Heart",
+      "relation": "Related To"
+    },
+    {
+      "from": "Structure of the Heart",
+      "to": "Function of the Heart",
+      "relation": "Related To"
+    },
+    {
+      "from": "Function of the Heart",
+      "to": "Blood Vessels",
+      "relation": "Related To"
+    },
+    {
+      "from": "Blood Vessels",
+      "to": "Arteries",
+      "relation": "Related To"
+    },
+    {
+      "from": "Arteries",
+      "to": "Veins",
+      "relation": "Related To"
+    },
+    {
+      "from": "Veins",
+      "to": "Transportation in Plants",
+      "relation": "Related To"
+    },
+    {
+      "from": "Transportation in Plants",
+      "to": "Xylem",
+      "relation": "Related To"
+    },
+    {
+      "from": "Xylem",
+      "to": "Role of Water",
+      "relation": "Related To"
+    },
+    {
+      "from": "Role of Water",
+      "to": "Role of Minerals",
+      "relation": "Related To"
+    },
+    {
+      "from": "Role of Minerals",
+      "to": "Phloem",
+      "relation": "Related To"
+    },
+    {
+      "from": "Phloem",
+      "to": "Role of Sucrose",
+      "relation": "Related To"
+    },
+    {
+      "from": "Role of Sucrose",
+      "to": "Role of Amino Acids",
+      "relation": "Related To"
+    },
+    {
+      "from": "Role of Amino Acids",
+      "to": "Excretion",
+      "relation": "Related To"
+    },
+    {
+      "from": "Excretion",
+      "to": "Excretion in Human Beings",
+      "relation": "Related To"
+    },
+    {
+      "from": "Excretion in Human Beings",
+      "to": "Kidneys",
+      "relation": "Related To"
+    },
+    {
+      "from": "Kidneys",
+      "to": "Structure of the Kidneys",
+      "relation": "Related To"
+    },
+    {
+      "from": "Structure of the Kidneys",
+      "to": "Function of the Kidneys",
+      "relation": "Related To"
+    },
+    {
+      "from": "Function of the Kidneys",
+      "to": "Urine Formation",
+      "relation": "Related To"
+    },
+    {
+      "from": "Urine Formation",
+      "to": "Role of Filtration",
+      "relation": "Related To"
+    },
+    {
+      "from": "Role of Filtration",
+      "to": "Role of Reabsorption",
+      "relation": "Related To"
+    },
+    {
+      "from": "Role of Reabsorption",
+      "to": "Excretion in Plants",
+      "relation": "Related To"
+    },
+    {
+      "from": "Excretion in Plants",
+      "to": "Role of Transpiration",
+      "relation": "Related To"
+    },
+    {
+      "from": "Role of Transpiration",
+      "to": "Role of Cell Vacuoles",
+      "relation": "Related To"
+    }
+  ]
+}
