@@ -31,3 +31,4 @@ Thumbs.db
 
 # Others
 *.sqlite3
+backend/uploads/
