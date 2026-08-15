@@ -1,0 +1,1456 @@
+{
+  "id": "fe11c3c8-f301-46ba-8cf0-620986cbc38f",
+  "type": "chapter",
+  "label": "Chapter 7: Area",
+  "summary": "",
+  "preview": "",
+  "ui": {
+    "expandable": true,
+    "visual_type": "root"
+  },
+  "children": [
+    {
+      "id": "39482480-6725-4c56-978c-63c892a2a2df",
+      "type": "concept",
+      "label": "Introduction to Area",
+      "summary": "Definition:\nArea is a measure of the amount of space occupied by a two-dimensional figure or object.\n\nKey Points:\n- Measured in square units such as square meters or square centimeters\n- Can be calculated using the formula for the area of a shape\n- A...",
+      "preview": "Definition:\nArea is a measure of the amount of space occupie...",
+      "keywords": [
+        "Definition:",
+        "measure",
+        "occupied",
+        "two-dimensional",
+        "Points:"
+      ],
+      "ui": {
+        "expandable": true,
+        "visual_type": "tree_node",
+        "node_style": "default",
+        "animation_hint": "expand_simple",
+        "icon": "circle"
+      },
+      "children": [
+        {
+          "id": "823b264b-685a-4d1c-b418-e1dafdfea13e",
+          "type": "concept",
+          "label": "What is Area?",
+          "summary": "Definition:\nThe area of a shape is the amount of space it occupies.\n\nKey Points:\n- Area is measured in square units (e.g. square meters, square centimeters)\n- Area is a two-dimensional measurement\n- Area is used to compare the sizes of different shap...",
+          "preview": "Definition:\nThe area of a shape is the amount of space it oc...",
+          "keywords": [
+            "Definition:",
+            "occupies",
+            "Points:",
+            "measured",
+            "centimeters"
+          ],
+          "ui": {
+            "expandable": true,
+            "visual_type": "tree_node",
+            "node_style": "default",
+            "animation_hint": "expand_simple",
+            "icon": "circle"
+          },
+          "children": [
+            {
+              "id": "94104773-1404-47f9-9296-97432a28362e",
+              "type": "concept",
+              "label": "Definition of Area",
+              "summary": "Definition:\nArea is the amount of space inside a two-dimensional shape or figure.\n\nKey Points:\n- It is measured in square units such as cm2 or m2\n- It is calculated by multiplying the length and width of a shape\n- Area can be affected by changes in h...",
+              "preview": "Definition:\nArea is the amount of space inside a two-dimensi...",
+              "keywords": [
+                "Definition:",
+                "two-dimensional",
+                "Points:",
+                "measured",
+                "calculated"
+              ],
+              "ui": {
+                "expandable": false,
+                "visual_type": "text_node",
+                "node_style": "default",
+                "animation_hint": "fade_in",
+                "icon": "circle"
+              },
+              "children": [],
+              "metadata": {
+                "depth": 0,
+                "leaf": true
+              }
+            },
+            {
+              "id": "98b51dff-253f-4792-98d5-5c2526a5942d",
+              "type": "concept",
+              "label": "Understanding Area",
+              "summary": "Definition:\nArea is the amount of space occupied by a two-dimensional shape.\n\nKey Points:\n- Measured in square units like cm² or m²\n- Examples include rectangles, triangles, and polygons\n- Can be calculated using formulas like A = length x breadth \n\n...",
+              "preview": "Definition:\nArea is the amount of space occupied by a two-di...",
+              "keywords": [
+                "Definition:",
+                "occupied",
+                "two-dimensional",
+                "Points:",
+                "Measured"
+              ],
+              "ui": {
+                "expandable": false,
+                "visual_type": "text_node",
+                "node_style": "default",
+                "animation_hint": "fade_in",
+                "icon": "circle"
+              },
+              "children": [],
+              "metadata": {
+                "depth": 0,
+                "leaf": true
+              }
+            }
+          ],
+          "metadata": {
+            "depth": 1,
+            "leaf": false
+          }
+        },
+        {
+          "id": "df260f0a-ab6a-46e4-a30a-bdaee19c43e4",
+          "type": "concept",
+          "label": "Applying the Concept of Area",
+          "summary": "Definition:\nArea is the amount of space inside a shape or figure.\n\nKey Points:\n- It is measured in square units, such as square centimeters or square meters.\n- The area of a shape is the total amount of space it occupies.\n- Different shapes have diff...",
+          "preview": "Definition:\nArea is the amount of space inside a shape or fi...",
+          "keywords": [
+            "Definition:",
+            "Points:",
+            "measured",
+            "centimeters",
+            "occupies"
+          ],
+          "ui": {
+            "expandable": true,
+            "visual_type": "tree_node",
+            "node_style": "default",
+            "animation_hint": "expand_simple",
+            "icon": "circle"
+          },
+          "children": [
+            {
+              "id": "828d148d-ede8-4ec3-93e9-779bb7af5e82",
+              "type": "concept",
+              "label": "Applying Unit Squares to Find Area",
+              "summary": "Definition:\nApplying unit squares to find area involves dividing a shape into equal parts and counting the number of squares that fit into it.\n\nKey Points:\n- A shape can be divided into unit squares of equal size to find its area.\n- The area of a sha...",
+              "preview": "Definition:\nApplying unit squares to find area involves divi...",
+              "keywords": [
+                "Definition:",
+                "Applying",
+                "squares",
+                "involves",
+                "dividing"
+              ],
+              "ui": {
+                "expandable": false,
+                "visual_type": "text_node",
+                "node_style": "default",
+                "animation_hint": "fade_in",
+                "icon": "circle"
+              },
+              "children": [],
+              "metadata": {
+                "depth": 0,
+                "leaf": true
+              }
+            },
+            {
+              "id": "9a89994c-a112-4b86-944a-464581fe8973",
+              "type": "concept",
+              "label": "Area of Rectangles",
+              "summary": "Definition:\nArea of a rectangle is calculated by multiplying its length by its width.\n\nKey Points:\n- Length and width are measured in the same units.\n- Area is always a positive value.\n- Units of area are square units (e.g. cm², m²).\n\nImportance:\nUnd...",
+              "preview": "Definition:\nArea of a rectangle is calculated by multiplying...",
+              "keywords": [
+                "Definition:",
+                "rectangle",
+                "calculated",
+                "multiplying",
+                "Points:"
+              ],
+              "ui": {
+                "expandable": true,
+                "visual_type": "tree_node",
+                "node_style": "default",
+                "animation_hint": "expand_simple",
+                "icon": "circle"
+              },
+              "children": [
+                {
+                  "id": "6ede0d8e-fb8d-4f08-8b8d-9992687bf0c7",
+                  "type": "concept",
+                  "label": "Understanding Area of Rectangles",
+                  "summary": "Definition:\nThe area of a rectangle is defined as the product of its length and width.\n\nKey Points:\n- Area can be calculated using the formula: area = length x width\n- Area is a measure of the amount of space inside a shape\n- Unit of area is square u...",
+                  "preview": "Definition:\nThe area of a rectangle is defined as the produc...",
+                  "keywords": [
+                    "Definition:",
+                    "rectangle",
+                    "defined",
+                    "product",
+                    "Points:"
+                  ],
+                  "ui": {
+                    "expandable": false,
+                    "visual_type": "text_node",
+                    "node_style": "default",
+                    "animation_hint": "fade_in",
+                    "icon": "circle"
+                  },
+                  "children": [],
+                  "metadata": {
+                    "depth": 0,
+                    "leaf": true
+                  }
+                },
+                {
+                  "id": "44d57be2-ceb0-441a-be31-85b761372d20",
+                  "type": "concept",
+                  "label": "Area Formula for Rectangles",
+                  "summary": "Definition:\nThe area of a rectangle is calculated using a specific formula.\n\nKey Points:\n- The formula is area = length x width\n- The units of area are usually square units (e.g. square centimeters or square meters)\n- The area of a rectangle is a mea...",
+                  "preview": "Definition:\nThe area of a rectangle is calculated using a sp...",
+                  "keywords": [
+                    "Definition:",
+                    "rectangle",
+                    "calculated",
+                    "specific",
+                    "formula"
+                  ],
+                  "ui": {
+                    "expandable": false,
+                    "visual_type": "text_node",
+                    "node_style": "default",
+                    "animation_hint": "fade_in",
+                    "icon": "circle"
+                  },
+                  "children": [],
+                  "metadata": {
+                    "depth": 0,
+                    "leaf": true
+                  }
+                }
+              ],
+              "metadata": {
+                "depth": 1,
+                "leaf": false
+              }
+            }
+          ],
+          "metadata": {
+            "depth": 2,
+            "leaf": false
+          }
+        }
+      ],
+      "metadata": {
+        "depth": 3,
+        "leaf": false
+      }
+    },
+    {
+      "id": "b5801926-a976-4ec9-a6cb-90aa7304efa6",
+      "type": "concept",
+      "label": "Applications of Area Formula",
+      "summary": "Definition:\nArea of a shape is the amount of space it occupies in two-dimensional space.\n\nKey Points:\n- The area formula for a rectangle is length x width.\n- The area formula for a triangle is base x height divided by 2.\n- A shape's area determines i...",
+      "preview": "Definition:\nArea of a shape is the amount of space it occupi...",
+      "keywords": [
+        "Definition:",
+        "occupies",
+        "two-dimensional",
+        "Points:",
+        "formula"
+      ],
+      "ui": {
+        "expandable": true,
+        "visual_type": "tree_node",
+        "node_style": "default",
+        "animation_hint": "expand_simple",
+        "icon": "circle"
+      },
+      "children": [
+        {
+          "id": "cc955d78-495f-4f92-b588-f03b416eb190",
+          "type": "concept",
+          "label": "Why Can't Perimeter be a Measure of Area?",
+          "summary": "Definition:\nPerimeter of a shape measures its distance around, not its size or area.\n\nKey Points:\n- It doesn't take into account shape's height\n- It only considers length of all sides\n- Shapes with same perimeter can have different areas\n\nImportance:...",
+          "preview": "Definition:\nPerimeter of a shape measures its distance aroun...",
+          "keywords": [
+            "Definition:",
+            "Perimeter",
+            "measures",
+            "distance",
+            "Points:"
+          ],
+          "ui": {
+            "expandable": true,
+            "visual_type": "tree_node",
+            "node_style": "default",
+            "animation_hint": "expand_simple",
+            "icon": "circle"
+          },
+          "children": [
+            {
+              "id": "860e61ca-3b57-4862-b75a-9719469ee569",
+              "type": "concept",
+              "label": "Understanding the Relationship between Perimeter and Area",
+              "summary": "Definition:\nPerimeter is a measure of the distance around a shape, while area is the measurement of the space inside the shape.\n\nKey Points:\n- Perimeter and area are two different properties of a shape.\n- The perimeter only considers the boundary of ...",
+              "preview": "Definition:\nPerimeter is a measure of the distance around a ...",
+              "keywords": [
+                "Definition:",
+                "Perimeter",
+                "measure",
+                "distance",
+                "measurement"
+              ],
+              "ui": {
+                "expandable": false,
+                "visual_type": "text_node",
+                "node_style": "default",
+                "animation_hint": "fade_in",
+                "icon": "circle"
+              },
+              "children": [],
+              "metadata": {
+                "depth": 0,
+                "leaf": true
+              }
+            },
+            {
+              "id": "a851c970-8ccd-420b-a6b2-37bb1ac8e798",
+              "type": "concept",
+              "label": "Counterexample: Regions with the Same Perimeter but Different Areas",
+              "summary": "Definition:\nA counterexample that shows perimeter is not a measure of area.\n\nKey Points:\n- A rectangle and a circle can have the same perimeter but different areas.\n- The shape of a region affects its area, not just its perimeter.\n- A change in shape...",
+              "preview": "Definition:\nA counterexample that shows perimeter is not a m...",
+              "keywords": [
+                "Definition:",
+                "counterexample",
+                "perimeter",
+                "measure",
+                "Points:"
+              ],
+              "ui": {
+                "expandable": false,
+                "visual_type": "text_node",
+                "node_style": "default",
+                "animation_hint": "fade_in",
+                "icon": "circle"
+              },
+              "children": [],
+              "metadata": {
+                "depth": 0,
+                "leaf": true
+              }
+            }
+          ],
+          "metadata": {
+            "depth": 1,
+            "leaf": false
+          }
+        },
+        {
+          "id": "132f8c0b-0c70-46e5-b493-e1e63fe6204b",
+          "type": "concept",
+          "label": "Area as a Measure of Shape",
+          "summary": "Definition:\nArea is a measure of the space inside or on the surface of a shape.\n\nKey Points:\n- It is measured in square units (e.g. square meters, square centimeters)\n- It depends on the shape's size and shape (e.g. circle, rectangle, triangle)\n- It ...",
+          "preview": "Definition:\nArea is a measure of the space inside or on the ...",
+          "keywords": [
+            "Definition:",
+            "measure",
+            "surface",
+            "Points:",
+            "measured"
+          ],
+          "ui": {
+            "expandable": true,
+            "visual_type": "tree_node",
+            "node_style": "default",
+            "animation_hint": "expand_simple",
+            "icon": "circle"
+          },
+          "children": [
+            {
+              "id": "a6c53231-d31b-4421-b669-58f2825d1dc5",
+              "type": "concept",
+              "label": "Area of Triangles",
+              "summary": "Definition:\nThe area of a triangle is a measure of the space it occupies.\n\nKey Points:\n- The area of a triangle is half the product of its base and height.\n- The formula for the area of a triangle is 1/2 × base × height.\n- The area of a triangle is i...",
+              "preview": "Definition:\nThe area of a triangle is a measure of the space...",
+              "keywords": [
+                "Definition:",
+                "triangle",
+                "measure",
+                "occupies",
+                "Points:"
+              ],
+              "ui": {
+                "expandable": true,
+                "visual_type": "tree_node",
+                "node_style": "default",
+                "animation_hint": "expand_simple",
+                "icon": "circle"
+              },
+              "children": [
+                {
+                  "id": "b71cd1e9-2a55-4a5d-93f4-e269e4caa95c",
+                  "type": "concept",
+                  "label": "Understanding the Area Formula for Triangles",
+                  "summary": "Definition:\nThe area of a triangle is calculated using the formula where the base and height of the triangle are known.\n\nKey Points:\n- Area of a triangle is calculated using the formula 1/2 × base × height.\n- Base of the triangle is the length betwee...",
+                  "preview": "Definition:\nThe area of a triangle is calculated using the f...",
+                  "keywords": [
+                    "Definition:",
+                    "triangle",
+                    "calculated",
+                    "formula",
+                    "triangle"
+                  ],
+                  "ui": {
+                    "expandable": false,
+                    "visual_type": "text_node",
+                    "node_style": "default",
+                    "animation_hint": "fade_in",
+                    "icon": "circle"
+                  },
+                  "children": [],
+                  "metadata": {
+                    "depth": 0,
+                    "leaf": true
+                  }
+                },
+                {
+                  "id": "7f6cd11f-5207-4ec5-a1e0-ef7cd86fb3a7",
+                  "type": "concept",
+                  "label": "Applying the Area Formula for Triangles",
+                  "summary": "Definition:\nThe area formula for triangles is used to calculate the area of a triangle when the base and height are known.\n\nKey Points:\n- The formula is ½ × base × height\n- The base can be any side of the triangle\n- The height is the perpendicular di...",
+                  "preview": "Definition:\nThe area formula for triangles is used to calcul...",
+                  "keywords": [
+                    "Definition:",
+                    "formula",
+                    "triangles",
+                    "calculate",
+                    "triangle"
+                  ],
+                  "ui": {
+                    "expandable": false,
+                    "visual_type": "text_node",
+                    "node_style": "default",
+                    "animation_hint": "fade_in",
+                    "icon": "circle"
+                  },
+                  "children": [],
+                  "metadata": {
+                    "depth": 0,
+                    "leaf": true
+                  }
+                }
+              ],
+              "metadata": {
+                "depth": 1,
+                "leaf": false
+              }
+            },
+            {
+              "id": "de2fba9e-378f-4794-a1ef-b3ba71fb34d8",
+              "type": "concept",
+              "label": "Area of Various Types of Triangles",
+              "summary": "Definition:\nArea of a triangle is calculated as half the product of its base and height.\n\nKey Points:\n- The area of a right-angled triangle is also calculated using the formula a * b / 2.\n- Trapezoid and isosceles triangles have unique area formulas....",
+              "preview": "Definition:\nArea of a triangle is calculated as half the pro...",
+              "keywords": [
+                "Definition:",
+                "triangle",
+                "calculated",
+                "product",
+                "Points:"
+              ],
+              "ui": {
+                "expandable": true,
+                "visual_type": "tree_node",
+                "node_style": "default",
+                "animation_hint": "expand_simple",
+                "icon": "circle"
+              },
+              "children": [
+                {
+                  "id": "d444e8c1-411a-42f1-b1d2-3a26bbee2300",
+                  "type": "concept",
+                  "label": "Right Triangles",
+                  "summary": "Definition:\nA right triangle is a type of triangle with one angle equal to 90 degrees.\n\nKey Points:\n- It has two acute angles.\n- The angle opposite the hypotenuse is a right angle.\n- The Pythagorean theorem applies to right triangles.\n\nImportance:\nRi...",
+                  "preview": "Definition:\nA right triangle is a type of triangle with one ...",
+                  "keywords": [
+                    "Definition:",
+                    "triangle",
+                    "triangle",
+                    "degrees",
+                    "Points:"
+                  ],
+                  "ui": {
+                    "expandable": false,
+                    "visual_type": "text_node",
+                    "node_style": "default",
+                    "animation_hint": "fade_in",
+                    "icon": "circle"
+                  },
+                  "children": [],
+                  "metadata": {
+                    "depth": 0,
+                    "leaf": true
+                  }
+                },
+                {
+                  "id": "8da4bdab-d7a2-4018-9c1f-a67ae01b203f",
+                  "type": "concept",
+                  "label": "Oblique Triangles",
+                  "summary": "Definition:\nAn oblique triangle is a type of triangle where none of its angles are 90 degrees.\n\nKey Points:\n- All angles are acute\n- The sum of angles is 180 degrees\n- Can be solved using trigonometry\n\nImportance:\nUnderstanding oblique triangles is c...",
+                  "preview": "Definition:\nAn oblique triangle is a type of triangle where ...",
+                  "keywords": [
+                    "Definition:",
+                    "oblique",
+                    "triangle",
+                    "triangle",
+                    "degrees"
+                  ],
+                  "ui": {
+                    "expandable": false,
+                    "visual_type": "text_node",
+                    "node_style": "default",
+                    "animation_hint": "fade_in",
+                    "icon": "circle"
+                  },
+                  "children": [],
+                  "metadata": {
+                    "depth": 0,
+                    "leaf": true
+                  }
+                }
+              ],
+              "metadata": {
+                "depth": 1,
+                "leaf": false
+              }
+            }
+          ],
+          "metadata": {
+            "depth": 2,
+            "leaf": false
+          }
+        }
+      ],
+      "metadata": {
+        "depth": 3,
+        "leaf": false
+      }
+    },
+    {
+      "id": "f0b23db6-c053-4e10-9e99-2c779bab1407",
+      "type": "concept",
+      "label": "Finding Area of Various Shapes",
+      "summary": "Definition:\nArea is the amount of space inside the boundaries of a two-dimensional shape.\n\nKey Points:\n- Area of a rectangle is length times width\n- Formula for area of a square is side times side\n- Area of a triangle is half base times height\n\nImpor...",
+      "preview": "Definition:\nArea is the amount of space inside the boundarie...",
+      "keywords": [
+        "Definition:",
+        "boundaries",
+        "two-dimensional",
+        "Points:",
+        "rectangle"
+      ],
+      "ui": {
+        "expandable": true,
+        "visual_type": "tree_node",
+        "node_style": "default",
+        "animation_hint": "expand_simple",
+        "icon": "circle"
+      },
+      "children": [
+        {
+          "id": "bd48bbbf-ba20-4361-acfe-cbf251a7961a",
+          "type": "concept",
+          "label": "Finding Area of Polygons",
+          "summary": "Definition:\nFinding the area of polygons is an essential concept in geometry.\n\nKey Points:\n- Area of a polygon is calculated using the formula: Area = (base × height) / 2\n- The area of a polygon can be found using the formula for the area of a triang...",
+          "preview": "Definition:\nFinding the area of polygons is an essential con...",
+          "keywords": [
+            "Definition:",
+            "Finding",
+            "polygons",
+            "essential",
+            "concept"
+          ],
+          "ui": {
+            "expandable": true,
+            "visual_type": "tree_node",
+            "node_style": "default",
+            "animation_hint": "expand_simple",
+            "icon": "circle"
+          },
+          "children": [
+            {
+              "id": "c31a155e-0b25-4abb-b467-acf21bac434f",
+              "type": "concept",
+              "label": "Dividing Polygons into Triangles",
+              "summary": "Definition: Dividing a polygon into triangles makes it easier to find its total area.\n\nKey Points:\n- A polygon can be divided into any number of triangles\n- The area of the polygon is the sum of the areas of the triangles\n- Each triangle is a smaller...",
+              "preview": "Definition: Dividing a polygon into triangles makes it easie...",
+              "keywords": [
+                "Definition:",
+                "Dividing",
+                "polygon",
+                "triangles",
+                "Points:"
+              ],
+              "ui": {
+                "expandable": false,
+                "visual_type": "text_node",
+                "node_style": "default",
+                "animation_hint": "fade_in",
+                "icon": "circle"
+              },
+              "children": [],
+              "metadata": {
+                "depth": 0,
+                "leaf": true
+              }
+            },
+            {
+              "id": "ba9ecb66-a99f-4c64-855c-c76f7017c134",
+              "type": "concept",
+              "label": "Area of Various Polygons",
+              "summary": "Definition:\nArea of polygons is calculated using the length of its sides and diagonals.\n\nKey Points:\n- Area of a rectangle is length multiplied by width.\n- Area of a triangle is base multiplied by height and divided by 2.\n- Area of a parallelogram is...",
+              "preview": "Definition:\nArea of polygons is calculated using the length ...",
+              "keywords": [
+                "Definition:",
+                "polygons",
+                "calculated",
+                "diagonals",
+                "Points:"
+              ],
+              "ui": {
+                "expandable": true,
+                "visual_type": "tree_node",
+                "node_style": "default",
+                "animation_hint": "expand_simple",
+                "icon": "circle"
+              },
+              "children": [
+                {
+                  "id": "3cd24842-93d4-4d26-951d-65227acdf056",
+                  "type": "concept",
+                  "label": "Quadrilaterals",
+                  "summary": "Definition:\nA quadrilateral is a four-sided polygon with four angles and four sides.\n\nKey Points:\n- The quadrilateral has two pairs of opposite sides.\n- The quadrilateral has two pairs of opposite angles.\n- The quadrilateral can be classified into di...",
+                  "preview": "Definition:\nA quadrilateral is a four-sided polygon with fou...",
+                  "keywords": [
+                    "Definition:",
+                    "quadrilateral",
+                    "four-sided",
+                    "polygon",
+                    "Points:"
+                  ],
+                  "ui": {
+                    "expandable": false,
+                    "visual_type": "text_node",
+                    "node_style": "default",
+                    "animation_hint": "fade_in",
+                    "icon": "circle"
+                  },
+                  "children": [],
+                  "metadata": {
+                    "depth": 0,
+                    "leaf": true
+                  }
+                },
+                {
+                  "id": "1dc666b3-fcb5-4cae-b378-ee652df4d392",
+                  "type": "concept",
+                  "label": "Pentagons",
+                  "summary": "Definition:\nA pentagon is a five-sided polygon with five angles and five sides.\n\nKey Points:\n- It has five equal sides and five angles.\n- The sum of the interior angles of a pentagon is 540 degrees.\n- A regular pentagon has five equal sides and angle...",
+                  "preview": "Definition:\nA pentagon is a five-sided polygon with five ang...",
+                  "keywords": [
+                    "Definition:",
+                    "pentagon",
+                    "five-sided",
+                    "polygon",
+                    "Points:"
+                  ],
+                  "ui": {
+                    "expandable": false,
+                    "visual_type": "text_node",
+                    "node_style": "default",
+                    "animation_hint": "fade_in",
+                    "icon": "circle"
+                  },
+                  "children": [],
+                  "metadata": {
+                    "depth": 0,
+                    "leaf": true
+                  }
+                }
+              ],
+              "metadata": {
+                "depth": 1,
+                "leaf": false
+              }
+            }
+          ],
+          "metadata": {
+            "depth": 2,
+            "leaf": false
+          }
+        },
+        {
+          "id": "6cdcda59-2c6a-4247-9933-3eb9965f6a75",
+          "type": "concept",
+          "label": "Geometrical Theories",
+          "summary": "Definition:\nGeometrical theories help us calculate the area of various shapes.\n\nKey Points:\n- Area of a square is calculated as side × side.\n- Area of a rectangle is calculated as length × width.\n- Area of a triangle is calculated as ½ × base × heigh...",
+          "preview": "Definition:\nGeometrical theories help us calculate the area ...",
+          "keywords": [
+            "Definition:",
+            "Geometrical",
+            "theories",
+            "calculate",
+            "various"
+          ],
+          "ui": {
+            "expandable": true,
+            "visual_type": "tree_node",
+            "node_style": "default",
+            "animation_hint": "expand_simple",
+            "icon": "circle"
+          },
+          "children": [
+            {
+              "id": "ec6148a3-ba64-49c8-8260-4481c24e73e7",
+              "type": "concept",
+              "label": "Theorem of Dissection",
+              "summary": "Definition:\nThe theorem of dissection is a concept used to prove that a shape is equal to the sum of its smaller parts.\n\nKey Points:\n- It is used to divide a shape into simpler geometric figures.\n- Area of a shape can be calculated by breaking it dow...",
+              "preview": "Definition:\nThe theorem of dissection is a concept used to p...",
+              "keywords": [
+                "Definition:",
+                "theorem",
+                "dissection",
+                "concept",
+                "smaller"
+              ],
+              "ui": {
+                "expandable": false,
+                "visual_type": "text_node",
+                "node_style": "default",
+                "animation_hint": "fade_in",
+                "icon": "circle"
+              },
+              "children": [],
+              "metadata": {
+                "depth": 0,
+                "leaf": true
+              }
+            },
+            {
+              "id": "732d5eab-adea-4c2e-9038-abd3d6b468fd",
+              "type": "concept",
+              "label": "Geometrical Transformations",
+              "summary": "Definition:\nGeometrical transformations are the ways in which a geometric figure can be changed.\n\nKey Points:\n- Reflection: a transformation in which a figure is flipped over a line\n- Rotation: a transformation in which a figure is turned around a po...",
+              "preview": "Definition:\nGeometrical transformations are the ways in whic...",
+              "keywords": [
+                "Definition:",
+                "Geometrical",
+                "transformations",
+                "geometric",
+                "changed"
+              ],
+              "ui": {
+                "expandable": false,
+                "visual_type": "text_node",
+                "node_style": "default",
+                "animation_hint": "fade_in",
+                "icon": "circle"
+              },
+              "children": [],
+              "metadata": {
+                "depth": 0,
+                "leaf": true
+              }
+            }
+          ],
+          "metadata": {
+            "depth": 1,
+            "leaf": false
+          }
+        }
+      ],
+      "metadata": {
+        "depth": 3,
+        "leaf": false
+      }
+    },
+    {
+      "id": "a1309910-40f5-4310-aa28-a6863795458f",
+      "type": "concept",
+      "label": "Properties of Geometrical Shapes",
+      "summary": "Definition:\nProperties of Geometrical Shapes refer to the characteristics that define and distinguish different types of shapes.\n\nKey Points:\n- These properties include perimeter, area, and angles.\n- The properties of shapes help us understand their ...",
+      "preview": "Definition:\nProperties of Geometrical Shapes refer to the ch...",
+      "keywords": [
+        "Definition:",
+        "Properties",
+        "Geometrical",
+        "characteristics",
+        "distinguish"
+      ],
+      "ui": {
+        "expandable": true,
+        "visual_type": "tree_node",
+        "node_style": "default",
+        "animation_hint": "expand_simple",
+        "icon": "circle"
+      },
+      "children": [
+        {
+          "id": "c81fe43d-ccba-4b58-a2ad-e5df9c012052",
+          "type": "concept",
+          "label": "Parallelograms",
+          "summary": "Definition:\nA parallelogram is a quadrilateral with opposite sides parallel.\n\nKey Points:\n- Its opposite sides are equal in length\n- The diagonals bisect each other\n- It has two pairs of equal sides\n\nImportance:\nParallelograms are used in architectur...",
+          "preview": "Definition:\nA parallelogram is a quadrilateral with opposite...",
+          "keywords": [
+            "Definition:",
+            "parallelogram",
+            "quadrilateral",
+            "opposite",
+            "parallel"
+          ],
+          "ui": {
+            "expandable": true,
+            "visual_type": "tree_node",
+            "node_style": "default",
+            "animation_hint": "expand_simple",
+            "icon": "circle"
+          },
+          "children": [
+            {
+              "id": "06d871d3-e3c8-486e-802c-8bf54009d84e",
+              "type": "concept",
+              "label": "Properties of Parallelograms",
+              "summary": "Definition:\nA parallelogram is a quadrilateral with opposite sides parallel to each other.\n\nKey Points:\n- Opposite sides are equal in length\n- Opposite angles are equal in measure\n- Diagonals bisect each other\n\nImportance:\nUnderstanding the propertie...",
+              "preview": "Definition:\nA parallelogram is a quadrilateral with opposite...",
+              "keywords": [
+                "Definition:",
+                "parallelogram",
+                "quadrilateral",
+                "opposite",
+                "parallel"
+              ],
+              "ui": {
+                "expandable": false,
+                "visual_type": "text_node",
+                "node_style": "default",
+                "animation_hint": "fade_in",
+                "icon": "circle"
+              },
+              "children": [],
+              "metadata": {
+                "depth": 0,
+                "leaf": true
+              }
+            },
+            {
+              "id": "5f323d28-2fdc-4389-872a-c1330e648318",
+              "type": "concept",
+              "label": "Area of Parallelograms",
+              "summary": "Definition:\nThe area of a parallelogram is equal to the product of its base and height.\n\nKey Points:\n- The base of the parallelogram is one side.\n- The height is the perpendicular distance from the base.\n- If the base and height are known, we can fin...",
+              "preview": "Definition:\nThe area of a parallelogram is equal to the prod...",
+              "keywords": [
+                "Definition:",
+                "parallelogram",
+                "product",
+                "Points:",
+                "parallelogram"
+              ],
+              "ui": {
+                "expandable": false,
+                "visual_type": "text_node",
+                "node_style": "default",
+                "animation_hint": "fade_in",
+                "icon": "circle"
+              },
+              "children": [],
+              "metadata": {
+                "depth": 0,
+                "leaf": true
+              }
+            }
+          ],
+          "metadata": {
+            "depth": 1,
+            "leaf": false
+          }
+        },
+        {
+          "id": "554bf406-b4f5-4390-a113-3051fd4699aa",
+          "type": "concept",
+          "label": "Special Cases",
+          "summary": "Definition:\nSpecial cases are areas of specific shapes that have unique properties.\n\nKey Points:\n- The area of a circle is calculated using the formula A = πr^2.\n- The area of an equilateral triangle can be found using the formula A = (√3/4) × side^2...",
+          "preview": "Definition:\nSpecial cases are areas of specific shapes that ...",
+          "keywords": [
+            "Definition:",
+            "Special",
+            "specific",
+            "properties",
+            "Points:"
+          ],
+          "ui": {
+            "expandable": true,
+            "visual_type": "tree_node",
+            "node_style": "default",
+            "animation_hint": "expand_simple",
+            "icon": "circle"
+          },
+          "children": [
+            {
+              "id": "6cd07c03-a3fc-4a2b-9d18-e8d261d01454",
+              "type": "concept",
+              "label": "Rhombuses",
+              "summary": "Definition:\nA rhombus is a special type of quadrilateral with all sides of equal length.\n\nKey Points:\n- All sides are of equal length\n- Opposite sides are parallel\n- Diagonals bisect each other at right angles\n\nImportance:\nRhombuses have many real-li...",
+              "preview": "Definition:\nA rhombus is a special type of quadrilateral wit...",
+              "keywords": [
+                "Definition:",
+                "rhombus",
+                "special",
+                "quadrilateral",
+                "Points:"
+              ],
+              "ui": {
+                "expandable": false,
+                "visual_type": "text_node",
+                "node_style": "default",
+                "animation_hint": "fade_in",
+                "icon": "circle"
+              },
+              "children": [],
+              "metadata": {
+                "depth": 0,
+                "leaf": true
+              }
+            },
+            {
+              "id": "d7486af3-ec76-4972-b6dc-454df146ad89",
+              "type": "concept",
+              "label": "Trapeziums",
+              "summary": "Definition:\nA trapezium is a special type of quadrilateral with one pair of parallel sides.\n\nKey Points:\n- It has two parallel sides of unequal length\n- The other two sides are of unequal length as well\n- It has no right angles\n\nImportance:\nTrapezium...",
+              "preview": "Definition:\nA trapezium is a special type of quadrilateral w...",
+              "keywords": [
+                "Definition:",
+                "trapezium",
+                "special",
+                "quadrilateral",
+                "parallel"
+              ],
+              "ui": {
+                "expandable": false,
+                "visual_type": "text_node",
+                "node_style": "default",
+                "animation_hint": "fade_in",
+                "icon": "circle"
+              },
+              "children": [],
+              "metadata": {
+                "depth": 0,
+                "leaf": true
+              }
+            }
+          ],
+          "metadata": {
+            "depth": 1,
+            "leaf": false
+          }
+        }
+      ],
+      "metadata": {
+        "depth": 2,
+        "leaf": false
+      }
+    },
+    {
+      "id": "27ce2eef-759a-48fb-8dd8-8e0eef45b97a",
+      "type": "concept",
+      "label": "Real-life Applications",
+      "summary": "Definition:\nArea is a measure of the amount of space inside a two-dimensional region or shape.\n\nKey Points:\n- Measured in square units such as cm^2 or m^2\n- Can be used to calculate density by dividing mass by area\n- Used in architecture and engineer...",
+      "preview": "Definition:\nArea is a measure of the amount of space inside ...",
+      "keywords": [
+        "Definition:",
+        "measure",
+        "two-dimensional",
+        "Points:",
+        "Measured"
+      ],
+      "ui": {
+        "expandable": true,
+        "visual_type": "tree_node",
+        "node_style": "default",
+        "animation_hint": "expand_simple",
+        "icon": "circle"
+      },
+      "children": [
+        {
+          "id": "46e8a68a-89e1-428d-8137-9152fcd5f4e9",
+          "type": "concept",
+          "label": "The Concept of Area in Real-Life Scenarios",
+          "summary": "Definition:\nThe concept of area refers to the measure of the amount of space inside a two-dimensional shape.\n\nKey Points:\n- Calculated using the formula A = l * w\n- Represents the size of a two-dimensional object\n- Often used in real-life application...",
+          "preview": "Definition:\nThe concept of area refers to the measure of the...",
+          "keywords": [
+            "Definition:",
+            "concept",
+            "measure",
+            "two-dimensional",
+            "Points:"
+          ],
+          "ui": {
+            "expandable": true,
+            "visual_type": "tree_node",
+            "node_style": "default",
+            "animation_hint": "expand_simple",
+            "icon": "circle"
+          },
+          "children": [
+            {
+              "id": "3c7cd33a-94ef-40d4-933d-8b8bccc659e7",
+              "type": "concept",
+              "label": "Sizings of Rooms",
+              "summary": "Definition:\nSizings of rooms refer to the measurement of space inside a room. \n\nKey Points:\n- Measured in square meters\n- Influenced by furniture arrangement\n- Important for designing efficient spaces\n\nImportance:\nAccurate sizings of rooms help in cr...",
+              "preview": "Definition:\nSizings of rooms refer to the measurement of spa...",
+              "keywords": [
+                "Definition:",
+                "Sizings",
+                "measurement",
+                "Points:",
+                "Measured"
+              ],
+              "ui": {
+                "expandable": false,
+                "visual_type": "text_node",
+                "node_style": "default",
+                "animation_hint": "fade_in",
+                "icon": "circle"
+              },
+              "children": [],
+              "metadata": {
+                "depth": 0,
+                "leaf": true
+              }
+            },
+            {
+              "id": "d3769e81-da0b-475b-bf86-eae9a450c4ff",
+              "type": "concept",
+              "label": "Shopping Methods",
+              "summary": "Definition:\nArea refers to the amount of space available for shopping.\n\nKey Points:\n- Offers a wide range of products\n- Allows for easy comparison of prices\n- Provides a convenient shopping experience\n\nImportance:\nIt helps customers make informed pur...",
+              "preview": "Definition:\nArea refers to the amount of space available for...",
+              "keywords": [
+                "Definition:",
+                "available",
+                "shopping",
+                "Points:",
+                "products"
+              ],
+              "ui": {
+                "expandable": false,
+                "visual_type": "text_node",
+                "node_style": "default",
+                "animation_hint": "fade_in",
+                "icon": "circle"
+              },
+              "children": [],
+              "metadata": {
+                "depth": 0,
+                "leaf": true
+              }
+            }
+          ],
+          "metadata": {
+            "depth": 1,
+            "leaf": false
+          }
+        },
+        {
+          "id": "da71e593-ee8a-4fbb-b3e5-799ed5b568e7",
+          "type": "concept",
+          "label": "Comparison in Different Units",
+          "summary": "Definition:\nUnderstanding different units of measurement is essential to compare quantities accurately in real-life scenarios.\n\nKey Points:\n- Metric system has 7 base units\n- Imperial system is commonly used in the US\n- Conversions between units can ...",
+          "preview": "Definition:\nUnderstanding different units of measurement is ...",
+          "keywords": [
+            "Definition:",
+            "Understanding",
+            "different",
+            "measurement",
+            "essential"
+          ],
+          "ui": {
+            "expandable": true,
+            "visual_type": "tree_node",
+            "node_style": "default",
+            "animation_hint": "expand_simple",
+            "icon": "circle"
+          },
+          "children": [
+            {
+              "id": "22252756-3735-47c6-a721-9d2945d7df3c",
+              "type": "concept",
+              "label": "Conversions and Comparisons",
+              "summary": "Definition:\nConversions and comparisons are essential in biology to understand and compare different units of measurement.\n\nKey Points:\n- Conversions involve changing the unit of measurement from one type to another.\n- Comparisons involve measuring a...",
+              "preview": "Definition:\nConversions and comparisons are essential in bio...",
+              "keywords": [
+                "Definition:",
+                "Conversions",
+                "comparisons",
+                "essential",
+                "biology"
+              ],
+              "ui": {
+                "expandable": false,
+                "visual_type": "text_node",
+                "node_style": "default",
+                "animation_hint": "fade_in",
+                "icon": "circle"
+              },
+              "children": [],
+              "metadata": {
+                "depth": 0,
+                "leaf": true
+              }
+            },
+            {
+              "id": "140da45e-3df9-4e19-a86d-c64eb24ebe36",
+              "type": "concept",
+              "label": "Measurement Units",
+              "summary": "Definition:\nMeasurement units are used to express the size or extent of a quantity.\n\nKey Points:\n- Used to compare quantities of different sizes\n- Examples include meters, centimeters, and liters\n- Different units are used for different types of quan...",
+              "preview": "Definition:\nMeasurement units are used to express the size o...",
+              "keywords": [
+                "Definition:",
+                "Measurement",
+                "express",
+                "quantity",
+                "Points:"
+              ],
+              "ui": {
+                "expandable": false,
+                "visual_type": "text_node",
+                "node_style": "default",
+                "animation_hint": "fade_in",
+                "icon": "circle"
+              },
+              "children": [],
+              "metadata": {
+                "depth": 0,
+                "leaf": true
+              }
+            }
+          ],
+          "metadata": {
+            "depth": 1,
+            "leaf": false
+          }
+        }
+      ],
+      "metadata": {
+        "depth": 2,
+        "leaf": false
+      }
+    },
+    {
+      "id": "4cd3944e-9f7b-4616-9011-f629694393aa",
+      "type": "concept",
+      "label": "Tips for Practising",
+      "summary": "Definition:\nArea is the size of a region or space enclosed by a shape.\n\nKey Points:\n- Measurement of area is usually expressed in square units\n- The formula for area of a rectangle is length x width\n- Area of a compound shape can be found by breaking...",
+      "preview": "Definition:\nArea is the size of a region or space enclosed b...",
+      "keywords": [
+        "Definition:",
+        "enclosed",
+        "Points:",
+        "Measurement",
+        "usually"
+      ],
+      "ui": {
+        "expandable": true,
+        "visual_type": "tree_node",
+        "node_style": "default",
+        "animation_hint": "expand_simple",
+        "icon": "circle"
+      },
+      "children": [
+        {
+          "id": "967d36a4-6602-4287-b3e1-06de364fa6a0",
+          "type": "concept",
+          "label": "Increasing Real-World Awareness about Common Geometrical Shapes and Their Areas",
+          "summary": "Definition:\nThe study of area helps us understand the size of different shapes in mathematics.\n\nKey Points:\n- Area of a square is found by multiplying its side length by itself.\n- Area of a rectangle is calculated by multiplying length and breadth.\n-...",
+          "preview": "Definition:\nThe study of area helps us understand the size o...",
+          "keywords": [
+            "Definition:",
+            "understand",
+            "different",
+            "mathematics",
+            "Points:"
+          ],
+          "ui": {
+            "expandable": false,
+            "visual_type": "text_node",
+            "node_style": "default",
+            "animation_hint": "fade_in",
+            "icon": "circle"
+          },
+          "children": [],
+          "metadata": {
+            "depth": 0,
+            "leaf": true
+          }
+        },
+        {
+          "id": "73287599-ec34-497f-a535-d803f8a75856",
+          "type": "concept",
+          "label": "Exercises for Geometrical Concepts",
+          "summary": "Definition:\nExercises for Geometrical Concepts are aimed at practicing and reinforcing understanding of various shapes and spaces in geometry.\n\nKey Points:\n- Include perimeter, area, and circumference of different shapes such as triangles, quadrilate...",
+          "preview": "Definition:\nExercises for Geometrical Concepts are aimed at ...",
+          "keywords": [
+            "Definition:",
+            "Exercises",
+            "Geometrical",
+            "Concepts",
+            "practicing"
+          ],
+          "ui": {
+            "expandable": false,
+            "visual_type": "text_node",
+            "node_style": "default",
+            "animation_hint": "fade_in",
+            "icon": "circle"
+          },
+          "children": [],
+          "metadata": {
+            "depth": 0,
+            "leaf": true
+          }
+        }
+      ],
+      "metadata": {
+        "depth": 1,
+        "leaf": false
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "Introduction to Area",
+      "to": "What is Area?",
+      "relation": "Related To"
+    },
+    {
+      "from": "What is Area?",
+      "to": "Definition of Area",
+      "relation": "Related To"
+    },
+    {
+      "from": "Definition of Area",
+      "to": "Understanding Area",
+      "relation": "Related To"
+    },
+    {
+      "from": "Understanding Area",
+      "to": "Applying the Concept of Area",
+      "relation": "Related To"
+    },
+    {
+      "from": "Applying the Concept of Area",
+      "to": "Applying Unit Squares to Find Area",
+      "relation": "Related To"
+    },
+    {
+      "from": "Applying Unit Squares to Find Area",
+      "to": "Area of Rectangles",
+      "relation": "Related To"
+    },
+    {
+      "from": "Area of Rectangles",
+      "to": "Understanding Area of Rectangles",
+      "relation": "Related To"
+    },
+    {
+      "from": "Understanding Area of Rectangles",
+      "to": "Area Formula for Rectangles",
+      "relation": "Related To"
+    },
+    {
+      "from": "Area Formula for Rectangles",
+      "to": "Applications of Area Formula",
+      "relation": "Related To"
+    },
+    {
+      "from": "Applications of Area Formula",
+      "to": "Why Can't Perimeter be a Measure of Area?",
+      "relation": "Related To"
+    },
+    {
+      "from": "Why Can't Perimeter be a Measure of Area?",
+      "to": "Understanding the Relationship between Perimeter and Area",
+      "relation": "Related To"
+    },
+    {
+      "from": "Understanding the Relationship between Perimeter and Area",
+      "to": "Counterexample: Regions with the Same Perimeter but Different Areas",
+      "relation": "Related To"
+    },
+    {
+      "from": "Counterexample: Regions with the Same Perimeter but Different Areas",
+      "to": "Area as a Measure of Shape",
+      "relation": "Related To"
+    },
+    {
+      "from": "Area as a Measure of Shape",
+      "to": "Area of Triangles",
+      "relation": "Related To"
+    },
+    {
+      "from": "Area of Triangles",
+      "to": "Understanding the Area Formula for Triangles",
+      "relation": "Related To"
+    },
+    {
+      "from": "Understanding the Area Formula for Triangles",
+      "to": "Applying the Area Formula for Triangles",
+      "relation": "Related To"
+    },
+    {
+      "from": "Applying the Area Formula for Triangles",
+      "to": "Area of Various Types of Triangles",
+      "relation": "Related To"
+    },
+    {
+      "from": "Area of Various Types of Triangles",
+      "to": "Right Triangles",
+      "relation": "Related To"
+    },
+    {
+      "from": "Right Triangles",
+      "to": "Oblique Triangles",
+      "relation": "Related To"
+    },
+    {
+      "from": "Oblique Triangles",
+      "to": "Finding Area of Various Shapes",
+      "relation": "Related To"
+    },
+    {
+      "from": "Finding Area of Various Shapes",
+      "to": "Finding Area of Polygons",
+      "relation": "Related To"
+    },
+    {
+      "from": "Finding Area of Polygons",
+      "to": "Dividing Polygons into Triangles",
+      "relation": "Related To"
+    },
+    {
+      "from": "Dividing Polygons into Triangles",
+      "to": "Area of Various Polygons",
+      "relation": "Related To"
+    },
+    {
+      "from": "Area of Various Polygons",
+      "to": "Quadrilaterals",
+      "relation": "Related To"
+    },
+    {
+      "from": "Quadrilaterals",
+      "to": "Pentagons",
+      "relation": "Related To"
+    },
+    {
+      "from": "Pentagons",
+      "to": "Geometrical Theories",
+      "relation": "Related To"
+    },
+    {
+      "from": "Geometrical Theories",
+      "to": "Theorem of Dissection",
+      "relation": "Related To"
+    },
+    {
+      "from": "Theorem of Dissection",
+      "to": "Geometrical Transformations",
+      "relation": "Related To"
+    },
+    {
+      "from": "Geometrical Transformations",
+      "to": "Properties of Geometrical Shapes",
+      "relation": "Related To"
+    },
+    {
+      "from": "Properties of Geometrical Shapes",
+      "to": "Parallelograms",
+      "relation": "Related To"
+    },
+    {
+      "from": "Parallelograms",
+      "to": "Properties of Parallelograms",
+      "relation": "Related To"
+    },
+    {
+      "from": "Properties of Parallelograms",
+      "to": "Area of Parallelograms",
+      "relation": "Related To"
+    },
+    {
+      "from": "Area of Parallelograms",
+      "to": "Special Cases",
+      "relation": "Related To"
+    },
+    {
+      "from": "Special Cases",
+      "to": "Rhombuses",
+      "relation": "Related To"
+    },
+    {
+      "from": "Rhombuses",
+      "to": "Trapeziums",
+      "relation": "Related To"
+    },
+    {
+      "from": "Trapeziums",
+      "to": "Real-life Applications",
+      "relation": "Related To"
+    },
+    {
+      "from": "Real-life Applications",
+      "to": "The Concept of Area in Real-Life Scenarios",
+      "relation": "Related To"
+    },
+    {
+      "from": "The Concept of Area in Real-Life Scenarios",
+      "to": "Sizings of Rooms",
+      "relation": "Related To"
+    },
+    {
+      "from": "Sizings of Rooms",
+      "to": "Shopping Methods",
+      "relation": "Related To"
+    },
+    {
+      "from": "Shopping Methods",
+      "to": "Comparison in Different Units",
+      "relation": "Related To"
+    },
+    {
+      "from": "Comparison in Different Units",
+      "to": "Conversions and Comparisons",
+      "relation": "Related To"
+    },
+    {
+      "from": "Conversions and Comparisons",
+      "to": "Measurement Units",
+      "relation": "Related To"
+    },
+    {
+      "from": "Measurement Units",
+      "to": "Tips for Practising",
+      "relation": "Related To"
+    },
+    {
+      "from": "Tips for Practising",
+      "to": "Increasing Real-World Awareness about Common Geometrical Shapes and Their Areas",
+      "relation": "Related To"
+    },
+    {
+      "from": "Increasing Real-World Awareness about Common Geometrical Shapes and Their Areas",
+      "to": "Exercises for Geometrical Concepts",
+      "relation": "Related To"
+    }
+  ]
+}
