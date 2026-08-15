@@ -29,6 +29,7 @@ class PDFToTextConverter:
         output_dir = os.path.join(self.chapters_root, class_name, subject)
         os.makedirs(output_dir, exist_ok=True)
 
+        chapter_name = chapter_name.strip()
         output_path = os.path.join(output_dir, f"{chapter_name}.txt")
         with open(output_path, "w", encoding="utf-8") as f:
             f.write(text)
