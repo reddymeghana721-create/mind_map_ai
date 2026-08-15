@@ -1,0 +1,1376 @@
+{
+  "id": "a0345eb1-c2cb-408e-9566-d121192f1584",
+  "type": "chapter",
+  "label": "4. Quadratic Equations",
+  "summary": "",
+  "preview": "",
+  "ui": {
+    "expandable": true,
+    "visual_type": "root"
+  },
+  "children": [
+    {
+      "id": "3d2340f9-ce3b-416f-acec-ff3ea6d34b7a",
+      "type": "concept",
+      "label": "Introduction",
+      "summary": "Definition:\nA quadratic equation is a type of polynomial equation of degree two that contains one or more variables raised to the power of two.\n\nKey Points:\n- Can be represented in the form ax^2 + bx + c = 0\n- Has two solutions or roots\n- Can be solv...",
+      "preview": "Definition:\nA quadratic equation is a type of polynomial equ...",
+      "keywords": [
+        "Definition:",
+        "quadratic",
+        "equation",
+        "polynomial",
+        "equation"
+      ],
+      "ui": {
+        "expandable": true,
+        "visual_type": "tree_node",
+        "node_style": "default",
+        "animation_hint": "expand_simple",
+        "icon": "circle"
+      },
+      "children": [
+        {
+          "id": "ac01a59f-463f-4aee-9118-533f14ca728b",
+          "type": "concept",
+          "label": "Definition of Quadratic Equations",
+          "summary": "Definition:\nA quadratic equation is a type of polynomial equation of degree two, which means it includes a squared variable with no term for the square of the variable's product.\n\nKey Points:\n- Involves a squared variable\n- Has no term for the produc...",
+          "preview": "Definition:\nA quadratic equation is a type of polynomial equ...",
+          "keywords": [
+            "Definition:",
+            "quadratic",
+            "equation",
+            "polynomial",
+            "equation"
+          ],
+          "ui": {
+            "expandable": false,
+            "visual_type": "text_node",
+            "node_style": "default",
+            "animation_hint": "fade_in",
+            "icon": "circle"
+          },
+          "children": [],
+          "metadata": {
+            "depth": 0,
+            "leaf": true
+          }
+        },
+        {
+          "id": "8d001530-f0fc-4846-ab4a-a2ff3eeceb60",
+          "type": "concept",
+          "label": "Breadth of Quadratic Equations",
+          "summary": "Definition:\nQuadratic equations are a type of polynomial equation of degree two, having the general form ax^2 + bx + c = 0.\n\nKey Points:\n- Helps in modeling real-life problems\n- Uses algebraic methods for solving\n- Involves squared variables\n\nImporta...",
+          "preview": "Definition:\nQuadratic equations are a type of polynomial equ...",
+          "keywords": [
+            "Definition:",
+            "Quadratic",
+            "equations",
+            "polynomial",
+            "equation"
+          ],
+          "ui": {
+            "expandable": true,
+            "visual_type": "tree_node",
+            "node_style": "default",
+            "animation_hint": "expand_simple",
+            "icon": "circle"
+          },
+          "children": [
+            {
+              "id": "80a7ccf2-f1e9-446c-aef2-b26ecd02b10d",
+              "type": "concept",
+              "label": "Examples of Quadratic Equations",
+              "summary": "Definition:\nA quadratic equation is a polynomial equation of degree two, meaning the highest power of the variable is two.\n\nKey Points:\n- It has the general form ax^2 + bx + c = 0\n- The value of 'a' cannot be zero\n- The equation can be solved using v...",
+              "preview": "Definition:\nA quadratic equation is a polynomial equation of...",
+              "keywords": [
+                "Definition:",
+                "quadratic",
+                "equation",
+                "polynomial",
+                "equation"
+              ],
+              "ui": {
+                "expandable": false,
+                "visual_type": "text_node",
+                "node_style": "default",
+                "animation_hint": "fade_in",
+                "icon": "circle"
+              },
+              "children": [],
+              "metadata": {
+                "depth": 0,
+                "leaf": true
+              }
+            },
+            {
+              "id": "1ee6b173-eaef-443f-9b9e-b502aa081a0b",
+              "type": "concept",
+              "label": "Formation of Quadratic Equations",
+              "summary": "Definition:\nFormation of Quadratic Equations is a method of creating an equation that involves a squared variable.\n\nKey Points:\n- It involves an x squared term and a linear term.\n- The general form is ax^2 + bx + c = 0, where a, b, and c are constant...",
+              "preview": "Definition:\nFormation of Quadratic Equations is a method of ...",
+              "keywords": [
+                "Definition:",
+                "Formation",
+                "Quadratic",
+                "Equations",
+                "creating"
+              ],
+              "ui": {
+                "expandable": false,
+                "visual_type": "text_node",
+                "node_style": "default",
+                "animation_hint": "fade_in",
+                "icon": "circle"
+              },
+              "children": [],
+              "metadata": {
+                "depth": 0,
+                "leaf": true
+              }
+            }
+          ],
+          "metadata": {
+            "depth": 1,
+            "leaf": false
+          }
+        },
+        {
+          "id": "be6c53e3-b360-4d3f-b1ce-1a092a45f979",
+          "type": "concept",
+          "label": "Ancient Civilizations and Quadratic Equations",
+          "summary": "Definition:\nQuadratic equations originated in ancient civilizations thousands of years ago to solve problems related to quadratic relationships in shapes, areas, and volumes.\n\nKey Points:\n- Ancient Greeks like Euclid and Diophantus used quadratic equ...",
+          "preview": "Definition:\nQuadratic equations originated in ancient civili...",
+          "keywords": [
+            "Definition:",
+            "Quadratic",
+            "equations",
+            "originated",
+            "ancient"
+          ],
+          "ui": {
+            "expandable": true,
+            "visual_type": "tree_node",
+            "node_style": "default",
+            "animation_hint": "expand_simple",
+            "icon": "circle"
+          },
+          "children": [
+            {
+              "id": "bbc46076-508e-4661-9fdf-7855dd2a6670",
+              "type": "concept",
+              "label": "Babylonians and Quadratic Equations",
+              "summary": "Definition:\nThe Babylonians were one of the first civilizations to use quadratic equations to solve problems related to area and perimeter of rectangles.\n\nKey Points:\n- They used a method called \"geometric algebra\" to solve quadratic equations.\n- Thi...",
+              "preview": "Definition:\nThe Babylonians were one of the first civilizati...",
+              "keywords": [
+                "Definition:",
+                "Babylonians",
+                "civilizations",
+                "quadratic",
+                "equations"
+              ],
+              "ui": {
+                "expandable": false,
+                "visual_type": "text_node",
+                "node_style": "default",
+                "animation_hint": "fade_in",
+                "icon": "circle"
+              },
+              "children": [],
+              "metadata": {
+                "depth": 0,
+                "leaf": true
+              }
+            },
+            {
+              "id": "ca974072-f6d8-420b-a482-cf8736f85c34",
+              "type": "concept",
+              "label": "Greek Mathematician Euclid and Quadratic Equations",
+              "summary": "Definition:\nEuclid was a Greek mathematician who contributed to the development of quadratic equations.\n\nKey Points:\n- He lived in Alexandria, Egypt during the 3rd century BC.\n- Euclid's most famous work is the book \"Elements\".\n- He made significant ...",
+              "preview": "Definition:\nEuclid was a Greek mathematician who contributed...",
+              "keywords": [
+                "Definition:",
+                "mathematician",
+                "contributed",
+                "development",
+                "quadratic"
+              ],
+              "ui": {
+                "expandable": false,
+                "visual_type": "text_node",
+                "node_style": "default",
+                "animation_hint": "fade_in",
+                "icon": "circle"
+              },
+              "children": [],
+              "metadata": {
+                "depth": 0,
+                "leaf": true
+              }
+            },
+            {
+              "id": "a933cd63-c209-455d-9fdf-5fe5d8a5f104",
+              "type": "concept",
+              "label": "Ancient Indian Mathematicians and Quadratic Equations",
+              "summary": "Definition:\nAncient Indian mathematicians made significant contributions to the development of quadratic equations.\n\nKey Points:\n- Aryabhata and Brahmagupta were prominent mathematicians who worked on quadratic equations.\n- They used algebraic method...",
+              "preview": "Definition:\nAncient Indian mathematicians made significant c...",
+              "keywords": [
+                "Definition:",
+                "Ancient",
+                "mathematicians",
+                "significant",
+                "contributions"
+              ],
+              "ui": {
+                "expandable": true,
+                "visual_type": "tree_node",
+                "node_style": "default",
+                "animation_hint": "expand_simple",
+                "icon": "circle"
+              },
+              "children": [
+                {
+                  "id": "a771cf8c-0fed-4844-aaec-7bf4b26ed56a",
+                  "type": "concept",
+                  "label": "Brahmagupta and Quadratic Equations",
+                  "summary": "Definition:\nBrahmagupta was an ancient Indian mathematician who made significant contributions to the field of quadratic equations.\n\nKey Points:\n- Brahmagupta's work on quadratic equations was mentioned in his book \"Brahma-Sphuta-Siddhanta\".\n- He pro...",
+                  "preview": "Definition:\nBrahmagupta was an ancient Indian mathematician ...",
+                  "keywords": [
+                    "Definition:",
+                    "Brahmagupta",
+                    "ancient",
+                    "mathematician",
+                    "significant"
+                  ],
+                  "ui": {
+                    "expandable": false,
+                    "visual_type": "text_node",
+                    "node_style": "default",
+                    "animation_hint": "fade_in",
+                    "icon": "circle"
+                  },
+                  "children": [],
+                  "metadata": {
+                    "depth": 0,
+                    "leaf": true
+                  }
+                },
+                {
+                  "id": "48147d9d-4c3f-4528-959a-218b402afb47",
+                  "type": "concept",
+                  "label": "Sridharacharya and Quadratic Equations",
+                  "summary": "Definition:\nSridharacharya was an ancient Indian mathematician who worked on quadratic equations.\n\nKey Points:\n- He lived in the 11th century.\n- He wrote a commentary on the Mahabharata, which included a solution to a quadratic equation.\n- His work w...",
+                  "preview": "Definition:\nSridharacharya was an ancient Indian mathematici...",
+                  "keywords": [
+                    "Definition:",
+                    "Sridharacharya",
+                    "ancient",
+                    "mathematician",
+                    "quadratic"
+                  ],
+                  "ui": {
+                    "expandable": false,
+                    "visual_type": "text_node",
+                    "node_style": "default",
+                    "animation_hint": "fade_in",
+                    "icon": "circle"
+                  },
+                  "children": [],
+                  "metadata": {
+                    "depth": 0,
+                    "leaf": true
+                  }
+                },
+                {
+                  "id": "9053cf6d-8ca4-4d81-b98b-8b6181c5379f",
+                  "type": "concept",
+                  "label": "Al-Khwarizmi and Quadratic Equations",
+                  "summary": "Definition:\nAl-Khwarizmi was an ancient mathematician who contributed to the development of quadratic equations.\n\nKey Points:\n- He introduced algebraic methods to solve quadratic equations.\n- His book \"Kitab al-mukhtasar fi hisab al-jabr wa'l-muqabal...",
+                  "preview": "Definition:\nAl-Khwarizmi was an ancient mathematician who co...",
+                  "keywords": [
+                    "Definition:",
+                    "Al-Khwarizmi",
+                    "ancient",
+                    "mathematician",
+                    "contributed"
+                  ],
+                  "ui": {
+                    "expandable": false,
+                    "visual_type": "text_node",
+                    "node_style": "default",
+                    "animation_hint": "fade_in",
+                    "icon": "circle"
+                  },
+                  "children": [],
+                  "metadata": {
+                    "depth": 0,
+                    "leaf": true
+                  }
+                }
+              ],
+              "metadata": {
+                "depth": 1,
+                "leaf": false
+              }
+            }
+          ],
+          "metadata": {
+            "depth": 2,
+            "leaf": false
+          }
+        }
+      ],
+      "metadata": {
+        "depth": 3,
+        "leaf": false
+      }
+    },
+    {
+      "id": "4b39af96-ca68-4290-bcd0-c4aacab55dd0",
+      "type": "concept",
+      "label": "Quadratic Equations",
+      "summary": "Definition:\nA quadratic equation is a type of polynomial equation of degree two, having the general form ax^2 + bx + c = 0.\n\nKey Points:\n- Can be solved using the quadratic formula\n- Graphs of quadratic equations are parabolas\n- Can have two, one, or...",
+      "preview": "Definition:\nA quadratic equation is a type of polynomial equ...",
+      "keywords": [
+        "Definition:",
+        "quadratic",
+        "equation",
+        "polynomial",
+        "equation"
+      ],
+      "ui": {
+        "expandable": true,
+        "visual_type": "tree_node",
+        "node_style": "default",
+        "animation_hint": "expand_simple",
+        "icon": "circle"
+      },
+      "children": [
+        {
+          "id": "83bd375f-feb6-4c50-a185-a677029080ff",
+          "type": "concept",
+          "label": "Quadratic Equations in the World Around Us and in Different Fields of Mathematics",
+          "summary": "Definition:\nQuadratic equations are mathematical expressions that involve a squared variable and can be solved using specific formulas.\n\nKey Points:\n- Used in physics to model projectile motion and vibrations\n- Employed in computer science for graphi...",
+          "preview": "Definition:\nQuadratic equations are mathematical expressions...",
+          "keywords": [
+            "Definition:",
+            "Quadratic",
+            "equations",
+            "mathematical",
+            "expressions"
+          ],
+          "ui": {
+            "expandable": true,
+            "visual_type": "tree_node",
+            "node_style": "default",
+            "animation_hint": "expand_simple",
+            "icon": "circle"
+          },
+          "children": [
+            {
+              "id": "e36ed5c2-b6dc-4406-bfce-fe3cb0d1b9b6",
+              "type": "concept",
+              "label": "Examples of Quadratic Equations in the World Around Us",
+              "summary": "Definition:\nQuadratic equations appear in various fields of study such as physics, engineering, economics, and biology where optimization and maximum or minimum values need to be determined.\n\nKey Points:\n- Optimization of projectile motion is describ...",
+              "preview": "Definition:\nQuadratic equations appear in various fields of ...",
+              "keywords": [
+                "Definition:",
+                "Quadratic",
+                "equations",
+                "various",
+                "physics"
+              ],
+              "ui": {
+                "expandable": true,
+                "visual_type": "tree_node",
+                "node_style": "default",
+                "animation_hint": "expand_simple",
+                "icon": "circle"
+              },
+              "children": [
+                {
+                  "id": "3a9587e2-44f8-4037-9656-5ae544fb8fef",
+                  "type": "concept",
+                  "label": "John and Jivanti Together Have 45 Marbles",
+                  "summary": "Definition:\nThe concept of John and Jivanti having 45 marbles together is an example of a quadratic equation.\n\nKey Points:\n- John and Jivanti have a total of 45 marbles.\n- The number of marbles John has is unknown.\n- The number of marbles Jivanti has...",
+                  "preview": "Definition:\nThe concept of John and Jivanti having 45 marble...",
+                  "keywords": [
+                    "Definition:",
+                    "concept",
+                    "Jivanti",
+                    "marbles",
+                    "together"
+                  ],
+                  "ui": {
+                    "expandable": false,
+                    "visual_type": "text_node",
+                    "node_style": "default",
+                    "animation_hint": "fade_in",
+                    "icon": "circle"
+                  },
+                  "children": [],
+                  "metadata": {
+                    "depth": 0,
+                    "leaf": true
+                  }
+                },
+                {
+                  "id": "36c26857-5419-4fbb-afd2-53e9d8c43d8a",
+                  "type": "concept",
+                  "label": "Quadratic Equations in the Cottage Industry",
+                  "summary": "Definition:\nCottage industries use quadratic equations to optimize and solve problems related to resource management and efficiency.\n\nKey Points:\n- Farmers use quadratic equations to determine the maximum profit from farm produce.\n- Textile weavers u...",
+                  "preview": "Definition:\nCottage industries use quadratic equations to op...",
+                  "keywords": [
+                    "Definition:",
+                    "Cottage",
+                    "industries",
+                    "quadratic",
+                    "equations"
+                  ],
+                  "ui": {
+                    "expandable": false,
+                    "visual_type": "text_node",
+                    "node_style": "default",
+                    "animation_hint": "fade_in",
+                    "icon": "circle"
+                  },
+                  "children": [],
+                  "metadata": {
+                    "depth": 0,
+                    "leaf": true
+                  }
+                },
+                {
+                  "id": "4674e1cd-96cd-4282-a8bd-84d4bbc7f357",
+                  "type": "concept",
+                  "label": "Rohan's Mother is 26 Years Older Than Him",
+                  "summary": "Definition:\nRohan's mother is 26 years older than him, making their age difference a quadratic equation.\n\nKey Points:\n- The age difference between Rohan and his mother is 26 years.\n- This age difference can be represented as a quadratic equation.\n- T...",
+                  "preview": "Definition:\nRohan's mother is 26 years older than him, makin...",
+                  "keywords": [
+                    "Definition:",
+                    "Rohan's",
+                    "difference",
+                    "quadratic",
+                    "equation"
+                  ],
+                  "ui": {
+                    "expandable": false,
+                    "visual_type": "text_node",
+                    "node_style": "default",
+                    "animation_hint": "fade_in",
+                    "icon": "circle"
+                  },
+                  "children": [],
+                  "metadata": {
+                    "depth": 0,
+                    "leaf": true
+                  }
+                }
+              ],
+              "metadata": {
+                "depth": 1,
+                "leaf": false
+              }
+            },
+            {
+              "id": "9d337c1f-faf8-4c65-ae08-d75677c2e720",
+              "type": "concept",
+              "label": "Quadratic Equations in Different Fields of Mathematics",
+              "summary": "Definition: Quadratic equations are used to describe the relationship between a variable and a quadratic expression in different fields of mathematics.\n\nKey Points:\n- Used in physics to describe the motion of objects\n- Used in economics to model popu...",
+              "preview": "Definition: Quadratic equations are used to describe the rel...",
+              "keywords": [
+                "Definition:",
+                "Quadratic",
+                "equations",
+                "describe",
+                "relationship"
+              ],
+              "ui": {
+                "expandable": false,
+                "visual_type": "text_node",
+                "node_style": "default",
+                "animation_hint": "fade_in",
+                "icon": "circle"
+              },
+              "children": [],
+              "metadata": {
+                "depth": 0,
+                "leaf": true
+              }
+            }
+          ],
+          "metadata": {
+            "depth": 2,
+            "leaf": false
+          }
+        },
+        {
+          "id": "900e9269-a2f1-4f0a-bfe4-9bebbaf0553c",
+          "type": "concept",
+          "label": "Representing Situations Mathematically",
+          "summary": "Definition:\nRepresenting situations mathematically using quadratic equations.\n\nKey Points:\n- Quadratic equations are used to model real-life situations, such as the path of a projectile or the growth of a population.\n- The quadratic formula can be us...",
+          "preview": "Definition:\nRepresenting situations mathematically using qua...",
+          "keywords": [
+            "Definition:",
+            "Representing",
+            "situations",
+            "mathematically",
+            "quadratic"
+          ],
+          "ui": {
+            "expandable": true,
+            "visual_type": "tree_node",
+            "node_style": "default",
+            "animation_hint": "expand_simple",
+            "icon": "circle"
+          },
+          "children": [
+            {
+              "id": "40eb614b-3dc9-48b5-94a2-9ba32543e4de",
+              "type": "concept",
+              "label": "Problem Situation",
+              "summary": "Definition:\nA problem situation is a real-world scenario that can be mathematically represented using equations.\n\nKey Points:\n- Involves unknown quantities\n- Can be represented using variables and constants\n- Requires a mathematical solution to solve...",
+              "preview": "Definition:\nA problem situation is a real-world scenario tha...",
+              "keywords": [
+                "Definition:",
+                "problem",
+                "situation",
+                "real-world",
+                "scenario"
+              ],
+              "ui": {
+                "expandable": true,
+                "visual_type": "tree_node",
+                "node_style": "default",
+                "animation_hint": "expand_simple",
+                "icon": "circle"
+              },
+              "children": [
+                {
+                  "id": "96384cb2-1ed2-4b4a-81f6-6b70a287eefd",
+                  "type": "concept",
+                  "label": "The Area of a Rectangular Plot is 528 m2",
+                  "summary": "Definition:\nThe area of a rectangular plot is given by the product of its length and breadth.\n\nKey Points:\n- The area of a rectangular plot is always positive.\n- The area is calculated in square units.\n- The area can be calculated using the formula A...",
+                  "preview": "Definition:\nThe area of a rectangular plot is given by the p...",
+                  "keywords": [
+                    "Definition:",
+                    "rectangular",
+                    "product",
+                    "breadth",
+                    "Points:"
+                  ],
+                  "ui": {
+                    "expandable": false,
+                    "visual_type": "text_node",
+                    "node_style": "default",
+                    "animation_hint": "fade_in",
+                    "icon": "circle"
+                  },
+                  "children": [],
+                  "metadata": {
+                    "depth": 0,
+                    "leaf": true
+                  }
+                },
+                {
+                  "id": "63abe074-8dd9-41bf-9f54-555b276b1a04",
+                  "type": "concept",
+                  "label": "The Product of Two Consecutive Positive Integers is 306",
+                  "summary": "Definition:\nA quadratic equation is a polynomial equation of degree two, and finding its solutions is crucial in solving problems involving the product of two consecutive integers.\n\nKey Points:\n- A method to find the product of two consecutive intege...",
+                  "preview": "Definition:\nA quadratic equation is a polynomial equation of...",
+                  "keywords": [
+                    "Definition:",
+                    "quadratic",
+                    "equation",
+                    "polynomial",
+                    "equation"
+                  ],
+                  "ui": {
+                    "expandable": false,
+                    "visual_type": "text_node",
+                    "node_style": "default",
+                    "animation_hint": "fade_in",
+                    "icon": "circle"
+                  },
+                  "children": [],
+                  "metadata": {
+                    "depth": 0,
+                    "leaf": true
+                  }
+                }
+              ],
+              "metadata": {
+                "depth": 1,
+                "leaf": false
+              }
+            },
+            {
+              "id": "bb4cbc44-2a65-4c7f-8d85-050a13f23868",
+              "type": "concept",
+              "label": "Mathematical Representation",
+              "summary": "Definition:\nA quadratic equation is a type of algebraic equation where the highest power of the variable is two.\n\nKey Points:\n- Quadratic equations have variables squared\n- Can be solved using the quadratic formula\n- Represent real-life situations in...",
+              "preview": "Definition:\nA quadratic equation is a type of algebraic equa...",
+              "keywords": [
+                "Definition:",
+                "quadratic",
+                "equation",
+                "algebraic",
+                "equation"
+              ],
+              "ui": {
+                "expandable": false,
+                "visual_type": "text_node",
+                "node_style": "default",
+                "animation_hint": "fade_in",
+                "icon": "circle"
+              },
+              "children": [],
+              "metadata": {
+                "depth": 0,
+                "leaf": true
+              }
+            }
+          ],
+          "metadata": {
+            "depth": 2,
+            "leaf": false
+          }
+        }
+      ],
+      "metadata": {
+        "depth": 3,
+        "leaf": false
+      }
+    },
+    {
+      "id": "9fa1fa56-2805-402b-a14d-0dddf355dddf",
+      "type": "concept",
+      "label": "Solution of a Quadratic Equation by Factorisation",
+      "summary": "Definition:\nA quadratic equation can be solved by factorisation, which involves expressing the equation as a product of two binomials.\n\nKey Points:\n- The factorised form of the equation is obtained by finding two numbers that multiply to give the con...",
+      "preview": "Definition:\nA quadratic equation can be solved by factorisat...",
+      "keywords": [
+        "Definition:",
+        "quadratic",
+        "equation",
+        "factorisation",
+        "involves"
+      ],
+      "ui": {
+        "expandable": true,
+        "visual_type": "tree_node",
+        "node_style": "default",
+        "animation_hint": "expand_simple",
+        "icon": "circle"
+      },
+      "children": [
+        {
+          "id": "1219a234-cae5-4682-8651-3a69c3026222",
+          "type": "concept",
+          "label": "Finding the Roots of a Quadratic Equation",
+          "summary": "Definition:\nFinding the roots of a quadratic equation is the process of determining the values of the variables that satisfy the equation.\n\nKey Points:\n- Factorising the quadratic equation by splitting it into two binomials\n- Identifying the values o...",
+          "preview": "Definition:\nFinding the roots of a quadratic equation is the...",
+          "keywords": [
+            "Definition:",
+            "Finding",
+            "quadratic",
+            "equation",
+            "process"
+          ],
+          "ui": {
+            "expandable": true,
+            "visual_type": "tree_node",
+            "node_style": "default",
+            "animation_hint": "expand_simple",
+            "icon": "circle"
+          },
+          "children": [
+            {
+              "id": "e03d8427-5c53-4de5-a0d7-b8573fb2de96",
+              "type": "concept",
+              "label": "Quadratic Equation 2x2 - 3x + 1 = 0",
+              "summary": "Definition:\nA quadratic equation is a type of equation that has a highest power of 2.\n\nKey Points:\n- It can be solved using the quadratic formula.\n- The equation has two roots, which can be real or imaginary.\n- The roots can be found using the quadra...",
+              "preview": "Definition:\nA quadratic equation is a type of equation that ...",
+              "keywords": [
+                "Definition:",
+                "quadratic",
+                "equation",
+                "equation",
+                "highest"
+              ],
+              "ui": {
+                "expandable": false,
+                "visual_type": "text_node",
+                "node_style": "default",
+                "animation_hint": "fade_in",
+                "icon": "circle"
+              },
+              "children": [],
+              "metadata": {
+                "depth": 0,
+                "leaf": true
+              }
+            },
+            {
+              "id": "1d294044-e86f-4933-98bc-e830533e3c2e",
+              "type": "concept",
+              "label": "Quadratic Equation 2x2 - 5x + 3 = 0",
+              "summary": "Definition:\nA quadratic equation is a polynomial equation of degree two, which means the highest power of the variable is two.\n\nKey Points:\n- Can be written in the form ax^2 + bx + c = 0\n- Can be solved using the quadratic formula\n- Can be solved by ...",
+              "preview": "Definition:\nA quadratic equation is a polynomial equation of...",
+              "keywords": [
+                "Definition:",
+                "quadratic",
+                "equation",
+                "polynomial",
+                "equation"
+              ],
+              "ui": {
+                "expandable": false,
+                "visual_type": "text_node",
+                "node_style": "default",
+                "animation_hint": "fade_in",
+                "icon": "circle"
+              },
+              "children": [],
+              "metadata": {
+                "depth": 0,
+                "leaf": true
+              }
+            },
+            {
+              "id": "a6b8aae1-7ca6-47b6-84b8-e734c5658921",
+              "type": "concept",
+              "label": "Quadratic Equation 6x2 - x - 2 = 0",
+              "summary": "Definition:\nA quadratic equation is a polynomial equation of degree two, which means it has a squared variable and no higher degree variable.\n\nKey Points:\n- It can be written in the form ax^2 + bx + c = 0, where a, b, and c are constants.\n- The equat...",
+              "preview": "Definition:\nA quadratic equation is a polynomial equation of...",
+              "keywords": [
+                "Definition:",
+                "quadratic",
+                "equation",
+                "polynomial",
+                "equation"
+              ],
+              "ui": {
+                "expandable": false,
+                "visual_type": "text_node",
+                "node_style": "default",
+                "animation_hint": "fade_in",
+                "icon": "circle"
+              },
+              "children": [],
+              "metadata": {
+                "depth": 0,
+                "leaf": true
+              }
+            }
+          ],
+          "metadata": {
+            "depth": 1,
+            "leaf": false
+          }
+        },
+        {
+          "id": "cdc825fd-d78c-4f90-83e9-5c4d4dced9fe",
+          "type": "concept",
+          "label": "Factorisation Method for Finding Roots",
+          "summary": "Definition:\nThe factorisation method is a way to find the roots of a quadratic equation by expressing it as a product of two binomial expressions.\n\nKey Points:\n- Express the quadratic equation in the form x^2 + bx + c = 0.\n- Look for two numbers whos...",
+          "preview": "Definition:\nThe factorisation method is a way to find the ro...",
+          "keywords": [
+            "Definition:",
+            "factorisation",
+            "quadratic",
+            "equation",
+            "expressing"
+          ],
+          "ui": {
+            "expandable": false,
+            "visual_type": "text_node",
+            "node_style": "default",
+            "animation_hint": "fade_in",
+            "icon": "circle"
+          },
+          "children": [],
+          "metadata": {
+            "depth": 0,
+            "leaf": true
+          }
+        },
+        {
+          "id": "4826c4ac-4dfb-4d01-b359-88eda88c91b1",
+          "type": "concept",
+          "label": "Examples of Finding the Roots of Quadratic Equations",
+          "summary": "Definition:\nFinding the roots of a quadratic equation using factorisation involves expressing the equation as a product of two binomials.\n\nKey Points:\n- The roots of a quadratic equation are the values of x that satisfy the equation.\n- Factorisation ...",
+          "preview": "Definition:\nFinding the roots of a quadratic equation using ...",
+          "keywords": [
+            "Definition:",
+            "Finding",
+            "quadratic",
+            "equation",
+            "factorisation"
+          ],
+          "ui": {
+            "expandable": true,
+            "visual_type": "tree_node",
+            "node_style": "default",
+            "animation_hint": "expand_simple",
+            "icon": "circle"
+          },
+          "children": [
+            {
+              "id": "c67a1bd4-1988-45cc-aeef-f05b441b36ea",
+              "type": "concept",
+              "label": "Quadratic Equation x2 - 3x - 10 = 0",
+              "summary": "Definition:\nA quadratic equation is a polynomial equation of degree two, in which the highest power of the variable is two.\n\nKey Points:\n- The given quadratic equation is x^2 - 3x - 10 = 0.\n- To find the roots, we can use the formula x = (-b ± √(b^2 ...",
+              "preview": "Definition:\nA quadratic equation is a polynomial equation of...",
+              "keywords": [
+                "Definition:",
+                "quadratic",
+                "equation",
+                "polynomial",
+                "equation"
+              ],
+              "ui": {
+                "expandable": false,
+                "visual_type": "text_node",
+                "node_style": "default",
+                "animation_hint": "fade_in",
+                "icon": "circle"
+              },
+              "children": [],
+              "metadata": {
+                "depth": 0,
+                "leaf": true
+              }
+            },
+            {
+              "id": "69c278d8-803f-4c60-84c4-cd6cdc38a97f",
+              "type": "concept",
+              "label": "Quadratic Equation 2x2 + x - 6 = 0",
+              "summary": "Definition:\nA quadratic equation is a type of polynomial equation of degree two, with the general form ax^2 + bx + c = 0.\n\nKey Points:\n- The equation is in the form 2x^2 + x - 6 = 0, where a = 2, b = 1, and c = -6.\n- The roots of the equation can be ...",
+              "preview": "Definition:\nA quadratic equation is a type of polynomial equ...",
+              "keywords": [
+                "Definition:",
+                "quadratic",
+                "equation",
+                "polynomial",
+                "equation"
+              ],
+              "ui": {
+                "expandable": false,
+                "visual_type": "text_node",
+                "node_style": "default",
+                "animation_hint": "fade_in",
+                "icon": "circle"
+              },
+              "children": [],
+              "metadata": {
+                "depth": 0,
+                "leaf": true
+              }
+            },
+            {
+              "id": "74e3f2bf-2ff9-436b-b3f7-a96373ee6ab9",
+              "type": "concept",
+              "label": "Quadratic Equation 5x2 + 2x - 4 = 0",
+              "summary": "Definition:\nA quadratic equation is a polynomial equation of degree two, which can be written in the form ax2 + bx + c = 0, where a, b, and c are constants.\n\nKey Points:\n- To find the roots of the given quadratic equation 5x2 + 2x - 4 = 0, we need to...",
+              "preview": "Definition:\nA quadratic equation is a polynomial equation of...",
+              "keywords": [
+                "Definition:",
+                "quadratic",
+                "equation",
+                "polynomial",
+                "equation"
+              ],
+              "ui": {
+                "expandable": false,
+                "visual_type": "text_node",
+                "node_style": "default",
+                "animation_hint": "fade_in",
+                "icon": "circle"
+              },
+              "children": [],
+              "metadata": {
+                "depth": 0,
+                "leaf": true
+              }
+            }
+          ],
+          "metadata": {
+            "depth": 1,
+            "leaf": false
+          }
+        }
+      ],
+      "metadata": {
+        "depth": 2,
+        "leaf": false
+      }
+    },
+    {
+      "id": "ffacb186-12f5-4f31-86fe-534b846bd6ab",
+      "type": "concept",
+      "label": "Nature of Roots",
+      "summary": "Definition:\nThe nature of roots of a quadratic equation refers to the number of real solutions of the equation.\n\nKey Points:\n- A quadratic equation can have two distinct real roots, two identical real roots, or no real roots.\n- The nature of roots de...",
+      "preview": "Definition:\nThe nature of roots of a quadratic equation refe...",
+      "keywords": [
+        "Definition:",
+        "quadratic",
+        "equation",
+        "solutions",
+        "equation"
+      ],
+      "ui": {
+        "expandable": true,
+        "visual_type": "tree_node",
+        "node_style": "default",
+        "animation_hint": "expand_simple",
+        "icon": "circle"
+      },
+      "children": [
+        {
+          "id": "19316ea2-8cd5-4929-aab0-a5a635b262df",
+          "type": "concept",
+          "label": "Discriminant of a Quadratic Equation",
+          "summary": "Definition:\nThe discriminant of a quadratic equation is a value that determines the nature of its roots.\n\nKey Points:\n- It is calculated using the formula b^2 - 4ac.\n- A positive discriminant indicates two real and distinct roots.\n- A negative discri...",
+          "preview": "Definition:\nThe discriminant of a quadratic equation is a va...",
+          "keywords": [
+            "Definition:",
+            "discriminant",
+            "quadratic",
+            "equation",
+            "determines"
+          ],
+          "ui": {
+            "expandable": true,
+            "visual_type": "tree_node",
+            "node_style": "default",
+            "animation_hint": "expand_simple",
+            "icon": "circle"
+          },
+          "children": [
+            {
+              "id": "1f355805-691d-4dfa-b474-3435b4ac4464",
+              "type": "concept",
+              "label": "b^2 - 4ac > 0",
+              "summary": "Definition:\nThe expression b^2 - 4ac represents the discriminant of a quadratic equation.\n\nKey Points:\n- It can be positive, zero, or negative\n- Indicates the nature of the roots of the equation\n- Tells the number of real roots the equation has\n\nImpo...",
+              "preview": "Definition:\nThe expression b^2 - 4ac represents the discrimi...",
+              "keywords": [
+                "Definition:",
+                "expression",
+                "represents",
+                "discriminant",
+                "quadratic"
+              ],
+              "ui": {
+                "expandable": false,
+                "visual_type": "text_node",
+                "node_style": "default",
+                "animation_hint": "fade_in",
+                "icon": "circle"
+              },
+              "children": [],
+              "metadata": {
+                "depth": 0,
+                "leaf": true
+              }
+            },
+            {
+              "id": "b212b7ed-b8ea-4529-8b90-7d620c3bd49c",
+              "type": "concept",
+              "label": "b^2 - 4ac = 0",
+              "summary": "Definition:\nThe discriminant of a quadratic equation is a value that determines the nature of its roots.\n\nKey Points:\n- If the discriminant is 0, the equation has equal roots.\n- If the discriminant is positive, the equation has two distinct real root...",
+              "preview": "Definition:\nThe discriminant of a quadratic equation is a va...",
+              "keywords": [
+                "Definition:",
+                "discriminant",
+                "quadratic",
+                "equation",
+                "determines"
+              ],
+              "ui": {
+                "expandable": false,
+                "visual_type": "text_node",
+                "node_style": "default",
+                "animation_hint": "fade_in",
+                "icon": "circle"
+              },
+              "children": [],
+              "metadata": {
+                "depth": 0,
+                "leaf": true
+              }
+            },
+            {
+              "id": "341d1846-0d20-4942-a55c-14a5c7c13398",
+              "type": "concept",
+              "label": "b^2 - 4ac < 0",
+              "summary": "Definition:\nThe discriminant of a quadratic equation is less than zero when the equation has no real roots.\n\nKey Points:\n- The equation has complex roots.\n- The graph of the equation has no x-intercepts.\n- The quadratic equation has no real solutions...",
+              "preview": "Definition:\nThe discriminant of a quadratic equation is less...",
+              "keywords": [
+                "Definition:",
+                "discriminant",
+                "quadratic",
+                "equation",
+                "equation"
+              ],
+              "ui": {
+                "expandable": false,
+                "visual_type": "text_node",
+                "node_style": "default",
+                "animation_hint": "fade_in",
+                "icon": "circle"
+              },
+              "children": [],
+              "metadata": {
+                "depth": 0,
+                "leaf": true
+              }
+            }
+          ],
+          "metadata": {
+            "depth": 1,
+            "leaf": false
+          }
+        },
+        {
+          "id": "fefe32b4-50fd-4239-9d6c-1a32a91559e9",
+          "type": "concept",
+          "label": "Examples of Finding the Discriminant of Quadratic Equations",
+          "summary": "Definition:\nThe discriminant of a quadratic equation is a value that determines the nature of its roots.\n\nKey Points:\n- The discriminant is calculated using the formula b^2 - 4ac.\n- A positive discriminant indicates two real and distinct roots.\n- A n...",
+          "preview": "Definition:\nThe discriminant of a quadratic equation is a va...",
+          "keywords": [
+            "Definition:",
+            "discriminant",
+            "quadratic",
+            "equation",
+            "determines"
+          ],
+          "ui": {
+            "expandable": true,
+            "visual_type": "tree_node",
+            "node_style": "default",
+            "animation_hint": "expand_simple",
+            "icon": "circle"
+          },
+          "children": [
+            {
+              "id": "ca9926f6-36bc-4fc0-9871-0c36aee2173f",
+              "type": "concept",
+              "label": "Quadratic Equation 2x2 - 4x + 3 = 0",
+              "summary": "Definition:\nThe discriminant of a quadratic equation is a value that determines the nature of its roots.\n\nKey Points:\n- It is calculated as the difference between the coefficients of the squared and linear terms.\n- A positive discriminant indicates t...",
+              "preview": "Definition:\nThe discriminant of a quadratic equation is a va...",
+              "keywords": [
+                "Definition:",
+                "discriminant",
+                "quadratic",
+                "equation",
+                "determines"
+              ],
+              "ui": {
+                "expandable": false,
+                "visual_type": "text_node",
+                "node_style": "default",
+                "animation_hint": "fade_in",
+                "icon": "circle"
+              },
+              "children": [],
+              "metadata": {
+                "depth": 0,
+                "leaf": true
+              }
+            },
+            {
+              "id": "5cc821a2-c7d7-45f9-b19c-0a9be82c6cf2",
+              "type": "concept",
+              "label": "Quadratic Equation x2 + 7x - 60 = 0",
+              "summary": "Definition:\nThe discriminant of a quadratic equation is a value used to determine the nature of the roots of the equation.\n\nKey Points:\n- The discriminant is calculated by substituting coefficients into the formula b^2 - 4ac.\n- When the discriminant ...",
+              "preview": "Definition:\nThe discriminant of a quadratic equation is a va...",
+              "keywords": [
+                "Definition:",
+                "discriminant",
+                "quadratic",
+                "equation",
+                "determine"
+              ],
+              "ui": {
+                "expandable": false,
+                "visual_type": "text_node",
+                "node_style": "default",
+                "animation_hint": "fade_in",
+                "icon": "circle"
+              },
+              "children": [],
+              "metadata": {
+                "depth": 0,
+                "leaf": true
+              }
+            },
+            {
+              "id": "6a6da834-adab-4465-ac8b-281a8a5aa0a2",
+              "type": "concept",
+              "label": "Quadratic Equation 3x2 - 2x + 1/3 = 0",
+              "summary": "Definition:\nA quadratic equation 3x^2 - 2x + 1/3 = 0 is a polynomial equation of degree two.\n\nKey Points:\n- The equation can be solved using the quadratic formula.\n- The discriminant is used to determine the nature of the roots.\n- The discriminant is...",
+              "preview": "Definition:\nA quadratic equation 3x^2 - 2x + 1/3 = 0 is a po...",
+              "keywords": [
+                "Definition:",
+                "quadratic",
+                "equation",
+                "polynomial",
+                "equation"
+              ],
+              "ui": {
+                "expandable": false,
+                "visual_type": "text_node",
+                "node_style": "default",
+                "animation_hint": "fade_in",
+                "icon": "circle"
+              },
+              "children": [],
+              "metadata": {
+                "depth": 0,
+                "leaf": true
+              }
+            }
+          ],
+          "metadata": {
+            "depth": 1,
+            "leaf": false
+          }
+        }
+      ],
+      "metadata": {
+        "depth": 2,
+        "leaf": false
+      }
+    },
+    {
+      "id": "b4e3a965-e936-4f74-8bdd-0397ba40aba0",
+      "type": "concept",
+      "label": "Summary",
+      "summary": "Definition:\nA quadratic equation is a type of algebraic equation with two variables and a degree of two.\n\nKey Points:\n- It can be written in the form ax^2 + bx + c = 0\n- The graph of a quadratic equation is a parabola\n- Quadratic equations can be sol...",
+      "preview": "Definition:\nA quadratic equation is a type of algebraic equa...",
+      "keywords": [
+        "Definition:",
+        "quadratic",
+        "equation",
+        "algebraic",
+        "equation"
+      ],
+      "ui": {
+        "expandable": true,
+        "visual_type": "tree_node",
+        "node_style": "default",
+        "animation_hint": "expand_simple",
+        "icon": "circle"
+      },
+      "children": [
+        {
+          "id": "2fa63813-7e99-4765-81ac-8f1d884a07b0",
+          "type": "concept",
+          "label": "Roots of Quadratic Equations",
+          "summary": "Definition:\nThe roots of a quadratic equation are the values of the variables that make the equation true.\n\nKey Points:\n- Roots are also known as solutions or zeros of the equation\n- The number of roots of a quadratic equation can be one, two, or no ...",
+          "preview": "Definition:\nThe roots of a quadratic equation are the values...",
+          "keywords": [
+            "Definition:",
+            "quadratic",
+            "equation",
+            "variables",
+            "equation"
+          ],
+          "ui": {
+            "expandable": false,
+            "visual_type": "text_node",
+            "node_style": "default",
+            "animation_hint": "fade_in",
+            "icon": "circle"
+          },
+          "children": [],
+          "metadata": {
+            "depth": 0,
+            "leaf": true
+          }
+        }
+      ],
+      "metadata": {
+        "depth": 1,
+        "leaf": false
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "Introduction",
+      "to": "Definition of Quadratic Equations",
+      "relation": "Produces"
+    },
+    {
+      "from": "Definition of Quadratic Equations",
+      "to": "Breadth of Quadratic Equations",
+      "relation": "Uses"
+    },
+    {
+      "from": "Breadth of Quadratic Equations",
+      "to": "Examples of Quadratic Equations",
+      "relation": "Contains"
+    },
+    {
+      "from": "Examples of Quadratic Equations",
+      "to": "Formation of Quadratic Equations",
+      "relation": "Leads To"
+    },
+    {
+      "from": "Formation of Quadratic Equations",
+      "to": "Ancient Civilizations and Quadratic Equations",
+      "relation": "Depends On"
+    },
+    {
+      "from": "Ancient Civilizations and Quadratic Equations",
+      "to": "Babylonians and Quadratic Equations",
+      "relation": "Causes"
+    },
+    {
+      "from": "Babylonians and Quadratic Equations",
+      "to": "Greek Mathematician Euclid and Quadratic Equations",
+      "relation": "Enables"
+    },
+    {
+      "from": "Greek Mathematician Euclid and Quadratic Equations",
+      "to": "Ancient Indian Mathematicians and Quadratic Equations",
+      "relation": "Supports"
+    },
+    {
+      "from": "Ancient Indian Mathematicians and Quadratic Equations",
+      "to": "Brahmagupta and Quadratic Equations",
+      "relation": "Produces"
+    },
+    {
+      "from": "Brahmagupta and Quadratic Equations",
+      "to": "Sridharacharya and Quadratic Equations",
+      "relation": "Requires"
+    },
+    {
+      "from": "Sridharacharya and Quadratic Equations",
+      "to": "Al-Khwarizmi and Quadratic Equations",
+      "relation": "Part Of"
+    },
+    {
+      "from": "Al-Khwarizmi and Quadratic Equations",
+      "to": "Quadratic Equations in the World Around Us and in Different Fields of Mathematics",
+      "relation": "Transports"
+    },
+    {
+      "from": "Quadratic Equations in the World Around Us and in Different Fields of Mathematics",
+      "to": "Examples of Quadratic Equations in the World Around Us",
+      "relation": "Occurs In"
+    },
+    {
+      "from": "Examples of Quadratic Equations in the World Around Us",
+      "to": "John and Jivanti Together Have 45 Marbles",
+      "relation": "Contains"
+    },
+    {
+      "from": "John and Jivanti Together Have 45 Marbles",
+      "to": "Quadratic Equations in the Cottage Industry",
+      "relation": "Leads To"
+    },
+    {
+      "from": "Quadratic Equations in the Cottage Industry",
+      "to": "Rohan's Mother is 26 Years Older Than Him",
+      "relation": "Depends On"
+    },
+    {
+      "from": "Rohan's Mother is 26 Years Older Than Him",
+      "to": "Representing Situations Mathematically",
+      "relation": "Causes"
+    },
+    {
+      "from": "Representing Situations Mathematically",
+      "to": "Problem Situation",
+      "relation": "Enables"
+    },
+    {
+      "from": "Problem Situation",
+      "to": "John and Jivanti Together Have 45 Marbles",
+      "relation": "Supports"
+    },
+    {
+      "from": "John and Jivanti Together Have 45 Marbles",
+      "to": "Mathematical Representation",
+      "relation": "Transports"
+    },
+    {
+      "from": "Mathematical Representation",
+      "to": "Solution of a Quadratic Equation by Factorisation",
+      "relation": "Produces"
+    },
+    {
+      "from": "Solution of a Quadratic Equation by Factorisation",
+      "to": "Finding the Roots of a Quadratic Equation",
+      "relation": "Uses"
+    },
+    {
+      "from": "Finding the Roots of a Quadratic Equation",
+      "to": "Quadratic Equation 2x2 - 3x + 1 = 0",
+      "relation": "Contains"
+    },
+    {
+      "from": "Quadratic Equation 2x2 - 3x + 1 = 0",
+      "to": "Quadratic Equation 2x2 - 5x + 3 = 0",
+      "relation": "Depends On"
+    },
+    {
+      "from": "Quadratic Equation 2x2 - 5x + 3 = 0",
+      "to": "Quadratic Equation 6x2 - x - 2 = 0",
+      "relation": "Leads To"
+    },
+    {
+      "from": "Quadratic Equation 6x2 - x - 2 = 0",
+      "to": "Nature of Roots",
+      "relation": "Occurs In"
+    },
+    {
+      "from": "Nature of Roots",
+      "to": "Discriminant of a Quadratic Equation",
+      "relation": "Supports"
+    },
+    {
+      "from": "Discriminant of a Quadratic Equation",
+      "to": "b^2 - 4ac > 0",
+      "relation": "Produces"
+    },
+    {
+      "from": "b^2 - 4ac > 0",
+      "to": "b^2 - 4ac = 0",
+      "relation": "Leads To"
+    },
+    {
+      "from": "b^2 - 4ac = 0",
+      "to": "b^2 - 4ac < 0",
+      "relation": "Depends On"
+    },
+    {
+      "from": "b^2 - 4ac < 0",
+      "to": "Summary",
+      "relation": "Transports"
+    },
+    {
+      "from": "Summary",
+      "to": "Definition of Quadratic Equations",
+      "relation": "Contains"
+    },
+    {
+      "from": "Definition of Quadratic Equations",
+      "to": "Roots of Quadratic Equations",
+      "relation": "Uses"
+    },
+    {
+      "from": "Roots of Quadratic Equations",
+      "to": "Factorisation Method for Finding Roots",
+      "relation": "Supports"
+    },
+    {
+      "from": "Factorisation Method for Finding Roots",
+      "to": "Discriminant of a Quadratic Equation",
+      "relation": "Enables"
+    }
+  ]
+}
