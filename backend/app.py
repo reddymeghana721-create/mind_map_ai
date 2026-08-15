@@ -1,84 +1,50 @@
 import os
 import json
+from database.mindmap_repository import MindMapRepository
 import traceback
 
-from flask import Flask, jsonify, send_from_directory
+from flask import Flask, jsonify, request
 from flask_cors import CORS
 
-from database.mindmap_repository import MindMapRepository
-from services import (
-    load_chapter,
-    ConceptExtractor,
-    RelationshipGenerator,
-    Summarizer,
-    TreeBuilder,
-    Validator,
-    OpenRouterLLM
-)
+from chapter_loader.loader import load_chapter
+from concept_extractor.extractor import ConceptExtractor
+from relationship_generator.generator import RelationshipGenerator
+from summarizer.summarizer import Summarizer
+from tree_builder.builder import TreeBuilder
+from llm.client import OpenRouterLLM
+from validator.validator import Validator   # NEW
+from pdf_converter import PDFToTextConverter
 
 app = Flask(__name__)
 CORS(app)
 
-UPLOAD_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "uploads")
-
-
-@app.route("/uploads/<path:filename>", methods=["GET"])
-def serve_upload(filename):
-    return send_from_directory(UPLOAD_DIR, filename)
-
 llm = OpenRouterLLM()
+
+pdf_converter = PDFToTextConverter(chapters_root="chapters")
 
 concept_extractor = ConceptExtractor(llm)
 relationship_generator = RelationshipGenerator(llm)
 summarizer = Summarizer(llm)
 tree_builder = TreeBuilder()
-validator = Validator()
+validator = Validator()   # NEW
 
 mindmap_repo = MindMapRepository()
 
 # In-memory cache
 _mindmap_cache = {}
 
-# Directories
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-OUTPUT_DIR = os.path.join(BASE_DIR, "data", "mindmaps")
-CHAPTERS_DIR = os.path.join(BASE_DIR, "data", "chapters")
+# Base folder where generated mindmaps are persisted as JSON
+OUTPUT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "mindmaps")
 
 
 def _get_output_path(class_name: str, subject: str, chapter: str) -> str:
+    """
+    Builds the path: mindmaps/<class_name>/<subject>/<chapter>.json
+    """
     folder = os.path.join(OUTPUT_DIR, class_name, subject)
     os.makedirs(folder, exist_ok=True)
     filename = f"{chapter}.json"
     return os.path.join(folder, filename)
-
-
-def _attach_media_videos(node):
-    if not isinstance(node, dict):
-        return
-    node_id = str(node.get("id", ""))
-    lbl = node.get("label", "")
-    sum_txt = node.get("summary", "")
-
-    # 1. Node 46bc1784 (2.3 How Strong Are Acid Or Base Solutions?) -> LM_v2.mp4
-    if "46bc1784" in node_id or "2.3 How Strong" in lbl:
-        node["video"] = "/uploads/LM_v2.mp4"
-        if "ui" in node:
-            node["ui"]["has_video"] = True
-
-    # 2. Node 7e292cd2 (Identifying Acids And Bases) -> Lm_v1.mp4
-    elif "7e292cd2" in node_id or "Identifying Acids And Bases" in lbl:
-        node["video"] = "/uploads/Lm_v1.mp4"
-        if "ui" in node:
-            node["ui"]["has_video"] = True
-
-    # 3. Node 2.2.1 (What Happens To An Acid Or A Base In A Water Solution?) -> gen1_notebooklm.mp4
-    elif "2.2.1" in lbl or "Ions In Aqueous" in lbl or "produce ions" in sum_txt.lower():
-        node["video"] = "/uploads/gen1_notebooklm.mp4"
-        if "ui" in node:
-            node["ui"]["has_video"] = True
-
-    for c in node.get("children", []):
-        _attach_media_videos(c)
 
 
 def _save_to_disk(class_name: str, subject: str, chapter: str, tree: dict) -> None:
@@ -96,6 +62,14 @@ def _load_from_disk(class_name: str, subject: str, chapter: str):
 
 
 def _list_all_mindmaps():
+    """
+    Scans OUTPUT_DIR (mindmaps/<class_name>/<subject>/<chapter>.json)
+    and returns a list like:
+    [
+        {"class_name": "class10", "subject": "science", "chapter": "light"},
+        ...
+    ]
+    """
     results = []
 
     if not os.path.isdir(OUTPUT_DIR):
@@ -113,34 +87,7 @@ def _list_all_mindmaps():
 
             for filename in sorted(os.listdir(subject_path)):
                 if filename.endswith(".json"):
-                    chapter = filename[:-5]
-                    results.append({
-                        "class_name": class_name,
-                        "subject": subject,
-                        "chapter": chapter
-                    })
-
-    return results
-
-
-def _list_all_chapters():
-    results = []
-    if not os.path.isdir(CHAPTERS_DIR):
-        return results
-
-    for class_name in sorted(os.listdir(CHAPTERS_DIR)):
-        class_path = os.path.join(CHAPTERS_DIR, class_name)
-        if not os.path.isdir(class_path):
-            continue
-
-        for subject in sorted(os.listdir(class_path)):
-            subject_path = os.path.join(class_path, subject)
-            if not os.path.isdir(subject_path):
-                continue
-
-            for filename in sorted(os.listdir(subject_path)):
-                if filename.endswith(".txt"):
-                    chapter = filename[:-4]
+                    chapter = filename[:-5]  # strip ".json"
                     results.append({
                         "class_name": class_name,
                         "subject": subject,
@@ -158,22 +105,18 @@ def generate_mindmap(class_name: str, subject: str, chapter: str) -> dict:
     if cache_key in _mindmap_cache:
         return _mindmap_cache[cache_key]
 
-    # 2. Disk cache fallback
-    disk_data = _load_from_disk(class_name, subject, chapter)
-    if disk_data:
-        _mindmap_cache[cache_key] = disk_data
-        return disk_data
-
-    # 3. MongoDB cache
+    # 2. MongoDB cache
     existing = mindmap_repo.get_mindmap(
-        class_name,
-        subject,
-        chapter
-    )
+    class_name,
+    subject,
+    chapter
+)
+
+    print("Existing mindmap:", existing)
 
     if existing is not None and "tree" in existing:
-        _mindmap_cache[cache_key] = existing["tree"]
-        return existing["tree"]
+     _mindmap_cache[cache_key] = existing["tree"]
+     return existing["tree"]
 
     # ------------------------------------
     # Load Chapter
@@ -200,10 +143,10 @@ def generate_mindmap(class_name: str, subject: str, chapter: str) -> dict:
     # ------------------------------------
     # Summaries
     # ------------------------------------
-    summaries = summarizer.summarize(concepts, chapter_text=text)
+    summaries = summarizer.summarize(concepts)
 
     # ------------------------------------
-    # VALIDATION
+    # VALIDATION (NEW)
     # ------------------------------------
     concepts, relationships, summaries = validator.validate(
         concepts,
@@ -220,49 +163,39 @@ def generate_mindmap(class_name: str, subject: str, chapter: str) -> dict:
         relationships=relationships
     )
 
-    _attach_media_videos(final_tree)
-
     # Save to memory
     _mindmap_cache[cache_key] = final_tree
 
     # Save to MongoDB
     mindmap_repo.save_mindmap({
-        "class_name": class_name,
-        "subject": subject,
-        "chapter": chapter,
-        "tree": final_tree
+    "class_name": class_name,
+    "subject": subject,
+    "chapter": chapter,
+    "tree": final_tree
     })
 
-    # Save JSON backup
+    # Save JSON (optional backup)
     _save_to_disk(class_name, subject, chapter, final_tree)
 
     return final_tree
-
+ 
 
 @app.route("/api/mindmaps", methods=["GET"])
 def list_mindmaps():
+    """
+    Returns all mindmaps stored in MongoDB.
+    """
     try:
-        mindmaps = _list_all_mindmaps()
-        chapters = _list_all_chapters()
+        mindmaps = mindmap_repo.get_all_mindmaps()
+
+        for mindmap in mindmaps:
+            mindmap["_id"] = str(mindmap["_id"])
+
         return jsonify({
             "count": len(mindmaps),
-            "mindmaps": mindmaps,
-            "available_chapters": chapters
+            "mindmaps": mindmaps
         })
-    except Exception as e:
-        return jsonify({
-            "error": str(e)
-        }), 500
 
-
-@app.route("/api/chapters", methods=["GET"])
-def list_chapters():
-    try:
-        chapters = _list_all_chapters()
-        return jsonify({
-            "count": len(chapters),
-            "chapters": chapters
-        })
     except Exception as e:
         return jsonify({
             "error": str(e)
@@ -307,7 +240,59 @@ def get_mindmap_default(chapter):
             "error": str(e)
         }), 500
 
+@app.route("/api/upload", methods=["POST"])
+def upload_file():
+    try:
+        if "file" not in request.files:
+            return jsonify({"error": "No file uploaded"}), 400
 
+        file = request.files["file"]
+
+        if file.filename == "":
+            return jsonify({"error": "No file selected"}), 400
+
+        if not file.filename.lower().endswith(".pdf"):
+            return jsonify({"error": "Only PDF files are allowed"}), 400
+
+        class_name = request.form.get("class_name")
+        subject = request.form.get("subject")
+        chapter_name = request.form.get("chapter_name")
+
+        if not class_name or not subject or not chapter_name:
+            return jsonify({
+                "error": "class_name, subject and chapter_name are required"
+            }), 400
+
+        upload_dir = os.path.join(
+            os.path.dirname(os.path.abspath(__file__)),
+            "uploads"
+        )
+
+        os.makedirs(upload_dir, exist_ok=True)
+
+        pdf_path = os.path.join(upload_dir, file.filename)
+        file.save(pdf_path)
+
+        txt_path = pdf_converter.convert(
+            pdf_path=pdf_path,
+            class_name=class_name,
+            subject=subject,
+            chapter_name=chapter_name
+        )
+
+        return jsonify({
+            "message": "PDF uploaded and converted successfully",
+            "filename": file.filename,
+            "txt_path": txt_path,
+            "class_name": class_name,
+            "subject": subject,
+            "chapter_name": chapter_name
+        })
+
+    except Exception as e:
+        traceback.print_exc()
+        return jsonify({"error": str(e)}), 500
+    
 @app.route("/api/health", methods=["GET"])
 def health():
     return jsonify({
