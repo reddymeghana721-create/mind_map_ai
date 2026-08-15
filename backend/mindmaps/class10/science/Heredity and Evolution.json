@@ -1,0 +1,1110 @@
+{
+  "id": "2bc0e6e3-9b61-4be1-bdf8-e7bc351b87c8",
+  "type": "chapter",
+  "label": "Heredity",
+  "summary": "Definition:\nHeredity is the passing of traits from parents to their offspring through the transmission of genetic information.\n\nKey Points:\n- Traits are determined by genes\n- Genes are located on chromosomes\n- Genetic information is inherited from bo...",
+  "preview": "Definition:\nHeredity is the passing of traits from parents t...",
+  "ui": {
+    "expandable": true,
+    "visual_type": "root"
+  },
+  "children": [
+    {
+      "id": "057f841b-3d5d-4929-b84d-cfb15818c4ca",
+      "type": "concept",
+      "label": "Accumulation of Variation",
+      "summary": "Definition:\nThe accumulation of variation is the process by which the genetic differences between individuals in a population increase over time.\n\nKey Points:\n- It occurs due to genetic recombination during reproduction.\n- It is increased by mutation...",
+      "preview": "Definition:\nThe accumulation of variation is the process by ...",
+      "keywords": [
+        "Definition:",
+        "accumulation",
+        "variation",
+        "process",
+        "genetic"
+      ],
+      "ui": {
+        "expandable": true,
+        "visual_type": "tree_node",
+        "node_style": "default",
+        "animation_hint": "expand_simple",
+        "icon": "circle"
+      },
+      "children": [
+        {
+          "id": "eb4a2372-e059-47f4-aea5-d45729ba8c4d",
+          "type": "concept",
+          "label": "Generational Variation",
+          "summary": "Definition:\nGenerational variation refers to the changes that occur in the genetic makeup of a population from one generation to the next.\n\nKey Points:\n- It is caused by random genetic mutations.\n- It increases genetic diversity in a population.\n- It...",
+          "preview": "Definition:\nGenerational variation refers to the changes tha...",
+          "keywords": [
+            "Definition:",
+            "Generational",
+            "variation",
+            "changes",
+            "genetic"
+          ],
+          "ui": {
+            "expandable": true,
+            "visual_type": "tree_node",
+            "node_style": "default",
+            "animation_hint": "expand_simple",
+            "icon": "circle"
+          },
+          "children": [
+            {
+              "id": "29e7ce3e-01ad-4579-a6ac-67f379a98889",
+              "type": "concept",
+              "label": "Parental Inheritance",
+              "summary": "Definition:\nThe process by which parents pass on their traits to their offspring through the transmission of genetic information.\n\nKey Points:\n- Traits are determined by genes\n- Parental traits may be dominant or recessive\n- Traits are inherited from...",
+              "preview": "Definition:\nThe process by which parents pass on their trait...",
+              "keywords": [
+                "Definition:",
+                "process",
+                "parents",
+                "offspring",
+                "through"
+              ],
+              "ui": {
+                "expandable": false,
+                "visual_type": "text_node",
+                "node_style": "default",
+                "animation_hint": "fade_in",
+                "icon": "circle"
+              },
+              "children": [],
+              "metadata": {
+                "depth": 0,
+                "leaf": true
+              }
+            },
+            {
+              "id": "3b3d54d8-7fba-4860-aa60-9aee2e9ccb65",
+              "type": "concept",
+              "label": "Newly Created Differences",
+              "summary": "Definition:\nNewly created differences in a population are due to genetic variation.\n\nKey Points:\n- These differences are not present in the parents.\n- They arise due to random errors in DNA replication.\n- They can be passed on to the next generation....",
+              "preview": "Definition:\nNewly created differences in a population are du...",
+              "keywords": [
+                "Definition:",
+                "created",
+                "differences",
+                "population",
+                "genetic"
+              ],
+              "ui": {
+                "expandable": false,
+                "visual_type": "text_node",
+                "node_style": "default",
+                "animation_hint": "fade_in",
+                "icon": "circle"
+              },
+              "children": [],
+              "metadata": {
+                "depth": 0,
+                "leaf": true
+              }
+            }
+          ],
+          "metadata": {
+            "depth": 1,
+            "leaf": false
+          }
+        },
+        {
+          "id": "b741dc21-a888-424d-b405-6342059cb4cc",
+          "type": "concept",
+          "label": "Survival of Variations",
+          "summary": "Definition:\nThe survival of variations leads to the accumulation of traits in a population over time.\n\nKey Points:\n- Variations are survival traits to natural selection\n- Natural selection favors the fittest individuals\n- The survivors reproduce to p...",
+          "preview": "Definition:\nThe survival of variations leads to the accumula...",
+          "keywords": [
+            "Definition:",
+            "survival",
+            "variations",
+            "accumulation",
+            "population"
+          ],
+          "ui": {
+            "expandable": true,
+            "visual_type": "tree_node",
+            "node_style": "default",
+            "animation_hint": "expand_simple",
+            "icon": "circle"
+          },
+          "children": [
+            {
+              "id": "77ac6fbe-a603-40ce-97e9-39fda3f6871e",
+              "type": "concept",
+              "label": "Environmental Factors",
+              "summary": "Definition:\nEnvironmental factors are external conditions that influence the expression of traits in organisms.\n\nKey Points:\n- Temperature affects the rate of growth and development\n- Light intensity influences photosynthesis and plant growth\n- Water...",
+              "preview": "Definition:\nEnvironmental factors are external conditions th...",
+              "keywords": [
+                "Definition:",
+                "Environmental",
+                "factors",
+                "external",
+                "conditions"
+              ],
+              "ui": {
+                "expandable": false,
+                "visual_type": "text_node",
+                "node_style": "default",
+                "animation_hint": "fade_in",
+                "icon": "circle"
+              },
+              "children": [],
+              "metadata": {
+                "depth": 0,
+                "leaf": true
+              }
+            },
+            {
+              "id": "2d3d46a1-d647-4a21-b656-f742d2024799",
+              "type": "concept",
+              "label": "Natural Selection",
+              "summary": "Definition:\nNatural selection is the process by which populations of living organisms adapt and evolve over time due to environmental pressures.\n\nKey Points:\n- It acts on individuals with varying traits, favoring those best suited to their environmen...",
+              "preview": "Definition:\nNatural selection is the process by which popula...",
+              "keywords": [
+                "Definition:",
+                "Natural",
+                "selection",
+                "process",
+                "populations"
+              ],
+              "ui": {
+                "expandable": false,
+                "visual_type": "text_node",
+                "node_style": "default",
+                "animation_hint": "fade_in",
+                "icon": "circle"
+              },
+              "children": [],
+              "metadata": {
+                "depth": 0,
+                "leaf": true
+              }
+            }
+          ],
+          "metadata": {
+            "depth": 1,
+            "leaf": false
+          }
+        }
+      ],
+      "metadata": {
+        "depth": 2,
+        "leaf": false
+      }
+    },
+    {
+      "id": "32316fc0-5c9d-4cba-91e1-73ac3bb00fc7",
+      "type": "concept",
+      "label": "Heredity",
+      "summary": "Definition:\nHeredity is the passing of traits from parents to their offspring through the transmission of genetic information.\n\nKey Points:\n- Traits are determined by genes\n- Genes are located on chromosomes\n- Genetic information is inherited from bo...",
+      "preview": "Definition:\nHeredity is the passing of traits from parents t...",
+      "keywords": [
+        "Definition:",
+        "Heredity",
+        "passing",
+        "parents",
+        "offspring"
+      ],
+      "ui": {
+        "expandable": true,
+        "visual_type": "tree_node",
+        "node_style": "default",
+        "animation_hint": "expand_simple",
+        "icon": "circle"
+      },
+      "children": [
+        {
+          "id": "fb7c2a7a-cc92-41f3-93fc-20c8122eab04",
+          "type": "concept",
+          "label": "Inherited Traits",
+          "summary": "Definition:\nInherited traits are characteristics or features that are passed down from parents to their offspring through genes.\n\nKey Points:\n- Determined by genes\n- Passed from parents to offspring\n- Influenced by environment but not changed\n\nImport...",
+          "preview": "Definition:\nInherited traits are characteristics or features...",
+          "keywords": [
+            "Definition:",
+            "Inherited",
+            "characteristics",
+            "features",
+            "parents"
+          ],
+          "ui": {
+            "expandable": true,
+            "visual_type": "tree_node",
+            "node_style": "default",
+            "animation_hint": "expand_simple",
+            "icon": "circle"
+          },
+          "children": [
+            {
+              "id": "d3cec2de-a546-45b6-91de-f14d7f06a4b6",
+              "type": "concept",
+              "label": "Similarities and Differences",
+              "summary": "Definition:\nSimilarities and differences refer to the characteristics that are shared or distinct between parents and offspring.\n\nKey Points:\n- Similarities are the characteristics that are identical in parents and offspring, such as eye color and ha...",
+              "preview": "Definition:\nSimilarities and differences refer to the charac...",
+              "keywords": [
+                "Definition:",
+                "Similarities",
+                "differences",
+                "characteristics",
+                "distinct"
+              ],
+              "ui": {
+                "expandable": false,
+                "visual_type": "text_node",
+                "node_style": "default",
+                "animation_hint": "fade_in",
+                "icon": "circle"
+              },
+              "children": [],
+              "metadata": {
+                "depth": 0,
+                "leaf": true
+              }
+            },
+            {
+              "id": "b6bba23e-93d1-4da9-bb53-7071d6c15be1",
+              "type": "concept",
+              "label": "Human Variation",
+              "summary": "Definition:\nHuman variation occurs due to the genetic differences between parents and offspring that result from the mixing of genes during reproduction.\n\nKey Points:\n- Inherited traits such as height, eye color, and hair color are a result of human ...",
+              "preview": "Definition:\nHuman variation occurs due to the genetic differ...",
+              "keywords": [
+                "Definition:",
+                "variation",
+                "genetic",
+                "differences",
+                "between"
+              ],
+              "ui": {
+                "expandable": true,
+                "visual_type": "tree_node",
+                "node_style": "default",
+                "animation_hint": "expand_simple",
+                "icon": "circle"
+              },
+              "children": [
+                {
+                  "id": "3ee48d62-c455-4107-8669-9025d31d9d14",
+                  "type": "concept",
+                  "label": "Earlobe Types",
+                  "summary": "Definition:\nEarlobe types are determined by a single gene with two alleles, resulting in different earlobe shapes and sizes.\n\nKey Points:\n- Dominant allele (D) results in a free earlobe, while the recessive allele (d) results in an attached earlobe.\n...",
+                  "preview": "Definition:\nEarlobe types are determined by a single gene wi...",
+                  "keywords": [
+                    "Definition:",
+                    "Earlobe",
+                    "determined",
+                    "alleles",
+                    "resulting"
+                  ],
+                  "ui": {
+                    "expandable": false,
+                    "visual_type": "text_node",
+                    "node_style": "default",
+                    "animation_hint": "fade_in",
+                    "icon": "circle"
+                  },
+                  "children": [],
+                  "metadata": {
+                    "depth": 0,
+                    "leaf": true
+                  }
+                }
+              ],
+              "metadata": {
+                "depth": 1,
+                "leaf": false
+              }
+            }
+          ],
+          "metadata": {
+            "depth": 2,
+            "leaf": false
+          }
+        },
+        {
+          "id": "dedfbb4f-874e-4293-bd92-69b44fa8ed85",
+          "type": "concept",
+          "label": "Rules for Inheritance of Traits",
+          "summary": "Definition:\nThe rules for inheritance of traits determine how characteristics are passed from parents to offspring.\n\nKey Points:\n- Traits are inherited from both parents.\n- Dominant traits will be expressed more strongly.\n- Traits are determined by g...",
+          "preview": "Definition:\nThe rules for inheritance of traits determine ho...",
+          "keywords": [
+            "Definition:",
+            "inheritance",
+            "determine",
+            "characteristics",
+            "parents"
+          ],
+          "ui": {
+            "expandable": true,
+            "visual_type": "tree_node",
+            "node_style": "default",
+            "animation_hint": "expand_simple",
+            "icon": "circle"
+          },
+          "children": [
+            {
+              "id": "65bdb098-d8d2-4222-a752-71d979c418f8",
+              "type": "concept",
+              "label": "Mendel's Contributions",
+              "summary": "Definition:\nMendel's contributions are the fundamental principles of genetics that explain how traits are inherited.\n\nKey Points:\n- Studied pea plants to understand inheritance\n- Observed and recorded patterns of trait inheritance\n- Formulated laws o...",
+              "preview": "Definition:\nMendel's contributions are the fundamental princ...",
+              "keywords": [
+                "Definition:",
+                "Mendel's",
+                "contributions",
+                "fundamental",
+                "principles"
+              ],
+              "ui": {
+                "expandable": true,
+                "visual_type": "tree_node",
+                "node_style": "default",
+                "animation_hint": "expand_simple",
+                "icon": "circle"
+              },
+              "children": [
+                {
+                  "id": "7de5fe60-80f6-43aa-9d22-3a2699ebaf93",
+                  "type": "concept",
+                  "label": "Genetic Material",
+                  "summary": "Definition:\nGenetic material is the substance that carries and transmits traits from one generation to the next.\n\nKey Points:\n- It is made up of DNA (Deoxyribonucleic Acid) and proteins.\n- Genetic material determines the characteristics of an organis...",
+                  "preview": "Definition:\nGenetic material is the substance that carries a...",
+                  "keywords": [
+                    "Definition:",
+                    "Genetic",
+                    "material",
+                    "substance",
+                    "carries"
+                  ],
+                  "ui": {
+                    "expandable": false,
+                    "visual_type": "text_node",
+                    "node_style": "default",
+                    "animation_hint": "fade_in",
+                    "icon": "circle"
+                  },
+                  "children": [],
+                  "metadata": {
+                    "depth": 0,
+                    "leaf": true
+                  }
+                },
+                {
+                  "id": "b6f26718-09dc-4ffb-9b0f-3e5b3248d143",
+                  "type": "concept",
+                  "label": "Trait Influence",
+                  "summary": "Definition:\nThe study of how traits of a parent organism influence the traits of their offspring.\n\nKey Points:\n- Nikkolai Vavilov discovered that genes influencing traits come in different forms, or alleles.\n- Each allele pairs with a different allel...",
+                  "preview": "Definition:\nThe study of how traits of a parent organism inf...",
+                  "keywords": [
+                    "Definition:",
+                    "organism",
+                    "influence",
+                    "offspring",
+                    "Points:"
+                  ],
+                  "ui": {
+                    "expandable": false,
+                    "visual_type": "text_node",
+                    "node_style": "default",
+                    "animation_hint": "fade_in",
+                    "icon": "circle"
+                  },
+                  "children": [],
+                  "metadata": {
+                    "depth": 0,
+                    "leaf": true
+                  }
+                },
+                {
+                  "id": "3e1039ca-05d9-466e-b341-9f19235d13b4",
+                  "type": "concept",
+                  "label": "Mendel's Laws",
+                  "summary": "Definition:\nMendel's Laws describe how traits are passed down from parents to offspring.\n\nKey Points:\n- The Law of Segregation states that each pair of alleles separates during reproduction.\n- The Law of Independent Assortment states that each pair o...",
+                  "preview": "Definition:\nMendel's Laws describe how traits are passed dow...",
+                  "keywords": [
+                    "Definition:",
+                    "Mendel's",
+                    "describe",
+                    "parents",
+                    "offspring"
+                  ],
+                  "ui": {
+                    "expandable": true,
+                    "visual_type": "tree_node",
+                    "node_style": "default",
+                    "animation_hint": "expand_simple",
+                    "icon": "circle"
+                  },
+                  "children": [
+                    {
+                      "id": "31b197a3-64a5-44d8-833d-727a5ddb5650",
+                      "type": "concept",
+                      "label": "Law of Segregation",
+                      "summary": "Definition:\nThe Law of Segregation states that each pair of alleles (different forms of a gene) separate from each other during gamete formation.\n\nKey Points:\n- Each pair of alleles separates from each other during gamete formation.\n- The different f...",
+                      "preview": "Definition:\nThe Law of Segregation states that each pair of ...",
+                      "keywords": [
+                        "Definition:",
+                        "Segregation",
+                        "alleles",
+                        "different",
+                        "separate"
+                      ],
+                      "ui": {
+                        "expandable": false,
+                        "visual_type": "text_node",
+                        "node_style": "default",
+                        "animation_hint": "fade_in",
+                        "icon": "circle"
+                      },
+                      "children": [],
+                      "metadata": {
+                        "depth": 0,
+                        "leaf": true
+                      }
+                    },
+                    {
+                      "id": "06ad5b3b-266c-4030-8b0c-edbc66764783",
+                      "type": "concept",
+                      "label": "Law of Independent Assortment",
+                      "summary": "Definition:\nThe Law of Independent Assortment states that the factors that control a trait are sorted independently of each other during gamete formation.\n\nKey Points:\n- The law applies to the inheritance of two or more traits that are linked to diff...",
+                      "preview": "Definition:\nThe Law of Independent Assortment states that th...",
+                      "keywords": [
+                        "Definition:",
+                        "Independent",
+                        "Assortment",
+                        "factors",
+                        "control"
+                      ],
+                      "ui": {
+                        "expandable": false,
+                        "visual_type": "text_node",
+                        "node_style": "default",
+                        "animation_hint": "fade_in",
+                        "icon": "circle"
+                      },
+                      "children": [],
+                      "metadata": {
+                        "depth": 0,
+                        "leaf": true
+                      }
+                    }
+                  ],
+                  "metadata": {
+                    "depth": 1,
+                    "leaf": false
+                  }
+                }
+              ],
+              "metadata": {
+                "depth": 2,
+                "leaf": false
+              }
+            }
+          ],
+          "metadata": {
+            "depth": 3,
+            "leaf": false
+          }
+        },
+        {
+          "id": "ac34d6e7-1eb2-4a61-a538-2b74446de5fd",
+          "type": "concept",
+          "label": "Mechanism of Heredity",
+          "summary": "Definition:\nMechanism of heredity refers to the process by which traits are passed from parents to offspring.\n\nKey Points:\n- It involves the transmission of genes from one generation to the next.\n- The genes are encoded in DNA and are responsible for...",
+          "preview": "Definition:\nMechanism of heredity refers to the process by w...",
+          "keywords": [
+            "Definition:",
+            "Mechanism",
+            "heredity",
+            "process",
+            "parents"
+          ],
+          "ui": {
+            "expandable": true,
+            "visual_type": "tree_node",
+            "node_style": "default",
+            "animation_hint": "expand_simple",
+            "icon": "circle"
+          },
+          "children": [
+            {
+              "id": "1180d8a4-f32a-47de-b596-82852e5d6388",
+              "type": "concept",
+              "label": "DNA and Proteins",
+              "summary": "Definition:\nThe process by which genetic information is passed from one generation to the next.\n\nKey Points:\n- DNA is the molecule that carries genetic information.\n- Proteins are the building blocks of all living organisms.\n- The sequence of DNA det...",
+              "preview": "Definition:\nThe process by which genetic information is pass...",
+              "keywords": [
+                "Definition:",
+                "process",
+                "genetic",
+                "information",
+                "generation"
+              ],
+              "ui": {
+                "expandable": false,
+                "visual_type": "text_node",
+                "node_style": "default",
+                "animation_hint": "fade_in",
+                "icon": "circle"
+              },
+              "children": [],
+              "metadata": {
+                "depth": 0,
+                "leaf": true
+              }
+            },
+            {
+              "id": "add31773-3606-4f49-93b0-d3fb37445417",
+              "type": "concept",
+              "label": "Gene Expression",
+              "summary": "Definition:\nThe process by which the information encoded in a gene is converted into a functional product that influences the trait of an organism.\n\nKey Points:\n- Controlled by the interaction of multiple genetic and environmental factors.\n- Influenc...",
+              "preview": "Definition:\nThe process by which the information encoded in ...",
+              "keywords": [
+                "Definition:",
+                "process",
+                "information",
+                "encoded",
+                "converted"
+              ],
+              "ui": {
+                "expandable": false,
+                "visual_type": "text_node",
+                "node_style": "default",
+                "animation_hint": "fade_in",
+                "icon": "circle"
+              },
+              "children": [],
+              "metadata": {
+                "depth": 0,
+                "leaf": true
+              }
+            },
+            {
+              "id": "b8e98173-ea9e-434e-beb5-ba258f0fe7cb",
+              "type": "concept",
+              "label": "Chromosomes and Inheritance",
+              "summary": "Definition:\nChromosomes are thread-like structures in the nucleus of a cell that carry genes and are responsible for the inheritance of traits.\n\nKey Points:\n- Chromosomes are made up of DNA and proteins.\n- Each chromosome has a specific number of gen...",
+              "preview": "Definition:\nChromosomes are thread-like structures in the nu...",
+              "keywords": [
+                "Definition:",
+                "Chromosomes",
+                "thread-like",
+                "structures",
+                "nucleus"
+              ],
+              "ui": {
+                "expandable": true,
+                "visual_type": "tree_node",
+                "node_style": "default",
+                "animation_hint": "expand_simple",
+                "icon": "circle"
+              },
+              "children": [
+                {
+                  "id": "a047ed22-e3c5-4619-a4de-2d88ef5d146b",
+                  "type": "concept",
+                  "label": "Chromosome Number",
+                  "summary": "Definition:\nChromosome number is the total number of chromosomes present in the cell of a living organism.\n\nKey Points:\n- Chromosome number is represented by a diploid number (2n) in most organisms.\n- Human cells have a diploid chromosome number of 4...",
+                  "preview": "Definition:\nChromosome number is the total number of chromos...",
+                  "keywords": [
+                    "Definition:",
+                    "Chromosome",
+                    "chromosomes",
+                    "present",
+                    "organism"
+                  ],
+                  "ui": {
+                    "expandable": false,
+                    "visual_type": "text_node",
+                    "node_style": "default",
+                    "animation_hint": "fade_in",
+                    "icon": "circle"
+                  },
+                  "children": [],
+                  "metadata": {
+                    "depth": 0,
+                    "leaf": true
+                  }
+                },
+                {
+                  "id": "b899cca7-3015-4256-991d-304c3a29cc10",
+                  "type": "concept",
+                  "label": "Sex Determination",
+                  "summary": "Definition:\nThe process by which an individual's sex is determined by the combination of chromosomes inherited from the parents.\n\nKey Points:\n- Sex is determined by the presence of X and Y chromosomes.\n- Females have two X chromosomes, while males ha...",
+                  "preview": "Definition:\nThe process by which an individual's sex is dete...",
+                  "keywords": [
+                    "Definition:",
+                    "process",
+                    "individual's",
+                    "determined",
+                    "combination"
+                  ],
+                  "ui": {
+                    "expandable": true,
+                    "visual_type": "tree_node",
+                    "node_style": "default",
+                    "animation_hint": "expand_simple",
+                    "icon": "circle"
+                  },
+                  "children": [
+                    {
+                      "id": "8d1600d9-fea8-4047-bbab-c3e25338ce8e",
+                      "type": "concept",
+                      "label": "Sex Chromosomes",
+                      "summary": "Definition:\nSex chromosomes are a pair of chromosomes that determine the sex of an individual in many organisms, typically X and Y.\n\nKey Points:\n- X chromosome is found in both males and females, but females have two X chromosomes.\n- Y chromosome is ...",
+                      "preview": "Definition:\nSex chromosomes are a pair of chromosomes that d...",
+                      "keywords": [
+                        "Definition:",
+                        "chromosomes",
+                        "chromosomes",
+                        "determine",
+                        "individual"
+                      ],
+                      "ui": {
+                        "expandable": false,
+                        "visual_type": "text_node",
+                        "node_style": "default",
+                        "animation_hint": "fade_in",
+                        "icon": "circle"
+                      },
+                      "children": [],
+                      "metadata": {
+                        "depth": 0,
+                        "leaf": true
+                      }
+                    },
+                    {
+                      "id": "0a0481d4-8f7d-49a0-8797-41b9194b16b3",
+                      "type": "concept",
+                      "label": "X and Y Chromosomes",
+                      "summary": "Definition: The X and Y chromosomes are the sex chromosomes that determine the sex of an individual.\n\nKey Points:\n- The X chromosome is larger than the Y chromosome.\n- The Y chromosome has fewer genes than the X chromosome.\n- In males, the Y chromoso...",
+                      "preview": "Definition: The X and Y chromosomes are the sex chromosomes ...",
+                      "keywords": [
+                        "Definition:",
+                        "chromosomes",
+                        "chromosomes",
+                        "determine",
+                        "individual"
+                      ],
+                      "ui": {
+                        "expandable": false,
+                        "visual_type": "text_node",
+                        "node_style": "default",
+                        "animation_hint": "fade_in",
+                        "icon": "circle"
+                      },
+                      "children": [],
+                      "metadata": {
+                        "depth": 0,
+                        "leaf": true
+                      }
+                    },
+                    {
+                      "id": "839b9f2e-7999-43c5-b4ee-40e080595004",
+                      "type": "concept",
+                      "label": "Sex Inheritance Pattern",
+                      "summary": "Definition:\nSex inheritance pattern refers to the way in which the sex of an individual is determined by the combination of genes inherited from the parents.\n\nKey Points:\n- It is determined by the presence or absence of a specific gene on the sex chr...",
+                      "preview": "Definition:\nSex inheritance pattern refers to the way in whi...",
+                      "keywords": [
+                        "Definition:",
+                        "inheritance",
+                        "pattern",
+                        "individual",
+                        "determined"
+                      ],
+                      "ui": {
+                        "expandable": false,
+                        "visual_type": "text_node",
+                        "node_style": "default",
+                        "animation_hint": "fade_in",
+                        "icon": "circle"
+                      },
+                      "children": [],
+                      "metadata": {
+                        "depth": 0,
+                        "leaf": true
+                      }
+                    }
+                  ],
+                  "metadata": {
+                    "depth": 1,
+                    "leaf": false
+                  }
+                }
+              ],
+              "metadata": {
+                "depth": 2,
+                "leaf": false
+              }
+            }
+          ],
+          "metadata": {
+            "depth": 3,
+            "leaf": false
+          }
+        }
+      ],
+      "metadata": {
+        "depth": 4,
+        "leaf": false
+      }
+    },
+    {
+      "id": "8175f722-2c30-4f63-91dc-41de07114c64",
+      "type": "concept",
+      "label": "Mendelian Experiments",
+      "summary": "Definition:\nMendelian experiments are a series of experiments conducted by Gregor Mendel that led to the discovery of the basic principles of heredity.\n\nKey Points:\n- Monohybrid and dihybrid crosses were conducted to study the inheritance of traits.\n...",
+      "preview": "Definition:\nMendelian experiments are a series of experiment...",
+      "keywords": [
+        "Definition:",
+        "Mendelian",
+        "experiments",
+        "experiments",
+        "conducted"
+      ],
+      "ui": {
+        "expandable": true,
+        "visual_type": "tree_node",
+        "node_style": "default",
+        "animation_hint": "expand_simple",
+        "icon": "circle"
+      },
+      "children": [
+        {
+          "id": "eb7ce16b-aec7-457a-949a-edfff08a3ca1",
+          "type": "concept",
+          "label": "F1 and F2 Progeny",
+          "summary": "Definition:\nMendel's F1 and F2 progeny research is a method used to study the inheritance patterns of pea plant traits.\n\nKey Points:\n- F1 progeny is the first generation of offspring resulting from a cross between two pea plant parents.\n- F2 progeny ...",
+          "preview": "Definition:\nMendel's F1 and F2 progeny research is a method ...",
+          "keywords": [
+            "Definition:",
+            "Mendel's",
+            "progeny",
+            "research",
+            "inheritance"
+          ],
+          "ui": {
+            "expandable": true,
+            "visual_type": "tree_node",
+            "node_style": "default",
+            "animation_hint": "expand_simple",
+            "icon": "circle"
+          },
+          "children": [
+            {
+              "id": "a31854c6-dea6-4f21-861b-9f04710be75d",
+              "type": "concept",
+              "label": "Tall and Short Plants",
+              "summary": "Definition:\nThe height of plants in a plant generation is determined by the combination of traits inherited from its parent plants.\n\nKey Points:\n- Tall plants have a dominant \"T\" allele\n- Short plants have a recessive \"t\" allele\n- Tall plants can pro...",
+              "preview": "Definition:\nThe height of plants in a plant generation is de...",
+              "keywords": [
+                "Definition:",
+                "generation",
+                "determined",
+                "combination",
+                "inherited"
+              ],
+              "ui": {
+                "expandable": false,
+                "visual_type": "text_node",
+                "node_style": "default",
+                "animation_hint": "fade_in",
+                "icon": "circle"
+              },
+              "children": [],
+              "metadata": {
+                "depth": 0,
+                "leaf": true
+              }
+            },
+            {
+              "id": "e5cb4b84-d8e7-4c50-a04a-a4a5e22a3c8f",
+              "type": "concept",
+              "label": "Round and Wrinkled Seeds",
+              "summary": "Definition:\nRound and wrinkled seeds are the result of a specific type of hereditary variation in plants.\n\nKey Points:\n- Round seeds are produced by plants with dominant alleles for round seed shape.\n- Wrinkled seeds are produced by plants with reces...",
+              "preview": "Definition:\nRound and wrinkled seeds are the result of a spe...",
+              "keywords": [
+                "Definition:",
+                "wrinkled",
+                "specific",
+                "hereditary",
+                "variation"
+              ],
+              "ui": {
+                "expandable": false,
+                "visual_type": "text_node",
+                "node_style": "default",
+                "animation_hint": "fade_in",
+                "icon": "circle"
+              },
+              "children": [],
+              "metadata": {
+                "depth": 0,
+                "leaf": true
+              }
+            }
+          ],
+          "metadata": {
+            "depth": 1,
+            "leaf": false
+          }
+        },
+        {
+          "id": "2903b5de-5685-4664-8209-ed507bcf0cd1",
+          "type": "concept",
+          "label": "Independent Inheritance",
+          "summary": "Definition:\nMendelian experiments showed that different traits are inherited independently by the parents.\n\nKey Points:\n- Crossing different pea plants with different traits produces distinct results\n- Each trait is controlled by a separate gene that...",
+          "preview": "Definition:\nMendelian experiments showed that different trai...",
+          "keywords": [
+            "Definition:",
+            "Mendelian",
+            "experiments",
+            "different",
+            "inherited"
+          ],
+          "ui": {
+            "expandable": true,
+            "visual_type": "tree_node",
+            "node_style": "default",
+            "animation_hint": "expand_simple",
+            "icon": "circle"
+          },
+          "children": [
+            {
+              "id": "10416d1e-fbd8-4792-a452-03f65f9693a4",
+              "type": "concept",
+              "label": "Trait Combinations",
+              "summary": "Definition:\nTrait combinations refer to the blending of two or more discrete traits in an offspring, resulting from the interaction of genes from both parents.\n\nKey Points:\n- Such combinations can lead to new characteristics in the offspring.\n- Many ...",
+              "preview": "Definition:\nTrait combinations refer to the blending of two ...",
+              "keywords": [
+                "Definition:",
+                "combinations",
+                "blending",
+                "discrete",
+                "offspring"
+              ],
+              "ui": {
+                "expandable": false,
+                "visual_type": "text_node",
+                "node_style": "default",
+                "animation_hint": "fade_in",
+                "icon": "circle"
+              },
+              "children": [],
+              "metadata": {
+                "depth": 0,
+                "leaf": true
+              }
+            },
+            {
+              "id": "f0b5a76c-6453-41c7-9001-d1c3d901a724",
+              "type": "concept",
+              "label": "Genotype and Phenotype",
+              "summary": "Definition:\nGenotype and phenotype are two terms related to heredity that describe an organism's genetic makeup and physical characteristics.\n\nKey Points:\n- Genotype refers to the actual genetic makeup of an organism, which is the combination of gene...",
+              "preview": "Definition:\nGenotype and phenotype are two terms related to ...",
+              "keywords": [
+                "Definition:",
+                "Genotype",
+                "phenotype",
+                "related",
+                "heredity"
+              ],
+              "ui": {
+                "expandable": false,
+                "visual_type": "text_node",
+                "node_style": "default",
+                "animation_hint": "fade_in",
+                "icon": "circle"
+              },
+              "children": [],
+              "metadata": {
+                "depth": 0,
+                "leaf": true
+              }
+            }
+          ],
+          "metadata": {
+            "depth": 1,
+            "leaf": false
+          }
+        }
+      ],
+      "metadata": {
+        "depth": 2,
+        "leaf": false
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "Accumulation of Variation",
+      "to": "Generational Variation",
+      "relation": "Related To"
+    },
+    {
+      "from": "Generational Variation",
+      "to": "Parental Inheritance",
+      "relation": "Related To"
+    },
+    {
+      "from": "Parental Inheritance",
+      "to": "Newly Created Differences",
+      "relation": "Related To"
+    },
+    {
+      "from": "Newly Created Differences",
+      "to": "Survival of Variations",
+      "relation": "Related To"
+    },
+    {
+      "from": "Survival of Variations",
+      "to": "Environmental Factors",
+      "relation": "Related To"
+    },
+    {
+      "from": "Environmental Factors",
+      "to": "Natural Selection",
+      "relation": "Related To"
+    },
+    {
+      "from": "Natural Selection",
+      "to": "Heredity",
+      "relation": "Related To"
+    },
+    {
+      "from": "Heredity",
+      "to": "Inherited Traits",
+      "relation": "Related To"
+    },
+    {
+      "from": "Inherited Traits",
+      "to": "Similarities and Differences",
+      "relation": "Related To"
+    },
+    {
+      "from": "Similarities and Differences",
+      "to": "Human Variation",
+      "relation": "Related To"
+    },
+    {
+      "from": "Human Variation",
+      "to": "Earlobe Types",
+      "relation": "Related To"
+    },
+    {
+      "from": "Earlobe Types",
+      "to": "Rules for Inheritance of Traits",
+      "relation": "Related To"
+    },
+    {
+      "from": "Rules for Inheritance of Traits",
+      "to": "Mendel's Contributions",
+      "relation": "Related To"
+    },
+    {
+      "from": "Mendel's Contributions",
+      "to": "Genetic Material",
+      "relation": "Related To"
+    },
+    {
+      "from": "Genetic Material",
+      "to": "Trait Influence",
+      "relation": "Related To"
+    },
+    {
+      "from": "Trait Influence",
+      "to": "Mendel's Laws",
+      "relation": "Related To"
+    },
+    {
+      "from": "Mendel's Laws",
+      "to": "Law of Segregation",
+      "relation": "Related To"
+    },
+    {
+      "from": "Law of Segregation",
+      "to": "Law of Independent Assortment",
+      "relation": "Related To"
+    },
+    {
+      "from": "Law of Independent Assortment",
+      "to": "Mechanism of Heredity",
+      "relation": "Related To"
+    },
+    {
+      "from": "Mechanism of Heredity",
+      "to": "DNA and Proteins",
+      "relation": "Related To"
+    },
+    {
+      "from": "DNA and Proteins",
+      "to": "Gene Expression",
+      "relation": "Related To"
+    },
+    {
+      "from": "Gene Expression",
+      "to": "Chromosomes and Inheritance",
+      "relation": "Related To"
+    },
+    {
+      "from": "Chromosomes and Inheritance",
+      "to": "Chromosome Number",
+      "relation": "Related To"
+    },
+    {
+      "from": "Chromosome Number",
+      "to": "Sex Determination",
+      "relation": "Related To"
+    },
+    {
+      "from": "Sex Determination",
+      "to": "Sex Chromosomes",
+      "relation": "Related To"
+    },
+    {
+      "from": "Sex Chromosomes",
+      "to": "X and Y Chromosomes",
+      "relation": "Related To"
+    },
+    {
+      "from": "X and Y Chromosomes",
+      "to": "Sex Inheritance Pattern",
+      "relation": "Related To"
+    },
+    {
+      "from": "Sex Inheritance Pattern",
+      "to": "Mendelian Experiments",
+      "relation": "Related To"
+    },
+    {
+      "from": "Mendelian Experiments",
+      "to": "F1 and F2 Progeny",
+      "relation": "Related To"
+    },
+    {
+      "from": "F1 and F2 Progeny",
+      "to": "Tall and Short Plants",
+      "relation": "Related To"
+    },
+    {
+      "from": "Tall and Short Plants",
+      "to": "Round and Wrinkled Seeds",
+      "relation": "Related To"
+    },
+    {
+      "from": "Round and Wrinkled Seeds",
+      "to": "Independent Inheritance",
+      "relation": "Related To"
+    },
+    {
+      "from": "Independent Inheritance",
+      "to": "Trait Combinations",
+      "relation": "Related To"
+    },
+    {
+      "from": "Trait Combinations",
+      "to": "Genotype and Phenotype",
+      "relation": "Related To"
+    }
+  ]
+}
